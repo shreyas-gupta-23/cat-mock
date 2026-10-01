@@ -31,11 +31,9 @@ Then open **http://127.0.0.1:5173**. Theory notes are at **http://127.0.0.1:5173
 
 Take **CAT 2024 Slot 1** or **CAT 2025 Slot 1** as the first diagnostic. After submit, use **Download review** and paste that markdown here.
 
-The on-screen percentile is a CAT 2025 raw-score ballpark for a 68-question paper. It is not All-India rank, and it is the wrong scale for the 76-question and 100-question papers.
+The on-screen percentile uses CAT 2025 bands on a 204-mark paper, then scales your raw score by this paper’s maximum. A 100-question paper (maximum 300) and a 76-question paper (maximum 228) are not read on the 68-question scale. It is not All-India rank.
 
-Career Launcher Free Mock 2’s RC questions do not include the passage text. The capture saved the questions and the official option keys, not the four passages. Career Launcher Free Mock 1 does include its passages.
-
-Cracku Free Mock 1 and 2 are complete. The 14 questions that were missing from the first capture are filled from the live review. Keys were already on file and were not changed.
+Career Launcher Free Mock 1 and 2 include their RC passages. Cracku Free Mock 1, 2, and 3 include the passages and DILR set data that were missing from the first capture.
 
 ## After a paper
 

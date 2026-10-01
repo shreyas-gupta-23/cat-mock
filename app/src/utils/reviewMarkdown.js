@@ -50,7 +50,7 @@ export function buildReviewMarkdown({ examConfig, questions, responses, sectionS
     `- When: ${when}`,
     `- Score: ${totalScore} / ${totalMax}`,
     `- Accuracy on attempts: ${accuracy}%`,
-    `- Percentile ballpark (CAT 2025, not All-India rank): ${percentile}`,
+    `- Percentile ballpark (scaled to this paper's maximum, CAT 2025 bands, not All-India rank): ${percentile}`,
     `- Wrong MCQ: ${mistakes.filter((r) => r.type === 'MCQ').length}`,
     `- Wrong TITA (no penalty): ${mistakes.filter((r) => r.type === 'TITA').length}`,
     `- Blank: ${blanks.length}`,

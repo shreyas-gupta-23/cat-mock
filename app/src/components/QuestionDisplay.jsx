@@ -1,12 +1,21 @@
 import useExamStore from '../store/examStore';
 
+function Prose({ text }) {
+  const bits = text.split(/(!\[[^\]]*\]\([^)]+\))/g);
+  return bits.map((bit, i) => {
+    const img = bit.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
+    if (img) return <img key={i} className="stem-fig" alt={img[1]} src={img[2]} />;
+    return <span key={i}>{bit}</span>;
+  });
+}
+
 function Stem({ text, size }) {
   const parts = String(text || '').split('```');
   return parts.map((part, i) => {
     const body = part.replace(/^\n/, '').replace(/\n$/, '');
     if (!body.trim()) return null;
     if (i % 2 === 1) return <pre key={i} className="figure" style={{ fontSize: size }}>{body}</pre>;
-    return <p key={i} className="stem" style={{ fontSize: size }}>{body}</p>;
+    return <p key={i} className="stem" style={{ fontSize: size }}><Prose text={body} /></p>;
   });
 }
 

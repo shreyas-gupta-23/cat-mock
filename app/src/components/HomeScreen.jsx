@@ -72,7 +72,7 @@ export default function HomeScreen() {
         <div className="press-hero">
           <h2>Sit a paper</h2>
           <p>
-            Official-order slots. Each section locks at 40 minutes. The percentile on the result is a CAT 2025 ballpark, not All-India rank.
+            Official-order slots. Each section locks at 40 minutes. The percentile is scaled to the paper you sat, using CAT 2025 bands. It is not All-India rank.
           </p>
         </div>
 

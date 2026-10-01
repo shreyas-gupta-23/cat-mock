@@ -6,27 +6,43 @@ import { answersMatch } from '../utils/score';
 import { buildReviewMarkdown, downloadMarkdown } from '../utils/reviewMarkdown';
 
 const SECTIONS = ['VARC', 'DILR', 'Quant'];
-const SECTION_MAX = { VARC: 72, DILR: 60, Quant: 66 };
+const OVERALL_REF = 204;
+const SECTION_REF = { VARC: 72, DILR: 60, Quant: 66 };
+const PERCENTILE_BANDS = [
+  { label: '99.7', at: 105 },
+  { label: '99.5', at: 96 },
+  { label: '99', at: 82 },
+  { label: '95', at: 62 },
+  { label: '90', at: 50 },
+];
 
-function estimatePercentile(score) {
-  // CAT 2025 ballpark (all-slots blended). Not an All-India rank.
-  if (score >= 115) return 99.9;
-  if (score >= 110) return 99.8;
-  if (score >= 105) return 99.7;
-  if (score >= 96) return 99.5;
-  if (score >= 82) return 99.0;
-  if (score >= 71) return 98.0;
-  if (score >= 62) return 95.0;
-  if (score >= 50) return 90.0;
-  if (score >= 42) return 85.0;
-  if (score >= 36) return 80.0;
-  if (score >= 28) return 70.0;
-  if (score >= 20) return 60.0;
-  if (score >= 12) return 50.0;
+function scaleToRef(score, actualMax, referenceMax) {
+  if (!actualMax || actualMax <= 0) return score;
+  return (score / actualMax) * referenceMax;
+}
+
+function estimatePercentile(score, maxScore = OVERALL_REF) {
+  // Bands are a CAT 2025 ballpark on a 204-mark paper. Other lengths are scaled onto that.
+  const scaled = scaleToRef(score, maxScore, OVERALL_REF);
+  if (scaled >= 115) return 99.9;
+  if (scaled >= 110) return 99.8;
+  if (scaled >= 105) return 99.7;
+  if (scaled >= 96) return 99.5;
+  if (scaled >= 82) return 99.0;
+  if (scaled >= 71) return 98.0;
+  if (scaled >= 62) return 95.0;
+  if (scaled >= 50) return 90.0;
+  if (scaled >= 42) return 85.0;
+  if (scaled >= 36) return 80.0;
+  if (scaled >= 28) return 70.0;
+  if (scaled >= 20) return 60.0;
+  if (scaled >= 12) return 50.0;
   return 30.0;
 }
 
-function estimateSectionPercentile(section, score) {
+function estimateSectionPercentile(section, score, maxScore) {
+  const ref = SECTION_REF[section] || 72;
+  const scaled = scaleToRef(score, maxScore, ref);
   const thresholds = {
     VARC: [
       { p: 99, min: 65 },
@@ -53,12 +69,11 @@ function estimateSectionPercentile(section, score) {
 
   const sectionThresholds = thresholds[section] || [];
   for (const threshold of sectionThresholds) {
-    if (score >= threshold.min) return threshold.p;
+    if (scaled >= threshold.min) return threshold.p;
   }
 
-  const maxScore = SECTION_MAX[section] || 100;
-  const proportional = Math.round((score / maxScore) * 99);
-  return Math.max(10, proportional);
+  const proportional = Math.round((scaled / ref) * 99);
+  return Math.max(10, Math.min(99, proportional));
 }
 
 function getPercentileColor() {
@@ -118,7 +133,7 @@ export default function ResultScreen() {
       .sort((a, b) => a.accuracy - b.accuracy)
       .slice(0, 3);
 
-    const sectionPercentile = estimateSectionPercentile(section, score);
+    const sectionPercentile = estimateSectionPercentile(section, score, qs.length * 3);
 
     return {
       section,
@@ -139,7 +154,8 @@ export default function ResultScreen() {
   const totalAttempted = sectionStats.reduce((sum, s) => sum + s.attempted, 0);
   const totalCorrect = sectionStats.reduce((sum, s) => sum + s.correct, 0);
   const totalQuestions = sectionStats.reduce((sum, s) => sum + s.total, 0);
-  const percentile = estimatePercentile(totalScore);
+  const percentile = estimatePercentile(totalScore, totalMax);
+  const scaledOverall = scaleToRef(totalScore, totalMax, OVERALL_REF);
   const accuracy = totalAttempted > 0 ? Math.round((totalCorrect / totalAttempted) * 100) : 0;
 
   // Flatten all questions with metadata
@@ -350,7 +366,7 @@ export default function ResultScreen() {
               </div>
               <div className="press-stat">
                 <b>{percentile.toFixed(1)}</b>
-                <span>Percentile ballpark, not rank</span>
+                <span>Percentile, scaled to this paper</span>
               </div>
               <div className="press-stat">
                 <b>{totalAttempted}/{totalQuestions}</b>
@@ -425,26 +441,20 @@ export default function ResultScreen() {
             <div className="grid grid-cols-2 gap-6 mb-8">
               {/* Percentile scale */}
               <div className="bg-white/5 border border-white/10 rounded-2xl p-6">
-                <h2 className="text-lg font-semibold mb-4">Percentile Scale</h2>
+                <h2 className="text-lg font-semibold mb-4">Percentile scale for this paper</h2>
                 <div className="space-y-2">
-                  {[
-                    { label: 'IIM A target 99.7', score: '~105–110', color: 'bg-yellow-400' },
-                    { label: '99.5', score: '~96–103', color: 'bg-green-400' },
-                    { label: '99', score: '~82–90', color: 'bg-blue-400' },
-                    { label: '95', score: '~62–70', color: 'bg-orange-400' },
-                    { label: '90', score: '~50–55', color: 'bg-red-400' },
-                  ].map(row => {
-                    const isYou =
-                      estimatePercentile(totalScore).toFixed(1) === estimatePercentile(totalScore).toFixed(1) &&
-                      row.label.startsWith(Math.floor(percentile).toString());
+                  {PERCENTILE_BANDS.map((row, i) => {
+                    const marks = Math.round((row.at * totalMax) / OVERALL_REF);
+                    const isYou = scaledOverall >= row.at && (i === 0 || scaledOverall < PERCENTILE_BANDS[i - 1].at);
+                    const color = ['bg-yellow-400', 'bg-green-400', 'bg-blue-400', 'bg-orange-400', 'bg-red-400'][i];
                     return (
                       <div
                         key={row.label}
                         className={`flex items-center gap-3 p-2 rounded-lg ${isYou ? 'bg-white/10 border border-white/20' : ''}`}
                       >
-                        <div className={`w-3 h-3 rounded-full ${row.color}`} />
+                        <div className={`w-3 h-3 rounded-full ${color}`} />
                         <span className="text-slate-300 text-sm flex-1">{row.label}</span>
-                        <span className="text-slate-500 text-xs">Score: {row.score}</span>
+                        <span className="text-slate-500 text-xs">About {marks} marks</span>
                         {isYou && <span className="text-xs font-bold text-yellow-400">← You</span>}
                       </div>
                     );

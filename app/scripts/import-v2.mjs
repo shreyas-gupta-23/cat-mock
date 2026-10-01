@@ -100,21 +100,32 @@ function clKeys(md) {
   return keys;
 }
 
-function clOptions(body) {
-  const cleaned = body.replace(/\n##[\s\S]*$/, '').trim();
+function optionRun(text) {
   const re = /(^|\s)([1-4])\)\s+/g;
   const hits = [];
   let m;
-  while ((m = re.exec(cleaned))) {
-    const n = Number(m[2]);
-    if (hits.length && n <= hits[hits.length - 1].n) break;
-    hits.push({ n, at: m.index + m[0].length });
-    if (hits.length === 4) break;
+  while ((m = re.exec(text))) {
+    hits.push({ n: Number(m[2]), at: m.index + m[1].length, contentAt: m.index + m[0].length });
   }
-  if (hits.length !== 4 || hits.map((h) => h.n).join('') !== '1234') return [];
-  return hits.map((h, i) => {
-    const end = i + 1 < hits.length ? hits[i + 1].at - (`${hits[i + 1].n})`.length) - 1 : cleaned.length;
-    return cleaned.slice(h.at, end).replace(/\s+/g, ' ').trim();
+  for (let i = 0; i < hits.length; i++) {
+    if (hits[i].n !== 1) continue;
+    const run = [hits[i]];
+    for (let j = i + 1; j < hits.length && run.length < 4; j++) {
+      if (hits[j].n === run.length + 1) run.push(hits[j]);
+      else break;
+    }
+    if (run.map((h) => h.n).join('') === '1234') return run;
+  }
+  return null;
+}
+
+function clOptions(body) {
+  const cleaned = body.replace(/\n##[\s\S]*$/, '');
+  const run = optionRun(cleaned);
+  if (!run) return [];
+  return run.map((h, i) => {
+    const end = i + 1 < run.length ? run[i + 1].at : cleaned.length;
+    return cleaned.slice(h.contentAt, end).replace(/\s+/g, ' ').trim();
   });
 }
 
@@ -161,13 +172,14 @@ function parseCl(md, keys) {
       out.push({ n, bad: `no key` });
       continue;
     }
-    const nmcq = /\(N-MCQ/i.test(body);
-    const odd = /odd one out/i.test(body) && /(^|\s)5\)\s+/.test(body);
-    const opts = odd || nmcq ? [] : clOptions(body);
-    const stem = body
+    const clip = body.replace(/\n##[\s\S]*$/, '');
+    const nmcq = /\(N-MCQ/i.test(clip);
+    const odd = /odd one out/i.test(clip) && /(^|\s)5\)\s+/.test(clip);
+    const run = odd || nmcq ? null : optionRun(clip);
+    const opts = run ? clOptions(clip) : [];
+    const stem = (run ? clip.slice(0, run[0].at) : clip)
       .replace(/\*\(N-MCQ[^)]*\)\*/gi, '')
       .replace(/^\*\*Q\d+\.\*\*\s*/, '')
-      .replace(odd || nmcq ? /$^/ : /(^|\s)[1-4]\)\s+[\s\S]*$/, '')
       .replace(/^Q\s*\d+\.?\s*/, '')
       .trim();
     let question = stem;
@@ -661,6 +673,129 @@ function patch2024(bank) {
   return `inserted inequality; quant ${counts.Quant}, total ${qs.length}, complete ${paper.complete}`;
 }
 
+// --- zipv3 stimuli ---------------------------------------------------------
+
+const zipv3 = `${root}/zipv3/extracted`;
+
+function fence(text) {
+  return `\`\`\`\n${text}\n\`\`\``;
+}
+
+const FIGURES = {
+  'mock2-grades-table.png': fence([
+    'Student  Circuits  Solids  Programming  Biology  Design  Chemistry-Lab  GPA',
+    'U                   B-                           B-      A',
+    'V                   D                 A                                     5',
+    'W        B-                                          C                     8',
+    'X                   A',
+    'Y        A                  A-          B                   B-            8.222',
+    'Z                             B         B-       A-',
+  ].join('\n')),
+  'mock3-project-times.png': fence([
+    'Project  Days  Must finish first',
+    'A        35    -',
+    'B        18    -',
+    'C        16    B',
+    'D        23    A',
+    'E        37    A, C',
+    'F        19    B, D',
+    'G        43    E, F',
+    'H        13    F',
+    'I        51    B, C, F',
+    'J        21    A, E, H',
+  ].join('\n')),
+  'mock3-spy-table.png': fence([
+    'Rank  First name  Surname  Code name',
+    '1     Nishanth    Singh    Guddu Pandit',
+    '2     Chetan      Acharya  Kaleen Bhaiya',
+    '3     Harish      Ekbote   Munna Bhaiya',
+    '4     Binesh      Tilak    Daddu',
+  ].join('\n')),
+  'mock3-roads-readable.png': fence([
+    'A-E  Road 1',
+    'A-B  Road 2',
+    'A-F  Road 3',
+    'E-C  Road 4',
+    'F-C  Road 5',
+    'B-C  Road 6',
+    'H-G  Road 7',
+    'D-G  Road 8',
+    'C-I  Road 9',
+    'C-D  Road 10',
+    'C-H  Road 11',
+    'G-I  Road 12',
+  ].join('\n')),
+};
+
+function headingBlocks(md) {
+  return md.split(/\n(?=## )/).filter((p) => p.startsWith('## ')).map((p) => {
+    const nl = p.indexOf('\n');
+    const title = p.slice(3, nl).trim();
+    const body = p.slice(nl + 1)
+      .replace(/^\*\*(?:Word count|Genre|Questions sharing|This set is shared)[^\n]*\n/gm, '')
+      .trim();
+    return { title, body };
+  });
+}
+
+function materialize(body) {
+  return body.replace(/!\[[^\]]*\]\(([^)]+)\)/g, (_all, src) => {
+    const file = src.split(/[/\\]/).pop();
+    if (FIGURES[file]) return FIGURES[file];
+    const label = file.replace(/\.png$/i, '').replace(/-/g, ' ');
+    return `![${label}](/figures/${file})`;
+  }).replace(/\n{3,}/g, '\n\n').trim();
+}
+
+function questionAt(bank, paperId, n) {
+  const suffix = `-q${String(n).padStart(2, '0')}`;
+  return bank.questions.find((q) => q.paperId === paperId && q.id.endsWith(suffix));
+}
+
+function prependBlock(q, block, probe) {
+  if (!q || !block || !probe) return false;
+  if ((q.question || '').includes(probe)) return false;
+  q.question = `${block.trim()}\n\n${q.question || ''}`.trim();
+  return true;
+}
+
+function attachHeadings(bank, paperId, file) {
+  const blocks = headingBlocks(read(`${zipv3}/${file}`));
+  let n = 0;
+  for (const block of blocks) {
+    const range = block.title.match(/Q(\d+)\s*[–—-]\s*Q?\s*(\d+)/) || block.title.match(/(\d+)\s*[–—-]\s*(\d+)/);
+    if (!range) continue;
+    const text = materialize(block.body);
+    const probe = text.replace(/```[\s\S]*?```/g, ' ').replace(/!\[[^\]]*\]\([^)]+\)/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 40);
+    for (let qn = Number(range[1]); qn <= Number(range[2]); qn++) {
+      if (prependBlock(questionAt(bank, paperId, qn), text, probe)) n++;
+    }
+  }
+  return n;
+}
+
+function attachZipv3(bank) {
+  const parts = [
+    `CL mock 2 passages ${attachHeadings(bank, 'cl-free-2', '_passages-free-mock-2-varc.md')}`,
+    `Cracku 1 passages ${attachHeadings(bank, 'cracku-free-1', '_passages-mock1-varc-1-16.md')}`,
+    `Cracku 3 VARC 1–8 ${attachHeadings(bank, 'cracku-free-3', '_passages-mock3-varc-1-8.md')}`,
+    `Cracku 2 sets ${attachHeadings(bank, 'cracku-free-2', '_sets-mock2-dilr-remaining.md')}`,
+    `Cracku 3 DILR ${attachHeadings(bank, 'cracku-free-3', '_sets-mock3-dilr-all.md')}`,
+  ];
+  const magnolia = materialize(read(`${zipv3}/_passage-m3-q9-12.md`).replace(/^#[^\n]*\n/, ''));
+  const buddhism = materialize(read(`${zipv3}/_passage-m3-q13-16.md`).replace(/^#[^\n]*\n/, ''));
+  let magnoliaN = 0;
+  let buddhismN = 0;
+  for (let qn = 9; qn <= 12; qn++) {
+    if (prependBlock(questionAt(bank, 'cracku-free-3', qn), magnolia, 'Pastel-colored apparitions')) magnoliaN++;
+  }
+  for (let qn = 13; qn <= 16; qn++) {
+    if (prependBlock(questionAt(bank, 'cracku-free-3', qn), buddhism, 'Marxism and Buddhism')) buddhismN++;
+  }
+  parts.push(`Cracku 3 magnolia ${magnoliaN}`, `Cracku 3 buddhism ${buddhismN}`);
+  return `zipv3: ${parts.join('; ')}`;
+}
+
 // --- assemble --------------------------------------------------------------
 
 const bank = JSON.parse(read(bankPath));
@@ -718,6 +853,8 @@ for (const n of [1, 2, 3]) {
     note: ok ? '' : `${out.length} of 68 · missing Q${missing.join(', Q')}`,
   }, out.map((q, i) => packQuestion(id, null, null, label, `${label} · Cracku review key`, q, i)));
 }
+
+report.push(attachZipv3(bank));
 
 bank.papers.sort((a, b) => {
   const ka = a.kind === 'mock' ? 1 : 0;
