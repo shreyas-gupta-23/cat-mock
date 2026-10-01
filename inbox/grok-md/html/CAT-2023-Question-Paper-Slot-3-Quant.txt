@@ -1,0 +1,1467 @@
+Source: https://online.2iim.com/CAT-question-paper/CAT-2023-Question-Paper-Slot-3-Quant/
+Note: Public HTML question set from 2IIM (no login). Not an official IIM PDF.
+
+CAT 2023 Slot 3 Question Paper | 2IIM CAT
+ CAT 2024CAT Online Coaching, Online CAT preparation | 2IIM Online CAT Coaching
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+ 
+ 2IIM CAT Question Bank
+
+ 
+
+
+
+ 
+ 
+ 🎯 2IIM’s VARC Offline Workshop — Sep 26 & 27 | Chennai | Master VARC with CAT Experts | RC, Para Summary, Para Jumble, Test & Analysis | ₹999 (₹1500) 
+
+
+
+
+
+
+ -->
+
+ 
+ 
+
+
+
+
+
+
+ 
+
+ 
+ ⏳All India Scholarship Test – Unlock up to 100% Scholarship.
+
+ -->
+
+ 
+
+
+ &#x1f389;
+ May Month-End Sale is Live | Enjoy Up to 20% OFF | Valid Until May 31
+ -->
+
+ 
+ &#x1f389;Effortlessly calculate your score with the 2IIM Score Calculator!&#x1f389;
+ -->
+
+
+
+
+
+
+
+ 
+ 
+ Online CAT Coaching 
+ 
+ Visit our Website
+
+ 
+
+
+ CAT Coaching 
+ 
+ CAT Coaching in Chennai
+
+ CAT Preparation Books
+
+ 
+
+
+ CAT Preparation 
+ 
+ CAT Previous Year Papers
+
+ 2IIM's CAT Questions
+
+ XAT Previous Year Papers
+
+ IIFT Previous Year Papers
+
+ How to prepare for CAT exam 
+ 
+ How
+ to prepare for CAT Quantitative Aptitude
+
+ How
+ to prepare for CAT DILR Section
+
+ How
+ to prepare for CAT VARC Section
+
+ 
+
+
+ What is CAT Exam All about
+
+ CAT Syllabus
+
+ CAT Online Live Classes
+-->
+ GMAT Preparation Online
+
+ 
+
+
+ Blogs / Social 2IIM CAT Preparation Blog
+ 2IIM CAT Preparation Reviews
+ CAT Preparation Quora Answers
+ CAT Preparation Videos
+ CAT Preparation Facebook Group
+ CAT Preparation Facebook Page
+ CAT Preparation Blogs CAT Questions Quantitative Aptitude Blog
+ CAT Preparation Blog
+
+ -->
+ Contact 
+ 
+ About Us
+-->
+ Our Team
+-->
+ Results
+
+ Work for Us
+
+ 
+
+
+ Signup
+ Login
+-->
+ IPMAT 2026 Coaching
+ Online
+
+ 
+
+
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ CAT 2023 Question Paper Slot 3 | CAT Quants
+
+ CAT Quantitative Aptitude | CAT 2023 Question Paper
+
+
+
+
+
+ 
+ 
+ CAT Question Paper / CAT-2023-Slot3-Quants
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ 
+ C AT 2023 Quant, unlike previous years was not dominated by Arithmetic. Though Arithematic was the most tested topic followed by Algebra. In Arithmetic, the questions were dominated by topics like Speed-time-distance , Mixture and Alligations . This year, there was a surprise. The questions from Geometry were relatively on the lower side as compared to the previous years. There were 8 TITA Qs this year. Overall this section was at a medium level of difficulty.
+
+
+ 
+ Attempt these questions as a Timed Quiz
+
+ 
+-->
+
+
+ 
+
+ 
+ CAT 2023 Slot 3 - QA
+
+ 
+ For a real number \(x\), if \(\frac{1}{2}, \frac{\log _3\left(2^x-9\right)}{\log _3 4}\), and \(\frac{\log _5\left(2^x+\frac{17}{2}\right)}{\log _5 4}\) are in an arithmetic progression, then the common difference is
+
+ 
+ 
+ 
+ \(\log _4 7\)
+
+ \(\log _4\left(\frac{3}{2}\right)\)
+
+ \(\log _4\left(\frac{7}{2}\right)\)
+
+ \(\log _4\left(\frac{23}{2}\right)\)
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice C
+\(\log _4\left(\frac{7}{2}\right)\)
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 3 - QA
+
+ 
+ Let \(n\) and \(m\) be two positive integers such that there are exactly 41 integers greater than \(8^m\) and less than \(8^n\), which can be expressed as powers of 2 . Then, the smallest possible value of \(n+m\) is
+
+ 
+ 
+ 
+ 14
+
+ 42
+
+ 16
+
+ 44
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice C
+16
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 3 - QA
+
+ 
+ For some real numbers \(a\) and \(b\), the system of equations \(x+y=4\) and \((a+5) x+\left(b^2-15\right) y=8 b\) has infinitely many solutions for \(x\) and \(y\). Then, the maximum possible value of \(a b\) is
+
+ 
+ 
+ 
+ 15
+
+ 33
+
+ 55
+
+ 25
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+33
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 3 - QA
+
+ 
+ If \(x\) is a positive real number such that \(x^8+\left(\frac{1}{x}\right)^8=47\), then the value of \(x^9+\left(\frac{1}{x}\right)^9\) is
+
+ 
+ 
+ 
+ \(40 \sqrt{5}\)
+
+ \(36 \sqrt{5}\)
+
+ \(30 \sqrt{5}\)
+
+ \(34 \sqrt{5}\)
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+\(34 \sqrt{5}\)
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 3 - QA
+
+ 
+ A quadratic equation \(x^2+b x+c=0\) has two real roots. If the difference between the reciprocals of the roots is \(\frac{1}{3}\), and the sum of the reciprocals of the squares of the roots is \(\frac{5}{9}\), then the largest possible value of \((b+c)\) is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 9
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 3 - QA
+
+ 
+ The sum of the first two natural numbers, each having 15 factors (including 1 and the number itself), is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 468
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 3 - QA
+
+ 
+ Let \(n\) be any natural number such that \(5^{n-1} \lt 3^{n+1}\). Then, the least integer value of \(m\) that satisfies \(3^{n+1} \lt 2^{n+m}\) for each such \(n\), is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 5
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 3 - QA
+
+ 
+ Rahul, Rakshita and Gurmeet, working together, would have taken more than 7 days to finish a job. On the other hand, Rahul and Gurmeet, working together would have taken less than 15 days to finish the job. However, they all worked together for 6 days, followed by Rakshita, who worked alone for 3 more days to finish the job. If Rakshita had worked alone on the job then the number of days she would have taken to finish the job, cannot be
+
+ 
+ 
+ 
+ 17
+
+ 21
+
+ 16
+
+ 20
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+21
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 3 - QA
+
+ 
+ Anil mixes cocoa with sugar in the ratio 3 : 2 to prepare mixture A, and coffee with sugar in the ratio 7 : 3 to prepare mixture B. He combines mixtures A and B in the ratio 2 : 3 to make a new mixture C. If he mixes C with an equal amount of milk to make a drink, then the percentage of sugar in this drink will be
+
+ 
+ 
+ 
+ 21
+
+ 24
+
+ 16
+
+ 17
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+17
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 3 - QA
+
+ 
+ The population of a town in 2020 was 100000 . The population decreased by \(y \%\) from the year 2020 to 2021 , and increased by \(x \%\) from the year 2021 to 2022, where \(x\) and \(y\) are two natural numbers. If population in 2022 was greater than the population in 2020 and the difference between \(x\) and \(y\) is 10 , then the lowest possible population of the town in 2021 was
+
+ 
+ 
+ 
+ 74000
+
+ 75000
+
+ 72000
+
+ 73000
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+73000
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 3 - QA
+
+ 
+ A merchant purchases a cloth at a rate of Rs.100 per meter and receives 5 cm length of cloth free for every 100 cm length of cloth purchased by him. He sells the same cloth at a rate of Rs.110 per meter but cheats his customers by giving 95 cm length of cloth for every 100 cm length of cloth purchased by the customers. If the merchant provides a 5% discount, the resulting profit earned by him is
+
+ 
+ 
+ 
+ 4.2%
+
+ 15.5%
+
+ 16%
+
+ 9.7%
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+15.5%
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 3 - QA
+
+ 
+ There are three persons \(\mathrm{A}, \mathrm{B}\) and \(\mathrm{C}\) in a room. If a person \(\mathrm{D}\) joins the room, the average weight of the persons in the room reduces by \(x \mathrm{~kg}\). Instead of \(\mathrm{D}\), if person \(\mathrm{E}\) joins the room, the average weight of the persons in the room increases by \(2 x \mathrm{~kg}\). If the weight of \(\mathrm{E}\) is \(12 \mathrm{~kg}\) more than that of \(\mathrm{D}\), then the value of \(x\) is
+
+ 
+ 
+ 
+ 1.5
+
+ 2
+
+ 0.5
+
+ 1
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+1
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 3 - QA
+
+ 
+ A boat takes 2 hours to travel downstream a river from port A to port B, and 3 hours to return to port A. Another boat takes a total of 6 hours to travel from port B to port A and return to port B. If the speeds of the boats and the river are constant, then the time, in hours, taken by the slower boat to travel from port A to port B is
+
+ 
+ 
+ 
+ \(3(3-\sqrt{5})\)
+
+ \(12(\sqrt{5}-2)\)
+
+ \(3(3+\sqrt{5})\)
+
+ \(3(\sqrt{5}-1)\)
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+\(3(3-\sqrt{5})\)
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 3 - QA
+
+ 
+ A fruit seller has a stock of mangoes, bananas and apples with at least one fruit of each type. At the beginning of a day, the number of mangoes make up 40% of his stock. That day, he sells half of the mangoes, 96 bananas and 40% of the apples. At the end of the day, he ends up selling 50% of the fruits. The smallest possible total number of fruits in the stock at the beginning of the day is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 340
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 3 - QA
+
+ 
+ The number of coins collected per week by two coin-collectors A and B are in the ratio 3 : 4. If the total number of coins collected by A in 5 weeks is a multiple of 7, and the total number of coins collected by B in 3 weeks is a multiple of 24, then the minimum possible number of coins collected by A in one week is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 42
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 3 - QA
+
+ 
+ Gautam and Suhani, working together, can finish a job in 20 days. If Gautam does only 60% of his usual work on a day, Suhani must do 150% of her usual work on that day to exactly make up for it. Then, the number of days required by the faster worker to complete the job working alone is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 36
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 3 - QA
+
+ 
+ Let \(\triangle A B C\) be an isosceles triangle such that \(A B\) and \(A C\) are of equal length. \(A D\) is the altitude from \(A\) on \(B C\) and \(B E\) is the altitude from \(\mathrm{B}\) on \(\mathrm{AC}\). If \(\mathrm{AD}\) and \(\mathrm{BE}\) intersect at \(\mathrm{O}\) such that \(\angle \mathrm{AOB}=105^{\circ}\), then \(\frac{A D}{B E}\) equals
+
+ 
+ 
+ 
+ \(2 \sin 15^{\circ}\)
+
+ \(\cos 15^{\circ}\)
+
+ \(2 \cos 15^{\circ}\)
+
+ \(\sin 15^{\circ}\)
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice C
+\(2 \cos 15^{\circ}\)
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 3 - QA
+
+ 
+ A rectangle with the largest possible area is drawn inside a semicircle of radius \(2 \mathrm{~cm}\). Then, the ratio of the lengths of the largest to the smallest side of this rectangle is
+
+ 
+ 
+ 
+ \(2 : 1\)
+
+ \(\sqrt{5} : 1\)
+
+ \(1 : 1\)
+
+ \(\sqrt{2} : 1\)
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+\(2 : 1\)
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 3 - QA
+
+ 
+ In a regular polygon, any interior angle exceeds the exterior angle by 120 degrees. Then, the number of diagonals of this polygon is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 54
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 3 - QA
+
+ 
+ The value of \(1+\left(1+\frac{1}{3}\right) \frac{1}{4}+\left(1+\frac{1}{3}+\frac{1}{9}\right) \frac{1}{16}+\left(1+\frac{1}{3}+\frac{1}{9}+\frac{1}{27}\right) \frac{1}{64}+\cdots\), is
+
+ 
+ 
+ 
+ \(\frac{15}{13}\)
+
+ \(\frac{16}{11}\)
+
+ \(\frac{27}{12}\)
+
+ \(\frac{15}{8}\)
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+\(\frac{16}{11}\)
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 3 - QA
+
+ 
+ Let \(a_n=46+8 n\) and \(b_n=98+4 n\) be two sequences for natural numbers \(n \leq 100\). Then, the sum of all terms common to both the sequences is
+
+ 
+ 
+ 
+ 15000
+
+ 14900
+
+ 14602
+
+ 14798
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+14900
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 3 - QA
+
+ 
+ Suppose \(f(x, y)\) is a real-valued function such that \(f(3 x+2 y, 2 x-5 y)=19 x\), for all real numbers \(x\) and \(y\). The value of \(x\) for which \(f(x, 2 x)=27\), is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 3
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+ section of your HTML file -->
+
+ 🎯 2IIM’s VARC Offline Workshop — Sep 26 & 27 | Chennai | Master VARC with CAT Experts | RC, Para Summary, Para Jumble, Test & Analysis | ₹999 (₹1500)
+
+ Enrol Now →
+
+ -->
+
+ 🎯 2IIM’s CAT 2026 Percentile Booster — Classes Start This Monday!
+
+ Enrol Now →
+
+ Struggling with VARC, DILR, or Quant? Learn Just That Section.
+
+ ★ Click here!
+
+ 🔥 Limited-Time 3-Day Offer | Choose VARC, DILR or Quant for ₹5,000 Only
+
+ Click here! →
+
+ -->
+
+ First Edition Now Available | CAT PYQ 2020–2025 | Limited First Print
+
+ Order Now →
+
+ ⏳Register for a free 2IIM demo class and start your
+ preparation the right way.
+
+ ★ Click here!
+
+ -->
+
+ Download comprehensive
+ PDFs of past years’ question papers with answers.
+
+ ★ Click here
+
+ Repeating
+ CAT? Ace it with 2 IIM! Get expert guidance & exclusive discounts.
+ 🚀
+
+ ★ Register Now
+
+ -->
+
+ Best CAT Online Coaching
+
+ Try upto 40 hours for free
+ Learn from the best!
+
+ ★ Sign up Now!
+
+ -->
+
+ CAT
+ Coaching in Chennai
+CAT 2024
+
+ Classroom Batches Starting Now! @Gopalapuram and @Anna
+ nagar
+
+ ★ CAT Coaching
+
+ -->
+
+ Best CAT Coaching in Chennai
+
+ Attend a Demo Class
+
+ ★ Schedule a Demo!
+
+ -->
+
+ -->
+ -->
+ -->
+
+ -->
+ &#x1F3AF; Huge Discount: 5,000 off on Online CAT Course. Till June 30. Register now! -->
+ Upto 50% off - Take the Scholarship test now! -->
+
+ 
+
+
+
+
+ 
+ 
+ CAT Questions | CAT Quantitative Aptitude
+
+ 
+ 
+ CAT Questions | HCF LCM
+
+
+ CAT Questions |
+ Factors
+
+ CAT Questions |
+ Remainders
+
+ CAT Questions |
+ Factorials
+
+ CAT Questions | Digits 
+
+
+ CAT
+ Questions | Ratios, Mixtures, Averages
+
+ CAT Questions |
+ Percentages, Profit Loss, SICI
+
+
+
+ 
+ CAT Questions |
+ Time Speed and Distance, Races
+
+ CAT Questions
+ | Logarithms & Exponents
+
+ CAT
+ Questions | Pipes Cisterns, Work Time
+
+ CAT Questions | Set
+ Theory
+
+ CAT Questions | Geometry
+
+ CAT Questions |
+ Coordinate-Geometry
+
+ CAT Questions |
+ Mensuration
+
+
+
+ 
+ CAT Questions |
+ Trigonometry
+
+ CAT
+ Questions | Linear & Quadratic Equations
+
+ CAT Questions | Functions 
+
+
+ CAT Questions |
+ Inequalities
+
+ CAT Questions |
+ Polynomials
+
+ CAT Questions |
+ Progressions
+
+ CAT Questions |
+ Permutation Combination, Probability
+
+
+
+
+
+
+
+ CAT Questions | CAT DILR
+
+ 
+ 
+ CAT DILR | Sequencing
+
+ CAT DILR | Pie Charts
+
+ CAT DILR | Multiple Graphs
+
+ CAT DILR | Word Problems
+
+ CAT DILR | Line Graphs
+
+
+
+ 
+ CAT DILR | Bar Graphs
+
+ CAT DILR | Grid Puzzle
+
+ CAT DILR | Math Puzzle
+
+ CAT DILR | Visualization
+
+ CAT DILR | Other Patterns
+
+
+
+ 
+ CAT 2017 DILR Slot 2 | Assets
+
+
+ CAT 2017 DILR Slot 2 |
+ Pizzeria
+
+ CAT 2017 DILR Slot 2 |
+ Electives
+
+ CAT 2017 DILR Slot 2 |
+ Chess
+
+ CAT 2017 DILR Slot 2 |
+ Dorms
+
+
+
+ 
+ CAT 2017 DILR Slot 2 |
+ Tea
+
+ CAT 2017 DILR Slot 2 |
+ Friends
+
+ CAT 2017 DILR Slot 1 | CET 
+
+
+ CAT 2017 DILR Slot
+ 1 | Survey
+
+ CAT 2017 DILR
+ Slot 1 | Happiness
+
+
+
+
+-->
+
+
+ CAT Questions | Verbal Ability for CAT
+
+ 
+ 
+ Verbal Ability for CAT |
+ CAT Reading Comprehension
+
+ Verbal Ability for CAT|
+ CAT Para Jumble
+
+ Verbal Ability for CAT |
+ CAT Sentence Elimination
+
+ Verbal Ability for CAT |
+ CAT Paragraph Completion
+
+ Verbal Ability for CAT |
+ CAT Critical Reasoning
+
+
+
+ 
+ Verbal Ability for CAT | CAT Word
+ Usage
+
+ Verbal Ability for CAT| CAT Para
+ Summary
+
+ Verbal Ability for CAT | CAT
+ Text Completion
+
+ Verbal Ability for CAT |
+ CAT Sentence Correction
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 2IIM offers the best CAT coaching in Chennai. We conduct weekend CAT classes in Chennai.
+ 2IIM's Online CAT Coaching is the most comprehensive & Best CAT Online Coaching available in the
+ country.
+
+
+
+ 
+ 
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT Online Preparation
+
+ LIVE Classroom CAT classes
+
+ CAT Online
+ Coaching
+
+ CAT
+ Quantitative Aptitude Course
+
+ CAT DILR | Logical Reasoning for CAT
+
+ Best CAT Coaching in
+ Chennai
+
+
+
+ 
+ CAT Preparation
+
+ CAT Questions
+
+ CAT Preparation Youtube
+
+ CAT Question Paper
+
+ CAT Previous Year Papers
+
+ CAT
+ Preparation books
+
+
+
+ 
+ What is CAT?
+
+ CAT Syllabus | CAT Syllabus 2026
+
+ CAT Exam
+ Pattern
+
+ What is CAT
+ Exam? | CAT Exam Eligibility
+
+ How to
+ Prepare for CAT exam?
+
+
+
+ 
+ CAT Preparation | Videos
+
+ 
+ CAT Online Preparation
+
+ How to Prepare for CAT 2026 
+
+
+ CAT Preparation Do's and
+ Dont's
+
+ CAT Online Live Classes
+
+
+
+
+
+ 
+ 
+ 
+ 
+ Copyrights © All Rights Reserved by 2IIM.com - A Fermat Education Initiative .
+ Privacy Policy | Terms & Conditions
+
+ 
+ CAT ® (Common Admission Test) is a registered trademark of the Indian
+ Institutes of Management. This website is not endorsed or approved by IIMs.
+
+
+
+
+ 
+ Where is 2IIM located?
+
+ 2IIM Online CAT Coaching
+ A Fermat Education Initiative,
+19/43, MG Chakrapani St,
+ Sathya Garden, Saligramam, Chennai 600 093
+
+
+
+ 
+ How to reach 2IIM?
+
+ Mobile: (91) 99626 48484 / 94459
+ 38484
+ WhatsApp: WhatsApp Now
+ Email: info@2iim.com
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ Wizako GMAT Preparation
+
+ 
+ GMAT Preparation Online
+
+ GMAT Coaching in Chennai
+
+ GMAT Sample Questions
+
+ GMAT
+ Prep Videos
+
+
+
+ 
+ Wizako GRE
+
+ 
+ GRE Coaching in Chennai
+
+ GRE Questions
+
+ Online GRE Coaching
+
+ GRE
+ Preparation Videos
+
+
+
+ 
+ Ascent TANCET Coaching
+
+ 
+ TANCET Classes Online
+
+ TANCET Coaching Centres in Chennai
+
+ TANCET Previous Year Question Papers
+
+ TANCET Questions
+
+
+
+ 
+ Maxtute CBSE Maths Classes
+
+ 
+ CBSE Online
+ Classes
+
+ NCERT Solution for Class 10 Maths
+
+ CBSE Sample Papers for class 10
+
+ Class 10
+ Maths Videos
+
+
+
+ 
+ PiVerb
+
+ 
+ Intuitive Math
+ learning
+
+ School
+ Math Videos
+
+
+
+
+
+
+
+ Click to Browse Offline

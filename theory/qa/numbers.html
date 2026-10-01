@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Number system · CAT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,650;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/notes.css">
+<script>
+MathJax = {
+  tex: { inlineMath: [['\\(','\\)']], displayMath: [['\\[','\\]']] }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body data-theme="cat">
+<canvas id="field" aria-hidden="true"></canvas>
+<div class="progress" id="progress"></div>
+<button type="button" class="handle left" id="toc-btn" aria-expanded="false">Contents</button>
+<button type="button" class="handle right" id="study-btn" aria-expanded="false">Study</button>
+<aside class="rail left" id="toc-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">CAT 2026 · IIM A</p>
+    <h2>On this page</h2>
+  </div>
+  <nav class="rail-body toc" id="toc">
+    <a href="#sheet"><small>01</small>Sheet</a>
+    <a href="#questions"><small>02</small>PYQs (24)</a>
+  </nav>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="toc-mark"></div></div>
+  <div class="rail-foot" id="toc-foot">Contents</div>
+</aside>
+<aside class="rail right" id="study-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">Studio</p>
+    <h2>Study</h2>
+  </div>
+  <div class="rail-body">
+    <a class="tool" href="../index.html"><small>All topics</small>Theory home</a>
+    <button type="button" class="tool" id="exam-btn"><small>Hide commentary</small>Exam mode</button>
+    <button type="button" class="tool" id="formula-btn"><small>Only the slabs</small>Formulas</button>
+    <button type="button" class="tool" id="draw-btn"><small>From the PYQs</small>Draw a question</button>
+    <button type="button" class="tool" id="print-btn"><small>Browser print</small>Print</button>
+  </div>
+  <div class="draw" id="draw"><span class="lbl">Question</span>Draw a question when you want a prompt without rereading the sheet.</div>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="study-mark"></div></div>
+  <div class="rail-foot">Exam mode keeps formulas, takeaways, traps, and the PYQs (answers hidden). Formulas hides the papers.</div>
+</aside>
+<article class="page" id="top">
+  <header class="mast">
+    <div class="meta-row">
+      <span class="chip">CAT 2026</span>
+      <span class="chip gold">Numbers</span>
+      <span class="chip">24 PYQs</span>
+    </div>
+    <h1>Number system</h1>
+    <p class="lede">Remainders, factors, last digits, bases.</p>
+  </header>
+
+<div class="section-head" id="sheet">
+  <div class="num">01</div>
+  <h2>Sheet</h2>
+  <label class="review"><input type="checkbox"> reviewed</label>
+</div>
+<p>\(n=dq+r\), \(0\le r&lt;d\). \(a\equiv b\pmod m\Rightarrow m\mid(a-b)\). Linear \(ax\equiv b\pmod m\) solvable iff \(\gcd(a,m)\mid b\), then that many solutions.</p>
+<p>CRT: pairwise coprime moduli, unique class modulo the product.</p>
+<div class="eq" data-tex="\mathrm{lcm}(a,b)\cdot\gcd(a,b)=ab\quad(a,b&amp;gt;0)"><button class="copy-eq" type="button">Copy</button>\[\mathrm{lcm}(a,b)\cdot\gcd(a,b)=ab\quad(a,b&gt;0)\]</div>
+<p>\(n=\prod p_i^{a_i}\): divisors \((a_1+1)(a_2+1)\cdots\). Sum of divisors \(\prod\frac{p^{a+1}-1}{p-1}\). Odd divisors: ignore \(2^{a}\). Square \(\iff\) all \(a_i\) even. Cube \(\iff\) all \(a_i\) multiples of 3.</p>
+<p>Last digit: cycles. \(2,3,7,8\): 4. \(4,9\): 2. \(0,1,5,6\): 1. Last two digits: mod 100. Euler \(\varphi(100)=40\) for coprime bases.</p>
+<p>Trailing zeros of \(n!\): \(\sum_{k\ge 1}\lfloor n/5^k\rfloor\). Highest power of \(p\) in \(n!\): \(\sum \lfloor n/p^k\rfloor\).</p>
+<p>Remainders of \(a^n\): binomial \((1+m)^n\) or Euler/Fermat. \(7^{n}\bmod 4 = (-1)^n\bmod 4\).</p>
+<p>HCF of \(a,b\) = HCF\((a,b-ka)\). HCF of \(n,n+k\) divides \(k\). For \(f(n)=an+b\), HCF of consecutive values often divides a constant.</p>
+<p>Base \(b\): \((d_k\cdots d_0)_b = \sum d_i b^i\), each \(d_i&lt;b\).</p>
+<div class="def">
+<p><strong>From CAT 2017–2020.</strong></p>
+<ul>
+<li><strong>Egyptian fraction.</strong> \(\frac1a+\frac1b=\frac19\), \(a\le b\): \(b=\frac{9a}{a-9}\), so \(a-9\) divides 81. Count positive divisors.</li>
+<li><strong>Difference of squares.</strong> \(n^2-m^2=105=(n-m)(n+m)\). Factor pairs of 105 of the same parity, both positive, \(n+m&gt;n-m\).</li>
+<li><strong>\(ab=4^{2017}\) with \(a\le b\).</strong> Number of factor pairs is \(\lceil(e+1)/2\rceil\) where \(e=4034\) is the exponent of 2, i.e. 2018.</li>
+<li><strong>Perfect-square factors of \(2^4 3^5 10^4=2^8 3^5 5^4\)</strong> greater than 1: even exponents up to the max, minus the \(2^0 3^0 5^0\) case.</li>
+<li><strong>Three consecutive product 15600.</strong> Near cube root 25; check 24·25·26.</li>
+<li><strong>\((a-b)^2\) identity / sum of squares.</strong> \(a^2+b^2=97\), product \(p\): \((a+b)^2=97+2p\ge 0\), \((a-b)^2=97-2p\ge 0\) so \(|p|\le 48.5\). 64 is impossible.</li>
+<li><strong>\((a^3-b^3)/(a-b)^3=157/3\), \(ab=616\).</strong> \(\frac{a^2+ab+b^2}{(a-b)^2}=\frac{157}{3}\), and \(a^2+2ab+b^2=(a+b)^2\), \(a^2+b^2=(a+b)^2-2ab\).</li>
+<li><strong>Dot product max.</strong> \(a^2+b^2=25\), \(x^2+y^2=169\), \(ax+by=65=5\cdot 13\) \(\Rightarrow\) the two vectors are parallel, so \(ay-bx=0\).</li>
+<li><strong>Ascending-digit numbers from 1–9, no repeat:</strong> each non-empty subset of size \(\ge 2\) is one number. \(2^9-1-9=502\).</li>
+<li><strong>Digit product in \((2,7)\):</strong> 3-digit, product 3,4,5,6. Casework on factorisations into three digits 1–9.</li>
+<li><strong>7 before 3 in a 4-digit with distinct digits.</strong> Among positions of 7 and 3, half the equally likely orders have 7 first (careful with 0). Count total distinct 4-digit with both 7 and 3, divide by 2, plus numbers with 7 and not 3, etc. — or: pick 4 distinct, if both 7 and 3 present then 2 of 2! orders on those two seats work.</li>
+<li><strong>Form \(aabb\) even.</strong> \(1100a+11b=11(100a+b)\), \(b\) even, \(a=1..9\). Mean of that list.</li>
+<li><strong>Two-digit \(10x+y&gt;3(10y+x)\), \(y\ne 0\).</strong> \(7x&gt;29y\), small loop on \(y\).</li>
+<li><strong>Pigeonhole birthdays.</strong> 100 people, 12 months, minimise the maximum month: \(\lceil 100/12\rceil=9\).</li>
+<li><strong>Inclusion-exclusion.</strong> How many of 1..120 divisible by none of 2, 5, 7.</li>
+<li><strong>AM–GM in disguise.</strong> \(x+y=102\), minimise \((1+1/x)(1+1/y)=1+103/(xy)\). Minimum when \(xy\) is maximum, i.e. \(x=y=51\).</li>
+<li><strong>Magic square 1–9.</strong> Line sum 15. Corners 6 and 2 given; centre is 5; bottom middle follows.</li>
+<li><strong>Wrong factor 73 vs 37, product up 720.</strong> Other two numbers multiply to \(720/(73-37)=20\). Min \(p^2+q^2\) given \(pq=20\): 2 and 10 \(\to 4+100=104\)? Reals: min when \(p=q=\sqrt{20}\), sum of squares 40. Stem says three real numbers, so 40.</li>
+</ul>
+</div>
+<div class="miss"><strong>Trap.</strong> Remainder when \(2n\) is divided by 5 is not twice the remainder of \(n\) unless you reduce mod 5. Number of even factors is not “half the factors” if \(n\) is odd (then zero) or if \(n=2^k\times\text{odd}\).</div>
+<div class="take"><strong>Move.</strong> Factor first. For remainders, rewrite the dividend as a nearby multiple plus a small integer, or factor \(a^n-1\).</div>
+
+
+
+<div class="section-head" id="questions">
+  <div class="num">02</div>
+  <h2>CAT 2017–2020 PYQs</h2>
+  <label class="review"><input type="checkbox"> reviewed</label>
+</div>
+<p class="bank-note">24 authentic items from 2IIM’s public papers, tagged with year and slot. 2017: 3 · 2018: 6 · 2019: 5 · 2020: 10. Open a question for the official answer. Figures load from 2IIM.</p>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q1</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Number Theory</span>
+    </div>
+    <div class="q-stem">The numbers 1, 2,..., 9 are arranged in a 3 X 3 square grid in such a way that each number occurs once and the entries along each column, each row, and each of the two diagonals add up to the same value. If the top left and the top right entries of the grid are 6 and 2, respectively, then the bottom middle entry is:</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">3</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q21</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Number Theory</span>
+    </div>
+    <div class="q-stem">If the product of three consecutive positive integers is 15600 then the sum of the squares of these integers is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 1777</li><li><span class="opt-k">B</span> 1785</li><li><span class="opt-k">C</span> 1875</li><li><span class="opt-k">D</span> 1877</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — 1877</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q28</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Number Theory</span>
+    </div>
+    <div class="q-stem">How many different pairs (a, b) of positive integers are there such that a ≤ b and \\(\frac{1}{a}\)) + \\(\frac{1}{b}\)) = \\(\frac{1}{9}\)) ?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">3</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q10</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Number Theory</span>
+    </div>
+    <div class="q-stem">While multiplying three real numbers, Ashok took one of the numbers as 73 instead of 37. As a result, the product went up by 720. Then the minimum possible value of the sum of squares of the other two numbers is:</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">40</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q14</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Number theory</span>
+    </div>
+    <div class="q-stem">How many numbers with two or more digits can be formed with the digits 1, 2, 3, 4, 5, 6, 7, 8, and 9 so that in every such number, each digit is used at most once and the digits appear in the ascending order?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">502</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q21</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Number Theory</span>
+    </div>
+    <div class="q-stem">The number of integers x such that 0.25 &lt; 2<sup>x</sup> &lt; 200, and 2<sup>x</sup> + 2 is perfectly divisible by either 3 or 4, is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">5</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q7</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Number Theory</span>
+    </div>
+    <div class="q-stem">If N and x are positive integers such that N<sup>N</sup> = 2<sup>160</sup> and N<sup>2</sup> + 2<sup>N</sup> is an integral multiple of 2<sup>x</sup>, then the largest possible x is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">10</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q18</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Number Theory</span>
+    </div>
+    <div class="q-stem">If the sum of squares of two numbers is 97, then which one of the following cannot be their product?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 64</li><li><span class="opt-k">B</span> -32</li><li><span class="opt-k">C</span> 16</li><li><span class="opt-k">D</span> 48</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 64</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q26</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Number Theory</span>
+    </div>
+    <div class="q-stem">How many two-digit numbers, with a non-zero digit in the units place, are there which are more than thrice the number formed by interchanging the positions of its digits?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 5</li><li><span class="opt-k">B</span> 8</li><li><span class="opt-k">C</span> 7</li><li><span class="opt-k">D</span> 6</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — 6</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q12</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Number theory</span>
+    </div>
+    <div class="q-stem">The product of two positive numbers is 616. If the ratio of the difference of their cubes to the cube of their difference is 157 : 3, then the sum of the two numbers is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 50</li><li><span class="opt-k">B</span> 85</li><li><span class="opt-k">C</span> 95</li><li><span class="opt-k">D</span> 58</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 50</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q3</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Number theory</span>
+    </div>
+    <div class="q-stem">Let a, b, x, y be real numbers such that a<sup>2</sup> + b<sup>2</sup> = 25 , x<sup>2</sup> + y<sup>2</sup> = 169 and ax + by = 65. If k = ay - bx, then</div>
+    <ol class="opts"><li><span class="opt-k">A</span> k = 0</li><li><span class="opt-k">B</span> k &gt; \(\frac{5}{13}\))</li><li><span class="opt-k">C</span> k = \(\frac{5}{13}\))</li><li><span class="opt-k">D</span> 0 &lt; k ≤ \(\frac{5}{13}\))</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — k = 0</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q6</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Number theory</span>
+    </div>
+    <div class="q-stem">How many factors of 2<sup>4</sup> × 3<sup>5</sup> × 10<sup>4</sup> are perfect squares which are greater than 1?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">44</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q22</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Number theory</span>
+    </div>
+    <div class="q-stem">How many pairs (m,n) of positive integers satisfy the equation the equation m<sup>2</sup> + 105 = n<sup>2</sup>?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">4</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q26</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Number theory</span>
+    </div>
+    <div class="q-stem">In a six-digit number, the sixth, that is, the rightmost, digit is the sum of the first three digits, the fifth digit is the sum of first two digits, the third digit is equal to the first digit, the second digit is twice the first digit and the fourth digit is the sum of fifth and sixth digits. Then, the largest possible value of the fourth digit is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">7</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">QA Q1</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Number Theory</span>
+    </div>
+    <div class="q-stem">How many 3-digit numbers are there, for which the product of their digits is more than 2 but less than 7?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">21</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-Quant/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">QA Q10</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Number Theory</span>
+    </div>
+    <div class="q-stem">The mean of all 4 digit even natural numbers of the form 'aabb', where a>0, is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 5544</li><li><span class="opt-k">B</span> 4466</li><li><span class="opt-k">C</span> 4864</li><li><span class="opt-k">D</span> 5050</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">A — 5544</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-Quant/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">QA Q13</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Digits</span>
+    </div>
+    <div class="q-stem">Among 100 students, x<sub>1</sub> have birthdays in January, x<sub>2</sub> have birthdays in February, and so on. If x<sub>0</sub> = max(x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>12</sub>), then the smallest possible value of x<sub>0</sub> is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 8</li><li><span class="opt-k">B</span> 10</li><li><span class="opt-k">C</span> 12</li><li><span class="opt-k">D</span> 9</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">D — 9</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-Quant/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">QA Q20</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Digits</span>
+    </div>
+    <div class="q-stem">If a, b and c are positive integers such that ab = 432, bc = 96 and c &lt; 9, then the smallest possible value of a + b + c is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 56</li><li><span class="opt-k">B</span> 49</li><li><span class="opt-k">C</span> 46</li><li><span class="opt-k">D</span> 59</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">C — 46</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-Quant/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">QA Q7</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Digits</span>
+    </div>
+    <div class="q-stem">If x and y are positive real numbers satisfying x + y = 102, then the minimum possible value of 2601(1 + \\(\frac{1}{x}\)))(1 + \\(\frac{1}{y}\))) is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">2704</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">QA Q26</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Number Theory</span>
+    </div>
+    <div class="q-stem">How many 4-digit numbers, each greater than 1000 and each having all four digits distinct, are there with 7 coming before 3?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">315</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">QA Q2</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Number Theory</span>
+    </div>
+    <div class="q-stem">Let N, x and y be positive integers such that N = x + y, 2 &lt; x &lt; 10 and 14 &lt; y &lt; 23. If N > 25, then how many distinct values are possible for N?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">6</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-Quant/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">QA Q7</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Number Theory</span>
+    </div>
+    <div class="q-stem">How many of the integers 1, 2, … , 120, are divisible by none of 2, 5 and 7?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 41</li><li><span class="opt-k">B</span> 42</li><li><span class="opt-k">C</span> 40</li><li><span class="opt-k">D</span> 43</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">A — 41</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-Quant/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">QA Q12</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Digits</span>
+    </div>
+    <div class="q-stem">Let m and n be natural numbers such that n is even and 0.2 &lt; \\(\frac{m}{20}\)), \\(\frac{n}{m}\)), \\(\frac{n}{11}\)) &lt; 0.5. Then m - 2n equals</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 4</li><li><span class="opt-k">B</span> 2</li><li><span class="opt-k">C</span> 1</li><li><span class="opt-k">D</span> 3</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">C — 1</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-Quant/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">QA Q26</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Digits</span>
+    </div>
+    <div class="q-stem">How many pairs (a,b) of positive integers are there such that a ≤ b and ab = 4<sup>2017</sup>?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 2019</li><li><span class="opt-k">B</span> 2018</li><li><span class="opt-k">C</span> 2020</li><li><span class="opt-k">D</span> 2017</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">B — 2018</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-Quant/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+
+</article>
+<footer class="page">Number system · CAT 2017–2020 PYQs</footer>
+<div class="toast" id="toast">Copied</div>
+<script src="../js/notes-ui.js"></script>
+</body>
+</html>

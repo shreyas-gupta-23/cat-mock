@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SI and CI · CAT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,650;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/notes.css">
+<script>
+MathJax = {
+  tex: { inlineMath: [['\\(','\\)']], displayMath: [['\\[','\\]']] }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body data-theme="cat">
+<canvas id="field" aria-hidden="true"></canvas>
+<div class="progress" id="progress"></div>
+<button type="button" class="handle left" id="toc-btn" aria-expanded="false">Contents</button>
+<button type="button" class="handle right" id="study-btn" aria-expanded="false">Study</button>
+<aside class="rail left" id="toc-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">CAT 2026 · IIM A</p>
+    <h2>On this page</h2>
+  </div>
+  <nav class="rail-body toc" id="toc">
+    <a href="#sheet"><small>01</small>Sheet</a>
+    <a href="#questions"><small>02</small>PYQs (7)</a>
+  </nav>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="toc-mark"></div></div>
+  <div class="rail-foot" id="toc-foot">Contents</div>
+</aside>
+<aside class="rail right" id="study-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">Studio</p>
+    <h2>Study</h2>
+  </div>
+  <div class="rail-body">
+    <a class="tool" href="../index.html"><small>All topics</small>Theory home</a>
+    <button type="button" class="tool" id="exam-btn"><small>Hide commentary</small>Exam mode</button>
+    <button type="button" class="tool" id="formula-btn"><small>Only the slabs</small>Formulas</button>
+    <button type="button" class="tool" id="draw-btn"><small>From the PYQs</small>Draw a question</button>
+    <button type="button" class="tool" id="print-btn"><small>Browser print</small>Print</button>
+  </div>
+  <div class="draw" id="draw"><span class="lbl">Question</span>Draw a question when you want a prompt without rereading the sheet.</div>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="study-mark"></div></div>
+  <div class="rail-foot">Exam mode keeps formulas, takeaways, traps, and the PYQs (answers hidden). Formulas hides the papers.</div>
+</aside>
+<article class="page" id="top">
+  <header class="mast">
+    <div class="meta-row">
+      <span class="chip">CAT 2026</span>
+      <span class="chip gold">Arithmetic</span>
+      <span class="chip">7 PYQs</span>
+    </div>
+    <h1>SI and CI</h1>
+    <p class="lede">Effective rate, CI−SI, installments.</p>
+  </header>
+
+<div class="section-head" id="sheet">
+  <div class="num">01</div>
+  <h2>Sheet</h2>
+  <label class="review"><input type="checkbox"> reviewed</label>
+</div>
+<div class="eq" data-tex="\mathrm{SI}=\frac{Prt}{100},\qquad A_{\mathrm{CI}}=P\Bigl(1+\tfrac{r}{100k}\Bigr)^{kt}"><button class="copy-eq" type="button">Copy</button>\[\mathrm{SI}=\frac{Prt}{100},\qquad A_{\mathrm{CI}}=P\Bigl(1+\tfrac{r}{100k}\Bigr)^{kt}\]</div>
+<p>\(k=1\) yearly, \(2\) half-yearly, \(4\) quarterly. Effective annual rate for half-yearly \(r\%\): \(r+\frac{r^2}{400}\).</p>
+<p>Two-year CI−SI at \(r\%\): \(P(r/100)^2\). Three-year CI−SI: \(P\bigl((r/100)^3 + 3(r/100)^2\bigr)\).</p>
+<p>Amount in 3 years / amount in 2 years at CI \(= 1+r/100\) (same \(P\)). Difference of CI for consecutive years is itself a CI on last year’s interest.</p>
+<p><strong>Installments.</strong> Present value of an annuity of \(A\) per year for \(n\) years at \(r\%\) CI: \(A\bigl(1-(1+r/100)^{-n}\bigr)/(r/100)\). CAT usually \(n=2\) or \(3\): \(P = \frac{A}{1+r/100}+\frac{A}{(1+r/100)^2}+\cdots\).</p>
+<p>Population / depreciation use the CI multiplier (growth signed).</p>
+<div class="def">
+<p><strong>From CAT 2017–2020.</strong></p>
+<ul>
+<li><strong>Two equal CI instalments.</strong> Loan \(P\), rate \(r\), two years: \(P=\frac{A}{1+r}+\frac{A}{(1+r)^2}\). First instalment is interest of year 1 plus some principal; the formula already encodes that.</li>
+<li><strong>On-lending.</strong> Borrow \(X\) at 8%, add \(Y\), lend \(X+Y\) at 10%. Net kept \(=\) Ankit’s interest on \(X\) gives one equation; the “\(X+2Y\)” variant gives the second.</li>
+<li><strong>Split SI at three rates.</strong> 15 lakh: some at 6%, rest 2:1 at 4% and 3%. One linear equation for the 6% slice.</li>
+<li><strong>CI annual + CI semi-annual vs SI.</strong> Amal: \(12000\times 0.08\) plus \(10000\bigl((1.03)^2-1\bigr)\). Bimal: \(P\times 0.075\). Equal interest pins \(P\).</li>
+<li><strong>Two SI clocks, staggered start.</strong> Veeru 10000 at 5% from \(t=0\); Joy 8000 at 10% from \(t=2\). Set amounts equal: \(10000(1+0.05t)=8000(1+0.10(t-2))\).</li>
+<li><strong>CI of 2 years at 5% minus SI of 3 years at 3%.</strong> \(P\bigl((1.05)^2-1 - 0.09\bigr)=1125\).</li>
+<li><strong>Half-yearly for 1.5 years</strong> is three applications of \(r/2\): \(P(1.05)^3=18522\).</li>
+</ul>
+</div>
+<div class="miss"><strong>Trap.</strong> “\(r\%\) per annum compounded quarterly for 9 months” is three applications of \(r/4\), not \(3r/4\) simple. SI and CI coincide for one compounding period.</div>
+<div class="take"><strong>Move.</strong> For 2 years, prefer CI−SI \(=P(r/100)^2\) over expanding binomials. For fractional years mixed SI/CI, split the last fraction as SI on the last CI amount if the problem says so — read the stem.</div>
+
+
+
+<div class="section-head" id="questions">
+  <div class="num">02</div>
+  <h2>CAT 2017–2020 PYQs</h2>
+  <label class="review"><input type="checkbox"> reviewed</label>
+</div>
+<p class="bank-note">7 authentic items from 2IIM’s public papers, tagged with year and slot. 2018: 2 · 2019: 2 · 2020: 3. Open a question for the official answer. Figures load from 2IIM.</p>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q15</span>
+      <span class="chip">TITA</span>
+      <span class="chip">SI &amp; CI</span>
+    </div>
+    <div class="q-stem">John borrowed Rs. 2,10,000 from a bank at an interest rate of 10% per annum, compounded annually. The loan was repaid in two equal instalments, the first after one year and the second after another year. The ﬁrst instalment was interest of one year plus part of the principal amount, while the second was the rest of the principal amount plus due interest thereon. Then each instalment, in Rs., is:</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">1,21,000</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q28</span>
+      <span class="chip">TITA</span>
+      <span class="chip">SI &amp; CI</span>
+    </div>
+    <div class="q-stem">Gopal borrows Rs. X from Ankit at 8% annual interest. He then adds Rs. Y of his own money and lends Rs. X+Y to Ishan at 10% annual interest. At the end of the year, after returning Ankit’s dues, the net interest retained by Gopal is the same as that accrued to Ankit. On the other hand, had Gopal lent Rs. X+2Y to Ishan at 10%, then the net interest retained by him would have increased by Rs. 150. If all interests are compounded annually, then find the value of X + Y.</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Rs. 4000</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q11</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Simple interest</span>
+    </div>
+    <div class="q-stem">A person invested a total amount of Rs 15 lakh. A part of it was invested in a fixed deposit earning 6% annual interest, and the remaining amount was invested in two other deposits in the ratio 2 : 1, earning annual interest at the rates of 4% and 3%, respectively. If the total annual interest income is Rs 76000 then the amount (in Rs lakh) invested in the fixed deposit was</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">9</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q32</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Simple interest &amp; Compound interest</span>
+    </div>
+    <div class="q-stem">Amal invests Rs 12000 at 8% interest, compounded annually, and Rs 10000 at 6% interest, compounded semi-annually, both investments being for one year. Bimal invests his money at 7.5% simple interest for one year. If Amal and Bimal get the same amount of interest, then the amount, in Rupees, invested by Bimal is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">20920</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">QA Q3</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Simple interest &amp; Compound interest</span>
+    </div>
+    <div class="q-stem">Veeru invested Rs 10000 at 5% simple annual interest, and exactly after two years, Joy invested Rs 8000 at 10% simple annual interest. How many years after Veeru’s investment, will their balances, i.e., principal plus accumulated interest, be equal?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">12</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-Quant/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">QA Q8</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Simple interest &amp; Compound interest</span>
+    </div>
+    <div class="q-stem">For the same principal amount, the compound interest for two years at 5% per annum exceeds the simple interest for three years at 3% per annum by Rs 1125. Then the principal amount in rupees is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">90000</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">QA Q20</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Simple interest &amp; Compound interest</span>
+    </div>
+    <div class="q-stem">A person invested a certain amount of money at 10% annual interest, compounded half-yearly. After one and a half years, the interest and principal together became Rs 18522. The amount, in rupees, that the person had invested is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">16000</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-Quant/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+
+</article>
+<footer class="page">SI and CI · CAT 2017–2020 PYQs</footer>
+<div class="toast" id="toast">Copied</div>
+<script src="../js/notes-ui.js"></script>
+</body>
+</html>

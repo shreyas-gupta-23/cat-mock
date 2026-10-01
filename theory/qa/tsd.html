@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Time, speed, distance · CAT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,650;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/notes.css">
+<script>
+MathJax = {
+  tex: { inlineMath: [['\\(','\\)']], displayMath: [['\\[','\\]']] }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body data-theme="cat">
+<canvas id="field" aria-hidden="true"></canvas>
+<div class="progress" id="progress"></div>
+<button type="button" class="handle left" id="toc-btn" aria-expanded="false">Contents</button>
+<button type="button" class="handle right" id="study-btn" aria-expanded="false">Study</button>
+<aside class="rail left" id="toc-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">CAT 2026 · IIM A</p>
+    <h2>On this page</h2>
+  </div>
+  <nav class="rail-body toc" id="toc">
+    <a href="#sheet"><small>01</small>Sheet</a>
+    <a href="#questions"><small>02</small>PYQs (29)</a>
+  </nav>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="toc-mark"></div></div>
+  <div class="rail-foot" id="toc-foot">Contents</div>
+</aside>
+<aside class="rail right" id="study-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">Studio</p>
+    <h2>Study</h2>
+  </div>
+  <div class="rail-body">
+    <a class="tool" href="../index.html"><small>All topics</small>Theory home</a>
+    <button type="button" class="tool" id="exam-btn"><small>Hide commentary</small>Exam mode</button>
+    <button type="button" class="tool" id="formula-btn"><small>Only the slabs</small>Formulas</button>
+    <button type="button" class="tool" id="draw-btn"><small>From the PYQs</small>Draw a question</button>
+    <button type="button" class="tool" id="print-btn"><small>Browser print</small>Print</button>
+  </div>
+  <div class="draw" id="draw"><span class="lbl">Question</span>Draw a question when you want a prompt without rereading the sheet.</div>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="study-mark"></div></div>
+  <div class="rail-foot">Exam mode keeps formulas, takeaways, traps, and the PYQs (answers hidden). Formulas hides the papers.</div>
+</aside>
+<article class="page" id="top">
+  <header class="mast">
+    <div class="meta-row">
+      <span class="chip">CAT 2026</span>
+      <span class="chip gold">Arithmetic</span>
+      <span class="chip">29 PYQs</span>
+    </div>
+    <h1>Time, speed, distance</h1>
+    <p class="lede">Harmonic mean, races, boats, trains, circular.</p>
+  </header>
+
+<div class="section-head" id="sheet">
+  <div class="num">01</div>
+  <h2>Sheet</h2>
+  <label class="review"><input type="checkbox"> reviewed</label>
+</div>
+<div class="eq" data-tex="d=vt,\qquad 1\,\mathrm{km/h}=\tfrac{5}{18}\,\mathrm{m/s},\qquad 1\,\mathrm{m/s}=\tfrac{18}{5}\,\mathrm{km/h}"><button class="copy-eq" type="button">Copy</button>\[d=vt,\qquad 1\,\mathrm{km/h}=\tfrac{5}{18}\,\mathrm{m/s},\qquad 1\,\mathrm{m/s}=\tfrac{18}{5}\,\mathrm{km/h}\]</div>
+<p>Relative: same direction \(|v_1-v_2|\), opposite \(v_1+v_2\). Trains: crossing each other, add lengths; pole/man, one length; platform, train+platform.</p>
+<p>Equal distances: \(\bar v = \mathrm{HM}=2ab/(a+b)\). Equal times: AM. \(n\) equal stretches at \(v_i\): \(\bar v = n/\sum(1/v_i)\).</p>
+<p>Upstream \(b-s\), downstream \(b+s\). Then \(b=\frac{d+u}{2}\), \(s=\frac{d-u}{2}\). Still-water time vs stream: extra time is not \(s\) itself.</p>
+<p><strong>Races.</strong> When A finishes \(D\), B has run \(D-g\) if A beats B by \(g\) metres. Time same. Ratio of speeds \(= D:(D-g)\). “Beats by \(t\) seconds”: convert to metres via B’s speed.</p>
+<p>To meet: together they close the initial gap at relative speed. Opposite start, distance \(D\), meet after \(D/(v_1+v_2)\). From the same point and back, first meet at lcm of times or use relative.</p>
+<p>Escalator / walkator: steps visible \(= (v_{\mathrm{you}}+v_{\mathrm{esc}})t\) in steps; two people give two equations in step-size.</p>
+<p>Circular track length \(L\): time between meetings \(L/|v_1\pm v_2|\) (opposite vs same). First meeting at \(\frac{v_1}{v_1+v_2}L\) from A’s start if they start together opposite.</p>
+<div class="def">
+<p><strong>From CAT 2017–2020.</strong></p>
+<ul>
+<li><strong>Late / early by the same clock.</strong> Walk 12 vs 15 km/h, 10 min late vs 10 min early: \(\frac{d}{12}-\frac{d}{15}=\frac13\) hour. Scheduled time is the midpoint of the two arrival times.</li>
+<li><strong>Two speeds, unknown scheduled time, asked a third speed.</strong> \(d/8\) and \(d/15\) give two arrival clocks; the 9:10\(\to\)10:00 slot is 50 min, so \(v=d/(5/6)\).</li>
+<li><strong>After they meet, times \(t_1,t_2\) to finish.</strong> \(\dfrac{v_1}{v_2}=\sqrt{\dfrac{t_2}{t_1}}\). (Car 1 takes 45 min after meeting, car 2 takes 20 \(\Rightarrow\) \(v_2=v_1\sqrt{45/20}\).) Same formula when remaining times are 1 min and 4 min: speed ratio \(2:1\).</li>
+<li><strong>Same direction vs opposite, same pair.</strong> Towards each other meet in 1 h, both east meet in 7 h: \(v_1+v_2=350\), \(|v_1-v_2|=350/7\).</li>
+<li><strong>Races, two at a time.</strong> A beats B by 1 km in 10 km \(\Rightarrow\) when A runs 10, B runs 9. A beats C: compose the ratios. Three-horse: first beats second by 11 m and third by 90 m; second beats third by 80 m — let length \(D\), speeds \(D:D-11:D-90\) from the first sentence, then the second sentence is a consistency check that pins \(D\).</li>
+<li><strong>Car A beats B by 45, B beats C by 50, A beats C by 90.</strong> When A finishes \(D\), B has \(D-45\), C has \(D-90\). The B-vs-C statement is when B finishes \(D\), C has \(D-50\). Compose: \((D-45)/D \times (D-50)/D = (D-90)/D\).</li>
+<li><strong>Wheels.</strong> Distance \(=2\pi r \times\) revolutions. \(N_A=N_B+5000\), same distance, radii 30 and 40.</li>
+<li><strong>Equal-time vs equal-distance on three speeds.</strong> Amal 1/3 of time each; Bimal 1/3 of distance each. Amal’s avg is AM of speeds; Bimal’s is HM. Then % extra time.</li>
+<li><strong>Train crossing two walkers, same direction.</strong> \(L/(V-2)\) in 90 s, \(L/(V-4)\) in 100 s. Post time is \(L/V\).</li>
+<li><strong>1/3 usual speed \(\Rightarrow\) 30 min late</strong> pins usual time: usual \(t\), slow \(3t=t+1/2\) so \(t=15\) min. Then the return with a 4 min stop is a new speed on leftover distance.</li>
+<li><strong>Opposite on a circle.</strong> First meet when A has done 60% \(\Rightarrow\) speed ratio 3:2. If A is back at P at 10:12 and the 10:00 meeting was not at P, A’s remaining 40% took 12 min, so A’s full period is 30 min. B’s remaining 40% of the track at that meeting gives B’s period the same way.</li>
+<li><strong>Two tangent circles, walkers on each.</strong> Periods \(T=2\pi r/v\). First reunion at A is LCM of the two periods (full rounds).</li>
+<li><strong>Three on one circle.</strong> Anil and Sunil meet at start when both have run integer laps: LCM of their lap times. Ravi’s distance in that time is \(v_R\times t\).</li>
+<li><strong>Motorcycles every minute.</strong> Cyclist A\(\to\)B in 60 min; 45 bikes reach B by 11. Doubling cyclist speed halves his time; count bikes whose travel-plus-start fits.</li>
+<li><strong>Bypass / half-way slow then extra 5 miles.</strong> Split the return into two segments; onward is one segment. One equation in the unknown half-distance.</li>
+<li><strong>Boat, double still-water speed, total time down 75%.</strong> Down+up times: \(\frac{d}{b+s}+\frac{d}{b-s}\) vs \(\frac{d}{2b+s}+\frac{d}{2b-s}=\frac14\) of original. Ratio \(b:s\).</li>
+</ul>
+</div>
+<div class="miss"><strong>Trap.</strong> Average of 40 and 60 on a to-and-fro is 48, not 50. Rest time is not motion. Headwind/tailwind is boat-stream in disguise.</div>
+<div class="take"><strong>Move.</strong> Convert units once. Draw a line with marks. Races: freeze the winner at the tape and read the loser’s position.</div>
+
+
+
+<div class="section-head" id="questions">
+  <div class="num">02</div>
+  <h2>CAT 2017–2020 PYQs</h2>
+  <label class="review"><input type="checkbox"> reviewed</label>
+</div>
+<p class="bank-note">29 authentic items from 2IIM’s public papers, tagged with year and slot. 2017: 5 · 2018: 6 · 2019: 7 · 2020: 11. Open a question for the official answer. Figures load from 2IIM.</p>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q4</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Speed Time Distance</span>
+    </div>
+    <div class="q-stem">A man leaves his home and walks at a speed of 12 km per hour, reaching the railway station 10 minutes after the train had departed. If instead he had walked at a speed of 15 km per hour, he would have reached the station 10 minutes before the train's departure. The distance (in km) from his home to the railway station is:</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">20</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q7</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Speed Time Distance</span>
+    </div>
+    <div class="q-stem">A man travels by a motor boat down a river to his office and back. With the speed of the river unchanged, if he doubles the speed of his motor boat, then his total travel time gets reduced by 75%. The ratio of the original speed of the motor boat to the speed of the river is:</div>
+    <ol class="opts"><li><span class="opt-k">A</span> \(\sqrt{6}\) : \(\sqrt{2}\)</li><li><span class="opt-k">B</span> \(\sqrt{7}\) : 2</li><li><span class="opt-k">C</span> 2\(\sqrt{5}\) : 3</li><li><span class="opt-k">D</span> 3 : 2</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — \(\sqrt{7}\) : 2</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q2</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Races</span>
+    </div>
+    <div class="q-stem">In a 10 km race. A, B, and C, each running at uniform speed, get the gold, silver, and bronze medals, respectively. If A beats B by 1 km and B beats C by 1 km, then by how many metres does A beat C?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">1900</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q4</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Speed Time Distance</span>
+    </div>
+    <div class="q-stem">Arun drove from home to his hostel at 60 miles per hour. While returning home he drove half way along the same route at a speed of 25 miles per hour and then took a bypass road which increased his driving distance by 5 miles, but allowed him to drive at 50 miles per hour along this bypass road. If his return journey took 30 minutes more than his onward journey, then the total distance travelled by him is:</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 55 miles</li><li><span class="opt-k">B</span> 60 miles</li><li><span class="opt-k">C</span> 65 miles</li><li><span class="opt-k">D</span> 70 miles</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 65 miles</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q12</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Speed Time Distance</span>
+    </div>
+    <div class="q-stem">A motorbike leaves point A at 1 pm and moves towards point B at a uniform speed. A car leaves point B at 2 pm and moves towards point A at a uniform speed which is double that of the motorbike. They meet at 3:40 pm at a point which is 168 km away from A. What is the distance, in km, between A and B?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 364</li><li><span class="opt-k">B</span> 378</li><li><span class="opt-k">C</span> 380</li><li><span class="opt-k">D</span> 388</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 378</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q4</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Speed Time Distance</span>
+    </div>
+    <div class="q-stem">The distance from A to B is 60 km. Partha and Narayan start from A at the same time and move towards B. Partha takes four hours more than Narayan to reach B. Moreover, Partha reaches the mid-point of A and B two hours before Narayan reaches B. The speed of Partha, in km per hour, is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 6</li><li><span class="opt-k">B</span> 3</li><li><span class="opt-k">C</span> 4</li><li><span class="opt-k">D</span> 5</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — 5</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q17</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Speed, Time and Distance</span>
+    </div>
+    <div class="q-stem">Point P lies between points A and B such that the length of BP is thrice that of AP. Car 1 starts from A and moves towards B. Simultaneously, car 2 starts from B and moves towards A. Car 2 reaches P one hour after car 1 reaches P. If the speed of car 2 is half that of car 1, then the time, in minutes, taken by car 1 in reaching P from A is:</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">12</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q23</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Speed Time Distance</span>
+    </div>
+    <div class="q-stem">Train T leaves station X for station Y at 3 pm. Train S, traveling at three quarters of the speed of T, leaves Y for X at 4 pm. The two trains pass each other at a station Z, where the distance between X and Z is three-ﬁfths of that between X and Y. How many hours does train T take for its journey from X to Y?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">15</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q1</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Speed Time Distance</span>
+    </div>
+    <div class="q-stem">Points A, P, Q and B lie on the same line such that P, Q and B are, respectively, 100 km, 200 km and 300 km away from A. Cars 1 and 2 leave A at the same time and move towards B. Simultaneously, car 3 leaves B and moves towards A. Car 3 meets Car 1 at Q, and Car 2 at P. If each car is moving in uniform speed then the ratio of the speed of Car 2 to that of Car 1 is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 1 : 4</li><li><span class="opt-k">B</span> 2 : 9</li><li><span class="opt-k">C</span> 1 : 2</li><li><span class="opt-k">D</span> 2 : 7</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 1 : 4</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q17</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Speed, Time and Distance</span>
+    </div>
+    <div class="q-stem">On a long stretch of east-west road, A and B are two points such that B is 350 km west of A. One car starts from A and another from B at the same time. If they move towards each other, then they meet after 1 hour. If they both move towards east, then they meet in 7 hrs. The difference between their speeds, in km per hour, is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">50</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q20</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Speed, Time and Distance</span>
+    </div>
+    <div class="q-stem">Points A and B are 150 km apart. Cars 1 and 2 travel from A to B, but car 2 starts from A when car 1 is already 20 km away from A. Each car travels at a speed of 100 kmph for the first 50 km, at 50 kmph for the next 50 km, and at 25 kmph for the last 50 km. The distance, in km, between car 2 and B when car 1 reaches B is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">5 km</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q14</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Speed, time and distance</span>
+    </div>
+    <div class="q-stem">Two cars travel the same distance starting at 10:00 am and 11:00 am, respectively, on the same day. They reach their common destination at the same point of time. If the first car travelled for at least 6 hours, then the highest possible value of the percentage by which the speed of the second car could exceed that of the first car is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 20</li><li><span class="opt-k">B</span> 10</li><li><span class="opt-k">C</span> 35</li><li><span class="opt-k">D</span> 25</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 20</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q19</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Races</span>
+    </div>
+    <div class="q-stem">In a race of three horses, the first beat the second by 11 metres and the third by 90 metres. If the second beat the third by 80 metres, what was the length, in metres, of the racecourse?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">880</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q22</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Speed, time and distance</span>
+    </div>
+    <div class="q-stem">One can use three different transports which move at 10, 20, and 30 kmph, respectively. To reach from A to B, Amal took each mode of transport 1/3 of his total journey time, while Bimal took each mode of transport 1/3 of the total distance. The percentage by which Bimal's travel time exceeds Amal's travel time is nearest to</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 22</li><li><span class="opt-k">B</span> 19</li><li><span class="opt-k">C</span> 21</li><li><span class="opt-k">D</span> 20</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 22</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q32</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Speed, time and distance</span>
+    </div>
+    <div class="q-stem">The wheels of bicycles A and B have radii 30 cm and 40 cm, respectively. While traveling a certain distance, each wheel of A required 5000 more revolutions than each wheel of B. If bicycle B traveled this distance in 45 minutes, then its speed, in km per hour, was</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 18π</li><li><span class="opt-k">B</span> 16π</li><li><span class="opt-k">C</span> 12π</li><li><span class="opt-k">D</span> 14π</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 16π</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q12</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Speed, Time &amp; distance</span>
+    </div>
+    <div class="q-stem">A cyclist leaves A at 10 am and reaches B at 11 am. Starting from 10:01 am, every minute a motorcycle leaves A and moves towards B. Forty-five such motorcycles reach B by 11 am. All motorcycles have the same speed. If the cyclist had doubled his speed, how many motorcycles would have reached B by the time the cyclist reached B?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 22</li><li><span class="opt-k">B</span> 20</li><li><span class="opt-k">C</span> 15</li><li><span class="opt-k">D</span> 23</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 15</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q14</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Races</span>
+    </div>
+    <div class="q-stem">John jogs on track A at 6 kmph and Mary jogs on track B at 7.5 kmph. The total length of tracks A and B is 325 metres. While John makes 9 rounds of track A, Mary makes 5 rounds of track B. In how many seconds will Mary make one round of track A?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">48</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q21</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Speed, time &amp; distance</span>
+    </div>
+    <div class="q-stem">Two ants A and B start from a point P on a circle at the same time, with A moving clock-wise and B moving anti-clockwise. They meet for the first time at 10:00 am when A has covered 60% of the track. If A returns to P at 10:12 am, then B returns to P at</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 10:27 am</li><li><span class="opt-k">B</span> 10:25 am</li><li><span class="opt-k">C</span> 10:45 am</li><li><span class="opt-k">D</span> 10:18 am</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 10:27 am</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">QA Q4</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Speed, time &amp; distance</span>
+    </div>
+    <div class="q-stem">A train travelled at one-thirds of its usual speed, and hence reached the destination 30 minutes after the scheduled time. On its return journey, the train initially travelled at its usual speed for 5 minutes but then stopped for 4 minutes for an emergency. The percentage by which the train must now increase its usual speed so as to reach the destination at the scheduled time, is nearest to</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 58</li><li><span class="opt-k">B</span> 67</li><li><span class="opt-k">C</span> 50</li><li><span class="opt-k">D</span> 61</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">B — 67</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-Quant/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">QA Q7</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Speed, time &amp; distance</span>
+    </div>
+    <div class="q-stem">A straight road connects points A and B. Car 1 travels from A to B and Car 2 travels from B to A, both leaving at the same time. After meeting each other, they take 45 minutes and 20 minutes, respectively, to complete their journeys. If Car 1 travels at the speed of 60 km/hr, then the speed of Car 2, in km/hr, is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 90</li><li><span class="opt-k">B</span> 80</li><li><span class="opt-k">C</span> 70</li><li><span class="opt-k">D</span> 100</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">A — 90</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-Quant/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">QA Q14</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Speed, time &amp; distance</span>
+    </div>
+    <div class="q-stem">Two persons are walking beside a railway track at respective speeds of 2 and 4 km per hour in the same direction. A train came from behind them and crossed them in 90 and 100 seconds, respectively. The time, in seconds, taken by the train to cross an electric post is nearest to</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 87</li><li><span class="opt-k">B</span> 82</li><li><span class="opt-k">C</span> 78</li><li><span class="opt-k">D</span> 75</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">B — 82</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-Quant/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">QA Q19</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Speed, time &amp; distance</span>
+    </div>
+    <div class="q-stem">Leaving home at the same time, Amal reaches office at 10:15 am if he travels at 8kmph, and at 9:40 am if he travels at 15kmph. Leaving home at 9:10 am, at what speed, in kmph, must he travel so as to reach office exactly at 10:00 am?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 12</li><li><span class="opt-k">B</span> 11</li><li><span class="opt-k">C</span> 13</li><li><span class="opt-k">D</span> 14</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">A — 12</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-Quant/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">QA Q1</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Races</span>
+    </div>
+    <div class="q-stem">In a car race, car A beats car B by 45 km, car B beats car C by 50 km, and car A beats car C by 90 km. The distance (in km) over which the race has been conducted is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 550</li><li><span class="opt-k">B</span> 475</li><li><span class="opt-k">C</span> 500</li><li><span class="opt-k">D</span> 450</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">D — 450</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">QA Q15</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Speed, time &amp; distance</span>
+    </div>
+    <div class="q-stem">The distance from B to C is thrice that from A to B. Two trains travel from A to C via B. The speed of train 2 is double that of train 1 while traveling from A to B and their speeds are interchanged while traveling from B to C. The ratio of the time taken by train 1 to that taken by train 2 in travelling from A to C is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 7:5</li><li><span class="opt-k">B</span> 4:1</li><li><span class="opt-k">C</span> 1:4</li><li><span class="opt-k">D</span> 5:7</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">D — 5:7</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">QA Q19</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Races</span>
+    </div>
+    <div class="q-stem">Two circular tracks T1 and T2 of radii 100 m and 20 m, respectively touch at a point A. Starting from A at the same time, Ram and Rahim are walking on track T1 and track T2 at speeds 15 km/hr and 5 km/hr respectively. The number of full rounds that Ram will make before he meets Rahim again for the first time is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 5</li><li><span class="opt-k">B</span> 3</li><li><span class="opt-k">C</span> 4</li><li><span class="opt-k">D</span> 2</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">B — 3</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">QA Q20</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Speed, time &amp; distance</span>
+    </div>
+    <div class="q-stem">A and B are two points on a straight line. Ram runs from A to B while Rahim runs from B to A. After crossing each other, Ram and Rahim reach their destinations in one minutes and four minutes, respectively. If they start at the same time, then the ratio of Ram's speed to Rahim's speed is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 2</li><li><span class="opt-k">B</span> 2\(\sqrt{2}\)</li><li><span class="opt-k">C</span> \(\sqrt{2}\)</li><li><span class="opt-k">D</span> \(\frac{1}{2}\))</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">A — 2</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">QA Q13</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Races</span>
+    </div>
+    <div class="q-stem">Anil, Sunil, and Ravi run along a circular path of length 3 km, starting from the same point at the same time, and going in the clockwise direction. If they run at speeds of 15 km/hr, 10 km/hr, and 8 km/hr, respectively, how much distance in km will Ravi have run when Anil and Sunil meet again for the first time at the starting point?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 4.6</li><li><span class="opt-k">B</span> 4.2</li><li><span class="opt-k">C</span> 4.8</li><li><span class="opt-k">D</span> 5.2</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">C — 4.8</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-Quant/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">QA Q21</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Speed, time &amp; distance</span>
+    </div>
+    <div class="q-stem">A and B are two railway stations 90 km apart. A train leaves A at 9:00 am, heading towards B at a speed of 40 km/hr. Another train leaves B at 10:30 am, heading towards A at a speed of 20 km/hr. The trains meet each other at</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 11 : 20 am</li><li><span class="opt-k">B</span> 11 : 00 am</li><li><span class="opt-k">C</span> 10 : 45 am</li><li><span class="opt-k">D</span> 11 : 45 am</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">B — 11 : 00 am</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-Quant/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">QA Q22</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Speed, time &amp; distance</span>
+    </div>
+    <div class="q-stem">Vimla starts for office every day at 9 am and reaches exactly on time if she drives at her usual speed of 40 km/hr. She is late by 6 minutes if she drives at 35 km/hr. One day, she covers two-thirds of her distance to office in one-thirds of her usual time to reach office, and then stops for 8 minutes. The speed, in km/hr, at which she should drive the remaining distance to reach office exactly on time is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 27</li><li><span class="opt-k">B</span> 28</li><li><span class="opt-k">C</span> 29</li><li><span class="opt-k">D</span> 26</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">B — 28</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-Quant/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+
+</article>
+<footer class="page">Time, speed, distance · CAT 2017–2020 PYQs</footer>
+<div class="toast" id="toast">Copied</div>
+<script src="../js/notes-ui.js"></script>
+</body>
+</html>

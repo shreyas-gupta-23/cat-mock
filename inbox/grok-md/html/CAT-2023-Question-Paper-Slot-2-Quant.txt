@@ -1,0 +1,1467 @@
+Source: https://online.2iim.com/CAT-question-paper/CAT-2023-Question-Paper-Slot-2-Quant/
+Note: Public HTML question set from 2IIM (no login). Not an official IIM PDF.
+
+CAT 2023 Slot 2 Question Paper | 2IIM CAT
+ CAT 2024CAT Online Coaching, Online CAT preparation | 2IIM Online CAT Coaching
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+ 
+ 2IIM CAT Question Bank
+
+ 
+
+
+
+ 
+ 
+ 🎯 2IIM’s VARC Offline Workshop — Sep 26 & 27 | Chennai | Master VARC with CAT Experts | RC, Para Summary, Para Jumble, Test & Analysis | ₹999 (₹1500) 
+
+
+
+
+
+
+ -->
+
+ 
+ 
+
+
+
+
+
+
+ 
+
+ 
+ ⏳All India Scholarship Test – Unlock up to 100% Scholarship.
+
+ -->
+
+ 
+
+
+ &#x1f389;
+ May Month-End Sale is Live | Enjoy Up to 20% OFF | Valid Until May 31
+ -->
+
+ 
+ &#x1f389;Effortlessly calculate your score with the 2IIM Score Calculator!&#x1f389;
+ -->
+
+
+
+
+
+
+
+ 
+ 
+ Online CAT Coaching 
+ 
+ Visit our Website
+
+ 
+
+
+ CAT Coaching 
+ 
+ CAT Coaching in Chennai
+
+ CAT Preparation Books
+
+ 
+
+
+ CAT Preparation 
+ 
+ CAT Previous Year Papers
+
+ 2IIM's CAT Questions
+
+ XAT Previous Year Papers
+
+ IIFT Previous Year Papers
+
+ How to prepare for CAT exam 
+ 
+ How
+ to prepare for CAT Quantitative Aptitude
+
+ How
+ to prepare for CAT DILR Section
+
+ How
+ to prepare for CAT VARC Section
+
+ 
+
+
+ What is CAT Exam All about
+
+ CAT Syllabus
+
+ CAT Online Live Classes
+-->
+ GMAT Preparation Online
+
+ 
+
+
+ Blogs / Social 2IIM CAT Preparation Blog
+ 2IIM CAT Preparation Reviews
+ CAT Preparation Quora Answers
+ CAT Preparation Videos
+ CAT Preparation Facebook Group
+ CAT Preparation Facebook Page
+ CAT Preparation Blogs CAT Questions Quantitative Aptitude Blog
+ CAT Preparation Blog
+
+ -->
+ Contact 
+ 
+ About Us
+-->
+ Our Team
+-->
+ Results
+
+ Work for Us
+
+ 
+
+
+ Signup
+ Login
+-->
+ IPMAT 2026 Coaching
+ Online
+
+ 
+
+
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ CAT 2023 Question Paper Slot 2 | CAT Quants
+
+ CAT Quantitative Aptitude | CAT 2023 Question Paper
+
+
+
+
+
+ 
+ 
+ CAT Question Paper / CAT-2023-Slot2-Quants
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ 
+ C AT 2023 Quant, unlike previous years was not dominated by Arithmetic. Though Arithematic was the most tested topic followed by Algebra. In Arithmetic, the questions were dominated by topics like Speed-time-distance , Mixture and Alligations . This year, there was a surprise. The questions from Geometry were relatively on the lower side as compared to the previous years. There were 8 TITA Qs this year. Overall this section was at a medium level of difficulty.
+
+
+ 
+ Attempt these questions as a Timed Quiz
+
+ 
+-->
+
+
+ 
+
+ 
+ CAT 2023 Slot 2 - QA
+
+ 
+ Let \(a, b, m\) and \(n\) be natural numbers such that \(a>1\) and \(b>1\). If \(a^m b^n=144^{145}\), then the largest possible value of \(n-m\) is
+
+ 
+ 
+ 
+ 580
+
+ 290
+
+ 579
+
+ 289
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice C
+579
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - QA
+
+ 
+ The sum of all possible values of \(x\) satisfying the equation \(2^{4 x^2}-2^{2 x^2+x+16}+2^{2 x+30}=0\), is
+
+ 
+ 
+ 
+ \(\frac{3}{2}\)
+
+ \(\frac{5}{2}\)
+
+ \(\frac{1}{2}\)
+
+ 3
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice C
+\(\frac{1}{2}\)
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - QA
+
+ 
+ For any natural numbers \(m, n\), and \(k\), such that \(k\) divides both \(m+2 n\) and \(3 m+4 n, k\) must be a common divisor of
+
+ 
+ 
+ 
+ \(2 m\) and \(3 n\)
+
+ \(m\) and \(2 n\)
+
+ \(2 m\) and \(n\)
+
+ \(m\) and \(n\)
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+\(m\) and \(2 n\)
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - QA
+
+ 
+ Any non-zero real numbers \(x, y\) such that \(y \neq 3\) and \(\frac{x}{y} \lt \frac{x+3}{y-3}\), will satisfy the condition
+
+ 
+ 
+ 
+ If \(y>10\), then \(-x>y\)
+
+ If \(x \lt 0\), then \(-x \lt y\)
+
+ If \(y \lt 0\), then \(-x \lt y\)
+
+ \(\frac{x}{y} \lt \frac{y}{x}\)
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice C
+If \(y \lt 0\), then \(-x \lt y\)
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - QA
+
+ 
+ For some positive real number \(x\), if \(\log _{\sqrt{3}}(x)+\frac{\log _x(25)}{\log _x(0.008)}=\frac{16}{3}\), then the value of \(\log _3\left(3 x^2\right)\) is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 7
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - QA
+
+ 
+ The number of positive integers less than 50, having exactly two distinct factors other than 1 and itself, is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 15
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - QA
+
+ 
+ Let \(k\) be the largest integer such that the equation \((x-1)^2+2 k x+11=0\) has no real roots. If \(y\) is a positive real number, then the least possible value of \(\frac{k}{4 y}+9 y\) is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 6
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - QA
+
+ 
+ In a company, 20% of the employees work in the manufacturing department. If the total salary obtained by all the manufacturing employees is one-sixth of the total salary obtained by all the employees in the company, then the ratio of the average salary obtained by the manufacturing employees to the average salary obtained by the non-manufacturing employees is
+
+ 
+ 
+ 
+ 4 : 5
+
+ 5 : 6
+
+ 5 : 4
+
+ 6 : 5
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+4 : 5
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - QA
+
+ 
+ Minu purchases a pair of sunglasses at Rs.1000 and sells to Kanu at 20% profit. Then, Kanu sells it back to Minu at 20% loss. Finally, Minu sells the same pair of sunglasses to Tanu. If the total profit made by Minu from all her transactions is Rs.500, then the percentage of profit made by Minu when she sold the pair of sunglasses to Tanu is
+
+ 
+ 
+ 
+ 35.42%
+
+ 31.25%
+
+ 52%
+
+ 26%
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+31.25%
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - QA
+
+ 
+ Pipes A and C are fill pipes while Pipe B is a drain pipe of a tank. Pipe B empties the full tank in one hour less than the time taken by Pipe A to fill the empty tank. When pipes A, B and C are turned on together, the empty tank is filled in two hours. If pipes B and C are turned on together when the tank is empty and Pipe B is turned off after one hour, then Pipe C takes another one hour and 15 minutes to fill the remaining tank. If Pipe A can fill the empty tank in less than five hours, then the time taken, in minutes, by Pipe C to fill the empty tank is
+
+ 
+ 
+ 
+ 90
+
+ 60
+
+ 120
+
+ 75
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+90
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - QA
+
+ 
+ Ravi is driving at a speed of 40 km/h on a road. Vijay is 54 meters behind Ravi and driving in the same direction as Ravi. Ashok is driving along the same road from the opposite direction at a speed of 50 km/h and is 225 meters away from Ravi. The speed, in km/h, at which Vijay should drive so that all the three cross each other at the same time, is
+
+ 
+ 
+ 
+ 58.8
+
+ 64.4
+
+ 67.2
+
+ 61.6
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+61.6
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - QA
+
+ 
+ Anil borrows Rs 2 lakhs at an interest rate of 8% per annum, compounded half-yearly. He repays Rs 10320 at the end of the first year and closes the loan by paying the outstanding amount at the end of the third year. Then, the total interest, in rupees, paid over the three years is nearest to
+
+ 
+ 
+ 
+ 45311
+
+ 51311
+
+ 33130
+
+ 40991
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+51311
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - QA
+
+ 
+ The price of a precious stone is directly proportional to the square of its weight. Sita has a precious stone weighing 18 units. If she breaks it into four pieces with each piece having distinct integer weight, then the difference between the highest and lowest possible values of the total price of the four pieces will be 288000. Then, the price of the original precious stone is
+
+ 
+ 
+ 
+ 1296000
+
+ 1944000
+
+ 972000
+
+ 1620000
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+1296000
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - QA
+
+ 
+ A container has 40 liters of milk. Then, 4 liters are removed from the container and replaced with 4 liters of water. This process of replacing 4 liters of the liquid in the container with an equal volume of water is continued repeatedly. The smallest number of times of doing this process, after which the volume of milk in the container becomes less than that of water, is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 7
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - QA
+
+ 
+ Jayant bought a certain number of white shirts at the rate of Rs 1000 per piece and a certain number of blue shirts at the rate of Rs 1125 per piece. For each shirt, he then set a fixed market price which was 25% higher than the average cost of all the shirts. He sold all the shirts at a discount of 10% and made a total profit of Rs 51000. If he bought both colors of shirts, then the maximum possible total number of shirts that he could have bought is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 407
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - QA
+
+ 
+ If a certain amount of money is divided equally among \(n\) persons, each one receives Rs 352 . However, if two persons receive Rs 506 each and the remaining amount is divided equally among the other persons, each of them receive less than or equal to Rs 330 . Then, the maximum possible value of \(n\) is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 16
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - QA
+
+ 
+ In a rectangle ABCD, AB = 9 cm and BC = 6 cm. P and Q are two points on BC such that the areas of the figures ABP, APQ, and AQCD are in geometric progression. If the area of the figure AQCD is four times the area of triangle ABP, then BP : PQ : QC is
+
+ 
+ 
+ 
+ 1 : 1 : 2
+
+ 1 : 2 : 4
+
+ 2 : 4 : 1
+
+ 1 : 2 : 1
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice C
+2 : 4 : 1
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - QA
+
+ 
+ A triangle is drawn with its vertices on the circle \(C\) such that one of its sides is a diameter of \(C\) and the other two sides have their lengths in the ratio \(a: b\). If the radius of the circle is \(r\), then the area of the triangle is
+
+ 
+ 
+ 
+ \(\frac{a b r^2}{2\left(a^2+b^2\right)}\)
+
+ \(\frac{a b r^2}{a^2+b^2}\)
+
+ \(\frac{4 a b r^2}{a^2+b^2}\)
+
+ \(\frac{2 a b r^2}{a^2+b^2}\)
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+\(\frac{2 a b r^2}{a^2+b^2}\)
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - QA
+
+ 
+ The area of the quadrilateral bounded by the \(Y\)-axis, the line \(x=5\), and the lines \(|x-y|-|x-5|=2\), is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 45
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - QA
+
+ 
+ Let both the series \(a_1, a_2, a_3, \ldots\) and \(b_1, b_2, b_3 \ldots\) be in arithmetic progression such that the common differences of both the series are prime numbers. If \(a_5=b_9, a_{19}=b_{19}\) and \(b_2=0\), then \(a_{11}\) equals
+
+ 
+ 
+ 
+ 79
+
+ 83
+
+ 86
+
+ 84
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+79
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - QA
+
+ 
+ If \(p^2+q^2-29=2 p q-20=52-2 p q\), then the difference between the maximum and minimum possible value of \(\left(p^3-q^3\right)\) is
+
+ 
+ 
+ 
+ 486
+
+ 189
+
+ 378
+
+ 243
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice C
+378
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - QA
+
+ 
+ Let \(a_n\) and \(b_n\) be two sequences such that \(a_n=13+6(n-1)\) and \(b_n=15+7(n-1)\) for all natural numbers \(n\). Then, the largest three digit integer that is common to both these sequences, is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 967
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+ section of your HTML file -->
+
+ 🎯 2IIM’s VARC Offline Workshop — Sep 26 & 27 | Chennai | Master VARC with CAT Experts | RC, Para Summary, Para Jumble, Test & Analysis | ₹999 (₹1500)
+
+ Enrol Now →
+
+ -->
+
+ 🎯 2IIM’s CAT 2026 Percentile Booster — Classes Start This Monday!
+
+ Enrol Now →
+
+ Struggling with VARC, DILR, or Quant? Learn Just That Section.
+
+ ★ Click here!
+
+ 🔥 Limited-Time 3-Day Offer | Choose VARC, DILR or Quant for ₹5,000 Only
+
+ Click here! →
+
+ -->
+
+ First Edition Now Available | CAT PYQ 2020–2025 | Limited First Print
+
+ Order Now →
+
+ ⏳Register for a free 2IIM demo class and start your
+ preparation the right way.
+
+ ★ Click here!
+
+ -->
+
+ Download comprehensive
+ PDFs of past years’ question papers with answers.
+
+ ★ Click here
+
+ Repeating
+ CAT? Ace it with 2 IIM! Get expert guidance & exclusive discounts.
+ 🚀
+
+ ★ Register Now
+
+ -->
+
+ Best CAT Online Coaching
+
+ Try upto 40 hours for free
+ Learn from the best!
+
+ ★ Sign up Now!
+
+ -->
+
+ CAT
+ Coaching in Chennai
+CAT 2024
+
+ Classroom Batches Starting Now! @Gopalapuram and @Anna
+ nagar
+
+ ★ CAT Coaching
+
+ -->
+
+ Best CAT Coaching in Chennai
+
+ Attend a Demo Class
+
+ ★ Schedule a Demo!
+
+ -->
+
+ -->
+ -->
+ -->
+
+ -->
+ &#x1F3AF; Huge Discount: 5,000 off on Online CAT Course. Till June 30. Register now! -->
+ Upto 50% off - Take the Scholarship test now! -->
+
+ 
+
+
+
+
+ 
+ 
+ CAT Questions | CAT Quantitative Aptitude
+
+ 
+ 
+ CAT Questions | HCF LCM
+
+
+ CAT Questions |
+ Factors
+
+ CAT Questions |
+ Remainders
+
+ CAT Questions |
+ Factorials
+
+ CAT Questions | Digits 
+
+
+ CAT
+ Questions | Ratios, Mixtures, Averages
+
+ CAT Questions |
+ Percentages, Profit Loss, SICI
+
+
+
+ 
+ CAT Questions |
+ Time Speed and Distance, Races
+
+ CAT Questions
+ | Logarithms & Exponents
+
+ CAT
+ Questions | Pipes Cisterns, Work Time
+
+ CAT Questions | Set
+ Theory
+
+ CAT Questions | Geometry
+
+ CAT Questions |
+ Coordinate-Geometry
+
+ CAT Questions |
+ Mensuration
+
+
+
+ 
+ CAT Questions |
+ Trigonometry
+
+ CAT
+ Questions | Linear & Quadratic Equations
+
+ CAT Questions | Functions 
+
+
+ CAT Questions |
+ Inequalities
+
+ CAT Questions |
+ Polynomials
+
+ CAT Questions |
+ Progressions
+
+ CAT Questions |
+ Permutation Combination, Probability
+
+
+
+
+
+
+
+ CAT Questions | CAT DILR
+
+ 
+ 
+ CAT DILR | Sequencing
+
+ CAT DILR | Pie Charts
+
+ CAT DILR | Multiple Graphs
+
+ CAT DILR | Word Problems
+
+ CAT DILR | Line Graphs
+
+
+
+ 
+ CAT DILR | Bar Graphs
+
+ CAT DILR | Grid Puzzle
+
+ CAT DILR | Math Puzzle
+
+ CAT DILR | Visualization
+
+ CAT DILR | Other Patterns
+
+
+
+ 
+ CAT 2017 DILR Slot 2 | Assets
+
+
+ CAT 2017 DILR Slot 2 |
+ Pizzeria
+
+ CAT 2017 DILR Slot 2 |
+ Electives
+
+ CAT 2017 DILR Slot 2 |
+ Chess
+
+ CAT 2017 DILR Slot 2 |
+ Dorms
+
+
+
+ 
+ CAT 2017 DILR Slot 2 |
+ Tea
+
+ CAT 2017 DILR Slot 2 |
+ Friends
+
+ CAT 2017 DILR Slot 1 | CET 
+
+
+ CAT 2017 DILR Slot
+ 1 | Survey
+
+ CAT 2017 DILR
+ Slot 1 | Happiness
+
+
+
+
+-->
+
+
+ CAT Questions | Verbal Ability for CAT
+
+ 
+ 
+ Verbal Ability for CAT |
+ CAT Reading Comprehension
+
+ Verbal Ability for CAT|
+ CAT Para Jumble
+
+ Verbal Ability for CAT |
+ CAT Sentence Elimination
+
+ Verbal Ability for CAT |
+ CAT Paragraph Completion
+
+ Verbal Ability for CAT |
+ CAT Critical Reasoning
+
+
+
+ 
+ Verbal Ability for CAT | CAT Word
+ Usage
+
+ Verbal Ability for CAT| CAT Para
+ Summary
+
+ Verbal Ability for CAT | CAT
+ Text Completion
+
+ Verbal Ability for CAT |
+ CAT Sentence Correction
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 2IIM offers the best CAT coaching in Chennai. We conduct weekend CAT classes in Chennai.
+ 2IIM's Online CAT Coaching is the most comprehensive & Best CAT Online Coaching available in the
+ country.
+
+
+
+ 
+ 
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT Online Preparation
+
+ LIVE Classroom CAT classes
+
+ CAT Online
+ Coaching
+
+ CAT
+ Quantitative Aptitude Course
+
+ CAT DILR | Logical Reasoning for CAT
+
+ Best CAT Coaching in
+ Chennai
+
+
+
+ 
+ CAT Preparation
+
+ CAT Questions
+
+ CAT Preparation Youtube
+
+ CAT Question Paper
+
+ CAT Previous Year Papers
+
+ CAT
+ Preparation books
+
+
+
+ 
+ What is CAT?
+
+ CAT Syllabus | CAT Syllabus 2026
+
+ CAT Exam
+ Pattern
+
+ What is CAT
+ Exam? | CAT Exam Eligibility
+
+ How to
+ Prepare for CAT exam?
+
+
+
+ 
+ CAT Preparation | Videos
+
+ 
+ CAT Online Preparation
+
+ How to Prepare for CAT 2026 
+
+
+ CAT Preparation Do's and
+ Dont's
+
+ CAT Online Live Classes
+
+
+
+
+
+ 
+ 
+ 
+ 
+ Copyrights © All Rights Reserved by 2IIM.com - A Fermat Education Initiative .
+ Privacy Policy | Terms & Conditions
+
+ 
+ CAT ® (Common Admission Test) is a registered trademark of the Indian
+ Institutes of Management. This website is not endorsed or approved by IIMs.
+
+
+
+
+ 
+ Where is 2IIM located?
+
+ 2IIM Online CAT Coaching
+ A Fermat Education Initiative,
+19/43, MG Chakrapani St,
+ Sathya Garden, Saligramam, Chennai 600 093
+
+
+
+ 
+ How to reach 2IIM?
+
+ Mobile: (91) 99626 48484 / 94459
+ 38484
+ WhatsApp: WhatsApp Now
+ Email: info@2iim.com
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ Wizako GMAT Preparation
+
+ 
+ GMAT Preparation Online
+
+ GMAT Coaching in Chennai
+
+ GMAT Sample Questions
+
+ GMAT
+ Prep Videos
+
+
+
+ 
+ Wizako GRE
+
+ 
+ GRE Coaching in Chennai
+
+ GRE Questions
+
+ Online GRE Coaching
+
+ GRE
+ Preparation Videos
+
+
+
+ 
+ Ascent TANCET Coaching
+
+ 
+ TANCET Classes Online
+
+ TANCET Coaching Centres in Chennai
+
+ TANCET Previous Year Question Papers
+
+ TANCET Questions
+
+
+
+ 
+ Maxtute CBSE Maths Classes
+
+ 
+ CBSE Online
+ Classes
+
+ NCERT Solution for Class 10 Maths
+
+ CBSE Sample Papers for class 10
+
+ Class 10
+ Maths Videos
+
+
+
+ 
+ PiVerb
+
+ 
+ Intuitive Math
+ learning
+
+ School
+ Math Videos
+
+
+
+
+
+
+
+ Click to Browse Offline

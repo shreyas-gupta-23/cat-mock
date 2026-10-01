@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Profit and loss · CAT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,650;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/notes.css">
+<script>
+MathJax = {
+  tex: { inlineMath: [['\\(','\\)']], displayMath: [['\\[','\\]']] }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body data-theme="cat">
+<canvas id="field" aria-hidden="true"></canvas>
+<div class="progress" id="progress"></div>
+<button type="button" class="handle left" id="toc-btn" aria-expanded="false">Contents</button>
+<button type="button" class="handle right" id="study-btn" aria-expanded="false">Study</button>
+<aside class="rail left" id="toc-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">CAT 2026 · IIM A</p>
+    <h2>On this page</h2>
+  </div>
+  <nav class="rail-body toc" id="toc">
+    <a href="#sheet"><small>01</small>Sheet</a>
+    <a href="#questions"><small>02</small>PYQs (17)</a>
+  </nav>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="toc-mark"></div></div>
+  <div class="rail-foot" id="toc-foot">Contents</div>
+</aside>
+<aside class="rail right" id="study-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">Studio</p>
+    <h2>Study</h2>
+  </div>
+  <div class="rail-body">
+    <a class="tool" href="../index.html"><small>All topics</small>Theory home</a>
+    <button type="button" class="tool" id="exam-btn"><small>Hide commentary</small>Exam mode</button>
+    <button type="button" class="tool" id="formula-btn"><small>Only the slabs</small>Formulas</button>
+    <button type="button" class="tool" id="draw-btn"><small>From the PYQs</small>Draw a question</button>
+    <button type="button" class="tool" id="print-btn"><small>Browser print</small>Print</button>
+  </div>
+  <div class="draw" id="draw"><span class="lbl">Question</span>Draw a question when you want a prompt without rereading the sheet.</div>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="study-mark"></div></div>
+  <div class="rail-foot">Exam mode keeps formulas, takeaways, traps, and the PYQs (answers hidden). Formulas hides the papers.</div>
+</aside>
+<article class="page" id="top">
+  <header class="mast">
+    <div class="meta-row">
+      <span class="chip">CAT 2026</span>
+      <span class="chip gold">Arithmetic</span>
+      <span class="chip">17 PYQs</span>
+    </div>
+    <h1>Profit and loss</h1>
+    <p class="lede">False weight, successive discount, two-article.</p>
+  </header>
+
+<div class="section-head" id="sheet">
+  <div class="num">01</div>
+  <h2>Sheet</h2>
+  <label class="review"><input type="checkbox"> reviewed</label>
+</div>
+<div class="eq" data-tex="\mathrm{SP}=\mathrm{CP}\bigl(1\pm \tfrac{p}{100}\bigr),\qquad \mathrm{discount}=\tfrac{\mathrm{MP}-\mathrm{SP}}{\mathrm{MP}}"><button class="copy-eq" type="button">Copy</button>\[\mathrm{SP}=\mathrm{CP}\bigl(1\pm \tfrac{p}{100}\bigr),\qquad \mathrm{discount}=\tfrac{\mathrm{MP}-\mathrm{SP}}{\mathrm{MP}}\]</div>
+<p>Markup \(m\%\), discount \(d\%\): profit % \(= m-d-md/100\).</p>
+<p>Successive discounts \(d_1,d_2\): net off \(= d_1+d_2-d_1d_2/100\). Never add.</p>
+<p><strong>False weight.</strong> Claims to sell at CP (or at \(r\%\) profit) but uses \(w\) g as 1000 g:</p>
+<div class="eq" data-tex="\text{true profit %}=\frac{1000(1+r/100)-w}{w}\times 100"><button class="copy-eq" type="button">Copy</button>\[\text{true profit %}=\frac{1000(1+r/100)-w}{w}\times 100\]</div>
+<p>If \(r=0\): \((1000-w)/w \times 100\).</p>
+<p><strong>Two articles.</strong> Same CP, \(+x\%\) and \(-x\%\): net 0. Same SP, \(+x\%\) and \(-x\%\): net loss \(x^2/100\%\) of CP (product constancy on CP). Sold two at same SP, one profit \(p\%\) one loss \(p\%\): loss \(= (p/10)^2\%\) on total CP.</p>
+<p>Buy \(n\) get \(k\) free, marked at \(m\%\) above CP: effective discount \(=\frac{k}{n+k}\times 100\%\) on MP, then chain with markup.</p>
+<div class="def">
+<p><strong>From CAT 2017–2020.</strong></p>
+<ul>
+<li><strong>Retail / discount / profit together.</strong> \(\mathrm{SP}=\mathrm{RP}(1-d)=\mathrm{CP}(1+p)\). “15% off RP still 2% profit; want 20% profit” \(\Rightarrow\) sell at RP (compute: \(0.85\,\mathrm{RP}=1.02\,\mathrm{CP}\) so \(\mathrm{RP}=1.2\,\mathrm{CP}\)).</li>
+<li><strong>Common SP of two qualities.</strong> Good mangoes \(2x\)/kg, medium \(x\). Buy 80 kg good + 40 kg medium, sell all at \(0.9\times 2x\). Profit on mixed CP.</li>
+<li><strong>Destroyed stock, same profit amount.</strong> 60 toys at 40% off MP give 20% on CP. 10 burn. New discount on 50 so that profit <em>rupees</em> match, not the %.</li>
+<li><strong>Chain of dealers.</strong> Customer pays \(\mathrm{CP}\times 1.1\times 1.3\times 1.5\).</li>
+<li><strong>Two goods, two selling regimes.</strong> Pen at \(-5\%\) and book at \(+15\%\) net +7; pen \(+5\%\) and book \(+10\%\) net +13. Two linear equations in the two CPs.</li>
+<li><strong>\(n\) at \(+p\%\), \(m\) at \(-p\%\), net profit in rupees.</strong> Not the \((p/10)^2\) identity unless SP is the same. Here CPs are equal: net \(= p\%(n-m)\times\mathrm{CP}\).</li>
+<li><strong>Chained then compared.</strong> Two tables, same CP \(p\): +20% then +30% vs −20% then −30%. \((x-y)/p = 1.2\times 1.3 - 0.8\times 0.7\).</li>
+<li><strong>Alligation on overall profit.</strong> Desktop +20%, laptop −10%, overall +2% on 50000. Mix ratio of the two CPs is alligation on +20 and −10 toward +2.</li>
+<li><strong>Discount then extra 25% off the already-discounted price</strong> is successive, not 45% off. Back out labelled price from total SP and the 10% profit, then profit if no discount at all.</li>
+<li><strong>Wasted weight + raise MP by \(p\%\)</strong> to hit a target overall profit: write rupees in and rupees out, one unknown \(p\).</li>
+<li><strong>Also on this page:</strong> ages as % (Arun 40% of Barun, later 50% — difference invariant); nested savings 50% FD, 30% of rest stocks; admission % of girls vs boys; two commodities whose prices rise 20% and 12%; exam % of three people plus a fourth 84% of the same \(N\); 28% young, 65% literate, 25% of literates young — two-way table, % old among illiterate.</li>
+</ul>
+</div>
+<div class="miss"><strong>Trap.</strong> Profit on SP is not profit on CP. “Cost price of 12 = selling price of 10” \(\Rightarrow\) profit \(20\%\) on CP, not \(16.\overline{6}\%\) unless they asked on SP.</div>
+<div class="take"><strong>Move.</strong> CP \(=100\) unless two goods force two CPs. False weight: money in vs true quantity out.</div>
+
+
+
+<div class="section-head" id="questions">
+  <div class="num">02</div>
+  <h2>CAT 2017–2020 PYQs</h2>
+  <label class="review"><input type="checkbox"> reviewed</label>
+</div>
+<p class="bank-note">17 authentic items from 2IIM’s public papers, tagged with year and slot. 2017: 8 · 2019: 3 · 2020: 6. Open a question for the official answer. Figures load from 2IIM.</p>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q1</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Percentages</span>
+    </div>
+    <div class="q-stem">Arun's present age in years is 40% of Barun's. In another few years, Arun's age will be half of Barun's. By what percentage will Barun's age increase during this period?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">20</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q5</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Percentages</span>
+    </div>
+    <div class="q-stem">Ravi invests 50% of his monthly savings in fixed deposits. Thirty percent of the rest of his savings is invested in stocks and the rest goes into Ravi's savings bank account. If the total amount deposited by him in the bank (for savings account and fixed deposits) is Rs 59500, then Ravi's total monthly savings (in Rs) is:</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">70000</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q6</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Profit &amp; Loss</span>
+    </div>
+    <div class="q-stem">If a seller gives a discount of 15% on retail price, she still makes a profit of 2%. Which of the following ensures that she makes a profit of 20%?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Give a discount of 5% on retail price</li><li><span class="opt-k">B</span> Give a discount of 2% on retail price</li><li><span class="opt-k">C</span> Increase the retail price by 2%</li><li><span class="opt-k">D</span> Sell at retail price</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — Sell at retail price</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q9</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Percentages</span>
+    </div>
+    <div class="q-stem">The number of girls appearing for an admission test is twice the number of boys. If 30% of the girls and 45% of the boys get admission, the percentage of candidates who do not get admission is:</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 35</li><li><span class="opt-k">B</span> 50</li><li><span class="opt-k">C</span> 60</li><li><span class="opt-k">D</span> 65</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — 65</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q11</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Profit &amp; Loss</span>
+    </div>
+    <div class="q-stem">In a market, the price of medium quality mangoes is half that of good mangoes. A shopkeeper buys 80 kg good mangoes and 40 kg medium quality mangoes from the market and then sells all these at a common price which is 10% less than the price at which he bought the good ones. His overall profit is:</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 6%</li><li><span class="opt-k">B</span> 8%</li><li><span class="opt-k">C</span> 10%</li><li><span class="opt-k">D</span> 12%</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 8%</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q12</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Profit &amp; Loss</span>
+    </div>
+    <div class="q-stem">If Fatima sells 60 identical toys at a 40% discount on the printed price, then she makes 20% profit. Ten of these toys are destroyed in fire. While selling the rest, how much discount should be given on the printed price so that she can make the same amount of profit?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 30%</li><li><span class="opt-k">B</span> 25%</li><li><span class="opt-k">C</span> 24%</li><li><span class="opt-k">D</span> 28%</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — 28%</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q7</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Profit &amp; Loss</span>
+    </div>
+    <div class="q-stem">The manufacturer of a table sells it to a wholesale dealer at a profit of 10%. The wholesale dealer sells the table to a retailer at a profit of 30%. Finally, the retailer sells it to a customer at a profit of 50%. If the customer pays Rs 4290 for the table, then its manufacturing cost (in Rs) is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 1500</li><li><span class="opt-k">B</span> 2000</li><li><span class="opt-k">C</span> 2500</li><li><span class="opt-k">D</span> 3000</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 2000</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q9</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Profit &amp; Loss</span>
+    </div>
+    <div class="q-stem">Mayank buys some candies for Rs 15 a dozen and an equal number of different candies for Rs 12 a dozen. He sells all for Rs 16.50 a dozen and makes a profit of Rs 150. How many dozens of candies did he buy altogether?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 50</li><li><span class="opt-k">B</span> 30</li><li><span class="opt-k">C</span> 25</li><li><span class="opt-k">D</span> 45</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 50</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q13</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Profit &amp; Loss</span>
+    </div>
+    <div class="q-stem">On selling a pen at 5% loss and a book at 15% gain, Karim gains Rs. 7. If he sells the pen at 5% gain and the book at 10% gain, he gains Rs. 13. What is the cost price of the book in Rupees?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 80</li><li><span class="opt-k">B</span> 85</li><li><span class="opt-k">C</span> 100</li><li><span class="opt-k">D</span> 95</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 80</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q27</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Profit &amp; loss</span>
+    </div>
+    <div class="q-stem">Mukesh purchased 10 bicycles in 2017, all at the same price. He sold six of these at a profit of 25% and the remaining four at a loss of 25%. If he made a total profit of Rs. 2000, then his purchase price of a bicycle, in Rupees, was</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 2000</li><li><span class="opt-k">B</span> 6000</li><li><span class="opt-k">C</span> 8000</li><li><span class="opt-k">D</span> 4000</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — 4000</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q33</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Profit &amp; loss</span>
+    </div>
+    <div class="q-stem">A shopkeeper sells two tables, each procured at cost price p, to Amal and Asim at a profit of 20% and at a loss of 20%, respectively. Amal sells his table to Bimal at a profit of 30%, while Asim sells his table to Barun at a loss of 30%. If the amounts paid by Bimal and Barun are x and y, respectively, then (x - y) / p equals</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 1</li><li><span class="opt-k">B</span> 1.2</li><li><span class="opt-k">C</span> 0.7</li><li><span class="opt-k">D</span> 0.50</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 1</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">QA Q12</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Profit &amp; Loss</span>
+    </div>
+    <div class="q-stem">A person spent Rs 50000 to purchase a desktop computer and a laptop computer. He sold the desktop at 20% profit and the laptop at 10% loss. If overall he made a 2% profit then the purchase price, in rupees, of the desktop is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">20000</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-Quant/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">QA Q23</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Percentages</span>
+    </div>
+    <div class="q-stem">In a group of people, 28% of the members are young while the rest are old. If 65% of the members are literates, and 25% of the literates are young, then the percentage of old people among the illiterates is nearest to</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 59</li><li><span class="opt-k">B</span> 62</li><li><span class="opt-k">C</span> 66</li><li><span class="opt-k">D</span> 55</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">C — 66</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-Quant/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">QA Q11</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Profit &amp; Loss</span>
+    </div>
+    <div class="q-stem">Anil buys 12 toys and labels each with the same selling price. He sells 8 toys initially at 20% discount on the labeled price. Then he sells the remaining 4 toys at an additional 25% discount on the discounted price. Thus, he gets a total of Rs 2112, and makes a 10% profit. With no discounts, his percentage of profit would have been</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 60</li><li><span class="opt-k">B</span> 50</li><li><span class="opt-k">C</span> 55</li><li><span class="opt-k">D</span> 54</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">B — 50</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">QA Q23</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Percentages</span>
+    </div>
+    <div class="q-stem">In May, John bought the same amount of rice and the same amount of wheat as he had bought in April, but spent 150 more due to price increase of rice and wheat by 20% and 12%, respectively. If John had spent 450 on rice in April, then how much did he spend on wheat in May?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 590</li><li><span class="opt-k">B</span> 580</li><li><span class="opt-k">C</span> 560</li><li><span class="opt-k">D</span> 570</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">C — 560</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">QA Q8</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Percentages</span>
+    </div>
+    <div class="q-stem">In the final examination, Bishnu scored 52% and Asha scored 64%. The marks obtained by Bishnu is 23 less, and that by Asha is 34 more than the marks obtained by Ramesh. The marks obtained by Geeta, who scored 84%, is<br></div>
+    <ol class="opts"><li><span class="opt-k">A</span> 399</li><li><span class="opt-k">B</span> 439</li><li><span class="opt-k">C</span> 357</li><li><span class="opt-k">D</span> 417</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">A — 399</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-Quant/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">QA Q14</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Profit &amp; Loss</span>
+    </div>
+    <div class="q-stem">A man buys 35 kg of sugar and sets a marked price in order to make a 20% profit. He sells 5 kg at this price, and 15 kg at a 10% discount. Accidentally, 3 kg of sugar is wasted. He sells the remaining sugar by raising the marked price by p percent so as to make an overall profit of 15%. Then p is nearest to</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 35</li><li><span class="opt-k">B</span> 31</li><li><span class="opt-k">C</span> 22</li><li><span class="opt-k">D</span> 25</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">D — 25</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-Quant/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+
+</article>
+<footer class="page">Profit and loss · CAT 2017–2020 PYQs</footer>
+<div class="toast" id="toast">Copied</div>
+<script src="../js/notes-ui.js"></script>
+</body>
+</html>

@@ -1,0 +1,1477 @@
+Source: https://online.2iim.com/CAT-question-paper/CAT-2024-Question-Paper-Slot-2-DILR/
+Note: Public HTML question set from 2IIM (no login). Not an official IIM PDF.
+
+CAT Question Paper 2024 - DILR Slot 2, 2IIM CAT
+ CAT 2024 CAT Online classes, CAT coaching in Chennai | 2IIM Online CAT
+ Coaching
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+ 
+ 2IIM CAT Question Bank
+
+ 
+
+
+
+ 
+ 
+ 🎯 2IIM’s VARC Offline Workshop — Sep 26 & 27 | Chennai | Master VARC with CAT Experts | RC, Para Summary, Para Jumble, Test & Analysis | ₹999 (₹1500) 
+
+
+
+
+
+
+ -->
+
+ 
+ 
+
+
+
+
+
+
+ 
+
+ 
+ ⏳All India Scholarship Test – Unlock up to 100% Scholarship.
+
+ -->
+
+ 
+
+
+ &#x1f389;
+ May Month-End Sale is Live | Enjoy Up to 20% OFF | Valid Until May 31
+ -->
+
+ 
+ &#x1f389;Effortlessly calculate your score with the 2IIM Score Calculator!&#x1f389;
+ -->
+
+
+
+
+
+
+
+ 
+ 
+ Online CAT Coaching 
+ 
+ Visit our Website
+
+ 
+
+
+ CAT Coaching 
+ 
+ CAT Coaching in Chennai
+
+ CAT Preparation Books
+
+ 
+
+
+ CAT Preparation 
+ 
+ CAT Previous Year Papers
+
+ 2IIM's CAT Questions
+
+ XAT Previous Year Papers
+
+ IIFT Previous Year Papers
+
+ How to prepare for CAT exam 
+ 
+ How
+ to prepare for CAT Quantitative Aptitude
+
+ How
+ to prepare for CAT DILR Section
+
+ How
+ to prepare for CAT VARC Section
+
+ 
+
+
+ What is CAT Exam All about
+
+ CAT Syllabus
+
+ CAT Online Live Classes
+-->
+ GMAT Preparation Online
+
+ 
+
+
+ Blogs / Social 2IIM CAT Preparation Blog
+ 2IIM CAT Preparation Reviews
+ CAT Preparation Quora Answers
+ CAT Preparation Videos
+ CAT Preparation Facebook Group
+ CAT Preparation Facebook Page
+ CAT Preparation Blogs CAT Questions Quantitative Aptitude Blog
+ CAT Preparation Blog
+
+ -->
+ Contact 
+ 
+ About Us
+-->
+ Our Team
+-->
+ Results
+
+ Work for Us
+
+ 
+
+
+ Signup
+ Login
+-->
+ IPMAT 2026 Coaching
+ Online
+
+ 
+
+
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ CAT 2024 Question Paper | CAT LR DI
+
+ CAT Question Paper | CAT Previous Year Paper
+
+
+
+
+
+ 
+ 
+ CAT Online Coaching / CAT Previous Year Paper / CAT 2024 DILR Slot 2
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ 
+ 
+
+ 
+
+
+The above is a schematic diagram of walkways (indicated by all the
+ straight-lines) and lakes (3 of them, each in the shape of rectangles – shaded in the
+ diagram) of a gated area. Different points on the walkway are indicated by letters (A
+ through P) with distances being OP = 150 m, ON = MN = 300 m, ML = 400 m, EL = 200 m, DE =
+ 400 m.
+
+The following additional information about the facilities in the area is
+ known.
+1. The only entry/exit point is at C.
+2. There are many residences within
+ the gated area; all of them are located on the path AH and ML with four of them being at A,
+ H, M, and L.
+3. The post office is located at P and the bank is located at B.
+
+ 
+ CAT 2024 Slot 2 - DI LR
+
+ 
+ One resident whose house is located at L, needs to visit the post office as well as the
+ bank. What is the minimum distance (in m) he has to walk starting from his residence and
+ returning to his residence after visiting both the post office and the bank?
+
+ 
+ 
+ 
+ 3200
+
+ 2700
+
+ 3000
+
+ 3400
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+3200
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 25.97%
+Incorrect:
+ 10.69%
+Unattempted: 63.34%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 2 - DI LR
+
+ 
+ One person enters the gated area and decides to walk as much as possible before leaving
+ the area without walking along any path more than once and always walking next to one of
+ the lakes. Note that he may cross a point multiple times. How much distance (in m) will
+ he walk within the gated area?
+
+ 
+ 
+ 
+ 3800
+
+ 2800
+
+ 3000
+
+ 3200
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+3800
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 23.48%
+Incorrect:
+ 5.37%
+Unattempted: 71.15%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 2 - DI LR
+
+ 
+ One resident takes a walk within the gated area starting from A and returning to A
+ without going through any point (other than A) more than once. What is the maximum
+ distance (in m) she can walk in this way?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 5100
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 1.11%
+Incorrect:
+ 42.41%
+Unattempted: 56.48%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 2 - DI LR
+
+ 
+ Visitors coming for morning walks are allowed to enter as long as they do not pass by any
+ of the residences and do not cross any point (except C) more than once. What is the
+ maximum distance (in m) that such a visitor can walk within the gated area?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 3500
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 6.04%
+Incorrect:
+ 32.28%
+Unattempted: 61.68%
+
+
+
+
+
+
+
+ 
+
+
+
+ Eight gymnastics players numbered 1 through 8 underwent a training camp where
+ they were coached by three coaches - Xena, Yuki, and Zara. Each coach trained at least two
+ players. Yuki trained only even numbered players, while Zara trained only odd numbered
+ players. After the camp, the coaches evaluated the players and gave integer ratings to the
+ respective players trained by them on a scale of 1 to 7, with 1 being the lowest rating and
+ 7 the highest.
+
+The following additional information is known.
+1. Xena
+ trained more players than Yuki.
+2. Player-1 and Player-4 were trained by the same
+ coach, while the coaches who trained Player-2, Player-3 and Player-5 were all
+ different.
+3. Player-5 and Player-7 were trained by the same coach and got the same
+ rating. All other players got a unique rating.
+4. The average of the ratings of all the
+ players was 4.
+5. Player-2 got the highest rating.
+6. The average of the ratings
+ of the players trained by Yuki was twice that of the players trained by Xena and two more
+ than that of the players trained by Zara.
+7. Player-4's rating was double of
+ Player-8's and less than Player-5's.
+
+ 
+ CAT 2024 Slot 2 - DI LR
+
+ 
+ What best can be concluded about the number of players coached by Zara?
+
+ 
+ 
+ 
+ Exactly 3
+
+ Either 2 or 3 or 4
+
+ Exactly 2
+
+ Either 2 or 3
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice C
+Exactly 2
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 40.42%
+Incorrect:
+ 16.78%
+Unattempted: 42.8%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 2 - DI LR
+
+ 
+ What was the rating of Player-7?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 4
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 41.64%
+Incorrect:
+ 27.13%
+Unattempted: 31.23%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 2 - DI LR
+
+ 
+ What was the rating of Player-6?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 5
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 33.44%
+Incorrect:
+ 30.45%
+Unattempted: 36.1%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 2 - DI LR
+
+ 
+ For how many players the ratings can be determined with certainty?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 6
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 32.89%
+Incorrect:
+ 33.11%
+Unattempted: 34.0%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 2 - DI LR
+
+ 
+ Who all were the players trained by Xena?
+
+ 
+ 
+ 
+ Player-1, Player-3, Player-4, Player-6
+
+ Player-1, Player-4, Player-6, Player-8
+
+ Player-1, Player-3, Player-4, Player-8
+
+ Player-1, Player-3, Player-4
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice C
+Player-1, Player-3, Player-4,
+ Player-8
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 31.4%
+Incorrect:
+ 19.99%
+Unattempted: 48.62%
+
+
+
+
+
+
+
+ 
+
+
+
+ The numbers 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10 are placed in ten slots of the
+ following grid based on the conditions below.
+
+1. Numbers in any row appear in an increasing order from left
+ to right.
+2. Numbers in any column appear in a decreasing order from top to
+ bottom.
+3. 1 is placed either in the same row or in the same column as 10.
+4.
+ Neither 2 nor 3 is placed in the same row or in the same column as 10.
+5. Neither 7
+ nor 8 is placed in the same row or in the same column as 9.
+6. 4 and 6 are placed in
+ the same row.
+
+ 
+ CAT 2024 Slot 2 - DI LR
+
+ 
+ What is the row number which has the least sum of numbers placed in that row?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 4
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 62.24%
+Incorrect:
+ 16.33%
+Unattempted: 21.43%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 2 - DI LR
+
+ 
+ Which of the following statements MUST be true?
+
+I. 10 is placed in a slot
+ in Row 1.
+II. 1 is placed in a slot in Row 4.
+
+
+ 
+ 
+ 
+ Both I and II
+
+ Only I
+
+ Only II
+
+ Neither I nor II
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+Both I and II
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 49.56%
+Incorrect:
+ 17.83%
+Unattempted: 32.61%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 2 - DI LR
+
+ 
+ Which of the following statements MUST be true?
+
+I. 2 is placed in a slot
+ in Column 2.
+II. 3 is placed in a slot in Column 3.
+
+ 
+ 
+ 
+ Both I and II
+
+ Neither I nor II
+
+ Only II
+
+ Only I
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+Neither I nor II
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 29.46%
+Incorrect:
+ 31.4%
+Unattempted: 39.15%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 2 - DI LR
+
+ 
+ For how many slots in the grid, placement of numbers CANNOT be determined with certainty?
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 2
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 31.4%
+Incorrect:
+ 44.08%
+Unattempted: 24.53%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 2 - DI LR
+
+ 
+ What is the sum of the numbers placed in Column 4?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 26
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 41.25%
+Incorrect:
+ 32.83%
+Unattempted: 25.91%
+
+
+
+
+
+
+
+ 
+
+
+
+ An online e-commerce firm receives daily integer product ratings from 1 through
+ 5 given by buyers. The daily average is the average of the ratings given on that day. The
+ cumulative average is the average of all ratings given on or before that day.
+The
+ rating system began on Day 1, and the cumulative averages were 3 and 3.1 at the end of Day 1
+ and Day 2, respectively. The distribution of ratings on Day 2 is given in the figure
+ below.
+
+The following information is known about ratings on Day
+ 3.
+1. 100 buyers gave product ratings on Day 3.
+2. The modes of the product
+ ratings were 4 and 5.
+3. The numbers of buyers giving each product rating are non-zero
+ multiples of 10.
+4. The same number of buyers gave product ratings of 1 and 2, and that
+ number is half the number of buyers who gave a rating of 3.
+
+ 
+ CAT 2024 Slot 2 - DI LR
+
+ 
+ How many buyers gave ratings on Day 1?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 150
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 19.49%
+Incorrect:
+ 34.11%
+Unattempted: 46.4%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 2 - DI LR
+
+ 
+ What is the daily average rating of Day 3?
+
+ 
+ 
+ 
+ 3.5
+
+ 3.2
+
+ 3.0
+
+ 3.6
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+3.6
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 24.09%
+Incorrect:
+ 7.03%
+Unattempted: 68.88%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 2 - DI LR
+
+ 
+ What is the median of all ratings given on Day 3?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 4
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 25.36%
+Incorrect:
+ 24.7%
+Unattempted: 49.94%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 2 - DI LR
+
+ 
+ Which of the following is true about the cumulative average ratings of Day 2 and Day 3?
+
+
+ 
+ 
+ 
+ The cumulative average of Day 3 increased by less than 5% from Day 2.
+
+ The cumulative average of Day 3 increased by more than 8% from Day 2.
+
+ The cumulative average of Day 3 increased by a percentage between 5% and 8%
+ from Day 2.
+
+ The cumulative average of Day 3 decreased from Day 2.
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice C
+The cumulative average of Day 3
+ increased by a percentage between 5% and 8% from Day 2.
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 15.34%
+Incorrect:
+ 11.02%
+Unattempted: 73.64%
+
+
+
+
+
+
+
+ 
+
+
+
+ The two plots below give the following information about six firms A, B, C, D,
+ E, and F for 2019 and 2023.
+
+PAT: The firm's profits after taxes in Rs.
+ crores,
+
+ES: The firm's employee strength, that is the number of employees in the
+ firm, and
+
+PRD: The percentage of the firm's PAT that they spend on Research and
+ Development (R&D).
+
+In the plots, the horizontal and vertical coordinates of point
+ representing each firm gives their ES and PAT values respectively. The PRD values of each
+ firm are proportional to the areas around the points representing each firm. The areas are
+ comparable between the two plots, i.e., equal areas in the two plots represent the same PRD
+ values for the two years.
+
+
+ 
+ CAT 2024 Slot 2 - DI LR
+
+ 
+ Assume that the annual rate of growth in PAT over the previous year (ARG) remained
+ constant over the years for each of the six firms. Which among the firms A, B, C, and E
+ had the highest ARG?
+
+ 
+ 
+ 
+ Firm C
+
+ Firm B
+
+ Firm A
+
+ Firm E
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+Firm E
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 28.41%
+Incorrect:
+ 8.31%
+Unattempted: 63.29%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 2 - DI LR
+
+ 
+
+The ratio of the amount of money spent by Firm C on R&D in 2019 to that in 2023
+ is closest to
+
+ 
+ 
+ 
+ 5 : 9
+
+ 9 : 5
+
+ 9 : 4
+
+ 5 : 6
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+9 : 5
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 15.34%
+Incorrect:
+ 18.88%
+Unattempted: 65.78%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 2 - DI LR
+
+ 
+ Which among the firms A, C, E, and F had the maximum PAT per employee in 2023?
+
+ 
+ 
+ 
+ Firm C
+
+ Firm A
+
+ Firm E
+
+ Firm F
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+Firm C
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 33.89%
+Incorrect:
+ 8.47%
+Unattempted: 57.64%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 2 - DI LR
+
+ 
+ Which among the firms C, D, E, and F had the least amount of R&D spending per employee in
+ 2023?
+
+ 
+ 
+ 
+ Firm D
+
+ Firm E
+
+ Firm C
+
+ Firm F
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+Firm D
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 12.79%
+Incorrect:
+ 20.1%
+Unattempted: 67.11%
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+ section of your HTML file -->
+
+ 🎯 2IIM’s VARC Offline Workshop — Sep 26 & 27 | Chennai | Master VARC with CAT Experts | RC, Para Summary, Para Jumble, Test & Analysis | ₹999 (₹1500)
+
+ Enrol Now →
+
+ -->
+
+ 🎯 2IIM’s CAT 2026 Percentile Booster — Classes Start This Monday!
+
+ Enrol Now →
+
+ Struggling with VARC, DILR, or Quant? Learn Just That Section.
+
+ ★ Click here!
+
+ 🔥 Limited-Time 3-Day Offer | Choose VARC, DILR or Quant for ₹5,000 Only
+
+ Click here! →
+
+ -->
+
+ First Edition Now Available | CAT PYQ 2020–2025 | Limited First Print
+
+ Order Now →
+
+ ⏳Register for a free 2IIM demo class and start your
+ preparation the right way.
+
+ ★ Click here!
+
+ -->
+
+ Download comprehensive
+ PDFs of past years’ question papers with answers.
+
+ ★ Click here
+
+ Repeating
+ CAT? Ace it with 2 IIM! Get expert guidance & exclusive discounts.
+ 🚀
+
+ ★ Register Now
+
+ -->
+
+ Best CAT Online Coaching
+
+ Try upto 40 hours for free
+ Learn from the best!
+
+ ★ Sign up Now!
+
+ -->
+
+ CAT
+ Coaching in Chennai
+CAT 2024
+
+ Classroom Batches Starting Now! @Gopalapuram and @Anna
+ nagar
+
+ ★ CAT Coaching
+
+ -->
+
+ Best CAT Coaching in Chennai
+
+ Attend a Demo Class
+
+ ★ Schedule a Demo!
+
+ -->
+
+ -->
+ -->
+ -->
+
+ -->
+ &#x1F3AF; Huge Discount: 5,000 off on Online CAT Course. Till June 30. Register now! -->
+ Upto 50% off - Take the Scholarship test now! -->
+
+ 
+
+
+ 
+
+
+ 
+ 
+
+
+ 
+ 2IIM offers the best CAT coaching in Chennai. We conduct weekend CAT classes in Chennai.
+ 2IIM's Online CAT Coaching is the most comprehensive & Best CAT Online Coaching available in the
+ country.
+
+
+
+ 
+ 
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT Online Preparation
+
+ LIVE Classroom CAT classes
+
+ CAT Online
+ Coaching
+
+ CAT
+ Quantitative Aptitude Course
+
+ CAT DILR | Logical Reasoning for CAT
+
+ Best CAT Coaching in
+ Chennai
+
+
+
+ 
+ CAT Preparation
+
+ CAT Questions
+
+ CAT Preparation Youtube
+
+ CAT Question Paper
+
+ CAT Previous Year Papers
+
+ CAT
+ Preparation books
+
+
+
+ 
+ What is CAT?
+
+ CAT Syllabus | CAT Syllabus 2026
+
+ CAT Exam
+ Pattern
+
+ What is CAT
+ Exam? | CAT Exam Eligibility
+
+ How to
+ Prepare for CAT exam?
+
+
+
+ 
+ CAT Preparation | Videos
+
+ 
+ CAT Online Preparation
+
+ How to Prepare for CAT 2026 
+
+
+ CAT Preparation Do's and
+ Dont's
+
+ CAT Online Live Classes
+
+
+
+
+
+ 
+ 
+ 
+ 
+ Copyrights © All Rights Reserved by 2IIM.com - A Fermat Education Initiative .
+ Privacy Policy | Terms & Conditions
+
+ 
+ CAT ® (Common Admission Test) is a registered trademark of the Indian
+ Institutes of Management. This website is not endorsed or approved by IIMs.
+
+
+
+
+ 
+ Where is 2IIM located?
+
+ 2IIM Online CAT Coaching
+ A Fermat Education Initiative,
+19/43, MG Chakrapani St,
+ Sathya Garden, Saligramam, Chennai 600 093
+
+
+
+ 
+ How to reach 2IIM?
+
+ Mobile: (91) 99626 48484 / 94459
+ 38484
+ WhatsApp: WhatsApp Now
+ Email: info@2iim.com
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ Wizako GMAT Preparation
+
+ 
+ GMAT Preparation Online
+
+ GMAT Coaching in Chennai
+
+ GMAT Sample Questions
+
+ GMAT
+ Prep Videos
+
+
+
+ 
+ Wizako GRE
+
+ 
+ GRE Coaching in Chennai
+
+ GRE Questions
+
+ Online GRE Coaching
+
+ GRE
+ Preparation Videos
+
+
+
+ 
+ Ascent TANCET Coaching
+
+ 
+ TANCET Classes Online
+
+ TANCET Coaching Centres in Chennai
+
+ TANCET Previous Year Question Papers
+
+ TANCET Questions
+
+
+
+ 
+ Maxtute CBSE Maths Classes
+
+ 
+ CBSE Online
+ Classes
+
+ NCERT Solution for Class 10 Maths
+
+ CBSE Sample Papers for class 10
+
+ Class 10
+ Maths Videos
+
+
+
+ 
+ PiVerb
+
+ 
+ Intuitive Math
+ learning
+
+ School
+ Math Videos
+
+
+
+
+
+
+
+ Click to Browse Offline

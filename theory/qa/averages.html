@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Averages · CAT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,650;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/notes.css">
+<script>
+MathJax = {
+  tex: { inlineMath: [['\\(','\\)']], displayMath: [['\\[','\\]']] }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body data-theme="cat">
+<canvas id="field" aria-hidden="true"></canvas>
+<div class="progress" id="progress"></div>
+<button type="button" class="handle left" id="toc-btn" aria-expanded="false">Contents</button>
+<button type="button" class="handle right" id="study-btn" aria-expanded="false">Study</button>
+<aside class="rail left" id="toc-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">CAT 2026 · IIM A</p>
+    <h2>On this page</h2>
+  </div>
+  <nav class="rail-body toc" id="toc">
+    <a href="#sheet"><small>01</small>Sheet</a>
+    <a href="#questions"><small>02</small>PYQs (5)</a>
+  </nav>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="toc-mark"></div></div>
+  <div class="rail-foot" id="toc-foot">Contents</div>
+</aside>
+<aside class="rail right" id="study-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">Studio</p>
+    <h2>Study</h2>
+  </div>
+  <div class="rail-body">
+    <a class="tool" href="../index.html"><small>All topics</small>Theory home</a>
+    <button type="button" class="tool" id="exam-btn"><small>Hide commentary</small>Exam mode</button>
+    <button type="button" class="tool" id="formula-btn"><small>Only the slabs</small>Formulas</button>
+    <button type="button" class="tool" id="draw-btn"><small>From the PYQs</small>Draw a question</button>
+    <button type="button" class="tool" id="print-btn"><small>Browser print</small>Print</button>
+  </div>
+  <div class="draw" id="draw"><span class="lbl">Question</span>Draw a question when you want a prompt without rereading the sheet.</div>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="study-mark"></div></div>
+  <div class="rail-foot">Exam mode keeps formulas, takeaways, traps, and the PYQs (answers hidden). Formulas hides the papers.</div>
+</aside>
+<article class="page" id="top">
+  <header class="mast">
+    <div class="meta-row">
+      <span class="chip">CAT 2026</span>
+      <span class="chip gold">Arithmetic</span>
+      <span class="chip">5 PYQs</span>
+    </div>
+    <h1>Averages</h1>
+    <p class="lede">Weighted, replacement, AM–GM–HM, cricket.</p>
+  </header>
+
+<div class="section-head" id="sheet">
+  <div class="num">01</div>
+  <h2>Sheet</h2>
+  <label class="review"><input type="checkbox"> reviewed</label>
+</div>
+<div class="eq" data-tex="\bar x = \frac{\sum x_i}{n},\qquad n\bar x = \text{total}"><button class="copy-eq" type="button">Copy</button>\[\bar x = \frac{\sum x_i}{n},\qquad n\bar x = \text{total}\]</div>
+<p>Join \(x\): new \(=\frac{nA+x}{n+1}\). Leave \(x\): \(\frac{nA-x}{n-1}\). Replace \(x\) by \(y\): change in average \(=\frac{y-x}{n}\).</p>
+<p><strong>Weighted.</strong> \(\frac{n_1A_1+n_2A_2}{n_1+n_2}\). Alligation if you need the mix ratio given the combined average.</p>
+<p><strong>AM–GM–HM</strong> for positives: \(\mathrm{AM}\ge\mathrm{GM}\ge\mathrm{HM}\), equality iff all equal. Two numbers \(a,b\): \(\mathrm{AM}=\frac{a+b}{2}\), \(\mathrm{GM}=\sqrt{ab}\), \(\mathrm{HM}=\frac{2ab}{a+b}\), and \(\mathrm{GM}^2=\mathrm{AM}\cdot\mathrm{HM}\).</p>
+<p>Equal distances \(\Rightarrow\) average speed is HM. Equal times \(\Rightarrow\) AM of speeds.</p>
+<p>First \(n\) naturals: \(\frac{n+1}{2}\). First \(n\) odds: \(n\). First \(n\) evens: \(n+1\). Squares: \(\frac{(n+1)(2n+1)}{6}\).</p>
+<p>Ages: average of a group \(+1\) after one year. A child born: add 0 (or newborn age) and increment \(n\).</p>
+<div class="def">
+<p><strong>From CAT 2017–2020.</strong></p>
+<ul>
+<li><strong>Two leave, their average given as a fraction of the original average.</strong> Original total \(22A\). Two who leave average \(A/3\), so they take \(2A/3\). Remaining 20 have total \(22A-2A/3\), and the stem says the average of 22 <em>increases by 2 when they leave</em> — that increase is on the 20: \(\frac{22A-2A/3}{20}=A+2\). One equation in \(A\).</li>
+<li><strong>First \(k\) and last \(k\).</strong> Let \(n\) tests, overall \(T\). Drop first 10: avg \(+1\). Drop last 10: avg \(-1\). First-10 avg 20, last-10 avg 30. If the two blocks overlap you must write it; if \(n&gt;20\) they are disjoint and \(T=10\cdot 20 + 10\cdot 30 + (n-20)\mu\). The two “drop” statements pin \(\mu\) and \(n\).</li>
+<li><strong>Cap a subgroup to maximise its average.</strong> Overall 38, 30 people \(\ge 51\), at most 39 younger. To max the young average, minimise the old total (all 51) and take as many young as the “at most” allows, pushing the constraint until integers break.</li>
+<li><strong>Two leave-one-out averages.</strong> Total of 21 other than G, total of 21 other than R, overall. Ramesh’s 82.5 is one known. Translate to totals; Gautam is the unknown.</li>
+<li><strong>20 integers \(\le 5\), 30-integer mean 5, max mean of those 20.</strong> The other 10 are \(&gt;5\) (or \(\ge 6\) if integers). To max the 20, minimise the 10’s excess over 5. Integers: 10 at 6, then the 20 sum to \(150-60=90\), mean 4.5.</li>
+</ul>
+</div>
+<div class="miss"><strong>Trap.</strong> Combined average of 40 and 60 is not 50 unless the counts match. “Average of averages” is a weighted mean with hidden weights.</div>
+<div class="take"><strong>Move.</strong> Always restore the total. Cricket “to raise average from \(a\) to \(b\) in \(k\) more innings” is a linear Diophantine on remaining scores with a cap if they mention a highest possible innings.</div>
+
+
+
+<div class="section-head" id="questions">
+  <div class="num">02</div>
+  <h2>CAT 2017–2020 PYQs</h2>
+  <label class="review"><input type="checkbox"> reviewed</label>
+</div>
+<p class="bank-note">5 authentic items from 2IIM’s public papers, tagged with year and slot. 2017: 1 · 2018: 2 · 2019: 2. Open a question for the official answer. Figures load from 2IIM.</p>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q6</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Averages</span>
+    </div>
+    <div class="q-stem">The average height of 22 toddlers increases by 2 inches when two of them leave this group. If the average height of these two toddlers is one-third the average height of the original 22, then the average height, in inches, of the remaining 20 toddlers is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 30</li><li><span class="opt-k">B</span> 28</li><li><span class="opt-k">C</span> 32</li><li><span class="opt-k">D</span> 26</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 32</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q5</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Averages</span>
+    </div>
+    <div class="q-stem">A CAT aspirant appears for a certain number of tests. His average score increases by 1 if the first 10 tests are not considered, and decreases by 1 if the last 10 tests are not considered. If his average scores for the first 10 and the last 10 tests are 20 and 30, respectively, then the total number of tests taken by him is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">60</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q34</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Averages</span>
+    </div>
+    <div class="q-stem">In an apartment complex, the number of people aged 51 years and above is 30 and there are at most 39 people whose ages are below 51 years. The average age of all the people in the apartment complex is 38 years. What is the largest possible average age, in years, of the people whose ages are below 51 years?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 25</li><li><span class="opt-k">B</span> 26</li><li><span class="opt-k">C</span> 27</li><li><span class="opt-k">D</span> 28</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — 28</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q34</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Averages</span>
+    </div>
+    <div class="q-stem">Ramesh and Gautam are among 22 students who write an examination. Ramesh scores 82.5. The average score of the 21 students other than Gautam is 62. The average score of all the 22 students is one more than the average score of the 21 students other than Ramesh. The score of Gautam is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 51</li><li><span class="opt-k">B</span> 53</li><li><span class="opt-k">C</span> 49</li><li><span class="opt-k">D</span> 48</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 51</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q2</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Averages</span>
+    </div>
+    <div class="q-stem">The average of 30 integers is 5. Among these 30 integers, there are exactly 20 which do not exceed 5. What is the highest possible value of the average of these 20 integers?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 4</li><li><span class="opt-k">B</span> 5</li><li><span class="opt-k">C</span> 4.5</li><li><span class="opt-k">D</span> 3.5</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 4.5</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+
+</article>
+<footer class="page">Averages · CAT 2017–2020 PYQs</footer>
+<div class="toast" id="toast">Copied</div>
+<script src="../js/notes-ui.js"></script>
+</body>
+</html>

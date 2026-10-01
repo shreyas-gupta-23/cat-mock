@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ratio and proportion · CAT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,650;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/notes.css">
+<script>
+MathJax = {
+  tex: { inlineMath: [['\\(','\\)']], displayMath: [['\\[','\\]']] }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body data-theme="cat">
+<canvas id="field" aria-hidden="true"></canvas>
+<div class="progress" id="progress"></div>
+<button type="button" class="handle left" id="toc-btn" aria-expanded="false">Contents</button>
+<button type="button" class="handle right" id="study-btn" aria-expanded="false">Study</button>
+<aside class="rail left" id="toc-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">CAT 2026 · IIM A</p>
+    <h2>On this page</h2>
+  </div>
+  <nav class="rail-body toc" id="toc">
+    <a href="#sheet"><small>01</small>Sheet</a>
+    <a href="#questions"><small>02</small>PYQs (7)</a>
+  </nav>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="toc-mark"></div></div>
+  <div class="rail-foot" id="toc-foot">Contents</div>
+</aside>
+<aside class="rail right" id="study-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">Studio</p>
+    <h2>Study</h2>
+  </div>
+  <div class="rail-body">
+    <a class="tool" href="../index.html"><small>All topics</small>Theory home</a>
+    <button type="button" class="tool" id="exam-btn"><small>Hide commentary</small>Exam mode</button>
+    <button type="button" class="tool" id="formula-btn"><small>Only the slabs</small>Formulas</button>
+    <button type="button" class="tool" id="draw-btn"><small>From the PYQs</small>Draw a question</button>
+    <button type="button" class="tool" id="print-btn"><small>Browser print</small>Print</button>
+  </div>
+  <div class="draw" id="draw"><span class="lbl">Question</span>Draw a question when you want a prompt without rereading the sheet.</div>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="study-mark"></div></div>
+  <div class="rail-foot">Exam mode keeps formulas, takeaways, traps, and the PYQs (answers hidden). Formulas hides the papers.</div>
+</aside>
+<article class="page" id="top">
+  <header class="mast">
+    <div class="meta-row">
+      <span class="chip">CAT 2026</span>
+      <span class="chip gold">Arithmetic</span>
+      <span class="chip">7 PYQs</span>
+    </div>
+    <h1>Ratio and proportion</h1>
+    <p class="lede">Chain ratios, partnership, componendo, ages.</p>
+  </header>
+
+<div class="section-head" id="sheet">
+  <div class="num">01</div>
+  <h2>Sheet</h2>
+  <label class="review"><input type="checkbox"> reviewed</label>
+</div>
+<p>A ratio is a scale. CAT adds one linear constraint that pins the scale, or chains two ratios on a common term.</p>
+<p>Chain \(A:B=a:b\), \(B:C=c:d\): make \(B\) common \(\mathrm{lcm}(b,c)\).</p>
+<div class="eq" data-tex="\frac{a}{b}=\frac{c}{d}\iff ad=bc"><button class="copy-eq" type="button">Copy</button>\[\frac{a}{b}=\frac{c}{d}\iff ad=bc\]</div>
+<p><strong>Componendo / dividendo</strong> (and both): \(\frac{a}{b}=\frac{c}{d}\Rightarrow \frac{a+b}{a-b}=\frac{c+d}{c-d}\) if \(a\ne b\). Invertendo, alternendo as needed when the stem is a nested \((a+b)/(a-b)\).</p>
+<p><strong>Continued proportion</strong> \(a,b,c\): \(b^2=ac\). Duplicate ratio of \(a:b\) is \(a^2:b^2\) (areas); triplicate \(a^3:b^3\) (volumes).</p>
+<p><strong>Partnership.</strong> Profit \(\propto\) capital \(\times\) time. If times equal, \(\propto\) capital only.</p>
+<p><strong>Coins / ages.</strong> Value \(= 1\cdot n_1+2\cdot n_2+5\cdot n_5+\cdots\). Ages: the ratio changes because the <em>difference</em> is invariant (or both increase by the same \(t\)).</p>
+<p>If \(kA=mB=nC=\lambda\), then \(A:B:C = \frac{\lambda}{k}:\frac{\lambda}{m}:\frac{\lambda}{n}\).</p>
+<div class="def">
+<p><strong>From CAT 2017–2020.</strong></p>
+<ul>
+<li><strong>Integer scale of a chain.</strong> \(a:b=3:4\) and \(b:c=2:1\) \(\Rightarrow\) make \(b\) common: \(6:8:4\). Sum is a multiple of 18. Options that are not multiples of the scale are dead.</li>
+<li><strong>Transfer.</strong> \((ak+x):(bk-x)=p:q\). Cross-multiply; \(x\) as a fraction of Lalitha’s original is \(x/(bk)\).</li>
+<li><strong>Same addend on both.</strong> \((a+x):(b+x)=p:q\). Then new/old of one person is \((b+x)/b\).</li>
+<li><strong>Two-year salary ratios.</strong> 2010 as \(6k:5k:7k\), 2015 as \(3m:4m:3m\). One known % hike pins \(m/k\), then the others’ hikes. The two ratios are <em>not</em> on the same scale.</li>
+<li><strong>Capital \(\times\) rate.</strong> Interest \(\propto c_i r_i\). Given one interest difference, the total interest is determined.</li>
+<li><strong>Two mix-ratios and two profits</strong> (tea A, B sold at 40): that is P&amp;L plus alligation. CP of the mix \(=\mathrm{SP}/(1+\text{profit})\). Two mixes give two weighted CPs, then alligation (or two linear equations) for \(\mathrm{CP}_A:\mathrm{CP}_B\).</li>
+<li><strong>Review of three scores.</strong> Old: Rama \(=\frac1{12}(M+A)\). New: each \(+6\), and new ratio given. Translate ratio to actuals, subtract 6, feed the first equation.</li>
+</ul>
+</div>
+<div class="miss"><strong>Trap.</strong> Adding a constant to both parts does not preserve the ratio. Mixing two alloys in equal <em>weight</em> vs equal <em>volume</em> are different if densities differ — CAT usually means weight.</div>
+<div class="take"><strong>Move.</strong> Write \(A=ak\), \(B=bk\). Translate every English clause into an equation in \(k\) (or two scales, then glue on the overlap).</div>
+
+
+
+<div class="section-head" id="questions">
+  <div class="num">02</div>
+  <h2>CAT 2017–2020 PYQs</h2>
+  <label class="review"><input type="checkbox"> reviewed</label>
+</div>
+<p class="bank-note">7 authentic items from 2IIM’s public papers, tagged with year and slot. 2017: 1 · 2018: 3 · 2019: 3. Open a question for the official answer. Figures load from 2IIM.</p>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q11</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Ratios</span>
+    </div>
+    <div class="q-stem">If a, b, c are three positive integers such that a and b are in the ratio 3 : 4 while b and c are in the ratio 2 : 1, then which one of the following is a possible value of (a + b + c)?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 201</li><li><span class="opt-k">B</span> 205</li><li><span class="opt-k">C</span> 207</li><li><span class="opt-k">D</span> 210</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 207</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q6</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Ratio &amp; Proportions</span>
+    </div>
+    <div class="q-stem">Two types of tea, A and B, are mixed and then sold at Rs. 40 per kg. The profit is 10% if A and B are mixed in the ratio 3 : 2, and 5% if this ratio is 2 : 3. The cost prices, per kg, of A and B are in the ratio</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 21 : 25</li><li><span class="opt-k">B</span> 19 : 24</li><li><span class="opt-k">C</span> 18 : 25</li><li><span class="opt-k">D</span> 17 : 25</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 19 : 24</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q26</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Ratio and Proportion</span>
+    </div>
+    <div class="q-stem">Raju and Lalitha originally had marbles in the ratio 4 : 9. Then Lalitha gave some of her marbles to Raju. As a result, the ratio of the number of marbles with Raju to that with Lalitha became 5 : 6. What fraction of her original number of marbles was given by Lalitha to Raju?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> \(\frac{1}{4}\))</li><li><span class="opt-k">B</span> \(\frac{1}{5}\))</li><li><span class="opt-k">C</span> \(\frac{6}{19}\))</li><li><span class="opt-k">D</span> \(\frac{7}{33}\))</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — \(\frac{7}{33}\))</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q24</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Ratio &amp; Proportions</span>
+    </div>
+    <div class="q-stem">The scores of Amal and Bimal in an examination are in the ratio 11 : 14. After an appeal, their scores increase by the same amount and their new scores are in the ratio 47 : 56. The ratio of Bimal’s new score to that of his original score is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 3 : 2</li><li><span class="opt-k">B</span> 4 : 3</li><li><span class="opt-k">C</span> 5 : 4</li><li><span class="opt-k">D</span> 8 : 5</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 4 : 3</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q23</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Ratios and proportions</span>
+    </div>
+    <div class="q-stem">Amala, Bina, and Gouri invest money in the ratio 3 : 4 : 5 in fixed deposits having respective annual interest rates in the ratio 6 : 5 : 4. What is their total interest income (in Rs) after a year, if Bina's interest income exceeds Amala's by Rs 250?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 7000</li><li><span class="opt-k">B</span> 6000</li><li><span class="opt-k">C</span> 6350</li><li><span class="opt-k">D</span> 7250</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — 7250</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q16</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Ratio &amp; proportion</span>
+    </div>
+    <div class="q-stem">In an examination, Rama's score was one-twelfth of the sum of the scores of Mohan and Anjali. After a review, the score of each of them increased by 6. The revised scores of Anjali, Mohan, and Rama were in the ratio 11:10:3. Then Anjali's score exceeded Rama's score by</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 26</li><li><span class="opt-k">B</span> 32</li><li><span class="opt-k">C</span> 24</li><li><span class="opt-k">D</span> 35</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 32</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q23</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Ratios and proportions</span>
+    </div>
+    <div class="q-stem">The salaries of Ramesh, Ganesh and Rajesh were in the ratio 6:5:7 in 2010, and in the ratio 3:4:3 in 2015. If Ramesh's salary increased by 25% during 2010-2015, then the percentage increase in Rajesh's salary during this period is closest to</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 7</li><li><span class="opt-k">B</span> 8</li><li><span class="opt-k">C</span> 9</li><li><span class="opt-k">D</span> 10</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 7</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+
+</article>
+<footer class="page">Ratio and proportion · CAT 2017–2020 PYQs</footer>
+<div class="toast" id="toast">Copied</div>
+<script src="../js/notes-ui.js"></script>
+</body>
+</html>

@@ -1,0 +1,1072 @@
+
+
+======== percentages (8) ========
+
+[CAT 2017 Slot 2 QA Q5 | Percentages | MCQ | ans Choice B — 13000]
+Out of the shirts produced in a factory, 15% are defective, while 20% of the rest are sold in the domestic market. If the remaining 8840 shirts are left for export, then the number of shirts produced in the factory is
+  opts: 13600 | 13000 | 13400 | 14000
+
+[CAT 2017 Slot 2 QA Q10 | Percentages | MCQ | ans Choice C — 10]
+In a village, the production of food grains increased by 40% and the per capita production of food grains increased by 27% during a certain period. The percentage by which the population of the village increased during the same period is nearest to
+  opts: 16 | 13 | 10 | 7
+
+[CAT 2018 Slot 1 QA Q19 | Percentages | MCQ | ans Choice B — 243 ≤ N ≤ 252]
+In an examination, the maximum possible score is N while the pass mark is 45% of N. A candidate obtains 36 marks, but falls short of the pass mark by 68%. Which one of the following is then correct?
+  opts: N ≤ 200 | 243 ≤ N ≤ 252 | N ≥ 253 | 201 ≤ N ≤ 242
+
+[CAT 2019 Slot 1 QA Q1 | Percentages | TITA | ans 20]
+In a class, 60% of the students are girls and the rest are boys. There are 30 more girls than boys. If 68% of the students, including 30 boys,pass an examination, the percentage of the girls who do not pass is
+
+[CAT 2019 Slot 1 QA Q6 | Percentages | MCQ | ans Choice D — 70]
+Meena scores 40% in an examination and after review, even though her score is increased by 50%, she fails by 35 marks. If her post-review score is increased by 20%, she will have 7 marks more than the passing score. The percentage score needed for passing the examination is
+  opts: 75 | 80 | 60 | 70
+
+[CAT 2019 Slot 1 QA Q18 | Percentages | MCQ | ans Choice C — 31]
+The income of Amala is 20% more than that of Bimala and 20% less than that of Kamala. If Kamala's income goes down by 4% and Bimala's goes up by 10%, then the percentage by which Kamala's income would exceed Bimala's is nearest to
+  opts: 28 | 29 | 31 | 32
+
+[CAT 2019 Slot 2 QA Q9 | Percentages | MCQ | ans Choice A — 6600]
+In 2010, a library contained a total of 11500 books in two categories - fiction and non-fiction. In 2015, the library contained a total of 12760 books in these two categories. During this period, there was 10% increase in the fiction category while there was 12% increase in the non-fiction category. How many fiction books were in the library in 2015?
+  opts: 6600 | 6160 | 6000 | 5500
+
+[CAT 2019 Slot 2 QA Q17 | Percentages | TITA | ans 80]
+In an examination, the score of A was 10% less than that of B, the score of B was 25% more than that of C, and the score of C was 20% less than that of D. If A scored 72, then the score of D was
+
+
+======== ratio (7) ========
+
+[CAT 2017 Slot 2 QA Q11 | Ratios | MCQ | ans Choice C — 207]
+If a, b, c are three positive integers such that a and b are in the ratio 3 : 4 while b and c are in the ratio 2 : 1, then which one of the following is a possible value of (a + b + c)?
+  opts: 201 | 205 | 207 | 210
+
+[CAT 2018 Slot 1 QA Q6 | Ratio & Proportions | MCQ | ans Choice B — 19 : 24]
+Two types of tea, A and B, are mixed and then sold at Rs. 40 per kg. The profit is 10% if A and B are mixed in the ratio 3 : 2, and 5% if this ratio is 2 : 3. The cost prices, per kg, of A and B are in the ratio
+  opts: 21 : 25 | 19 : 24 | 18 : 25 | 17 : 25
+
+[CAT 2018 Slot 1 QA Q26 | Ratio and Proportion | MCQ | ans Choice D — \(\frac{7}{33}\))]
+Raju and Lalitha originally had marbles in the ratio 4 : 9. Then Lalitha gave some of her marbles to Raju. As a result, the ratio of the number of marbles with Raju to that with Lalitha became 5 : 6. What fraction of her original number of marbles was given by Lalitha to Raju?
+  opts: \(\frac{1}{4}\)) | \(\frac{1}{5}\)) | \(\frac{6}{19}\)) | \(\frac{7}{33}\))
+
+[CAT 2018 Slot 2 QA Q24 | Ratio & Proportions | MCQ | ans Choice B — 4 : 3]
+The scores of Amal and Bimal in an examination are in the ratio 11 : 14. After an appeal, their scores increase by the same amount and their new scores are in the ratio 47 : 56. The ratio of Bimal’s new score to that of his original score is
+  opts: 3 : 2 | 4 : 3 | 5 : 4 | 8 : 5
+
+[CAT 2019 Slot 1 QA Q23 | Ratios and proportions | MCQ | ans Choice D — 7250]
+Amala, Bina, and Gouri invest money in the ratio 3 : 4 : 5 in fixed deposits having respective annual interest rates in the ratio 6 : 5 : 4. What is their total interest income (in Rs) after a year, if Bina's interest income exceeds Amala's by Rs 250?
+  opts: 7000 | 6000 | 6350 | 7250
+
+[CAT 2019 Slot 2 QA Q16 | Ratio & proportion | MCQ | ans Choice B — 32]
+In an examination, Rama's score was one-twelfth of the sum of the scores of Mohan and Anjali. After a review, the score of each of them increased by 6. The revised scores of Anjali, Mohan, and Rama were in the ratio 11:10:3. Then Anjali's score exceeded Rama's score by
+  opts: 26 | 32 | 24 | 35
+
+[CAT 2019 Slot 2 QA Q23 | Ratios and proportions | MCQ | ans Choice A — 7]
+The salaries of Ramesh, Ganesh and Rajesh were in the ratio 6:5:7 in 2010, and in the ratio 3:4:3 in 2015. If Ramesh's salary increased by 25% during 2010-2015, then the percentage increase in Rajesh's salary during this period is closest to
+  opts: 7 | 8 | 9 | 10
+
+
+======== averages (5) ========
+
+[CAT 2017 Slot 2 QA Q6 | Averages | MCQ | ans Choice C — 32]
+The average height of 22 toddlers increases by 2 inches when two of them leave this group. If the average height of these two toddlers is one-third the average height of the original 22, then the average height, in inches, of the remaining 20 toddlers is
+  opts: 30 | 28 | 32 | 26
+
+[CAT 2018 Slot 1 QA Q5 | Averages | TITA | ans 60]
+A CAT aspirant appears for a certain number of tests. His average score increases by 1 if the first 10 tests are not considered, and decreases by 1 if the last 10 tests are not considered. If his average scores for the first 10 and the last 10 tests are 20 and 30, respectively, then the total number of tests taken by him is
+
+[CAT 2018 Slot 1 QA Q34 | Averages | MCQ | ans Choice D — 28]
+In an apartment complex, the number of people aged 51 years and above is 30 and there are at most 39 people whose ages are below 51 years. The average age of all the people in the apartment complex is 38 years. What is the largest possible average age, in years, of the people whose ages are below 51 years?
+  opts: 25 | 26 | 27 | 28
+
+[CAT 2019 Slot 1 QA Q34 | Averages | MCQ | ans Choice A — 51]
+Ramesh and Gautam are among 22 students who write an examination. Ramesh scores 82.5. The average score of the 21 students other than Gautam is 62. The average score of all the 22 students is one more than the average score of the 21 students other than Ramesh. The score of Gautam is
+  opts: 51 | 53 | 49 | 48
+
+[CAT 2019 Slot 2 QA Q2 | Averages | MCQ | ans Choice C — 4.5]
+The average of 30 integers is 5. Among these 30 integers, there are exactly 20 which do not exceed 5. What is the highest possible value of the average of these 20 integers?
+  opts: 4 | 5 | 4.5 | 3.5
+
+
+======== mixtures (22) ========
+
+[CAT 2017 Slot 1 QA Q3 | Averages | TITA | ans 11]
+An elevator has a weight limit of 630 kg. It is carrying a group of people of whom the heaviest weighs 57 kg and the lightest weighs 53 kg. What is the maximum possible number of people in the group?
+
+[CAT 2017 Slot 1 QA Q8 | Ratio & Proportions | MCQ | ans Choice A — 438 crore]
+Suppose, C1, C2, C3, C4, and C5 are five companies. The profits made by C1, C2, and C3 are in the ratio 9 : 10 : 8 while the profits made by C2, C4, and C5 are in the ratio 18 : 19 : 20. If C5 has made a profit of Rs 19 crore more than C1, then the total profit (in Rs) made by all five companies is:
+  opts: 438 crore | 435 crore | 348 crore | 345 crore
+
+[CAT 2017 Slot 1 QA Q10 | Ratio & Proportions | MCQ | ans Choice A — 1 : 1]
+A stall sells popcorn and chips in packets of three sizes: large, super, and jumbo. The numbers of large, super, and jumbo packets in its stock are in the ratio 7 : 17 : 16 for popcorn and 6 : 15 : 14 for chips. If the total number of popcorn packets in its stock is the same as that of chips packets, then the numbers of jumbo popcorn packets and jumbo chips packets are in the ratio:
+  opts: 1 : 1 | 8 : 7 | 4 : 3 | 6 : 5
+
+[CAT 2017 Slot 1 QA Q14 | Mixture & Alligation | MCQ | ans Choice A — 9.5]
+A class consists of 20 boys and 30 girls. In the mid-semester examination, the average score of the girls was 5 higher than that of the boys. In the final exam, however, the average score of the girls dropped by 3 while the average score of the entire class increased by 2. The increase in the average score of the boys is:
+  opts: 9.5 | 10 | 4.5 | 6
+
+[CAT 2017 Slot 2 QA Q3 | Mixtures | MCQ | ans Choice B — 27 : 13]
+Bottle 1 contains a mixture of milk and water in 7 : 2 ratio and Bottle 2 contains a mixture of milk and water in 9 : 4 ratio. In what ratio of volumes should the liquids in Bottle 1 and Bottle 2 be combined to obtain a mixture of milk and water in 3 : 1 ratio?
+  opts: 27 : 14 | 27 : 13 | 27 : 16 | 27 : 18
+
+[CAT 2017 Slot 2 QA Q14 | Mixtures | MCQ | ans Choice C — More water than liquid B]
+Consider three mixtures - the first having water and liquid A in the ratio 1 : 2, the second having water and liquid B in the ratio 1 : 3, and the third having water and liquid C in the ratio 1 : 4. These three mixtures of A, B, and C, respectively, are further mixed in the proportion 4 : 3 : 2. Then the resulting mixture has
+  opts: The same amount of water and liquid B | The same amount of liquids B and C | More water than liquid B | More water than liquid A
+
+[CAT 2018 Slot 1 QA Q1 | Mixtures and Alligations | MCQ | ans Choice A — 20]
+A trader sells 10 litres of a mixture of paints A and B, where the amount of B in the mixture does not exceed that of A. The cost of paint A per litre is Rs. 8 more than that of paint B. If the trader sells the entire mixture for Rs. 264 and makes a profit of 10%, then the highest possible cost of paint B, in Rs. per litre, is
+  opts: 20 | 16 | 22 | 26
+
+[CAT 2018 Slot 1 QA Q7 | Mixtures | MCQ | ans Choice C — 96]
+A wholesaler bought walnuts and peanuts, the price of walnut per kg being thrice that of peanut per kg. He then sold 8 kg of peanuts at a profit of 10% and 16 kg of walnuts at a profit of 20% to a shopkeeper. However, the shopkeeper lost 5 kg of walnuts and 3 kg of peanuts in transit. He then mixed the remaining nuts and sold the mixture at Rs. 166 per kg, thus making an overall profit of 25%. At what price, in Rs. per kg, did the wholesaler buy the walnuts?
+  opts: 84 | 86 | 96 | 98
+
+[CAT 2018 Slot 2 QA Q3 | Ratio & Proportion | Mixtures & Alligations | MCQ | ans Choice B — 239 : 161]
+There are two drums, each containing a mixture of paints A and B. In drum 1, A and B are in the ratio 18 : 7. The mixtures from drums 1 and 2 are mixed in the ratio 3 : 4 and in this final mixture, A and B are in the ratio 13 : 7. In drum 2, then A and B were in the ratio
+  opts: 251 : 163 | 239 : 161 | 220 : 149 | 229 : 141
+
+[CAT 2018 Slot 2 QA Q11 | Mixtures | MCQ | ans Choice A — 50%]
+A 20% ethanol solution is mixed with another ethanol solution, say, S of unknown concentration in the proportion 1:3 by volume. This mixture is then mixed with an equal volume of 20% ethanol solution. If the resultant mixture is a 31.25% ethanol solution, then the unknown concentration of S is
+  opts: 50% | 55% | 48% | 52%
+
+[CAT 2018 Slot 2 QA Q19 | Mixtures and Alligations | MCQ | ans Choice D — 35.2]
+A jar contains a mixture of 175 ml water and 700 ml alcohol. Gopal takes out 10% of the mixture and substitutes it by water of the same amount. The process is repeated once again. The percentage of water in the mixture is now
+  opts: 25.4 | 20.5 | 30.3 | 35.2
+
+[CAT 2018 Slot 2 QA Q33 | Ratio & Proportions | Mixtures & Alligations | MCQ | ans Choice B — 1 : 3]
+The strength of a salt solution is p% if 100 ml of the solution contains p grams of salt. If three salt solutions A, B, C are mixed in the proportion 1 : 2 : 3, then the resulting solution has strength 20%. If instead the proportion is 3 : 2 : 1, then the resulting solution has strength 30%. A fourth solution, D, is produced by mixing B and C in the ratio 2 : 7. The ratio of the strength of D to that of A is
+  opts: 3 : 10 | 1 : 3 | 2 : 5 | 1 : 4
+
+[CAT 2019 Slot 1 QA Q25 | Mixtures | MCQ | ans Choice C — 80]
+A chemist mixes two liquids 1 and 2. One litre of liquid 1 weighs 1 kg and one litre of liquid 2 weighs 800 gm. If half litre of the mixture weighs 480 gm, then the percentage of liquid 1 in the mixture, in terms of volume, is
+  opts: 70 | 85 | 80 | 75
+
+[CAT 2019 Slot 2 QA Q30 | Mixtures | MCQ | ans Choice D — 14]
+The strength of a salt solution is p% if 100 ml of the solution contains p grams of salt. Each of three vessels A, B, C contains 500 ml of salt solution of strengths 10%, 22%, and 32%, respectively. Now, 100 ml of the solution in vessel A is transferred to vessel B. Then, 100 ml of the solution in vessel B is transferred to vessel C. Finally, 100 ml of the solution in vessel C is transferred to vessel A. The strength, in percentage, of the resulting solution in vessel A is
+  opts: 15 | 12 | 13 | 14
+
+[CAT 2020 Slot 1 QA Q8 | Averages | MCQ | ans A — 6]
+Let A, B and C be three positive integers such that the sum of A and the mean of B and C is 5. In addition, the sum of B and the mean of A and C is 7. Then the sum of A and B is
+  opts: 6 | 4 | 7 | 5
+
+[CAT 2020 Slot 1 QA Q24 | Mixtures | MCQ | ans A — 84]
+An alloy is prepared by mixing metals A, B, C in the proportion 3 : 4 : 7 by volume. Weights of the same volume of metals A, B, C are in the ratio 5 : 2 : 6. In 130 kg of the alloy, the weight, in kg, of the metal C is
+  opts: 84 | 48 | 96 | 70
+
+[CAT 2020 Slot 1 QA Q26 | Ratio & Proportions | TITA | ans 8]
+A solution, of volume 40 litres, has dye and water in the proportion 2 : 3. Water is added to the solution to change this proportion to 2 : 5. If one-fourths of this diluted solution is taken out, how many litres of dye must be added to the remaining solution to bring the proportion back to 2 : 3?
+
+[CAT 2020 Slot 2 QA Q3 | Averages | MCQ | ans C — 4]
+In a group of 10 students, the mean of the lowest 9 scores is 42 while the mean of the highest 9 scores is 47. For the entire group of 10 students, the maximum possible mean exceeds the minimum possible mean by
+  opts: 5 | 3 | 4 | 6
+
+[CAT 2020 Slot 2 QA Q25 | Ratio & Proportions | TITA | ans 800]
+A sum of money is split among Amal, Sunil and Mita so that the ratio of the shares of Amal and Sunil is 3:2, while the ratio of the shares of Sunil and Mita is 4:5. If the difference between the largest and the smallest of these three shares is Rs 400, then Sunil’s share, in rupees, is
+
+[CAT 2020 Slot 3 QA Q6 | Averages | TITA | ans 18]
+Dick is thrice as old as Tom and Harry is twice as old as Dick. If Dick's age is 1 year less than the average age of all three, then Harry's age, in years, is
+
+[CAT 2020 Slot 3 QA Q17 | Averages | MCQ | ans C — 2]
+A batsman played n + 2 innings and got out on all occasions. His average score in these n + 2 innings was 29 runs and he scored 38 and 15 runs in the last two innings. The batsman scored less than 38 runs in each of the first n innings. In these n innings, his average score was 30 runs and lowest score was x runs. The smallest possible value of x is
+  opts: 1 | 3 | 2 | 4
+
+[CAT 2020 Slot 3 QA Q18 | Mixtures | MCQ | ans B — 92%]
+Two alcohol solutions, A and B, are mixed in the proportion 1:3 by volume. The volume of the mixture is then doubled by adding solution A such that the resulting mixture has 72% alcohol. If solution A has 60% alcohol, then the percentage of alcohol in solution B is
+  opts: 94% | 92% | 90% | 89%
+
+
+======== profit-loss (17) ========
+
+[CAT 2017 Slot 1 QA Q1 | Percentages | TITA | ans 20]
+Arun's present age in years is 40% of Barun's. In another few years, Arun's age will be half of Barun's. By what percentage will Barun's age increase during this period?
+
+[CAT 2017 Slot 1 QA Q5 | Percentages | TITA | ans 70000]
+Ravi invests 50% of his monthly savings in fixed deposits. Thirty percent of the rest of his savings is invested in stocks and the rest goes into Ravi's savings bank account. If the total amount deposited by him in the bank (for savings account and fixed deposits) is Rs 59500, then Ravi's total monthly savings (in Rs) is:
+
+[CAT 2017 Slot 1 QA Q6 | Profit & Loss | MCQ | ans Choice D — Sell at retail price]
+If a seller gives a discount of 15% on retail price, she still makes a profit of 2%. Which of the following ensures that she makes a profit of 20%?
+  opts: Give a discount of 5% on retail price | Give a discount of 2% on retail price | Increase the retail price by 2% | Sell at retail price
+
+[CAT 2017 Slot 1 QA Q9 | Percentages | MCQ | ans Choice D — 65]
+The number of girls appearing for an admission test is twice the number of boys. If 30% of the girls and 45% of the boys get admission, the percentage of candidates who do not get admission is:
+  opts: 35 | 50 | 60 | 65
+
+[CAT 2017 Slot 1 QA Q11 | Profit & Loss | MCQ | ans Choice B — 8%]
+In a market, the price of medium quality mangoes is half that of good mangoes. A shopkeeper buys 80 kg good mangoes and 40 kg medium quality mangoes from the market and then sells all these at a common price which is 10% less than the price at which he bought the good ones. His overall profit is:
+  opts: 6% | 8% | 10% | 12%
+
+[CAT 2017 Slot 1 QA Q12 | Profit & Loss | MCQ | ans Choice D — 28%]
+If Fatima sells 60 identical toys at a 40% discount on the printed price, then she makes 20% profit. Ten of these toys are destroyed in fire. While selling the rest, how much discount should be given on the printed price so that she can make the same amount of profit?
+  opts: 30% | 25% | 24% | 28%
+
+[CAT 2017 Slot 2 QA Q7 | Profit & Loss | MCQ | ans Choice B — 2000]
+The manufacturer of a table sells it to a wholesale dealer at a profit of 10%. The wholesale dealer sells the table to a retailer at a profit of 30%. Finally, the retailer sells it to a customer at a profit of 50%. If the customer pays Rs 4290 for the table, then its manufacturing cost (in Rs) is
+  opts: 1500 | 2000 | 2500 | 3000
+
+[CAT 2017 Slot 2 QA Q9 | Profit & Loss | MCQ | ans Choice A — 50]
+Mayank buys some candies for Rs 15 a dozen and an equal number of different candies for Rs 12 a dozen. He sells all for Rs 16.50 a dozen and makes a profit of Rs 150. How many dozens of candies did he buy altogether?
+  opts: 50 | 30 | 25 | 45
+
+[CAT 2019 Slot 1 QA Q13 | Profit & Loss | MCQ | ans Choice A — 80]
+On selling a pen at 5% loss and a book at 15% gain, Karim gains Rs. 7. If he sells the pen at 5% gain and the book at 10% gain, he gains Rs. 13. What is the cost price of the book in Rupees?
+  opts: 80 | 85 | 100 | 95
+
+[CAT 2019 Slot 2 QA Q27 | Profit & loss | MCQ | ans Choice D — 4000]
+Mukesh purchased 10 bicycles in 2017, all at the same price. He sold six of these at a profit of 25% and the remaining four at a loss of 25%. If he made a total profit of Rs. 2000, then his purchase price of a bicycle, in Rupees, was
+  opts: 2000 | 6000 | 8000 | 4000
+
+[CAT 2019 Slot 2 QA Q33 | Profit & loss | MCQ | ans Choice A — 1]
+A shopkeeper sells two tables, each procured at cost price p, to Amal and Asim at a profit of 20% and at a loss of 20%, respectively. Amal sells his table to Bimal at a profit of 30%, while Asim sells his table to Barun at a loss of 30%. If the amounts paid by Bimal and Barun are x and y, respectively, then (x - y) / p equals
+  opts: 1 | 1.2 | 0.7 | 0.50
+
+[CAT 2020 Slot 1 QA Q12 | Profit & Loss | TITA | ans 20000]
+A person spent Rs 50000 to purchase a desktop computer and a laptop computer. He sold the desktop at 20% profit and the laptop at 10% loss. If overall he made a 2% profit then the purchase price, in rupees, of the desktop is
+
+[CAT 2020 Slot 1 QA Q23 | Percentages | MCQ | ans C — 66]
+In a group of people, 28% of the members are young while the rest are old. If 65% of the members are literates, and 25% of the literates are young, then the percentage of old people among the illiterates is nearest to
+  opts: 59 | 62 | 66 | 55
+
+[CAT 2020 Slot 2 QA Q11 | Profit & Loss | MCQ | ans B — 50]
+Anil buys 12 toys and labels each with the same selling price. He sells 8 toys initially at 20% discount on the labeled price. Then he sells the remaining 4 toys at an additional 25% discount on the discounted price. Thus, he gets a total of Rs 2112, and makes a 10% profit. With no discounts, his percentage of profit would have been
+  opts: 60 | 50 | 55 | 54
+
+[CAT 2020 Slot 2 QA Q23 | Percentages | MCQ | ans C — 560]
+In May, John bought the same amount of rice and the same amount of wheat as he had bought in April, but spent 150 more due to price increase of rice and wheat by 20% and 12%, respectively. If John had spent 450 on rice in April, then how much did he spend on wheat in May?
+  opts: 590 | 580 | 560 | 570
+
+[CAT 2020 Slot 3 QA Q8 | Percentages | MCQ | ans A — 399]
+In the final examination, Bishnu scored 52% and Asha scored 64%. The marks obtained by Bishnu is 23 less, and that by Asha is 34 more than the marks obtained by Ramesh. The marks obtained by Geeta, who scored 84%, is
+  opts: 399 | 439 | 357 | 417
+
+[CAT 2020 Slot 3 QA Q14 | Profit & Loss | MCQ | ans D — 25]
+A man buys 35 kg of sugar and sets a marked price in order to make a 20% profit. He sells 5 kg at this price, and 15 kg at a 10% discount. Accidentally, 3 kg of sugar is wasted. He sells the remaining sugar by raising the marked price by p percent so as to make an overall profit of 15%. Then p is nearest to
+  opts: 35 | 31 | 22 | 25
+
+
+======== interest (7) ========
+
+[CAT 2018 Slot 1 QA Q15 | SI & CI | TITA | ans 1,21,000]
+John borrowed Rs. 2,10,000 from a bank at an interest rate of 10% per annum, compounded annually. The loan was repaid in two equal instalments, the first after one year and the second after another year. The ﬁrst instalment was interest of one year plus part of the principal amount, while the second was the rest of the principal amount plus due interest thereon. Then each instalment, in Rs., is:
+
+[CAT 2018 Slot 2 QA Q28 | SI & CI | TITA | ans Rs. 4000]
+Gopal borrows Rs. X from Ankit at 8% annual interest. He then adds Rs. Y of his own money and lends Rs. X+Y to Ishan at 10% annual interest. At the end of the year, after returning Ankit’s dues, the net interest retained by Gopal is the same as that accrued to Ankit. On the other hand, had Gopal lent Rs. X+2Y to Ishan at 10%, then the net interest retained by him would have increased by Rs. 150. If all interests are compounded annually, then find the value of X + Y.
+
+[CAT 2019 Slot 1 QA Q11 | Simple interest | TITA | ans 9]
+A person invested a total amount of Rs 15 lakh. A part of it was invested in a fixed deposit earning 6% annual interest, and the remaining amount was invested in two other deposits in the ratio 2 : 1, earning annual interest at the rates of 4% and 3%, respectively. If the total annual interest income is Rs 76000 then the amount (in Rs lakh) invested in the fixed deposit was
+
+[CAT 2019 Slot 2 QA Q32 | Simple interest & Compound interest | TITA | ans 20920]
+Amal invests Rs 12000 at 8% interest, compounded annually, and Rs 10000 at 6% interest, compounded semi-annually, both investments being for one year. Bimal invests his money at 7.5% simple interest for one year. If Amal and Bimal get the same amount of interest, then the amount, in Rupees, invested by Bimal is
+
+[CAT 2020 Slot 1 QA Q3 | Simple interest & Compound interest | TITA | ans 12]
+Veeru invested Rs 10000 at 5% simple annual interest, and exactly after two years, Joy invested Rs 8000 at 10% simple annual interest. How many years after Veeru’s investment, will their balances, i.e., principal plus accumulated interest, be equal?
+
+[CAT 2020 Slot 2 QA Q8 | Simple interest & Compound interest | TITA | ans 90000]
+For the same principal amount, the compound interest for two years at 5% per annum exceeds the simple interest for three years at 3% per annum by Rs 1125. Then the principal amount in rupees is
+
+[CAT 2020 Slot 3 QA Q20 | Simple interest & Compound interest | TITA | ans 16000]
+A person invested a certain amount of money at 10% annual interest, compounded half-yearly. After one and a half years, the interest and principal together became Rs 18522. The amount, in rupees, that the person had invested is
+
+
+======== tsd (29) ========
+
+[CAT 2017 Slot 1 QA Q4 | Speed Time Distance | TITA | ans 20]
+A man leaves his home and walks at a speed of 12 km per hour, reaching the railway station 10 minutes after the train had departed. If instead he had walked at a speed of 15 km per hour, he would have reached the station 10 minutes before the train's departure. The distance (in km) from his home to the railway station is:
+
+[CAT 2017 Slot 1 QA Q7 | Speed Time Distance | MCQ | ans Choice B — \(\sqrt{7}\) : 2]
+A man travels by a motor boat down a river to his office and back. With the speed of the river unchanged, if he doubles the speed of his motor boat, then his total travel time gets reduced by 75%. The ratio of the original speed of the motor boat to the speed of the river is:
+  opts: \(\sqrt{6}\) : \(\sqrt{2}\) | \(\sqrt{7}\) : 2 | 2\(\sqrt{5}\) : 3 | 3 : 2
+
+[CAT 2017 Slot 2 QA Q2 | Races | TITA | ans 1900]
+In a 10 km race. A, B, and C, each running at uniform speed, get the gold, silver, and bronze medals, respectively. If A beats B by 1 km and B beats C by 1 km, then by how many metres does A beat C?
+
+[CAT 2017 Slot 2 QA Q4 | Speed Time Distance | MCQ | ans Choice C — 65 miles]
+Arun drove from home to his hostel at 60 miles per hour. While returning home he drove half way along the same route at a speed of 25 miles per hour and then took a bypass road which increased his driving distance by 5 miles, but allowed him to drive at 50 miles per hour along this bypass road. If his return journey took 30 minutes more than his onward journey, then the total distance travelled by him is:
+  opts: 55 miles | 60 miles | 65 miles | 70 miles
+
+[CAT 2017 Slot 2 QA Q12 | Speed Time Distance | MCQ | ans Choice B — 378]
+A motorbike leaves point A at 1 pm and moves towards point B at a uniform speed. A car leaves point B at 2 pm and moves towards point A at a uniform speed which is double that of the motorbike. They meet at 3:40 pm at a point which is 168 km away from A. What is the distance, in km, between A and B?
+  opts: 364 | 378 | 380 | 388
+
+[CAT 2018 Slot 1 QA Q4 | Speed Time Distance | MCQ | ans Choice D — 5]
+The distance from A to B is 60 km. Partha and Narayan start from A at the same time and move towards B. Partha takes four hours more than Narayan to reach B. Moreover, Partha reaches the mid-point of A and B two hours before Narayan reaches B. The speed of Partha, in km per hour, is
+  opts: 6 | 3 | 4 | 5
+
+[CAT 2018 Slot 1 QA Q17 | Speed, Time and Distance | TITA | ans 12]
+Point P lies between points A and B such that the length of BP is thrice that of AP. Car 1 starts from A and moves towards B. Simultaneously, car 2 starts from B and moves towards A. Car 2 reaches P one hour after car 1 reaches P. If the speed of car 2 is half that of car 1, then the time, in minutes, taken by car 1 in reaching P from A is:
+
+[CAT 2018 Slot 1 QA Q23 | Speed Time Distance | TITA | ans 15]
+Train T leaves station X for station Y at 3 pm. Train S, traveling at three quarters of the speed of T, leaves Y for X at 4 pm. The two trains pass each other at a station Z, where the distance between X and Z is three-ﬁfths of that between X and Y. How many hours does train T take for its journey from X to Y?
+
+[CAT 2018 Slot 2 QA Q1 | Speed Time Distance | MCQ | ans Choice A — 1 : 4]
+Points A, P, Q and B lie on the same line such that P, Q and B are, respectively, 100 km, 200 km and 300 km away from A. Cars 1 and 2 leave A at the same time and move towards B. Simultaneously, car 3 leaves B and moves towards A. Car 3 meets Car 1 at Q, and Car 2 at P. If each car is moving in uniform speed then the ratio of the speed of Car 2 to that of Car 1 is
+  opts: 1 : 4 | 2 : 9 | 1 : 2 | 2 : 7
+
+[CAT 2018 Slot 2 QA Q17 | Speed, Time and Distance | TITA | ans 50]
+On a long stretch of east-west road, A and B are two points such that B is 350 km west of A. One car starts from A and another from B at the same time. If they move towards each other, then they meet after 1 hour. If they both move towards east, then they meet in 7 hrs. The difference between their speeds, in km per hour, is
+
+[CAT 2018 Slot 2 QA Q20 | Speed, Time and Distance | TITA | ans 5 km]
+Points A and B are 150 km apart. Cars 1 and 2 travel from A to B, but car 2 starts from A when car 1 is already 20 km away from A. Each car travels at a speed of 100 kmph for the first 50 km, at 50 kmph for the next 50 km, and at 25 kmph for the last 50 km. The distance, in km, between car 2 and B when car 1 reaches B is
+
+[CAT 2019 Slot 1 QA Q14 | Speed, time and distance | MCQ | ans Choice A — 20]
+Two cars travel the same distance starting at 10:00 am and 11:00 am, respectively, on the same day. They reach their common destination at the same point of time. If the first car travelled for at least 6 hours, then the highest possible value of the percentage by which the speed of the second car could exceed that of the first car is
+  opts: 20 | 10 | 35 | 25
+
+[CAT 2019 Slot 1 QA Q19 | Races | TITA | ans 880]
+In a race of three horses, the first beat the second by 11 metres and the third by 90 metres. If the second beat the third by 80 metres, what was the length, in metres, of the racecourse?
+
+[CAT 2019 Slot 1 QA Q22 | Speed, time and distance | MCQ | ans Choice A — 22]
+One can use three different transports which move at 10, 20, and 30 kmph, respectively. To reach from A to B, Amal took each mode of transport 1/3 of his total journey time, while Bimal took each mode of transport 1/3 of the total distance. The percentage by which Bimal's travel time exceeds Amal's travel time is nearest to
+  opts: 22 | 19 | 21 | 20
+
+[CAT 2019 Slot 1 QA Q32 | Speed, time and distance | MCQ | ans Choice B — 16π]
+The wheels of bicycles A and B have radii 30 cm and 40 cm, respectively. While traveling a certain distance, each wheel of A required 5000 more revolutions than each wheel of B. If bicycle B traveled this distance in 45 minutes, then its speed, in km per hour, was
+  opts: 18π | 16π | 12π | 14π
+
+[CAT 2019 Slot 2 QA Q12 | Speed, Time & distance | MCQ | ans Choice C — 15]
+A cyclist leaves A at 10 am and reaches B at 11 am. Starting from 10:01 am, every minute a motorcycle leaves A and moves towards B. Forty-five such motorcycles reach B by 11 am. All motorcycles have the same speed. If the cyclist had doubled his speed, how many motorcycles would have reached B by the time the cyclist reached B?
+  opts: 22 | 20 | 15 | 23
+
+[CAT 2019 Slot 2 QA Q14 | Races | TITA | ans 48]
+John jogs on track A at 6 kmph and Mary jogs on track B at 7.5 kmph. The total length of tracks A and B is 325 metres. While John makes 9 rounds of track A, Mary makes 5 rounds of track B. In how many seconds will Mary make one round of track A?
+
+[CAT 2019 Slot 2 QA Q21 | Speed, time & distance | MCQ | ans Choice A — 10:27 am]
+Two ants A and B start from a point P on a circle at the same time, with A moving clock-wise and B moving anti-clockwise. They meet for the first time at 10:00 am when A has covered 60% of the track. If A returns to P at 10:12 am, then B returns to P at
+  opts: 10:27 am | 10:25 am | 10:45 am | 10:18 am
+
+[CAT 2020 Slot 1 QA Q4 | Speed, time & distance | MCQ | ans B — 67]
+A train travelled at one-thirds of its usual speed, and hence reached the destination 30 minutes after the scheduled time. On its return journey, the train initially travelled at its usual speed for 5 minutes but then stopped for 4 minutes for an emergency. The percentage by which the train must now increase its usual speed so as to reach the destination at the scheduled time, is nearest to
+  opts: 58 | 67 | 50 | 61
+
+[CAT 2020 Slot 1 QA Q7 | Speed, time & distance | MCQ | ans A — 90]
+A straight road connects points A and B. Car 1 travels from A to B and Car 2 travels from B to A, both leaving at the same time. After meeting each other, they take 45 minutes and 20 minutes, respectively, to complete their journeys. If Car 1 travels at the speed of 60 km/hr, then the speed of Car 2, in km/hr, is
+  opts: 90 | 80 | 70 | 100
+
+[CAT 2020 Slot 1 QA Q14 | Speed, time & distance | MCQ | ans B — 82]
+Two persons are walking beside a railway track at respective speeds of 2 and 4 km per hour in the same direction. A train came from behind them and crossed them in 90 and 100 seconds, respectively. The time, in seconds, taken by the train to cross an electric post is nearest to
+  opts: 87 | 82 | 78 | 75
+
+[CAT 2020 Slot 1 QA Q19 | Speed, time & distance | MCQ | ans A — 12]
+Leaving home at the same time, Amal reaches office at 10:15 am if he travels at 8kmph, and at 9:40 am if he travels at 15kmph. Leaving home at 9:10 am, at what speed, in kmph, must he travel so as to reach office exactly at 10:00 am?
+  opts: 12 | 11 | 13 | 14
+
+[CAT 2020 Slot 2 QA Q1 | Races | MCQ | ans D — 450]
+In a car race, car A beats car B by 45 km, car B beats car C by 50 km, and car A beats car C by 90 km. The distance (in km) over which the race has been conducted is
+  opts: 550 | 475 | 500 | 450
+
+[CAT 2020 Slot 2 QA Q15 | Speed, time & distance | MCQ | ans D — 5:7]
+The distance from B to C is thrice that from A to B. Two trains travel from A to C via B. The speed of train 2 is double that of train 1 while traveling from A to B and their speeds are interchanged while traveling from B to C. The ratio of the time taken by train 1 to that taken by train 2 in travelling from A to C is
+  opts: 7:5 | 4:1 | 1:4 | 5:7
+
+[CAT 2020 Slot 2 QA Q19 | Races | MCQ | ans B — 3]
+Two circular tracks T1 and T2 of radii 100 m and 20 m, respectively touch at a point A. Starting from A at the same time, Ram and Rahim are walking on track T1 and track T2 at speeds 15 km/hr and 5 km/hr respectively. The number of full rounds that Ram will make before he meets Rahim again for the first time is
+  opts: 5 | 3 | 4 | 2
+
+[CAT 2020 Slot 2 QA Q20 | Speed, time & distance | MCQ | ans A — 2]
+A and B are two points on a straight line. Ram runs from A to B while Rahim runs from B to A. After crossing each other, Ram and Rahim reach their destinations in one minutes and four minutes, respectively. If they start at the same time, then the ratio of Ram's speed to Rahim's speed is
+  opts: 2 | 2\(\sqrt{2}\) | \(\sqrt{2}\) | \(\frac{1}{2}\))
+
+[CAT 2020 Slot 3 QA Q13 | Races | MCQ | ans C — 4.8]
+Anil, Sunil, and Ravi run along a circular path of length 3 km, starting from the same point at the same time, and going in the clockwise direction. If they run at speeds of 15 km/hr, 10 km/hr, and 8 km/hr, respectively, how much distance in km will Ravi have run when Anil and Sunil meet again for the first time at the starting point?
+  opts: 4.6 | 4.2 | 4.8 | 5.2
+
+[CAT 2020 Slot 3 QA Q21 | Speed, time & distance | MCQ | ans B — 11 : 00 am]
+A and B are two railway stations 90 km apart. A train leaves A at 9:00 am, heading towards B at a speed of 40 km/hr. Another train leaves B at 10:30 am, heading towards A at a speed of 20 km/hr. The trains meet each other at
+  opts: 11 : 20 am | 11 : 00 am | 10 : 45 am | 11 : 45 am
+
+[CAT 2020 Slot 3 QA Q22 | Speed, time & distance | MCQ | ans B — 28]
+Vimla starts for office every day at 9 am and reaches exactly on time if she drives at her usual speed of 40 km/hr. She is late by 6 minutes if she drives at 35 km/hr. One day, she covers two-thirds of her distance to office in one-thirds of her usual time to reach office, and then stops for 8 minutes. The speed, in km/hr, at which she should drive the remaining distance to reach office exactly on time is
+  opts: 27 | 28 | 29 | 26
+
+
+======== time-work (15) ========
+
+[CAT 2017 Slot 1 QA Q2 | Pipes & Cisterns | TITA | ans 15]
+A person can complete a job in 120 days. He works alone on Day 1. On Day 2, he is joined by another person who also can complete the job in exactly 120 days. On Day 3, they are joined by another person of equal efficiency. Like this, everyday a new person with the same efficiency joins the work. How many days are required to complete the job?
+
+[CAT 2017 Slot 2 QA Q8 | Pipes & Cisterns | MCQ | ans Choice A — 20]
+A tank has an inlet pipe and an outlet pipe. If the outlet pipe is closed then the inlet pipe fills the empty tank in 8 hours. If the outlet pipe is open then the inlet pipe fills the empty tank in 10 hours. If only the outlet pipe is open then in how many hours the full tank becomes half-full?
+  opts: 20 | 30 | 40 | 45
+
+[CAT 2017 Slot 2 QA Q13 | Work and Time | MCQ | ans Choice A — 100]
+Amal can complete a job in 10 days and Bimal can complete it in 8 days. Amal, Bimal and Kamal together complete the job in 4 days and are paid a total amount of Rs 1000 as remuneration. If this amount is shared by them in proportion to their work, then Kamal's share, in rupees, is
+  opts: 100 | 200 | 300 | 400
+
+[CAT 2018 Slot 1 QA Q8 | Work and Time | MCQ | ans Choice C — 20]
+When they work alone, B needs 25% more time to ﬁnish a job than A does. They two ﬁnish the job in 13 days in the following manner: A works alone till half the job is done, then A and B work together for four days, and ﬁnally B works alone to complete the remaining 5% of the job. In how many days can B alone ﬁnish the entire job?
+  opts: 16 | 22 | 20 | 18
+
+[CAT 2018 Slot 1 QA Q28 | Work and Time | MCQ | ans Choice B — 32]
+Humans and robots can both perform a job but at diﬀerent eﬃciencies. Fifteen humans and ﬁve robots working together take thirty days to ﬁnish the job, whereas ﬁve humans and ﬁfteen robots working together take sixty days to ﬁnish it. How many days will ﬁfteen humans working together (without any robot) take to ﬁnish it?
+  opts: 40 | 32 | 36 | 45
+
+[CAT 2018 Slot 1 QA Q31 | Pipes & Cisterns | TITA | ans 10]
+A tank is fitted with pipes, some filling it and the rest draining it. All filling pipes fill at the same rate, and all draining pipes drain at the same rate. The empty tank gets completely filled in 6 hours when 6 filling and 5 draining pipes are on, but this time becomes 60 hours when 5 filling and 6 draining pipes are on. In how many hours will the empty tank get completely filled when one draining and two filling pipes are on?
+
+[CAT 2018 Slot 2 QA Q21 | Pipes & Cisterns | MCQ | ans Choice B — 4 : 24 PM]
+A tank is emptied everyday at a fixed time point. Immediately thereafter, either pump A or pump B or both start working until the tank is full. On Monday, A alone completed filling the tank at 8 pm. On Tuesday, B alone completed filling the tank at 6 pm. On Wednesday, A alone worked till 5 pm, and then B worked alone from 5 pm to 7 pm, to fill the tank. At what time was the tank filled on Thursday if both pumps were used simultaneously all along?
+  opts: 4 : 12 PM | 4 : 24 PM | 4 : 48 PM | 4 : 36 PM
+
+[CAT 2018 Slot 2 QA Q22 | Work & Time | MCQ | ans Choice C — 13.5]
+Ramesh and Ganesh can together complete a work in 16 days. After seven days of working together, Ramesh got sick and his efficiency fell by 30%. As a result, they completed the work in 17 days instead of 16 days. If Ganesh had worked alone after Ramesh got sick, in how many days would he have completed the remaining work?
+  opts: 12 | 14.5 | 13.5 | 11
+
+[CAT 2018 Slot 2 QA Q27 | Pipes & Cisterns | TITA | ans 48 minutes]
+A water tank has inlets of two types A and B. All inlets of type A when open, bring in water at the same rate. All inlets of type B, when open, bring in water at the same rate. The empty tank is completely filled in 30 minutes if 10 inlets of type A and 45 inlets of type B are open, and in 1 hour if 8 inlets of type A and 18 inlets of type B are open. In how many minutes will the empty tank get completely filled if 7 inlets of type A and 27 inlets of type B are open?
+
+[CAT 2019 Slot 1 QA Q15 | Work, time | MCQ | ans Choice A — 18]
+At their usual efficiency levels, A and B together finish a task in 12 days. If A had worked half as efficiently as she usually does, and B had worked thrice as efficiently as he usually does, the task would have been completed in 9 days. How many days would A take to finish the task if she works alone at her usual efficiency?
+  opts: 18 | 12 | 24 | 36
+
+[CAT 2019 Slot 1 QA Q30 | Work, time | TITA | ans 13]
+Three men and eight machines can finish a job in half the time taken by three machines and eight men to finish the same job. If two machines can finish the job in 13 days, then how many men can finish the job in 13 days?
+
+[CAT 2019 Slot 2 QA Q15 | Work & time | MCQ | ans Choice A — 13]
+Anil alone can do a job in 20 days while Sunil alone can do it in 40 days. Anil starts the job, and after 3 days, Sunil joins him. Again, after a few more days, Bimal joins them and they together finish the job. If Bimal has done 10% of the job, then in how many days was the job done?
+  opts: 13 | 12 | 15 | 14
+
+[CAT 2019 Slot 2 QA Q34 | Work & time | TITA | ans 12]
+John gets Rs 57 per hour of regular work and Rs 114 per hour of overtime work. He works altogether 172 hours and his income from overtime hours is 15% of his income from regular hours. Then, for how many hours did he work overtime?
+
+[CAT 2020 Slot 2 QA Q22 | Work & time | TITA | ans 4]
+John takes twice as much time as Jack to finish a job. Jack and Jim together take one-thirds of the time to finish the job than John takes working alone. Moreover, in order to finish the job, John takes three days more than that taken by three of them working together. In how many days will Jim finish the job working alone?
+
+[CAT 2020 Slot 3 QA Q4 | Work & time | TITA | ans 40]
+A contractor agreed to construct a 6 km road in 200 days. He employed 140 persons for the work. After 60 days, he realized that only 1.5 km road has been completed. How many additional people would he need to employ in order to finish the work exactly on time?
+
+
+======== numbers (24) ========
+
+[CAT 2017 Slot 2 QA Q1 | Number Theory | TITA | ans 3]
+The numbers 1, 2,..., 9 are arranged in a 3 X 3 square grid in such a way that each number occurs once and the entries along each column, each row, and each of the two diagonals add up to the same value. If the top left and the top right entries of the grid are 6 and 2, respectively, then the bottom middle entry is:
+
+[CAT 2017 Slot 2 QA Q21 | Number Theory | MCQ | ans Choice D — 1877]
+If the product of three consecutive positive integers is 15600 then the sum of the squares of these integers is
+  opts: 1777 | 1785 | 1875 | 1877
+
+[CAT 2017 Slot 2 QA Q28 | Number Theory | TITA | ans 3]
+How many different pairs (a, b) of positive integers are there such that a ≤ b and \(\frac{1}{a}\)) + \(\frac{1}{b}\)) = \(\frac{1}{9}\)) ?
+
+[CAT 2018 Slot 1 QA Q10 | Number Theory | TITA | ans 40]
+While multiplying three real numbers, Ashok took one of the numbers as 73 instead of 37. As a result, the product went up by 720. Then the minimum possible value of the sum of squares of the other two numbers is:
+
+[CAT 2018 Slot 1 QA Q14 | Number theory | TITA | ans 502]
+How many numbers with two or more digits can be formed with the digits 1, 2, 3, 4, 5, 6, 7, 8, and 9 so that in every such number, each digit is used at most once and the digits appear in the ascending order?
+
+[CAT 2018 Slot 1 QA Q21 | Number Theory | TITA | ans 5]
+The number of integers x such that 0.25 < 2 x < 200, and 2 x + 2 is perfectly divisible by either 3 or 4, is
+
+[CAT 2018 Slot 2 QA Q7 | Number Theory | TITA | ans 10]
+If N and x are positive integers such that N N = 2 160 and N 2 + 2 N is an integral multiple of 2 x , then the largest possible x is
+
+[CAT 2018 Slot 2 QA Q18 | Number Theory | MCQ | ans Choice A — 64]
+If the sum of squares of two numbers is 97, then which one of the following cannot be their product?
+  opts: 64 | -32 | 16 | 48
+
+[CAT 2018 Slot 2 QA Q26 | Number Theory | MCQ | ans Choice D — 6]
+How many two-digit numbers, with a non-zero digit in the units place, are there which are more than thrice the number formed by interchanging the positions of its digits?
+  opts: 5 | 8 | 7 | 6
+
+[CAT 2019 Slot 1 QA Q12 | Number theory | MCQ | ans Choice A — 50]
+The product of two positive numbers is 616. If the ratio of the difference of their cubes to the cube of their difference is 157 : 3, then the sum of the two numbers is
+  opts: 50 | 85 | 95 | 58
+
+[CAT 2019 Slot 2 QA Q3 | Number theory | MCQ | ans Choice A — k = 0]
+Let a, b, x, y be real numbers such that a 2 + b 2 = 25 , x 2 + y 2 = 169 and ax + by = 65. If k = ay - bx, then
+  opts: k = 0 | k > \(\frac{5}{13}\)) | k = \(\frac{5}{13}\)) | 0 < k ≤ \(\frac{5}{13}\))
+
+[CAT 2019 Slot 2 QA Q6 | Number theory | TITA | ans 44]
+How many factors of 2 4 × 3 5 × 10 4 are perfect squares which are greater than 1?
+
+[CAT 2019 Slot 2 QA Q22 | Number theory | TITA | ans 4]
+How many pairs (m,n) of positive integers satisfy the equation the equation m 2 + 105 = n 2 ?
+
+[CAT 2019 Slot 2 QA Q26 | Number theory | TITA | ans 7]
+In a six-digit number, the sixth, that is, the rightmost, digit is the sum of the first three digits, the fifth digit is the sum of first two digits, the third digit is equal to the first digit, the second digit is twice the first digit and the fourth digit is the sum of fifth and sixth digits. Then, the largest possible value of the fourth digit is
+
+[CAT 2020 Slot 1 QA Q1 | Number Theory | TITA | ans 21]
+How many 3-digit numbers are there, for which the product of their digits is more than 2 but less than 7?
+
+[CAT 2020 Slot 1 QA Q10 | Number Theory | MCQ | ans A — 5544]
+The mean of all 4 digit even natural numbers of the form 'aabb', where a>0, is
+  opts: 5544 | 4466 | 4864 | 5050
+
+[CAT 2020 Slot 1 QA Q13 | Digits | MCQ | ans D — 9]
+Among 100 students, x 1 have birthdays in January, x 2 have birthdays in February, and so on. If x 0 = max(x 1 , x 2 , ..., x 12 ), then the smallest possible value of x 0 is
+  opts: 8 | 10 | 12 | 9
+
+[CAT 2020 Slot 1 QA Q20 | Digits | MCQ | ans C — 46]
+If a, b and c are positive integers such that ab = 432, bc = 96 and c < 9, then the smallest possible value of a + b + c is
+  opts: 56 | 49 | 46 | 59
+
+[CAT 2020 Slot 2 QA Q7 | Digits | TITA | ans 2704]
+If x and y are positive real numbers satisfying x + y = 102, then the minimum possible value of 2601(1 + \(\frac{1}{x}\)))(1 + \(\frac{1}{y}\))) is
+
+[CAT 2020 Slot 2 QA Q26 | Number Theory | TITA | ans 315]
+How many 4-digit numbers, each greater than 1000 and each having all four digits distinct, are there with 7 coming before 3?
+
+[CAT 2020 Slot 3 QA Q2 | Number Theory | TITA | ans 6]
+Let N, x and y be positive integers such that N = x + y, 2 < x < 10 and 14 < y < 23. If N > 25, then how many distinct values are possible for N?
+
+[CAT 2020 Slot 3 QA Q7 | Number Theory | MCQ | ans A — 41]
+How many of the integers 1, 2, … , 120, are divisible by none of 2, 5 and 7?
+  opts: 41 | 42 | 40 | 43
+
+[CAT 2020 Slot 3 QA Q12 | Digits | MCQ | ans C — 1]
+Let m and n be natural numbers such that n is even and 0.2 < \(\frac{m}{20}\)), \(\frac{n}{m}\)), \(\frac{n}{11}\)) < 0.5. Then m - 2n equals
+  opts: 4 | 2 | 1 | 3
+
+[CAT 2020 Slot 3 QA Q26 | Digits | MCQ | ans B — 2018]
+How many pairs (a,b) of positive integers are there such that a ≤ b and ab = 4 2017 ?
+  opts: 2019 | 2018 | 2020 | 2017
+
+
+======== algebra (83) ========
+
+[CAT 2017 Slot 1 QA Q13 | Algebra | MCQ | ans Choice D — 25 : 4]
+If a and b are integers of opposite signs such that (a + 3) 2 : b 2 = 9 : 1 and (a - 1) 2 : (b - 1) 2 = 4 : 1, then the ratio a 2 : b 2 is:
+  opts: 9 : 4 | 81 : 4 | 1 : 4 | 25 : 4
+
+[CAT 2017 Slot 1 QA Q21 | Exponents & Logarithms | MCQ | ans Choice D — a]
+Suppose, log 3 x = log 12 y = a, where x, y are positive numbers. If G is the geometric mean of x and y, and log 6 G is equal to:
+  opts: √a | 2a | \(\frac{a}{2}\)) | a
+
+[CAT 2017 Slot 1 QA Q22 | Algebra | MCQ | ans Choice D — 7 + 3\(\sqrt{5}\)]
+If x + 1 = x 2 and x > 0, then 2x 4 is:
+  opts: 6 + 4\(\sqrt{5}\) | 3 + 5\(\sqrt{5}\) | 5 + 3\(\sqrt{5}\) | 7 + 3\(\sqrt{5}\)
+
+[CAT 2017 Slot 1 QA Q23 | Exponents & Logarithms | MCQ | ans Choice C — \(\frac{5}{6}\))]
+The value of log 0.008 \(\sqrt{5}\) + log \(\sqrt{3}\) 81 – 7 is equal to:
+  opts: \(\frac{1}{3}\)) | \(\frac{2}{3}\)) | \(\frac{5}{6}\)) | \(\frac{7}{6}\))
+
+[CAT 2017 Slot 1 QA Q24 | Exponents & Logarithms | MCQ | ans Choice B — \(\frac{9}{4}\))]
+If 9 2x – 1 – 81 x-1 = 1944, then x is
+  opts: 3 | \(\frac{9}{4}\)) | \(\frac{4}{9}\)) | \(\frac{1}{3}\))
+
+[CAT 2017 Slot 1 QA Q26 | Inequalities | TITA | ans 11]
+For how many integers n, will the inequality (n – 5) (n – 10) – 3(n – 2) ≤ 0 be satisfied?
+
+[CAT 2017 Slot 1 QA Q27 | Functions | TITA | ans 24]
+If f 1 (x) = x 2 + 11x + n and f 2 (x) = x, then the largest positive integer n for which the equation f 1 (x) = f 2 (x) has two distinct real roots, is:
+
+[CAT 2017 Slot 1 QA Q28 | Algebra | TITA | ans 2]
+If a, b, c, and d are integers such that a + b + c + d = 30, then the minimum possible value of (a - b) 2 + (a - c) 2 + (a - d) 2 is
+
+[CAT 2017 Slot 1 QA Q31 | Progressions | MCQ | ans Choice A — 2 : 3]
+If the square of the 7 th term of an arithmetic progression with positive common difference equals the product of the 3 rd and 17 th terms, then the ratio of the first term to the common difference is:
+  opts: 2 : 3 | 3 : 2 | 3 : 4 | 4 : 3
+
+[CAT 2017 Slot 1 QA Q33 | Functions | MCQ | ans Choice A — 2]
+If f(x) = \(\frac{5x + 2}{3x - 5}\)) and g(x) = x 2 – 2x – 1, then the value of g(f(f(3))) is:
+  opts: 2 | \(\frac{1}{3}\)) | 6 | \(\frac{2}{3}\))
+
+[CAT 2017 Slot 1 QA Q34 | Progressions | MCQ | ans Choice B — 9]
+Let a 1 , a 2 ,.......a 3n be an arithmetic progression with a 1 = 3 and a 2 = 7. If a 1 + a 2 + ......+a 3n = 1830, then what is the smallest positive integer m such that m (a 1 + a 2 + ..... + a n ) > 1830?
+  opts: 8 | 9 | 10 | 11
+
+[CAT 2017 Slot 2 QA Q22 | Exponents & Logarithms | MCQ | ans Choice D — 3 < x < 23]
+If x is a real number such that log 3 5 = log 5 (2 + x), then which of the following is true?
+  opts: 0 < x < 3 | 23 < x < 30 | x > 30 | 3 < x < 23
+
+[CAT 2017 Slot 2 QA Q23 | Functions | MCQ | ans Choice C — 36]
+Let f(x) = x 2 and g(x) = 2 x , for all real x. Then the value of f(f(g(x)) + g(f(x))) at x = 1 is
+  opts: 16 | 18 | 36 | 40
+
+[CAT 2017 Slot 2 QA Q24 | Quadratic Equations | MCQ | ans Choice C — 3]
+The minimum possible value of the sum of the squares of the roots of the equation x 2 + (a + 3)x - (a + 5) = 0 is
+  opts: 1 | 2 | 3 | 4
+
+[CAT 2017 Slot 2 QA Q25 | Exponents & Logarithms | MCQ | ans Choice A — \(\frac{3}{2}\)\\)]
+If 9 x - (\(\frac{1}{2}\))) – 2 2x – 2 = 4 x – 3 2x – 3 , then x is
+  opts: \(\frac{3}{2}\)\\) | \(\frac{2}{5}\)\\) | \(\frac{3}{4}\)\\) | \(\frac{4}{9}\)\\)
+
+[CAT 2017 Slot 2 QA Q26 | Exponents & Logarithms | TITA | ans 3]
+If log(2 a × 3 b × 5 c ) is the arithmetic mean of log(2 2 × 3 3 × 5), log(2 6 × 3 × 5 7 ), and log(2 × 3 2 × 5 4 ), then a equals
+
+[CAT 2017 Slot 2 QA Q27 | Progressions | TITA | ans 51]
+Let a 1 , a 2 , a 3 , a 4 , a 5 be a sequence of five consecutive odd numbers. Consider a new sequence of five consecutive even numbers ending with 2a 3 . If the sum of the numbers in the new sequence is 450, then a 5 is
+
+[CAT 2017 Slot 2 QA Q31 | Functions | TITA | ans 1]
+If f(ab) = f(a)f(b) for all positive integers a and b, then the largest possible value of f(1) is
+
+[CAT 2017 Slot 2 QA Q32 | Functions | MCQ | ans Choice D — \(\frac{5}{2}\)) ≤ x ≤ \(\frac{7}{2}\))]
+Let f(x) = 2x – 5 and g(x) = 7 – 2x. Then |f(x) + g(x)| = |f(x)| + |g(x)| if and only if
+  opts: \(\frac{5}{2}\)) < x < \(\frac{7}{2}\)) | x ≤ \(\frac{5}{2}\)) or x ≥ \(\frac{7}{2}\)) | x < \(\frac{5}{2}\)) or x ≥ \(\frac{7}{2}\)) | \(\frac{5}{2}\)) ≤ x ≤ \(\frac{7}{2}\))
+
+[CAT 2017 Slot 2 QA Q33 | Progressions | MCQ | ans Choice C — \(\frac{3}{32}\))]
+An infinite geometric progression a 1 , a 2 , a 3 ,... has the property that a n = 3(a n+1 + a n+2 +....) for every n ≥ 1. If the sum a 1 + a 2 + a 3 +...... = 32, then a 5 is
+  opts: \(\frac{1}{32}\)) | \(\frac{2}{32}\)) | \(\frac{3}{32}\)) | \(\frac{4}{32}\))
+
+[CAT 2017 Slot 2 QA Q34 | Progressions | MCQ | ans Choice A — \(\frac{25}{151}\))]
+If a 1 = \(\frac{1}{2 × 5}\)) , a 2 = \(\frac{1}{5 × 8}\)) , a 3 = \(\frac{1}{8 × 11}\)),...., then a 1 + a 2 + a 3 + ...... + a 100 is
+  opts: \(\frac{25}{151}\)) | \(\frac{1}{2}\)) | \(\frac{1}{4}\)) | \(\frac{111}{55}\))
+
+[CAT 2018 Slot 1 QA Q3 | Functions | TITA | ans 54]
+If f(x + 2) = f(x) + f(x + 1) for all positive integers x, and f(11) = 91, f(15) = 617, then f(10) equals.
+
+[CAT 2018 Slot 1 QA Q11 | Logarithm | MCQ | ans Choice B — 1 + log 5 \(\frac{3}{5}\))]
+If x is a positive quantity such that 2 x = 3 log 5 2 , then x is equal to
+  opts: log 5 9 | 1 + log 5 \(\frac{3}{5}\)) | 1 + log 3 \(\frac{5}{3}\)) | log 5 8
+
+[CAT 2018 Slot 1 QA Q12 | Logarithm | MCQ | ans Choice B — log 6 8]
+If log 12 81 = p, then 3(\(\frac{4 - p}{4 + p}\))) is equal to:
+  opts: log 2 8 | log 6 8 | log 4 16 | log 6 16
+
+[CAT 2018 Slot 1 QA Q16 | Linear and Quadratic Equations | MCQ | ans Choice D — -\(\frac{1}{4}\))]
+If u 2 + (u−2v−1) 2 = −4v(u + v), then what is the value of u + 3v?
+  opts: \(\frac{1}{4}\)) | \(\frac{1}{2}\)) | 0 | -\(\frac{1}{4}\))
+
+[CAT 2018 Slot 1 QA Q20 | Sequence & Series | MCQ | ans Choice D — \(\frac{5}{2}\))]
+Let x, y, z be three positive real numbers in a geometric progression such that x < y < z. If 5x, 16y, and 12z are in an arithmetic progression then the common ratio of the geometric progression is
+  opts: \(\frac{1}{6}\)) | \(\frac{3}{6}\)) | \(\frac{3}{2}\)) | \(\frac{5}{2}\))
+
+[CAT 2018 Slot 1 QA Q25 | Exponents | MCQ | ans Choice D — \(\frac{33}{4}\))]
+Given that x 2018 y 2017 = 1/2 and x 2016 y 2019 = 8, the value of x 2 + y 3 is
+  opts: \(\frac{37}{4}\)) | \(\frac{31}{4}\)) | \(\frac{35}{4}\)) | \(\frac{33}{4}\))
+
+[CAT 2018 Slot 1 QA Q27 | Logarithms | MCQ | ans Choice B — 59]
+If log 2 (5 + log 3 a) = 3 and log 5 (4a + 12 + log 2 b) = 3, then a + b is equal to
+  opts: 32 | 59 | 67 | 40
+
+[CAT 2018 Slot 1 QA Q33 | Functions | TITA | ans 32]
+Let f(x)=min{2x 2 , 52 - 5x}, where x is any positive real number.Then the maximum possible value of f(x) is
+
+[CAT 2018 Slot 2 QA Q2 | Sequence & Series | MCQ | ans Choice D — 23]
+Let a 1 , a 2 , ... , a 52 be positive integers such that a 1 ＜ a 2 ＜ ... ＜ a 52 . Suppose, their arithmetic mean is one less than the arithmetic mean of a 2 , a 3 , ..., a 52 . If a 52 = 100, then the largest possible value of a 1 is
+  opts: 48 | 20 | 45 | 23
+
+[CAT 2018 Slot 2 QA Q5 | Sequence & Series | TITA | ans 24]
+Let t 1 , t 2 ,… be real numbers such that t 1 + t 2 +... + t n = 2n 2 + 9n + 13, for every positive integer n ≥ 2. If t k =103, then k equals
+
+[CAT 2018 Slot 2 QA Q9 | Logarithm | MCQ | ans Choice C — \(\frac{47}{10}\)\\)]
+If p 3 = q 4 = r 5 = s 6 , then the value of log s (pqr) is equal to
+  opts: \(\frac{24}{5}\)\\) | 1 | \(\frac{47}{10}\)\\) | \(\frac{16}{5}\)\\)
+
+[CAT 2018 Slot 2 QA Q13 | Number Theory | Inequalities | MCQ | ans Choice B — 39]
+The smallest integer n for which 4 n ＞ 17 19 holds, is closest to
+  opts: 33 | 39 | 37 | 35
+
+[CAT 2018 Slot 2 QA Q14 | Polynomials | Inequalities | TITA | ans 8]
+The smallest integer n such that n 3 - 11n 2 + 32n - 28 ＞ 0 is
+
+[CAT 2018 Slot 2 QA Q16 | Sequence & Series | MCQ | ans Choice A — 80707]
+The value of the sum 7 x 11 + 11 x 15 + 15 x 19 + ..... + 95 x 99 is
+  opts: 80707 | 80751 | 80730 | 80773
+
+[CAT 2018 Slot 2 QA Q23 | Inequalities | TITA | ans 36]
+If a and b are integers such that 2x 2 − ax + 2 ＞ 0 and x 2 − bx + 8 ≥ 0 for all real numbers x, then the largest possible value of 2a − 6b is
+
+[CAT 2018 Slot 2 QA Q29 | Progressions & Series | TITA | ans 105]
+The arithmetic mean of x, y and z is 80, and that of x, y, z, u and v is 75, where u = \(\frac{(x+y)}{2}\)\\) and v = \(\frac{(y+z)}{2}\)\\). If x ≥ z, then the minimum possible value of x is
+
+[CAT 2018 Slot 2 QA Q30 | Functions | TITA | ans 20]
+Let f(x)=max{5x, 52 - 2x 2 }, where x is any positive real number.Then the minimum possible value of f(x) is
+
+[CAT 2018 Slot 2 QA Q34 | Logarithm | MCQ | ans Choice B — \(\frac{1}{2}\)\\)]
+\(\frac{1}{log_{2}\)100}\\) - \(\frac{1}{log_{4}\)100}\\) + \(\frac{1}{log_{5}\)100}\\) - \(\frac{1}{log_{10}\)100}\\) + \(\frac{1}{log_{20}\)100}\\) - \(\frac{1}{log_{25}\)100}\\) + \(\frac{1}{log_{50}\)100}\\) = ?
+  opts: 0 | \(\frac{1}{2}\)\\) | -4 | 10
+
+[CAT 2019 Slot 1 QA Q2 | Exponents | MCQ | ans Choice B — \(\frac{1}{3}\))]
+If (5.55) x = (0.555) y = 1000, then the value of \(\frac{1}{x}\)) - \(\frac{1}{y}\)) is
+  opts: 1 | \(\frac{1}{3}\)) | \(\frac{2}{3}\)) | 3
+
+[CAT 2019 Slot 1 QA Q9 | Functions | TITA | ans 10]
+For any positive integer n, let f(n) = n(n + 1) if n is even, and f(n) = n + 3 if n is odd. If m is a positive integer such that 8f(m + 1) - f(m) = 2, then m equals
+
+[CAT 2019 Slot 1 QA Q10 | Progressions | MCQ | ans Choice C — (1003)2 15 - 3]
+If the population of a town is p in the beginning of any year then it becomes 3+2p in the beginning of the next year. If the population in the beginning of 2019 is 1000, then the population in the beginning of 2034 will be
+  opts: (1003) 15 + 6 | (977) 15 - 3 | (1003)2 15 - 3 | (977)2 14 + 3
+
+[CAT 2019 Slot 1 QA Q16 | Progressions | TITA | ans 6144]
+If a 1 + a 2 + a 3 + ... + a n = 3(2 n+1 - 2), then a 11 equals
+
+[CAT 2019 Slot 1 QA Q20 | Progressions | MCQ | ans Choice A — \(\frac{n}{\sqrt{a_1}\) + \sqrt{a_{n+1}}})]
+If a 1 , a 2 , ......... are in A.P , \(\frac{1}{\sqrt{a_1}\) + \sqrt{a_2}}) + \(\frac{1}{\sqrt{a_2}\) + \sqrt{a_3}}) + ......... + \(\frac{1}{\sqrt{a_n}\) + \sqrt{a_{n+1}}}) then , is equal to
+  opts: \(\frac{n}{\sqrt{a_1}\) + \sqrt{a_{n+1}}}) | \(\frac{n - 1}{\sqrt{a_1}\) + \sqrt{a_n}}) | \(\frac{n}{\sqrt{a_1}\) - \sqrt{a_{n+1}}}) | \(\frac{n - 1}{\sqrt{a_1}\) + \sqrt{a_{n-1}}})
+
+[CAT 2019 Slot 1 QA Q24 | Exponents | MCQ | ans Choice C — -12]
+If m and n are integers such that (\\sqrt{2})) 19 3 4 4 2 9 m 8 n = 3 n 16 m (∜64) then m is
+  opts: -16 | -24 | -12 | -20
+
+[CAT 2019 Slot 1 QA Q26 | Logarithms | MCQ | ans Choice B — 150]
+Let x and y be positive real numbers such that log 5 (x + y) + log 5 (x - y) = 3, and log 2 y - log 2 x = 1 - log 2 3. Then xy equals
+  opts: 25 | 150 | 250 | 100
+
+[CAT 2019 Slot 1 QA Q29 | Quadratic equations | TITA | ans 5]
+The number of solutions of the equation |x|(6x 2 + 1) = 5x 2 is
+
+[CAT 2019 Slot 1 QA Q31 | Quadratic equations | MCQ | ans Choice B — -16]
+The product of the distinct roots of |x 2 - x - 6| = x + 2 is
+  opts: -4 | -16 | -8 | -24
+
+[CAT 2019 Slot 1 QA Q33 | Functions | TITA | ans 3]
+Consider a function f(x+y) = f(x) f(y) where x , y are positive integers, and f(1) = 2. If f (a+1) + f (a+2) + ..... + f(a+n) = 16 (2 n - 1) then a is equal to.
+
+[CAT 2019 Slot 2 QA Q1 | Logarithms | MCQ | ans Choice A — \frac{log_{2}3}{3})]
+The real root of the equation 2 6x + 2 3x+2 - 21 = 0 is
+  opts: \frac{log_{2}3}{3}) | log 2 9 | \frac{log_{2}7}{3}) | log 2 27
+
+[CAT 2019 Slot 2 QA Q5 | Sequence & series | MCQ | ans Choice B — 1]
+Let a 1 , a 2 be integers such that a 1 - a 2 + a 3 - a 4 + ........ +(-1) n-1 a n = n , for n ≥ 1. Then a 51 + a 52 + ........ + a 1023 equals
+  opts: -1 | 1 | 0 | 10
+
+[CAT 2019 Slot 2 QA Q8 | Linear & quadratic equations | MCQ | ans Choice D — 12]
+What is the largest positive integer such that \(\frac{n^2+7n+12}{n^2-n-12}\)) is also positive integer?
+  opts: 6 | 8 | 16 | 12
+
+[CAT 2019 Slot 2 QA Q10 | Functions | TITA | ans 12]
+Let f be a function such that f (mn) = f (m) f (n) for every positive integers m and n. If f (1), f (2) and f (3) are positive integers, f (1) < f (2), and f (24) = 54, then f (18) equals
+
+[CAT 2019 Slot 2 QA Q13 | Linear & quadratic equations | MCQ | ans Choice C — \(\frac{1}{16}\))]
+Let A be a real number. Then the roots of the equation x 2 - 4x - log 2 A = 0 are real and distinct if and only if
+  opts: A < \(\frac{1}{16}\)) | A > \(\frac{1}{8}\)) | A > \(\frac{1}{16}\)) | A < \(\frac{1}{8}\))
+
+[CAT 2019 Slot 2 QA Q19 | Logarithms | MCQ | ans Choice C — 1 ≤ x ≤ 3]
+If x is a real number ,then \\sqrt{log_{e}\(\frac{4x - x^2}{3}\)}) is a real number if and only if
+  opts: -3 ≤ x ≤ 3 | 1 ≤ x ≤ 2 | 1 ≤ x ≤ 3 | -1 ≤ x ≤ 3
+
+[CAT 2019 Slot 2 QA Q25 | Linear & quadratic equations | MCQ | ans Choice B — 549]
+The quadratic equation x 2 + bx + c = 0 has two roots 4a and 3a, where a is an integer. Which of the following is a possible value of b 2 + c?
+  opts: 3721 | 549 | 361 | 427
+
+[CAT 2019 Slot 2 QA Q28 | - Sequence & series | MCQ | ans Choice A — 20]
+The number of common terms in the two sequences: 15, 19, 23, 27, ...... , 415 and 14, 19, 24, 29, ...... , 464 is
+  opts: 20 | 18 | 21 | 19
+
+[CAT 2019 Slot 2 QA Q29 | Sequence & series | TITA | ans 4851]
+If (2n+1) + (2n+3) + (2n+5) + ... + (2n+47) = 5280 , then what is the value of 1+2+3+ ... +n ?
+
+[CAT 2019 Slot 2 QA Q31 | Exponents & Powers | TITA | ans 13]
+If 5 x - 3 y = 13438 and 5 x-1 + 3 y+1 = 9686 , then x+y equals
+
+[CAT 2020 Slot 1 QA Q2 | Functions | MCQ | ans D — 20]
+If f(5 + x) = f(5 - x) for every real x and f(x) = 0 has four distinct real roots, then the sum of the roots is
+  opts: 0 | 40 | 10 | 20
+
+[CAT 2020 Slot 1 QA Q5 | Logarithms | TITA | ans 36]
+If log 4 5 = (log 4 y) (log 6 \(\sqrt{5}\)), then y equals
+
+[CAT 2020 Slot 1 QA Q6 | Exponents & Powers | MCQ | ans B — 0]
+The number of real-valued solutions of the equation 2 x + 2 -x = 2 - (x - 2) 2 is
+  opts: infinite | 0 | 1 | 2
+
+[CAT 2020 Slot 1 QA Q9 | Exponents & Powers | MCQ | ans C — \frac{x^{7/2}}{x^{2\(\sqrt{3}\)}})]
+If x = (4096) 7+4\(\sqrt{3}\) , then which of the following equals 64?
+  opts: \frac{x^{7/2}}{x^{4/\(\sqrt{3}\)}}) | \frac{x^{7}}{x^{4\(\sqrt{3}\)}}) | \frac{x^{7/2}}{x^{2\(\sqrt{3}\)}}) | \frac{x^{7}}{x^{2\(\sqrt{3}\)}})
+
+[CAT 2020 Slot 1 QA Q11 | Linear & quadratic equations | TITA | ans 1]
+The number of distinct real roots of the equation (x + \(\frac{1}{x}\))) 2 - 3(x + \(\frac{1}{x}\))) + 2 = 0 equals
+
+[CAT 2020 Slot 1 QA Q15 | Linear & quadratic equations | MCQ | ans A — 6]
+How many distinct positive integer-valued solutions exist to the equation (x 2 - 7x + 11) (x 2 - 13x + 42) = 1?
+  opts: 6 | 2 | 4 | 8
+
+[CAT 2020 Slot 1 QA Q21 | Exponents & Powers | MCQ | ans A — log 2 (1/3)]
+If y is a negative number such that 2 y 2 log 3 5 = 5 log 2 3 , then y equals
+  opts: log 2 (1/3) | log 2 (1/5) | −log 2 (1/3) | −log 2 (1/5)
+
+[CAT 2020 Slot 1 QA Q25 | Sequence & Series | TITA | ans 62]
+A gentleman decided to treat a few children in the following manner. He gives half of his total stock of toffees and one extra to the first child, and then the half of the remaining stock along with one extra to the second and continues giving away in this fashion. His total stock exhausts after he takes care of 5 children. How many toffees were there in his stock initially?
+
+[CAT 2020 Slot 2 QA Q4 | Linear & quadratic equations | TITA | ans 17]
+The number of pairs of integers(x,y) satisfying x ≥ y ≥ -20 and 2x + 5y = 99 is
+
+[CAT 2020 Slot 2 QA Q5 | Logarithms | MCQ | ans B — 1]
+The value of log a \(\frac{a}{b}\)) + log b \(\frac{b}{a}\)), for 1 < a ≤ b cannot be equal to
+  opts: -0.5 | 1 | 0 | -1
+
+[CAT 2020 Slot 2 QA Q6 | Sequence & series | MCQ | ans B — -2]
+Let the m-th and n-th terms of a Geometric progression be \(\frac{3}{4}\)) and 12, respectively, when m < n. If the common ratio of the progression is an integer r, then the smallest possible value of r + n - m is
+  opts: -4 | -2 | 6 | 2
+
+[CAT 2020 Slot 2 QA Q10 | Polynomials | MCQ | ans C — \(\frac{1}{\(\sqrt{2}\)}\))]
+For real x, the maximum possible value of \(\frac{x}{√(1 + x^{4}\))}) is
+  opts: 1 | \(\frac{1}{2}\)) | \(\frac{1}{\(\sqrt{2}\)}\)) | \(\frac{1}{\(\sqrt{3}\)}\))
+
+[CAT 2020 Slot 2 QA Q12 | Inequalities | TITA | ans 23]
+If x and y are non-negative integers such that x + 9 = z, y + 1 = z and x + y < z + 5, then the maximum possible value of 2x + y equals
+
+[CAT 2020 Slot 2 QA Q14 | Functions | MCQ | ans C — 4]
+Let f(x) = x 2 + ax + b and g(x) = f(x + 1) - f(x - 1). If f(x) ≥ 0 for all real x, and g(20) = 72, then the smallest possible value of b is
+  opts: 16 | 1 | 4 | 0
+
+[CAT 2020 Slot 2 QA Q17 | Linear & quadratic equations | MCQ | ans C — 3]
+The number of integers that satisfy the equality (x 2 - 5x + 7) x + 1 = 1 is
+  opts: 5 | 4 | 3 | 2
+
+[CAT 2020 Slot 2 QA Q18 | Linear & quadratic equations | MCQ | ans A — 7]
+In how many ways can a pair of integers (x , a) be chosen such that x 2 − 2 | x | + | a - 2 | = 0 ?
+  opts: 7 | 6 | 4 | 5
+
+[CAT 2020 Slot 2 QA Q24 | Linear & quadratic equations | MCQ | ans A — 33]
+Aron bought some pencils and sharpeners. Spending the same amount of money as Aron, Aditya bought twice as many pencils and 10 less sharpeners. If the cost of one sharpener is 2 more than the cost of a pencil, then the minimum possible number of pencils bought by Aron and Aditya together is
+  opts: 33 | 27 | 30 | 36
+
+[CAT 2020 Slot 3 QA Q1 | Exponents & Powers | MCQ | ans A — -5050]
+If x 1 = -1 and x m = x m + 1 + (m + 1) for every positive integer m, then x 100 equals
+  opts: -5050 | -5051 | -5150 | -5151
+
+[CAT 2020 Slot 3 QA Q3 | Logarithms | MCQ | ans A — \(\frac{2}{A+B-3}\))]
+Let log a 30 = A, log a \(\frac{5}{3}\)) = -B and log 2 a = \(\frac{1}{3}\)), then log 3 a equals
+  opts: \(\frac{2}{A+B-3}\)) | \(\frac{A+B-3}{2}\)) | \(\frac{A+B}{2}\)) - 3 | \(\frac{2}{A+B}\)) - 3
+
+[CAT 2020 Slot 3 QA Q9 | Functions | MCQ | ans D — 15.9375]
+If f(x+y) = f(x)f(y) and f(5) = 4, then f(10) - f(-10) is equal to
+  opts: 3 | 0 | 14.0625 | 15.9375
+
+[CAT 2020 Slot 3 QA Q10 | Logarithms | TITA | ans 24]
+\(\frac{2×4×8×16}{(log_{2}\)4)^{2}(log_{4}8)^{3}(log_{8}16)^{4}}) equals
+
+[CAT 2020 Slot 3 QA Q11 | Exponents & Powers | TITA | ans 3]
+If a,b,c are non-zero and 14 a = 36 b = 84 c , then 6b(\(\frac{1}{c}\)) - \(\frac{1}{a}\))) is equal to
+
+[CAT 2020 Slot 3 QA Q15 | Linear & quadratic equations | MCQ | ans C — |k| ≠ 2]
+Let k be a constant. The equations kx + y = 3 and 4x + ky = 4 have a unique solution if and only if
+  opts: |k| = 2 | k ≠ 2 | |k| ≠ 2 | k = 2
+
+[CAT 2020 Slot 3 QA Q23 | Linear & quadratic equations | MCQ | ans B — 6]
+Let m and n be positive integers, If x 2 + mx + 2n = 0 and x 2 + 2nx + m = 0 have real roots, then the smallest possible value of m + n is
+  opts: 8 | 6 | 5 | 7
+
+
+======== geometry (52) ========
+
+[CAT 2017 Slot 1 QA Q15 | Slot 1 – Co-ordinate Geometry | MCQ | ans Choice C — 8]
+The area of the closed region bounded by the equation | x | + | y | = 2 in the two-dimensional plane is
+  opts: 4π | 4 | 8 | 2π
+
+[CAT 2017 Slot 1 QA Q16 | Geometry | MCQ | ans Choice B — \(\frac{500}{\(\sqrt{3}\)}\)\\)]
+From a triangle ABC with sides of lengths 40 ft, 25 ft and 35 ft, a triangular portion GBC is cut off where G is the centroid of ABC. The area, in sq ft, of the remaining portion of triangle ABC is:
+  opts: 225\(\sqrt{3}\) | \(\frac{500}{\(\sqrt{3}\)}\)\\) | \(\frac{275}{\(\sqrt{3}\)}\)\\) | \(\frac{250}{\(\sqrt{3}\)}\)\\)
+
+[CAT 2017 Slot 1 QA Q17 | Geometry | MCQ | ans Choice B — 18]
+Let ABC be a right-angled isosceles triangle with hypotenuse BC. Let BQC be a semi-circle, away from A, with diameter BC. Let BPC be an arc of a circle centered at A and lying between BC and BQC. If AB has length 6 cm then the area, in sq. cm, of the region enclosed by BPC and BQC is:
+  opts: 9π - 18 | 18 | 9π | 9
+
+[CAT 2017 Slot 1 QA Q18 | Mensuration & Geometry | MCQ | ans Choice B — 50]
+A solid metallic cube is melted to form five solid cubes whose volumes are in the ratio 1 : 1 : 8: 27: 27. The percentage by which the sum of the surface areas of these five cubes exceeds the surface area of the original cube is nearest to:
+  opts: 10 | 50 | 60 | 20
+
+[CAT 2017 Slot 1 QA Q19 | Mensuration & Geometry | TITA | ans 6]
+A ball of diameter 4 cm is kept on top of a hollow cylinder standing vertically. The height of the cylinder is 3 cm, while its volume is 9 π cm 3 . Then the vertical distance, in cm, of the topmost point of the ball from the base of the cylinder is:
+
+[CAT 2017 Slot 1 QA Q20 | Geometry | TITA | ans 24]
+Let ABC be a right-angled triangle with BC as the hypotenuse. Lengths of AB and AC are 15 km and 20 km, respectively. The minimum possible time, in minutes, required to reach the hypotenuse from A at a speed of 30 km per hour is:
+
+[CAT 2017 Slot 1 QA Q30 | Co-ordinate Geometry | MCQ | ans Choice A — 1]
+The shortest distance of the point (\(\frac{1}{2}\)),1) from the curve y = |x - 1| + |x + 1| is
+  opts: 1 | 0 | \(\sqrt{2}\) | √\(\frac{3}{2}\))
+
+[CAT 2017 Slot 2 QA Q15 | Geometry | MCQ | ans Choice B — 3]
+Let ABCDEF be a regular hexagon with each side of length 1 cm. The area (in sq cm) of a square with AC as one side is
+  opts: 3\(\sqrt{2}\) | 3 | 4 | \(\sqrt{3}\)
+
+[CAT 2017 Slot 2 QA Q16 | Geometry | MCQ | ans Choice C — 1480]
+The base of a vertical pillar with uniform cross section is a trapezium whose parallel sides are of lengths 10 cm and 20 cm while the other two sides are of equal length. The perpendicular distance between the parallel sides of the trapezium is 12 cm. If the height of the pillar is 20 cm, then the total area, in sq cm, of all six surfaces of the pillar is
+  opts: 1300 | 1340 | 1480 | 1520
+
+[CAT 2017 Slot 2 QA Q17 | Co-ordinate Geometry | MCQ | ans Choice D — - 8]
+The points (2, 5) and (6, 3) are two end points of a diagonal of a rectangle. If the other diagonal has the equation y = 3x + c, then c is
+  opts: - 5 | - 6 | - 7 | - 8
+
+[CAT 2017 Slot 2 QA Q18 | Geometry | TITA | ans 90]
+ABCD is a quadrilateral inscribed in a circle with centre O. If ∠COD = 120 degrees and ∠BAC = 30 degrees, then the value of ∠BCD (in degrees) is
+
+[CAT 2017 Slot 2 QA Q19 | Geometry | TITA | ans 200]
+If three sides of a rectangular park have a total length 400 ft., then the area of the park is maximum when the length (in ft.) of its longer side is
+
+[CAT 2017 Slot 2 QA Q20 | Geometry | TITA | ans 16]
+Let P be an interior point of a right-angled isosceles triangle ABC with hypotenuse AB. If the perpendicular distance of P from each of AB, BC, and CA is 4(\(\sqrt{2}\) - 1) cm, then the area, in sq. cm, of the triangle ABC is
+
+[CAT 2018 Slot 1 QA Q2 | Geometry | MCQ | ans Choice D — \(\frac{&pi;}{3\(\sqrt{3}\)}\)) \(\frac{1}{2}\))]
+In a circle with centre O and radius 1 cm, an arc AB makes an angle 60 degrees at O. Let R be the region bounded by the radii OA, OB and the arc AB. If C and D are two points on OA and OB, respectively, such that OC = OD and the area of triangle OCD is half that of R, then the length of OC, in cm, is
+  opts: \(\frac{&pi;}{4}\)) \(\frac{1}{2}\)) | \(\frac{&pi;}{6}\)) \(\frac{1}{2}\)) | \(\frac{&pi;}{4\(\sqrt{3}\)}\)) \(\frac{1}{2}\)) | \(\frac{&pi;}{3\(\sqrt{3}\)}\)) \(\frac{1}{2}\))
+
+[CAT 2018 Slot 1 QA Q9 | Geometry | MCQ | ans Choice A — 192\(\sqrt{3}\)]
+Given an equilateral triangle T1 with side 24 cm, a second triangle T2 is formed by joining the midpoints of the sides of T1. Then a third triangle T3 is formed by joining the midpoints of the sides of T2. If this process of forming triangles is continued, the sum of the areas, in sq cm, of infinitely many such triangles T1, T2, T3,... will be
+  opts: 192\(\sqrt{3}\) | 164\(\sqrt{3}\) | 248\(\sqrt{3}\) | 188\(\sqrt{3}\)
+
+[CAT 2018 Slot 1 QA Q13 | Mensuration | TITA | ans 198]
+A right circular cone, of height 12 ft, stands on its base which has diameter 8 ft. The tip of the cone is cut off with a plane which is parallel to the base and 9 ft from the base. With π = 22/7, the volume, in cubic ft, of the remaining part of the cone is:
+
+[CAT 2018 Slot 1 QA Q18 | Geometry | MCQ | ans Choice D — 24 , 10]
+Let ABCD be a rectangle inscribed in a circle of radius 13 cm. Which one of the following pairs can represent, in cm, the possible length and breadth of ABCD?
+  opts: 25 , 10 | 24 , 12 | 25 , 9 | 24 , 10
+
+[CAT 2018 Slot 1 QA Q24 | Geometry | MCQ | ans Choice A — 1 : 3]
+Points E, F, G, H lie on the sides AB, BC, CD, and DA, respectively, of a square ABCD. If EFGH is also a square whose area is 62.5% of that of ABCD and CG is longer than EB, then the ratio of length of EB to that of CG is:
+  opts: 1 : 3 | 4 : 9 | 2 : 5 | 3 : 8
+
+[CAT 2018 Slot 1 QA Q29 | Mensuration | MCQ | ans Choice C — 32\(\sqrt{3}\)]
+In a parallelogram ABCD of area 72 sq cm, the sides CD and AD have lengths 9 cm and 16 cm, respectively. Let P be a point on CD such that AP is perpendicular to CD. Then the area, in sq cm, of triangle APD is
+  opts: 18\(\sqrt{3}\) | 24\(\sqrt{3}\) | 32\(\sqrt{3}\) | 12\(\sqrt{3}\)
+
+[CAT 2018 Slot 1 QA Q30 | Geometry | MCQ | ans Choice A — \(\sqrt{13}\)]
+In a circle, two parallel chords on the same side of a diameter have lengths 4 cm and 6 cm. If the distance between these chords is 1 cm, then the radius of the circle, in cm, is
+  opts: \(\sqrt{13}\) | \(\sqrt{14}\) | \(\sqrt{11}\) | \(\sqrt{12}\)
+
+[CAT 2018 Slot 2 QA Q4 | Geometry | TITA | ans 24 cm]
+On a triangle ABC, a circle with diameter BC is drawn, intersecting AB and AC at points P and Q, respectively. If the lengths of AB, AC, and CP are 30 cm, 25 cm, and 20 cm respectively, then the length of BQ, in cm, is
+
+[CAT 2018 Slot 2 QA Q6 | Mensuration | MCQ | ans Choice A — 88 + 12π]
+From a rectangle ABCD of area 768 sq cm, a semicircular part with diameter AB and area 72π sq cm is removed. The perimeter of the leftover portion, in cm, is
+  opts: 88 + 12π | 80 + 16π | 86 + 8π | 82 + 24π
+
+[CAT 2018 Slot 2 QA Q8 | Geometry | MCQ | ans Choice B — 5\(\sqrt{3}\)]
+A chord of length 5 cm subtends an angle of 60° at the centre of a circle. The length, in cm, of a chord that subtends an angle of 120° at the centre of the same circle is
+  opts: 2π | 5\(\sqrt{3}\) | 6\(\sqrt{2}\) | 8
+
+[CAT 2018 Slot 2 QA Q12 | Mensuration | MCQ | ans Choice C — 1 : 4]
+The area of a rectangle and the square of its perimeter are in the ratio 1 : 25. Then the lengths of the shorter and longer sides of the rectangle are in the ratio
+  opts: 3 : 8 | 2 : 9 | 1 : 4 | 1 : 3
+
+[CAT 2018 Slot 2 QA Q15 | Mensuration | MCQ | ans Choice A — s ≥ 6]
+A parallelogram ABCD has area 48 sqcm. If the length of CD is 8 cm and that of AD is s cm, then which one of the following is necessarily true?
+  opts: s ≥ 6 | s ≠ 6 | 5 ≤ s ≤ 7 | s ≤ 6
+
+[CAT 2018 Slot 2 QA Q25 | Coordinate Geometry | MCQ | ans Choice C — 4 units]
+A triangle ABC has area 32 sq units and its side BC, of length 8 units, lies on the line x = 4. Then the shortest possible distance between A and the point (0,0) is
+  opts: 4\(\sqrt{2}\) units | 2\(\sqrt{2}\) units | 4 units | 8 units
+
+[CAT 2019 Slot 1 QA Q3 | Coordinate Geometry | TITA | ans 3920]
+With rectangular axes of coordinates, the number of paths from (1,1) to (8,10) via (4,6), where each step from any point (x,y) is either to (x,y+1) or to (x+1,y) is
+
+[CAT 2019 Slot 1 QA Q5 | Circles | MCQ | ans Choice C — 0.5]
+In a circle of radius 11 cm, CD is a diameter and AB is a chord of length 20.5 cm. If AB and CD intersect at a point E inside the circle and CE has length 7 cm, then the difference of the lengths of BE and AE, in cm, is
+  opts: 1.5 | 3.5 | 0.5 | 2.5
+
+[CAT 2019 Slot 1 QA Q7 | Mensuration | MCQ | ans Choice C — 2 : 3]
+Corners are cut off from an equilateral triangle T to produce a regular hexagon H. Then, the ratio of the area of H to the area of T is
+  opts: 5 : 6 | 3 : 4 | 2 : 3 | 4 : 5
+
+[CAT 2019 Slot 1 QA Q8 | Coordinate Geometry | TITA | ans 9]
+Let T be the triangle formed by the straight line 3x + 5y - 45 = 0 and the coordinate axes. Let the circumcircle of T have radius of length L, measured in the same unit as the coordinate axes. Then, the integer closest to L is
+
+[CAT 2019 Slot 1 QA Q17 | Trigonometry | MCQ | ans Choice C — 1]
+The number of the real roots of the equation 2cos(x(x + 1)) = 2 x + 2 -x is
+  opts: 0 | Infinite | 1 | 2
+
+[CAT 2019 Slot 1 QA Q21 | Geometry | MCQ | ans Choice C — 9.1]
+AB is a diameter of a circle of radius 5 cm. Let P and Q be two points on the circle so that the length of PB is 6 cm, and the length of AP is twice that of AQ. Then the length, in cm, of QB is nearest to
+  opts: 8.5 | 9.3 | 9.1 | 7.8
+
+[CAT 2019 Slot 1 QA Q27 | Mensuration | MCQ | ans Choice A — 1 : \\sqrt{3})]
+If the rectangular faces of a brick have their diagonals in the ratio 3 : 2 \\sqrt{3}) : \\sqrt{15}), then the ratio of the length of the shortest edge of the brick to that of its longest edge is
+  opts: 1 : \\sqrt{3}) | 2 : \\sqrt{5}) | \\sqrt{2}) :\\sqrt{3}) | \\sqrt{3}) : 2
+
+[CAT 2019 Slot 1 QA Q28 | Coordinate Geometry | TITA | ans 2]
+Let S be the set of all points (x,y) in the x-y plane such that |x| + |y| ≤ 2 and |x| ≥ 1. Then, the area, in square units, of the region represented by S equals
+
+[CAT 2019 Slot 2 QA Q4 | Geometry | MCQ | ans Choice C — 72]
+In a triangle ABC, medians AD and BE are perpendicular to each other, and have lengths 12 cm and 9 cm, respectively. Then, the area of triangle ABC, in sq cm, is
+  opts: 80 | 68 | 72 | 78
+
+[CAT 2019 Slot 2 QA Q7 | Geometry | MCQ | ans Choice B — 1]
+Two circles, each of radius 4 cm, touch externally. Each of these two circles is touched externally by a third circle. If these three circles have a common tangent, then the radius of the third circle, in cm, is
+  opts: \(\frac{π}{3}\)) | 1 | \(\frac{1}{\sqrt{2}\)}) | \\sqrt{2})
+
+[CAT 2019 Slot 2 QA Q11 | Geometry | TITA | ans 150]
+Let A and B be two regular polygons having a and b sides, respectively. If b = 2a and each interior angle of B is 3/2 times each interior angle of A, then each interior angle, in degrees, of a regular polygon with a + b sides is
+
+[CAT 2019 Slot 2 QA Q18 | Mensuration | MCQ | ans Choice A — 10\\sqrt{2})]
+The base of a regular pyramid is a square and each of the other four sides is an equilateral triangle, length of each side being 20 cm. The vertical height of the pyramid, in cm, is
+  opts: 10\\sqrt{2}) | 8\\sqrt{3}) | 12 | 5\\sqrt{5})
+
+[CAT 2019 Slot 2 QA Q20 | Geometry | MCQ | ans Choice A — 10]
+Let ABC be a right-angled triangle with hypotenuse BC of length 20 cm. If AP is perpendicular on BC, then the maximum possible length of AP, in cm, is
+  opts: 10 | 8\\sqrt{2}) | 6\\sqrt{2}) | 5
+
+[CAT 2019 Slot 2 QA Q24 | Mensuration | MCQ | ans Choice D — 1026(1 + π)]
+A man makes complete use of 405 cc of iron, 783 cc of aluminium, and 351 cc of copper to make a number of solid right circular cylinders of each type of metal. These cylinders have the same volume and each of these has radius 3 cm. If the total number of cylinders is to be kept at a minimum, then the total surface area of all these cylinders, in sq cm, is
+  opts: 1044(4 + π) | 8464π | 928π | 1026(1 + π)
+
+[CAT 2020 Slot 1 QA Q16 | Co-ordinate Geometry | TITA | ans 3]
+The area of the region satisfying the inequalities |x| - y ≤ 1, y ≥ 0, and y ≤ 1 is
+
+[CAT 2020 Slot 1 QA Q17 | Mensuration | MCQ | ans C — 243]
+A solid right circular cone of height 27 cm is cut into 2 pieces along a plane parallel to it's base at a height of 18 cm from the base. If the difference in the volume of the two pieces is 225 cc, the volume, in cc, of the original cone is
+  opts: 264 | 232 | 243 | 256
+
+[CAT 2020 Slot 1 QA Q18 | Geometry | MCQ | ans B — \(\frac{6π}{25}\))]
+A circle is inscribed in a rhombus with diagonals 12 cm and 16 cm. The ratio of the area of the circle to the area of the rhombus is
+  opts: \(\frac{2π}{15}\)) | \(\frac{6π}{25}\)) | \(\frac{3π}{25}\)) | \(\frac{5π}{18}\))
+
+[CAT 2020 Slot 1 QA Q22 | Mensuration | MCQ | ans A — 3√π(5 + \(\frac{12}{π}\)))]
+On a rectangular metal sheet of area 135 sq in, a circle is painted such that the circle touches opposite two sides. If the area of the sheet left unpainted is two-thirds of the painted area then the perimeter of the rectangle in inches is
+  opts: 3√π(5 + \(\frac{12}{π}\))) | 4√π(3 + \(\frac{12}{π}\))) | 5√π(3 + \(\frac{12}{π}\))) | 3√π(\(\frac{5}{2}\)) + \(\frac{6}{π}\)))
+
+[CAT 2020 Slot 2 QA Q2 | Geometry | MCQ | ans C — \frac{s^{2}}{\(\sqrt{3}\)})]
+From the interior point of an equilateral triangle, perpendiculars are drawn on all three sides. The sum of the lengths of the perpendiculars is 's'. Then the area of the triangle is
+  opts: \frac{s^{2}}{2\(\sqrt{3}\)}) | \frac{2s^{2}}{\(\sqrt{3}\)}) | \frac{s^{2}}{\(\sqrt{3}\)}) | \frac{\(\sqrt{3}\)s^{2}}{2})
+
+[CAT 2020 Slot 2 QA Q9 | Geometry | MCQ | ans C — 8.8]
+Let C be a circle of radius 5 meters having center at O. Let PQ be a chord of C that passes through points A and B where A is located 4 meters north of O and B is located 3 meters east of O. Then, the length of PQ, in meters, is nearest to
+  opts: 6.6 | 7.2 | 8.8 | 7.8
+
+[CAT 2020 Slot 2 QA Q16 | Mensuration | MCQ | ans A — 27]
+The sum of perimeters of an equilateral triangle and a rectanmgle is 90 cm. The area, T, of the triangle and the area , R, of the rectangle, both in sq cm, satisfy the relationship R = T 2 . If the sides of the rectangle are in the ratio 1 : 3, then the length, in cm, of the longer side of the rectangle, is
+  opts: 27 | 18 | 21 | 24
+
+[CAT 2020 Slot 2 QA Q21 | Geometry | TITA | ans 10]
+Let C1 and C2 be concentric circles such that the diameter of C1 is 2cm longer than that of C2. If a chord of C1 has length 6 cm and is a tangent to C2, then the diameter, in cm of C1 is
+
+[CAT 2020 Slot 3 QA Q5 | Co-ordinate Geometry | MCQ | ans D — 10]
+The area, in sq. units, enclosed by the lines x = 2, y = |x - 2| + 4, the X-axis and the Y-axis is equal to
+  opts: 12 | 8 | 6 | 10
+
+[CAT 2020 Slot 3 QA Q19 | Co-ordinate Geometry | MCQ | ans C — \(\frac{205π}{9}\))]
+The vertices of a triangle are (0,0), (4,0) and (3,9). The area of the circle passing through these three points is
+  opts: \(\frac{14π}{3}\)) | \(\frac{123π}{7}\)) | \(\frac{205π}{9}\)) | \(\frac{12π}{5}\))
+
+[CAT 2020 Slot 3 QA Q24 | Geometry | TITA | ans 28]
+In a trepezium ABCD, AB is parallel to DC, BC is perpendicular to DC and ∠BAD = 45°. If DC = 5 cm, BC = 4 cm, the area of the trepezium in sq. cm is
+
+[CAT 2020 Slot 3 QA Q25 | Co-ordinate Geometry | MCQ | ans C — 14]
+The points (2 , 1) and (-3 , -4) are opposite vertices of a parellelogram. If the other two vertices lie on the line x + 9y + c = 0, then c is
+  opts: 15 | 13 | 14 | 12
+
+
+======== modern (13) ========
+
+[CAT 2017 Slot 1 QA Q25 | Permutation & Combination | MCQ | ans Choice B — 99]
+The number of solutions (x, y, z) to the equation x – y – z = 25, where x, y, and z are positive integers such that x ≤ 40, y ≤ 12, and z ≤ 12 is
+  opts: 101 | 99 | 87 | 105
+
+[CAT 2017 Slot 1 QA Q29 | Permutation & Combination | TITA | ans 160]
+Let AB, CD, EF, GH, and JK be five diameters of a circle with center at O. In how many ways can three points be chosen out of A, B, C, D, E, F, G, H, J, K, and O so as to form a triangle?
+
+[CAT 2017 Slot 1 QA Q32 | Permutation & Combination | MCQ | ans Choice A — 16]
+In how many ways can 7 identical erasers be distributed among 4 kids in such a way that each kid gets at least one eraser but nobody gets more than 3 erasers?
+  opts: 16 | 20 | 14 | 15
+
+[CAT 2017 Slot 2 QA Q29 | Permutation & Combination | TITA | ans 6]
+In how many ways can 8 identical pens be distributed among Amal, Bimal, and Kamal so that Amal gets at least 1 pen, Bimal gets at least 2 pens, and Kamal gets at least 3 pens?
+
+[CAT 2017 Slot 2 QA Q30 | Permutation & Combination | TITA | ans 50]
+How many four digit numbers, which are divisible by 6, can be formed using the digits 0, 2, 3, 4, 6, such that no digit is used more than once and 0 does not occur in the left-most position?
+
+[CAT 2018 Slot 1 QA Q22 | Set Theory | TITA | ans 52]
+Each of 74 students in a class studies at least one of the three subjects H, E and P. Ten students study all three subjects, while twenty study H and E, but not P. Every student who studies P also studies H or E or both. If the number of students studying H equals that studying E, then the number of students studying H is
+
+[CAT 2018 Slot 1 QA Q32 | Set Theory | MCQ | ans Choice D — 93]
+If among 200 students, 105 like pizza and 134 like burger, then the number of students who like only burger can possibly be
+  opts: 26 | 23 | 96 | 93
+
+[CAT 2018 Slot 2 QA Q10 | Permutation & Combination | TITA | ans 1098]
+In a tournament, there are 43 junior level and 51 senior level participants. Each pair of juniors play one match. Each pair of seniors play one match. There is no junior versus senior match. The number of girl versus girl matches in junior level is 153, while the number of boy versus boy matches in senior level is 276. The number of matches a boy plays against a girl is
+
+[CAT 2018 Slot 2 QA Q31 | Set Theory | MCQ | ans Choice A — 7]
+For two sets A and B, let AΔB denote the set of elements which belong to A or B but not both. If P = {1,2,3,4}, Q = {2,3,5,6,}, R = {1,3,7,8,9}, S = {2,4,9,10}, then the number of elements in (PΔQ)Δ(RΔS) is
+  opts: 7 | 8 | 9 | 6
+
+[CAT 2018 Slot 2 QA Q32 | Set Theory | MCQ | ans Choice B — Every member of A is in B and at least one member of B is not in A]
+If A = {6 2n - 35n - 1: n = 1,2,3,...} and B = {35(n-1) : n = 1,2,3,...} then which of the following is true?
+  opts: Neither every member of A is in B nor every member of B is in A | Every member of A is in B and at least one member of B is not in A | Every member of B is in A. | At least one member of A is not in B
+
+[CAT 2019 Slot 1 QA Q4 | Set Theory | MCQ | ans Choice B — 43]
+A club has 256 members of whom 144 can play football, 123 can play tennis, and 132 can play cricket. Moreover, 58 members can play both football and tennis, 25 can play both cricket and tennis, while 63 can play both football and cricket. If every member can play at least one game, then the number of members who can play only tennis is
+  opts: 32 | 43 | 38 | 45
+
+[CAT 2020 Slot 2 QA Q13 | Set Theory | MCQ | ans C — 20]
+Students in a college have to choose at least two subjects from chemistry, mathematics and physics. The number of students choosing all three subjects is 18, choosing mathematics as one of their subjects is 23 and choosing physics as one of their subjects is 25. The smallest possible number of students who could choose chemistry as one of their subjects is
+  opts: 22 | 19 | 20 | 21
+
+[CAT 2020 Slot 3 QA Q16 | Combinatorics | TITA | ans 252]
+How many integers in the set {100, 101, 102, ..., 999} have at least one digit repeated?

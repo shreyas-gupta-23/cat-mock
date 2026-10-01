@@ -1,0 +1,1473 @@
+Source: https://online.2iim.com/CAT-question-paper/CAT-2024-Question-Paper-Slot-1-DILR/
+Note: Public HTML question set from 2IIM (no login). Not an official IIM PDF.
+
+CAT Question Paper 2024 - DILR Slot 1, 2IIM CAT
+ CAT 2024 CAT Online classes, CAT coaching in Chennai | 2IIM Online CAT
+ Coaching
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+ 
+ 2IIM CAT Question Bank
+
+ 
+
+
+
+ 
+ 
+ 🎯 2IIM’s VARC Offline Workshop — Sep 26 & 27 | Chennai | Master VARC with CAT Experts | RC, Para Summary, Para Jumble, Test & Analysis | ₹999 (₹1500) 
+
+
+
+
+
+
+ -->
+
+ 
+ 
+
+
+
+
+
+
+ 
+
+ 
+ ⏳All India Scholarship Test – Unlock up to 100% Scholarship.
+
+ -->
+
+ 
+
+
+ &#x1f389;
+ May Month-End Sale is Live | Enjoy Up to 20% OFF | Valid Until May 31
+ -->
+
+ 
+ &#x1f389;Effortlessly calculate your score with the 2IIM Score Calculator!&#x1f389;
+ -->
+
+
+
+
+
+
+
+ 
+ 
+ Online CAT Coaching 
+ 
+ Visit our Website
+
+ 
+
+
+ CAT Coaching 
+ 
+ CAT Coaching in Chennai
+
+ CAT Preparation Books
+
+ 
+
+
+ CAT Preparation 
+ 
+ CAT Previous Year Papers
+
+ 2IIM's CAT Questions
+
+ XAT Previous Year Papers
+
+ IIFT Previous Year Papers
+
+ How to prepare for CAT exam 
+ 
+ How
+ to prepare for CAT Quantitative Aptitude
+
+ How
+ to prepare for CAT DILR Section
+
+ How
+ to prepare for CAT VARC Section
+
+ 
+
+
+ What is CAT Exam All about
+
+ CAT Syllabus
+
+ CAT Online Live Classes
+-->
+ GMAT Preparation Online
+
+ 
+
+
+ Blogs / Social 2IIM CAT Preparation Blog
+ 2IIM CAT Preparation Reviews
+ CAT Preparation Quora Answers
+ CAT Preparation Videos
+ CAT Preparation Facebook Group
+ CAT Preparation Facebook Page
+ CAT Preparation Blogs CAT Questions Quantitative Aptitude Blog
+ CAT Preparation Blog
+
+ -->
+ Contact 
+ 
+ About Us
+-->
+ Our Team
+-->
+ Results
+
+ Work for Us
+
+ 
+
+
+ Signup
+ Login
+-->
+ IPMAT 2026 Coaching
+ Online
+
+ 
+
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ CAT 2024 Question Paper | CAT LR DI
+
+ CAT Question Paper | CAT Previous Year Paper
+
+
+
+
+
+ 
+ 
+ CAT Online Coaching / CAT Previous Year Paper / CAT 2024 DILR Slot 1
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ 
+ 
+
+
+ 
+
+ Six web surfers M, N, O, P, X, and Y each had 30 stars which they distributed
+ among four bloggers A, B, C, and D. The number of stars received by A and B from the six web
+ surfers is shown in the figure below.
+
+The following additional facts are known regarding the number
+ of stars received by the bloggers from the surfers.
+
+1. The numbers of stars
+ received by the bloggers from the surfers were all multiples of 5 (including 0).
+2. The
+ total numbers of stars received by the bloggers were the same.
+3. Each blogger received
+ a different number of stars from M.
+4. Two surfers gave all their stars to a single
+ blogger.
+5. D received more stars than C from Y.
+
+ 
+ CAT 2024 Slot 1 - DI LR
+
+ 
+ What was the total number of stars received by D?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 45
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 76.25%
+Incorrect:
+ 12.13%
+Unattempted: 11.62%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 1 - DI LR
+
+ 
+ What was the number of stars received by D from Y?
+
+ 
+ 
+ 
+ 5
+
+ cannot be determined
+
+ 0
+
+ 10
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+5
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 75.13%
+Incorrect:
+ 7.19%
+Unattempted: 17.69%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 1 - DI LR
+
+ 
+ How many surfers distributed their stars among exactly 2 bloggers?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 2
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 71.96%
+Incorrect:
+ 16.71%
+Unattempted: 11.34%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 1 - DI LR
+
+ 
+ Which of the following can be determined with certainty?
+
+1)The number of
+ stars received by C from M
+2) The number of stars received by D from O
+
+ 
+ 
+ 
+ Neither I nor II
+
+ Only I
+
+ Only II
+
+ Both I and II
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+Only I
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 47.41%
+Incorrect:
+ 27.06%
+Unattempted: 25.52%
+
+
+
+
+
+
+
+ 
+
+
+
+ The chart below provides complete information about the number of countries
+ visited by Dheeraj, Samantha and Nitesh, in Asia, Europe and the rest of the world
+ (ROW).
+
+The following additional facts are known about the countries visited
+ by them.
+
+1. 32 countries were visited by at least one of them.
+2. USA (in
+ ROW) is the only country that was visited by all three of them.
+3. China (in Asia) is
+ the only country that was visited by both Dheeraj and Nitesh, but not by Samantha.
+4.
+ France (in Europe) is the only country outside Asia, which was visited by both Dheeraj and
+ Samantha, but not by Nitesh.
+5. Half of the countries visited by both Samantha and
+ Nitesh are in Europe.
+
+
+ 
+ CAT 2024 Slot 1 - DI LR
+
+ 
+ How many countries in Asia were visited by at least one of Dheeraj, Samantha and Nitesh?
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 3
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 35.51%
+Incorrect:
+ 36.68%
+Unattempted: 27.81%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 1 - DI LR
+
+ 
+ How many countries in Europe were visited only by Nitesh?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 2
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 12.97%
+Incorrect:
+ 56.0%
+Unattempted: 31.03%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 1 - DI LR
+
+ 
+ How many countries in the ROW were visited by both Nitesh and Samantha?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 4
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 21.93%
+Incorrect:
+ 45.87%
+Unattempted: 32.2%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 1 - DI LR
+
+ 
+ How many countries in Europe were visited by exactly one of Dheeraj, Samantha and Nitesh?
+
+
+ 
+ 
+ 
+ 12
+
+ 14
+
+ 10
+
+ 5
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+12
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 7.05%
+Incorrect:
+ 12.65%
+Unattempted: 80.31%
+
+
+
+
+
+
+
+ 
+
+
+
+ The game of QUIET is played between two teams. Six teams, numbered 1, 2, 3, 4,
+ 5, and 6, play in a QUIET tournament. These teams are divided equally into two groups. In
+ the tournament, each team plays every other team in the same group only once, and each team
+ in the other group exactly twice. The tournament has several rounds, each of which consists
+ of a few games. Every team plays exactly one game in each round.
+
+The following
+ additional facts are known about the schedule of games in the tournament.
+1. Each team
+ played against a team from the other group in Round 8.
+2. In Round 4 and Round 7, the
+ match-ups, that is the pair of teams playing against each other, were identical. In Round 5
+ and Round 8, the match-ups were identical.
+3. Team 4 played Team 6 in both Round 1 and
+ Round 2.
+4. Team 1 played Team 5 ONLY once and that was in Round 2.
+5. Team 3
+ played Team 4 in Round 3. Team 1 played Team 6 in Round 6.
+6. In Round 8, Team 3
+ played Team 6, while Team 2 played Team 5.
+
+ 
+ CAT 2024 Slot 1 - DI LR
+
+ 
+ How many rounds were there in the tournament?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 8
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 30.84%
+Incorrect:
+ 28.32%
+Unattempted: 40.83%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 1 - DI LR
+
+ 
+ What is the number of the team that played Team 1 in Round 5?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 4
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 27.34%
+Incorrect:
+ 29.12%
+Unattempted: 43.54%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 1 - DI LR
+
+ 
+ Which team among the teams numbered 2, 3, 4, and 5 was not part of the same group?
+
+ 
+ 
+ 
+ 5
+
+ 2
+
+ 4
+
+ 3
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+5
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 23.33%
+Incorrect:
+ 5.37%
+Unattempted: 71.3%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 1 - DI LR
+
+ 
+ What is the number of the team that played Team 1 in Round 7?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 3
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 20.58%
+Incorrect:
+ 30.19%
+Unattempted: 49.23%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 1 - DI LR
+
+ 
+ What is the number of the team that played Team 6 in Round 3?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 5
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 19.88%
+Incorrect:
+ 29.72%
+Unattempted: 50.4%
+
+
+
+
+
+
+
+ 
+
+
+
+ The chart below shows the price data for seven shares – A, B, C, D, E, F, and G
+ as a candlestick plot for a particular day. The vertical axis shows the price of the share
+ in rupees. A share whose closing price (price at the end of the day) is more than its
+ opening price (price at the start of the day) is called a bullish share; otherwise, it is
+ called a bearish share. All bullish and bearish shares are shown in green and red colour
+ respectively.
+ 
+
+
+ 
+ CAT 2024 Slot 1 - DI LR
+
+ 
+ Daily Share Price Variability (SPV) is defined as (Day's high price - Day's low price) /
+ (Average of the opening and closing prices during the day). Which among the shares A, C,
+ D and F had the highest SPV on that day?
+
+ 
+ 
+ 
+ A
+
+ F
+
+ D
+
+ C
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice C
+D
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 70.04%
+Incorrect:
+ 13.72%
+Unattempted: 16.24%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 1 - DI LR
+
+ 
+ Daily Share Price Variability (SPV) is defined as (Day's high price - Day's low price) /
+ (Average of the opening and closing prices during the day). How many shares had an SPV
+ greater than 0.5 on that day?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 4
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 52.68%
+Incorrect:
+ 34.16%
+Unattempted: 13.16%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 1 - DI LR
+
+ 
+ Daily loss for a share is defined as (Opening price – Closing price) / (Opening price).
+ Which among the shares A, B, F and G had the highest daily loss on that day?
+
+ 
+ 
+ 
+ B
+
+ G
+
+ F
+
+ A
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+A
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 56.18%
+Incorrect:
+ 24.45%
+Unattempted: 19.37%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 1 - DI LR
+
+ 
+ What would have been the percentage wealth gain for a trader, who bought equal numbers of
+ all bullish shares at opening price and sold them at their day's high?
+
+ 
+ 
+ 
+ 100%
+
+ 80%
+
+ 72%
+
+ 50%
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+80%
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 55.11%
+Incorrect:
+ 10.5%
+Unattempted: 34.39%
+
+
+
+
+
+
+
+ 
+
+
+
+ Two students, Amiya and Ramya are the only candidates in an election for the
+ position of class representative. Students will vote based on the intensity level of Amiya's
+ and Ramya's campaigns and the type of campaigns they run. Each campaign is said to have a
+ level of 1 if it is a staid campaign and a level of 2 if it is a vigorous campaign.
+ Campaigns can be of two types, they can either focus on issues, or on attacking the other
+ candidate.
+
+If Amiya and Ramya both run campaigns focusing on issues, then
+
+• The percentage of students voting in the election will be 20 times the sum of the
+ levels of campaigning of the two students. For example, if Amiya and Ramya both run vigorous
+ campaigns, then 20 × (2+2)%, that is, 80% of the students will vote in the
+ election.
+• Among voting students, the percentage of votes for each candidate will be
+ proportional to the levels of their campaigns. For example, if Amiya runs a staid (i.e.,
+ level 1) campaign while Ramya runs a vigorous (i.e., level 2) campaign, then Amiya will
+ receive 1/3 of the votes cast, and Ramya will receive the other 2/3.
+
+The
+ above-mentioned percentages change as follows if at least one of them runs a campaign
+ attacking their opponent.
+• If Amiya runs a campaign attacking Ramya and Ramya runs a
+ campaign focusing on issues, then 10% of the students who would have otherwise voted for
+ Amiya will vote for Ramya, and another 10% who would have otherwise voted for Amiya, will
+ not vote at all.
+• If Ramya runs a campaign attacking Amiya and Amiya runs a campaign
+ focusing on issues, then 20% of the students who would have otherwise voted for Ramya will
+ vote for Amiya, and another 5% who would have otherwise voted for Ramya, will not vote at
+ all.
+• If both run campaigns attacking each other, then 10% of the students who would
+ have otherwise voted for them had they run campaigns focusing on issues, will not vote at
+ all.
+
+ 
+ CAT 2024 Slot 1 - DI LR
+
+ 
+ If both of them run staid campaigns attacking the other, then what percentage of students
+ will vote in the election?
+
+ 
+ 
+ 
+ 60%
+
+ 64%
+
+ 40%
+
+ 36%
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+36%
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 14.42%
+Incorrect:
+ 5.27%
+Unattempted: 80.31%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 1 - DI LR
+
+ 
+ What is the minimum percentage of students who will vote in the election?
+
+ 
+ 
+ 
+ 38%
+
+ 36%
+
+ 32%
+
+ 40%
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+36%
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 12.88%
+Incorrect:
+ 4.01%
+Unattempted: 83.11%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 1 - DI LR
+
+ 
+ If Amiya runs a campaign focusing on issues, then what is the maximum percentage of votes
+ that she can get?
+
+ 
+ 
+ 
+ 48%
+
+ 36%
+
+ 44%
+
+ 40%
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+48%
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 9.61%
+Incorrect:
+ 6.21%
+Unattempted: 84.18%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 1 - DI LR
+
+ 
+ If Ramya runs a campaign attacking Amiya, then what is the minimum percentage of votes
+ that she is guaranteed to get?
+
+ 
+ 
+ 
+ 15%
+
+ 18%
+
+ 12%
+
+ 30%
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+15%
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 10.69%
+Incorrect:
+ 3.73%
+Unattempted: 85.58%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 1 - DI LR
+
+ 
+ What is the maximum possible voting margin with which one of the candidates can win?
+
+ 
+ 
+ 
+ 20%
+
+ 28%
+
+ 26%
+
+ 29%
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+29%
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 6.53%
+Incorrect:
+ 4.01%
+Unattempted: 89.45%
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+ section of your HTML file -->
+
+ 🎯 2IIM’s VARC Offline Workshop — Sep 26 & 27 | Chennai | Master VARC with CAT Experts | RC, Para Summary, Para Jumble, Test & Analysis | ₹999 (₹1500)
+
+ Enrol Now →
+
+ -->
+
+ 🎯 2IIM’s CAT 2026 Percentile Booster — Classes Start This Monday!
+
+ Enrol Now →
+
+ Struggling with VARC, DILR, or Quant? Learn Just That Section.
+
+ ★ Click here!
+
+ 🔥 Limited-Time 3-Day Offer | Choose VARC, DILR or Quant for ₹5,000 Only
+
+ Click here! →
+
+ -->
+
+ First Edition Now Available | CAT PYQ 2020–2025 | Limited First Print
+
+ Order Now →
+
+ ⏳Register for a free 2IIM demo class and start your
+ preparation the right way.
+
+ ★ Click here!
+
+ -->
+
+ Download comprehensive
+ PDFs of past years’ question papers with answers.
+
+ ★ Click here
+
+ Repeating
+ CAT? Ace it with 2 IIM! Get expert guidance & exclusive discounts.
+ 🚀
+
+ ★ Register Now
+
+ -->
+
+ Best CAT Online Coaching
+
+ Try upto 40 hours for free
+ Learn from the best!
+
+ ★ Sign up Now!
+
+ -->
+
+ CAT
+ Coaching in Chennai
+CAT 2024
+
+ Classroom Batches Starting Now! @Gopalapuram and @Anna
+ nagar
+
+ ★ CAT Coaching
+
+ -->
+
+ Best CAT Coaching in Chennai
+
+ Attend a Demo Class
+
+ ★ Schedule a Demo!
+
+ -->
+
+ -->
+ -->
+ -->
+
+ -->
+ &#x1F3AF; Huge Discount: 5,000 off on Online CAT Course. Till June 30. Register now! -->
+ Upto 50% off - Take the Scholarship test now! -->
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+ 
+ 2IIM offers the best CAT coaching in Chennai. We conduct weekend CAT classes in Chennai.
+ 2IIM's Online CAT Coaching is the most comprehensive & Best CAT Online Coaching available in the
+ country.
+
+
+
+ 
+ 
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT Online Preparation
+
+ LIVE Classroom CAT classes
+
+ CAT Online
+ Coaching
+
+ CAT
+ Quantitative Aptitude Course
+
+ CAT DILR | Logical Reasoning for CAT
+
+ Best CAT Coaching in
+ Chennai
+
+
+
+ 
+ CAT Preparation
+
+ CAT Questions
+
+ CAT Preparation Youtube
+
+ CAT Question Paper
+
+ CAT Previous Year Papers
+
+ CAT
+ Preparation books
+
+
+
+ 
+ What is CAT?
+
+ CAT Syllabus | CAT Syllabus 2026
+
+ CAT Exam
+ Pattern
+
+ What is CAT
+ Exam? | CAT Exam Eligibility
+
+ How to
+ Prepare for CAT exam?
+
+
+
+ 
+ CAT Preparation | Videos
+
+ 
+ CAT Online Preparation
+
+ How to Prepare for CAT 2026 
+
+
+ CAT Preparation Do's and
+ Dont's
+
+ CAT Online Live Classes
+
+
+
+
+
+ 
+ 
+ 
+ 
+ Copyrights © All Rights Reserved by 2IIM.com - A Fermat Education Initiative .
+ Privacy Policy | Terms & Conditions
+
+ 
+ CAT ® (Common Admission Test) is a registered trademark of the Indian
+ Institutes of Management. This website is not endorsed or approved by IIMs.
+
+
+
+
+ 
+ Where is 2IIM located?
+
+ 2IIM Online CAT Coaching
+ A Fermat Education Initiative,
+19/43, MG Chakrapani St,
+ Sathya Garden, Saligramam, Chennai 600 093
+
+
+
+ 
+ How to reach 2IIM?
+
+ Mobile: (91) 99626 48484 / 94459
+ 38484
+ WhatsApp: WhatsApp Now
+ Email: info@2iim.com
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ Wizako GMAT Preparation
+
+ 
+ GMAT Preparation Online
+
+ GMAT Coaching in Chennai
+
+ GMAT Sample Questions
+
+ GMAT
+ Prep Videos
+
+
+
+ 
+ Wizako GRE
+
+ 
+ GRE Coaching in Chennai
+
+ GRE Questions
+
+ Online GRE Coaching
+
+ GRE
+ Preparation Videos
+
+
+
+ 
+ Ascent TANCET Coaching
+
+ 
+ TANCET Classes Online
+
+ TANCET Coaching Centres in Chennai
+
+ TANCET Previous Year Question Papers
+
+ TANCET Questions
+
+
+
+ 
+ Maxtute CBSE Maths Classes
+
+ 
+ CBSE Online
+ Classes
+
+ NCERT Solution for Class 10 Maths
+
+ CBSE Sample Papers for class 10
+
+ Class 10
+ Maths Videos
+
+
+
+ 
+ PiVerb
+
+ 
+ Intuitive Math
+ learning
+
+ School
+ Math Videos
+
+
+
+
+
+
+
+ Click to Browse Offline

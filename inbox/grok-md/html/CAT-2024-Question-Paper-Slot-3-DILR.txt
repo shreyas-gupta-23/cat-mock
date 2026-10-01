@@ -1,0 +1,1473 @@
+Source: https://online.2iim.com/CAT-question-paper/CAT-2024-Question-Paper-Slot-3-DILR/
+Note: Public HTML question set from 2IIM (no login). Not an official IIM PDF.
+
+CAT Question Paper 2024 - DILR Slot 3, 2IIM CAT
+ CAT 2024 CAT Online classes, CAT coaching in Chennai | 2IIM Online CAT
+ Coaching
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+ 
+ 2IIM CAT Question Bank
+
+ 
+
+
+
+ 
+ 
+ 🎯 2IIM’s VARC Offline Workshop — Sep 26 & 27 | Chennai | Master VARC with CAT Experts | RC, Para Summary, Para Jumble, Test & Analysis | ₹999 (₹1500) 
+
+
+
+
+
+
+ -->
+
+ 
+ 
+
+
+
+
+
+
+ 
+
+ 
+ ⏳All India Scholarship Test – Unlock up to 100% Scholarship.
+
+ -->
+
+ 
+
+
+ &#x1f389;
+ May Month-End Sale is Live | Enjoy Up to 20% OFF | Valid Until May 31
+ -->
+
+ 
+ &#x1f389;Effortlessly calculate your score with the 2IIM Score Calculator!&#x1f389;
+ -->
+
+
+
+
+
+
+
+ 
+ 
+ Online CAT Coaching 
+ 
+ Visit our Website
+
+ 
+
+
+ CAT Coaching 
+ 
+ CAT Coaching in Chennai
+
+ CAT Preparation Books
+
+ 
+
+
+ CAT Preparation 
+ 
+ CAT Previous Year Papers
+
+ 2IIM's CAT Questions
+
+ XAT Previous Year Papers
+
+ IIFT Previous Year Papers
+
+ How to prepare for CAT exam 
+ 
+ How
+ to prepare for CAT Quantitative Aptitude
+
+ How
+ to prepare for CAT DILR Section
+
+ How
+ to prepare for CAT VARC Section
+
+ 
+
+
+ What is CAT Exam All about
+
+ CAT Syllabus
+
+ CAT Online Live Classes
+-->
+ GMAT Preparation Online
+
+ 
+
+
+ Blogs / Social 2IIM CAT Preparation Blog
+ 2IIM CAT Preparation Reviews
+ CAT Preparation Quora Answers
+ CAT Preparation Videos
+ CAT Preparation Facebook Group
+ CAT Preparation Facebook Page
+ CAT Preparation Blogs CAT Questions Quantitative Aptitude Blog
+ CAT Preparation Blog
+
+ -->
+ Contact 
+ 
+ About Us
+-->
+ Our Team
+-->
+ Results
+
+ Work for Us
+
+ 
+
+
+ Signup
+ Login
+-->
+ IPMAT 2026 Coaching
+ Online
+
+ 
+
+
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ CAT 2024 Question Paper | CAT LR DI
+
+ CAT Question Paper | CAT Previous Year Paper
+
+
+
+
+
+ 
+ 
+ CAT Online Coaching / CAT Previous Year Paper / CAT 2024 DILR Slot 3
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ 
+ 
+
+ 
+
+ The table given below shows the amount, in grams, of carbohydrate, protein, fat
+ and all other nutrients, per 100 grams of nutrients in seven foodgrains. The first column
+ shows the foodgrain category and the second column its codename. The table has some missing
+ values.
+
+The following additional facts are known.
+1. Both the
+ pseudo-cereals had higher amounts of carbohydrate as well as higher amounts of protein than
+ any millet.
+2. Both the cereals had higher amounts of carbohydrate than any
+ pseudo-cereal.
+3. All the missing values of carbohydrate amounts (in grams) for all the
+ foodgrains are non-zero multiples of 5.
+4. All the missing values of protein, fat and
+ other nutrients amounts (in grams) for all the foodgrains are non-zero multiples of
+ 4.
+5. P1 contained double the amount of protein that M3 contains.
+
+ 
+ CAT 2024 Slot 3 - DI LR
+
+ 
+ How many foodgrains had a higher amount of carbohydrate per 100 grams of nutrients than
+ M1?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 5
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 40.68%
+Incorrect:
+ 37.73%
+Unattempted: 21.59%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 3 - DI LR
+
+ 
+ How many grams of protein were there in 100 grams of nutrients in M2?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 12
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 49.41%
+Incorrect:
+ 26.01%
+Unattempted: 24.59%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 3 - DI LR
+
+ 
+ How many grams of other nutrients were there in 100 grams of nutrients in M3?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 24
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 39.21%
+Incorrect:
+ 34.39%
+Unattempted: 26.4%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 3 - DI LR
+
+ 
+ What is the median of the number of grams of protein in 100 grams of nutrients among
+ these food grains?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 12
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 39.77%
+Incorrect:
+ 26.97%
+Unattempted: 33.26%
+
+
+
+
+
+
+
+ 
+
+
+
+ Over the top (OTT) subscribers of a platform are segregated into three
+ categories: i) Kid, ii) Elder, and iii) Others. Some of the subscribers used one app and the
+ others used multiple apps to access the platform. The figure below shows the percentage of
+ the total number of subscribers in 2023 and 2024 who belong to the 'Kid' and 'Elder'
+ categories.
+
+The following additional facts are known about the numbers of
+ subscribers.1. The total number of subscribers increased by 10% from 2023 to 2024.
+2.
+ In 2024, 1/2 of the subscribers from the 'Kid' category and 2/3 of the subscribers from the
+ 'Elder' category subscribers use one app.
+3. In 2023, the number of subscribers from
+ the 'Kid' category who used multiple apps was the same as the number of subscribers from the
+ 'Elder' category who used one app.
+4. 10,000 subscribers from the 'Kid' category used
+ one app and 15,000 subscribers from the 'Elder' category used multiple apps in 2023.
+
+ 
+ CAT 2024 Slot 3 - DI LR
+
+ 
+ How many subscribers belonged to the 'Others' category in 2024?
+
+ 
+ 
+ 
+ Cannot be determined
+
+ 65000
+
+ 45000
+
+ 55000
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+55000
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 41.64%
+Incorrect:
+ 15.47%
+Unattempted: 42.89%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 3 - DI LR
+
+ 
+ What percentage of subscribers in the 'Kid' category used multiple apps in 2023?
+
+ 
+ 
+ 
+ 33.33%
+
+ 25.50%
+
+ 50.00%
+
+ 5.00%
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+33.33%
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 38.36%
+Incorrect:
+ 18.64%
+Unattempted: 43.0%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 3 - DI LR
+
+ 
+ What was the percentage increase in the number of subscribers in the 'Elder' category
+ from 2023 to 2024?
+
+ 
+ 
+ 
+ 60%
+
+ 65%
+
+ 40%
+
+ 50%
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+65%
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 46.52%
+Incorrect:
+ 13.09%
+Unattempted: 40.4%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 3 - DI LR
+
+ 
+ What could be the minimum percentage of subscribers who used multiple apps in 2024?
+
+ 
+ 
+ 
+ 16.5%
+
+ 20.0%
+
+ 10.0%
+
+ 22.00%
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+20.0%
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 40.85%
+Incorrect:
+ 10.59%
+Unattempted: 48.56%
+
+
+
+
+
+
+
+ 
+
+
+
+ The air-conditioner (AC) in a large room can be operated either in REGULAR mode
+ or in POWER mode to reduce the temperature.
+
+If the AC operates in REGULAR mode,
+ then it brings down the temperature inside the room (called inside temperature) at a
+ constant rate to the set temperature in 1 hour. If it operates in POWER mode, then this is
+ achieved in 30 minutes.
+
+If the AC is switched off, then the inside temperature
+ rises at a constant rate so as to reach the temperature outside at the time of switching off
+ in 1 hour.
+
+The temperature outside has been falling at a constant rate from 7 pm
+ onward until 3 am on a particular night. The following graph shows the inside temperature
+ between 11 pm (23:00) and 2 am (2:00) that night.
+
+The following facts are known about the AC operation that
+ night.
+
+• The AC was turned on for the first time that night at 11 pm (23:00).
+
+• The AC setting was changed (including turning it on/off, and/or setting different
+ temperatures) only at the beginning of the hour or at 30 minutes after the hour.
+• The
+ AC was used in POWER mode for longer duration than in REGULAR mode during this 3-hour
+ period.
+
+ 
+ CAT 2024 Slot 3 - DI LR
+
+ 
+ How many times the AC must have been turned off between 11:01 pm and 1:59 am?
+
+ 
+ 
+ 
+ 1
+
+ 2
+
+ cannot be determined
+
+ 0
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+2
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 32.75%
+Incorrect:
+ 7.88%
+Unattempted: 59.38%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 3 - DI LR
+
+ 
+ What was the temperature outside, in degree Celsius, at 1 am?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 34
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 9.35%
+Incorrect:
+ 51.73%
+Unattempted: 38.92%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 3 - DI LR
+
+ 
+ What was the temperature outside, in degree Celsius, at 9 pm?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 42
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 11.56%
+Incorrect:
+ 44.48%
+Unattempted: 43.97%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 3 - DI LR
+
+ 
+ What best can be concluded about the number of times the AC must have either been turned
+ on or the AC temperature setting been altered between 11:01 pm and 1:59 am?
+
+ 
+ 
+ 
+ More than 3
+
+ Exactly 2
+
+ Either 2 or 3
+
+ Exactly 3
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+Exactly 3
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 7.88%
+Incorrect:
+ 21.42%
+Unattempted: 70.71%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 3 - DI LR
+
+ 
+ What was the maximum difference between temperature outside and inside temperature, in
+ degree Celsius, between 11:01 pm and 1:59 am?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 10
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 14.96%
+Incorrect:
+ 35.41%
+Unattempted: 49.63%
+
+
+
+
+
+
+
+ 
+
+
+
+ Out of 10 countries -- Country 1 through Country 10 -- Country 9 has the
+ highest gross domestic product (GDP), and Country 10 has the highest GDP per capita. GDP per
+ capita is the GDP of a country divided by its population. The table below provides the
+ following data about Country 1 through Country 8 for the year 2024.
+
+• Column 1
+ gives the country's identity.
+• Column 2 gives the country's GDP as a fraction of the
+ GDP of Country 9.
+• Column 3 gives the country's GDP per capita as a fraction of the
+ GDP per capita of Country 10.
+• Column 4 gives the country's annual GDP growth
+ rate.
+• Column 5 gives the country's annual population growth rate.
+
+Assume that the GDP growth rates and population growth rates
+ of the countries will remain constant for the next three years.
+
+ 
+ CAT 2024 Slot 3 - DI LR
+
+ 
+ Which one among the countries 1 through 8, has the smallest population in 2024?
+
+ 
+ 
+ 
+ Country 3
+
+ Country 5
+
+ Country 8
+
+ Country 7
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice C
+Country 8
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 30.99%
+Incorrect:
+ 18.02%
+Unattempted: 50.99%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 3 - DI LR
+
+ 
+ The ratio of Country 4's GDP to Country 5's GDP in 2026 will be closest to
+
+ 
+ 
+ 
+ 1.032
+
+ 1.314
+
+ 0.963
+
+ 1.195
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+1.195
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 30.14%
+Incorrect:
+ 11.33%
+Unattempted: 58.53%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 3 - DI LR
+
+ 
+ Which one among the countries 1, 4, 5, and 7 will have the largest population in 2027?
+
+
+ 
+ 
+ 
+ Country 4
+
+ Country 7
+
+ Country 1
+
+ Country 5
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice C
+Country 1
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 11.56%
+Incorrect:
+ 27.48%
+Unattempted: 60.96%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 3 - DI LR
+
+ 
+ For how many countries among Country 1 through Country 8 will the GDP per capita in 2027
+ be lower than that in 2024?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 0
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 9.92%
+Incorrect:
+ 44.93%
+Unattempted: 45.16%
+
+
+
+
+
+
+
+ 
+
+
+
+ The figure below shows a network with three parallel roads represented by
+ horizontal lines R-A, R-B, and R-C and another three parallel roads represented by vertical
+ lines V1, V2, and V3. The figure also shows the distance (in km) between two adjacent
+ intersections. Six ATMs are placed at six of the nine road intersections. Each ATM has a
+ distinct integer cash requirement (in Rs. Lakhs), and the numbers at the end of each line in
+ the figure indicate the total cash requirements of all ATMs placed on the corresponding
+ road. For example, the total cash requirement of the ATM(s) placed on road R-A is Rs. 22
+ Lakhs.
+
+The following additional information is known.
+1. The ATMs with the
+ minimum and maximum cash requirements of Rs. 7 Lakhs and Rs. 15 Lakhs are placed on the same
+ road.
+2. The road distance between the ATM with the second highest cash requirement and
+ the ATM located at the intersection of R-C and V3 is 12 km.
+
+
+ 
+ CAT 2024 Slot 3 - DI LR
+
+ 
+ Which of the following statements is correct?
+
+ 
+ 
+ 
+ The ATM placed at the (R-C, V2) intersection has a cash requirement of Rs. 9
+ Lakhs.
+
+ There is no ATM placed at the (R-C, V2) intersection.
+
+ The ATM placed at the (R-C, V2) intersection has a cash requirement of Rs. 8
+ Lakhs.
+
+ The cash requirement of the ATM placed at the (R-C, V2) intersection cannot
+ be uniquely determined.
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+The ATM placed at the (R-C, V2)
+ intersection has a cash requirement of Rs. 9 Lakhs.
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 24.02%
+Incorrect:
+ 12.24%
+Unattempted: 63.74%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 3 - DI LR
+
+ 
+ How many ATMs have cash requirements of Rs. 10 Lakhs or more?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 3
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 42.44%
+Incorrect:
+ 21.02%
+Unattempted: 36.54%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 3 - DI LR
+
+ 
+ Which of the following two statements is/are DEFINITELY true?
+A)Statement A:
+ Each of R-A, R-B, and R-C has two ATMs.
+B)Statement B: Each of V1, V2, and V3 has
+ two ATMs.
+
+
+ 
+ 
+ 
+ Both Statement A and Statement B
+
+ Neither Statement A nor Statement B
+
+ Only Statement A
+
+ Only Statement B
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice C
+Only Statement A
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 19.09%
+Incorrect:
+ 19.38%
+Unattempted: 61.53%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 3 - DI LR
+
+ 
+ What best can be said about the road distance (in km) between the ATMs having the second
+ highest and the second lowest cash requirements?
+
+ 
+ 
+ 
+ 7 km
+
+ 5 km
+
+ 4 km
+
+ Either 4 km or 7 km
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+Either 4 km or 7 km
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 10.25%
+Incorrect:
+ 25.61%
+Unattempted: 64.14%
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2024 Slot 3 - DI LR
+
+ 
+ What is the number of ATMs whose locations and cash requirements can both be uniquely
+ determined?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 3
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 10.76%
+Incorrect:
+ 46.97%
+Unattempted: 42.27%
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+ section of your HTML file -->
+
+ 🎯 2IIM’s VARC Offline Workshop — Sep 26 & 27 | Chennai | Master VARC with CAT Experts | RC, Para Summary, Para Jumble, Test & Analysis | ₹999 (₹1500)
+
+ Enrol Now →
+
+ -->
+
+ 🎯 2IIM’s CAT 2026 Percentile Booster — Classes Start This Monday!
+
+ Enrol Now →
+
+ Struggling with VARC, DILR, or Quant? Learn Just That Section.
+
+ ★ Click here!
+
+ 🔥 Limited-Time 3-Day Offer | Choose VARC, DILR or Quant for ₹5,000 Only
+
+ Click here! →
+
+ -->
+
+ First Edition Now Available | CAT PYQ 2020–2025 | Limited First Print
+
+ Order Now →
+
+ ⏳Register for a free 2IIM demo class and start your
+ preparation the right way.
+
+ ★ Click here!
+
+ -->
+
+ Download comprehensive
+ PDFs of past years’ question papers with answers.
+
+ ★ Click here
+
+ Repeating
+ CAT? Ace it with 2 IIM! Get expert guidance & exclusive discounts.
+ 🚀
+
+ ★ Register Now
+
+ -->
+
+ Best CAT Online Coaching
+
+ Try upto 40 hours for free
+ Learn from the best!
+
+ ★ Sign up Now!
+
+ -->
+
+ CAT
+ Coaching in Chennai
+CAT 2024
+
+ Classroom Batches Starting Now! @Gopalapuram and @Anna
+ nagar
+
+ ★ CAT Coaching
+
+ -->
+
+ Best CAT Coaching in Chennai
+
+ Attend a Demo Class
+
+ ★ Schedule a Demo!
+
+ -->
+
+ -->
+ -->
+ -->
+
+ -->
+ &#x1F3AF; Huge Discount: 5,000 off on Online CAT Course. Till June 30. Register now! -->
+ Upto 50% off - Take the Scholarship test now! -->
+
+ 
+
+
+ 
+
+
+ 
+ 
+
+
+ 
+ 2IIM offers the best CAT coaching in Chennai. We conduct weekend CAT classes in Chennai.
+ 2IIM's Online CAT Coaching is the most comprehensive & Best CAT Online Coaching available in the
+ country.
+
+
+
+ 
+ 
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT Online Preparation
+
+ LIVE Classroom CAT classes
+
+ CAT Online
+ Coaching
+
+ CAT
+ Quantitative Aptitude Course
+
+ CAT DILR | Logical Reasoning for CAT
+
+ Best CAT Coaching in
+ Chennai
+
+
+
+ 
+ CAT Preparation
+
+ CAT Questions
+
+ CAT Preparation Youtube
+
+ CAT Question Paper
+
+ CAT Previous Year Papers
+
+ CAT
+ Preparation books
+
+
+
+ 
+ What is CAT?
+
+ CAT Syllabus | CAT Syllabus 2026
+
+ CAT Exam
+ Pattern
+
+ What is CAT
+ Exam? | CAT Exam Eligibility
+
+ How to
+ Prepare for CAT exam?
+
+
+
+ 
+ CAT Preparation | Videos
+
+ 
+ CAT Online Preparation
+
+ How to Prepare for CAT 2026 
+
+
+ CAT Preparation Do's and
+ Dont's
+
+ CAT Online Live Classes
+
+
+
+
+
+ 
+ 
+ 
+ 
+ Copyrights © All Rights Reserved by 2IIM.com - A Fermat Education Initiative .
+ Privacy Policy | Terms & Conditions
+
+ 
+ CAT ® (Common Admission Test) is a registered trademark of the Indian
+ Institutes of Management. This website is not endorsed or approved by IIMs.
+
+
+
+
+ 
+ Where is 2IIM located?
+
+ 2IIM Online CAT Coaching
+ A Fermat Education Initiative,
+19/43, MG Chakrapani St,
+ Sathya Garden, Saligramam, Chennai 600 093
+
+
+
+ 
+ How to reach 2IIM?
+
+ Mobile: (91) 99626 48484 / 94459
+ 38484
+ WhatsApp: WhatsApp Now
+ Email: info@2iim.com
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ Wizako GMAT Preparation
+
+ 
+ GMAT Preparation Online
+
+ GMAT Coaching in Chennai
+
+ GMAT Sample Questions
+
+ GMAT
+ Prep Videos
+
+
+
+ 
+ Wizako GRE
+
+ 
+ GRE Coaching in Chennai
+
+ GRE Questions
+
+ Online GRE Coaching
+
+ GRE
+ Preparation Videos
+
+
+
+ 
+ Ascent TANCET Coaching
+
+ 
+ TANCET Classes Online
+
+ TANCET Coaching Centres in Chennai
+
+ TANCET Previous Year Question Papers
+
+ TANCET Questions
+
+
+
+ 
+ Maxtute CBSE Maths Classes
+
+ 
+ CBSE Online
+ Classes
+
+ NCERT Solution for Class 10 Maths
+
+ CBSE Sample Papers for class 10
+
+ Class 10
+ Maths Videos
+
+
+
+ 
+ PiVerb
+
+ 
+ Intuitive Math
+ learning
+
+ School
+ Math Videos
+
+
+
+
+
+
+
+ Click to Browse Offline

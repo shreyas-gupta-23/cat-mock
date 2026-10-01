@@ -1,0 +1,1658 @@
+Source: https://online.2iim.com/CAT-question-paper/CAT-2022-Question-Paper-Slot-1-VARC/
+Note: Public HTML question set from 2IIM (no login). Not an official IIM PDF.
+
+CAT 2022 Question Paper - Slot 1, 2IIM
+ CAT 2024 Online CAT Coaching, CAT Preparation Online | 2IIM CAT Coaching Online
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+ 
+ 2IIM CAT Question Bank
+
+ 
+
+
+
+ 
+ 
+ 🎯 2IIM’s VARC Offline Workshop — Sep 26 & 27 | Chennai | Master VARC with CAT Experts | RC, Para Summary, Para Jumble, Test & Analysis | ₹999 (₹1500) 
+
+
+
+
+
+
+ -->
+
+ 
+ 
+
+
+
+
+
+
+ 
+
+ 
+ ⏳All India Scholarship Test – Unlock up to 100% Scholarship.
+
+ -->
+
+ 
+
+
+ &#x1f389;
+ May Month-End Sale is Live | Enjoy Up to 20% OFF | Valid Until May 31
+ -->
+
+ 
+ &#x1f389;Effortlessly calculate your score with the 2IIM Score Calculator!&#x1f389;
+ -->
+
+
+
+
+
+
+
+ 
+ 
+ Online CAT Coaching 
+ 
+ Visit our Website
+
+ 
+
+
+ CAT Coaching 
+ 
+ CAT Coaching in Chennai
+
+ CAT Preparation Books
+
+ 
+
+
+ CAT Preparation 
+ 
+ CAT Previous Year Papers
+
+ 2IIM's CAT Questions
+
+ XAT Previous Year Papers
+
+ IIFT Previous Year Papers
+
+ How to prepare for CAT exam 
+ 
+ How
+ to prepare for CAT Quantitative Aptitude
+
+ How
+ to prepare for CAT DILR Section
+
+ How
+ to prepare for CAT VARC Section
+
+ 
+
+
+ What is CAT Exam All about
+
+ CAT Syllabus
+
+ CAT Online Live Classes
+-->
+ GMAT Preparation Online
+
+ 
+
+
+ Blogs / Social 2IIM CAT Preparation Blog
+ 2IIM CAT Preparation Reviews
+ CAT Preparation Quora Answers
+ CAT Preparation Videos
+ CAT Preparation Facebook Group
+ CAT Preparation Facebook Page
+ CAT Preparation Blogs CAT Questions Quantitative Aptitude Blog
+ CAT Preparation Blog
+
+ -->
+ Contact 
+ 
+ About Us
+-->
+ Our Team
+-->
+ Results
+
+ Work for Us
+
+ 
+
+
+ Signup
+ Login
+-->
+ IPMAT 2026 Coaching
+ Online
+
+ 
+
+
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ CAT 2022 Question Paper | CAT VA RC
+
+ CAT Question Paper | CAT Previous Year Paper
+
+
+
+
+
+ 
+ 
+ CAT Online Coaching / CAT Previous Year Paper / CAT 2022 VARC Slot 1
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ 
+ T he best way to improve your VARC skill is Reading. Read tons of stuff from Bharath's Curated Reading list and get a wonderful VARC score.
+
+
+
+
+ 
+
+ The passage below is accompanied by a set of questions. Choose the best answer to each question.
+
+The Chinese have two different concepts of a copy. Fangzhipin . . . are imitations where the difference from the original is obvious. These are small models or copies that can be purchased in a museum shop, for example. The second concept for a copy is fuzhipin . . . They are exact reproductions of the original, which, for the Chinese, are of equal value to the original. It has absolutely no negative connotations. The discrepancy with regard to the understanding of what a copy is has often led to misunderstandings and arguments between China and Western museums. The Chinese often send copies abroad instead of originals, in the firm belief that they are not essentially different from the originals. The rejection that then comes from the Western museums is perceived by the Chinese as an insult. . . .
+
+The Far Eastern notion of identity is also very confusing to the Western observer. The Ise Grand Shrine [in Japan] is 1,300 years old for the millions of Japanese people who go there on pilgrimage every year. But in reality this temple complex is completely rebuilt from scratch every 20 years. . . .
+
+The cathedral of Freiburg Minster in southwest Germany is covered in scaffolding almost all year round. The sandstone from which it is built is a very soft, porous material that does not withstand natural erosion by rain and wind. After a while, it crumbles. As a result, the cathedral is continually being examined for damage, and eroded stones are replaced. And in the cathedral's dedicated workshop, copies of the damaged sandstone figures are constantly being produced. Of course, attempts are made to preserve the stones from the Middle Ages for as long as possible. But at some point they, too, are removed and replaced with new stones.
+
+Fundamentally, this is the same operation as with the Japanese shrine, except in this case the production of a replica takes place very slowly and over long periods of time. . . . In the field of art as well, the idea of an unassailable original developed historically in the Western world. Back in the 17th century [in the West], excavated artworks from antiquity were treated quite differently from today. They were not restored in a way that was faithful to the original. Instead, there was massive intervention in these works, changing their appearance. . . .
+
+It is probably this intellectual position that explains why Asians have far fewer scruples about cloning than Europeans. The South Korean cloning researcher Hwang Woo-suk, who attracted worldwide attention with his cloning experiments in 2004, is a Buddhist. He found a great deal of support and followers among Buddhists, while Christians called for a ban on human cloning. . . . Hwang legitimised his cloning experiments with his religious affiliation: 'I am Buddhist, and I have no philosophical problem with cloning. And as you know, the basis of Buddhism is that life is recycled through reincarnation. In some ways, I think, therapeutic cloning restarts the circle of life.'
+
+
+ 
+ CAT 2022 Slot 1 - VA RC
+
+ Based on the passage, which one of the following copies would a Chinese museum be unlikely to consider as having less value than the original?
+
+ 
+ 
+ 
+ Pablo Picasso's painting of Vincent van Gogh's original painting, identical in every respect.
+
+ Pablo Picasso's photograph of Vincent van Gogh's original painting, printed to exactly the same scale.
+
+ Pablo Picasso's miniaturised, but otherwise faithful and accurate painting of Vincent van Gogh's original painting.
+
+ Pablo Picasso's painting of Vincent van Gogh's original painting, bearing Picasso's signature.
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+Pablo Picasso's painting of Vincent van Gogh's original painting, identical in every respect.
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ CAT 2022 Slot 1 - VA RC
+
+ Which one of the following statements does not correctly express the similarity between the Ise Grand Shrine and the cathedral of Freiburg Minster?
+
+ 
+ 
+ 
+ Both can be regarded as very old structures.
+
+ Both will one day be completely rebuilt.
+
+ Both were built as places of worship.
+
+ Both are continually undergoing restoration.
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+Both are continually undergoing restoration.
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ CAT 2022 Slot 1 - VA RC
+
+ Which one of the following scenarios is unlikely to follow from the arguments in the passage?
+
+ 
+ 
+ 
+ A 17th century British painter would have no problem adding personal touches when restoring an ancient Roman painting.
+
+ A 20th century Japanese Buddhist monk would value a reconstructed shrine as the original.
+
+ A 17th century French artist who adhered to a Christian worldview would need to be completely true to the original intent of a painting when restoring it.
+
+ A 21st century Christian scientist is likely to oppose cloning because of his philosophical orientation.
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice C
+A 17th century French artist who adhered to a Christian worldview would need to be completely true to the original intent of a painting when restoring it.
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ CAT 2022 Slot 1 - VA RC
+
+ The value that the modern West assigns to "an unassailable original" has resulted in all of the following EXCEPT:
+
+ 
+ 
+ 
+ it discourages them from making interventions in ancient art.
+
+ it discourages them from carrying out human cloning.
+
+ it discourages them from simultaneous displays of multiple copies of a painting.
+
+ it allows regular employment for certain craftsmen.
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+it discourages them from carrying out human cloning.
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ The passage below is accompanied by a set of questions. Choose the best answer to each question.
+
+Stoicism was founded in 300 BC by the Greek philosopher Zeno and survived into the Roman era until about AD 300. According to the Stoics, emotions consist of two movements. The first movement is the immediate feeling and other reactions (e.g., physiological response) that occur when a stimulus or event occurs. For instance, consider what could have happened if an army general accused Marcus Aurelius of treason in front of other officers. The first movement for Marcus may have been (internal) surprise and anger in response to this insult, accompanied perhaps by some involuntary physiological and expressive responses such as face flushing and a movement of the eyebrows. The second movement is what one does next about the emotion. Second movement behaviors occur after thinking and are under one's control. Examples of second movements for Marcus might have included a plot to seek revenge, actions signifying deference and appeasement, or perhaps proceeding as he would have proceeded whether or not this event occurred: continuing to lead the Romans in a way that Marcus Aurelius believed best benefited them. In the Stoic view, choosing a reasoned, unemotional response as the second movement is the only appropriate response.
+
+The Stoics believed that to live the good life and be a good person, we need to free ourselves of nearly all desires such as too much desire for money, power, or sexual gratification. Prior to second movements, we can consider what is important in life. Money, power, and excessive sexual gratification are not important. Character, rationality, and kindness are important. The Epicureans, first associated with the Greek philosopher Epicurus . . . held a similar view, believing that people should enjoy simple pleasures, such as good conversation, friendship, food, and wine, but not be indulgent in these pursuits and not follow passion for those things that hold no real value like power and money. As Oatley (2004) states, "the Epicureans articulated a view—enjoyment of relationship with friends, of things that are real rather than illusory, simple rather than artificially inflated, possible rather than vanishingly unlikely—that is certainly relevant today" . . . In sum, these ancient Greek and Roman philosophers saw emotions, especially strong ones, as potentially dangerous. They viewed emotions as experiences that needed to be [reined] in and controlled.
+
+As Oatley (2004) points out, the Stoic idea bears some similarity to Buddhism. Buddha, living in India in the 6th century BC, argued for cultivating a certain attitude that decreases the probability of (in Stoic terms) destructive second movements. Through meditation and the right attitude, one allows emotions to happen to oneself (it is impossible to prevent this), but one is advised to observe the emotions without necessarily acting on them; one achieves some distance and decides what has value and what does not have value. Additionally, the Stoic idea of developing virtue in oneself, of becoming a good person, which the Stoics believed we could do because we have a touch of the divine, laid the foundation for the three monotheistic religions: Judaism, Christianity, and Islam . . . As with Stoicism, tenets of these religions include controlling our emotions lest we engage in sinful behavior.
+
+
+ 
+ CAT 2022 Slot 1 - VA RC
+
+ On the basis of the passage, which one of the following statements can be regarded as true?
+
+ 
+ 
+ 
+ The Epicureans believed in controlling all emotions.
+
+ There were no Stoics in India at the time of the Roman civilisation.
+
+ The Stoic influences can be seen in multiple religions.
+
+ The Stoics valorised the pursuit of money, power, and sexual gratification.
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice C
+The Stoic influences can be seen in multiple religions.
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ CAT 2022 Slot 1 - VA RC
+
+ Which one of the following statements, if false, could be seen as contradicting the facts/arguments in the passage?
+
+ 
+ 
+ 
+ In the Epicurean view, indulging in simple pleasures is not desirable.
+
+ Despite practising meditation and cultivating the right attitude, emotions cannot ever be controlled.
+
+ In the Stoic view, choosing a reasoned, unemotional response as the first movement is an appropriate response to emotional situations.
+
+ The Greek philosopher Zeno survived into the Roman era until about AD 300.
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+In the Epicurean view, indulging in simple pleasures is not desirable.
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ CAT 2022 Slot 1 - VA RC
+
+ "Through meditation and the right attitude, one allows emotions to happen to oneself (it is impossible to prevent this), but one is advised to observe the emotions without necessarily acting on them; one achieves some distance and decides what has value and what does not have value." In the context of the passage, which one of the following is not a possible implication of the quoted statement?
+
+ 
+ 
+ 
+ Meditation allows certain out-of-body experiences that permit us to gain the distance necessary to control our emotions.
+
+ Emotional responses can make it difficult to distinguish valuable experiences from valueless experiences.
+
+ The observation of emotions in a distant manner corresponds to the second movement referred to earlier in the passage.
+
+ "Meditation and the right attitude", in this instance, implies an initially passive reception of all experiences.
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+Meditation allows certain out-of-body experiences that permit us to gain the distance necessary to control our emotions.
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ CAT 2022 Slot 1 - VA RC
+
+ Which one of the following statements would be an accurate inference from the example of Marcus Aurelius?
+
+ 
+ 
+ 
+ Marcus Aurelius was humiliated by the accusation of treason in front of the other officers.
+
+ Marcus Aurelius was one of the leaders of the Roman army.
+
+ Marcus Aurelius was a Stoic whose philosophy survived into the Roman era.
+
+ Marcus Aurelius plotted revenge in his quest for justice.
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+Marcus Aurelius was one of the leaders of the Roman army.
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ The passage below is accompanied by a set of questions. Choose the best answer to each question.
+
+Critical theory of technology is a political theory of modernity with a normative dimension. It belongs to a tradition extending from Marx to Foucault and Habermas according to which advances in the formal claims of human rights take center stage while in the background centralization of ever more powerful public institutions and private organizations imposes an authoritarian social order.
+
+Marx attributed this trajectory to the capitalist rationalization of production. Today it marks many institutions besides the factory and every modern political system, including so-called socialist systems. This trajectory arose from the problems of command over a disempowered and deskilled labor force; but everywhere [that] masses are organized – whether it be Foucault's prisons or Habermas's public sphere – the same pattern prevails. Technological design and development is shaped by this pattern as the material base of a distinctive social order. Marcuse would later point to a "project" as the basis of what he called rather confusingly "technological rationality." Releasing technology from this project is a democratic political task.
+
+In accordance with this general line of thought, critical theory of technology regards technologies as an environment rather than as a collection of tools. We live today with and even within technologies that determine our way of life. Along with the constant pressures to build centers of power, many other social values and meanings are inscribed in technological design. A hermeneutics of technology must make explicit the meanings implicit in the devices we use and the rituals they script. Social histories of technologies such as the bicycle, artificial lighting or firearms have made important contributions to this type of analysis. Critical theory of technology attempts to build a methodological approach on the lessons of these histories.
+
+As an environment, technologies shape their inhabitants. In this respect, they are comparable to laws and customs. Each of these institutions can be said to represent those who live under their sway through privileging certain dimensions of their human nature. Laws of property represent the interest in ownership and control. Customs such as parental authority represent the interest of childhood in safety and growth. Similarly, the automobile represents its users in so far as they are interested in mobility. Interests such as these constitute the version of human nature sanctioned by society.
+
+This notion of representation does not imply an eternal human nature. The concept of nature as non-identity in the Frankfurt School suggests an alternative. On these terms, nature is what lies at the limit of history, at the point at which society loses the capacity to imprint its meanings on things and control them effectively. The reference here is, of course, not to the nature of natural science, but to the lived nature in which we find ourselves and which we are. This nature reveals itself as that which cannot be totally encompassed by the machinery of society. For the Frankfurt School, human nature, in all its transcending force, emerges out of a historical context as that context is [depicted] in illicit joys, struggles and pathologies. We can perhaps admit a less romantic . . . conception in which those dimensions of human nature recognized by society are also granted theoretical legitimacy.
+
+
+ 
+ CAT 2022 Slot 1 - VA RC
+
+ All of the following claims can be inferred from the passage, EXCEPT:
+
+ 
+ 
+ 
+ technologies seek to privilege certain dimensions of human nature at a high cost to lived nature.
+
+ the significance of parental authority to children's safety does not therefore imply that parental authority is a permanent aspect of human nature.
+
+ analyses of technologies must engage with their social histories to be able to reveal their implicit and explicit meanings for us.
+
+ the critical theory of technology argues that, as issues of human rights become more prominent, we lose sight of the ways in which the social order becomes more authoritarian.
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+technologies seek to privilege certain dimensions of human nature at a high cost to lived nature.
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ CAT 2022 Slot 1 - VA RC
+
+ Which one of the following statements best reflects the main argument of the fourth paragraph of the passage?
+
+ 
+ 
+ 
+ Technological environments privilege certain dimensions of human nature as effectively as laws and customs.
+
+ Technology, laws, and customs are not unlike each other if considered as institutions.
+
+ Technology, laws, and customs are comparable, but dissimilar phenomena.
+
+ Automobiles represent the interest in mobility present in human nature.
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+Technology, laws, and customs are not unlike each other if considered as institutions.
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ CAT 2022 Slot 1 - VA RC
+
+ Which one of the following statements contradicts the arguments of the passage?
+
+ 
+ 
+ 
+ Marx's understanding of the capitalist rationalisation of production and Marcuse's understanding of a "project" of "technological rationality" share theoretical inclinations.
+
+ Masses are organised in patterns set by Foucault's prisons and Habermas' public sphere.
+
+ Paradoxically, the capitalist rationalisation of production is a mark of so-called socialist systems as well.
+
+ The problems of command over a disempowered and deskilled labour force gave rise to similar patterns of the capitalist rationalisation of production wherever masses were organised.
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+Masses are organised in patterns set by Foucault's prisons and Habermas' public sphere.
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ CAT 2022 Slot 1 - VA RC
+
+ Which one of the following statements could be inferred as supporting the arguments of the passage?
+
+ 
+ 
+ 
+ The romantic conception of nature referred to by the passage is the one that requires theoretical legitimacy.
+
+ Technologies form the environmental context and shape the contours of human society.
+
+ It is not human nature, but human culture that is represented by institutions such as law and custom.
+
+ Nature decides the point at which society loses its capacity to control history.
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+Technologies form the environmental context and shape the contours of human society.
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ The passage below is accompanied by a set of questions. Choose the best answer to each question.
+
+Stories concerning the Undead have always been with us. From out of the primal darkness of Mankind's earliest years, come whispers of eerie creatures, not quite alive (or alive in a way which we can understand), yet not quite dead either. These may have been ancient and primitive deities who dwelt deep in the surrounding forests and in remote places, or simply those deceased who refused to remain in their tombs and who wandered about the countryside, physically tormenting and frightening those who were still alive. Mostly they were ill-defined—strange sounds in the night beyond the comforting glow of the fire, or a shape, half-glimpsed in the twilight along the edge of an encampment. They were vague and indistinct, but they were always there with the power to terrify and disturb. They had the power to touch the minds of our early ancestors and to fill them with dread. Such fear formed the basis of the earliest tales although the source and exact nature of such terrors still remained very vague.
+
+And as Mankind became more sophisticated, leaving the gloom of their caves and forming themselves into recognizable communities—towns, cities, whole cultures—so the Undead travelled with them, inhabiting their folklore just as they had in former times. Now they began to take on more definite shapes. They became walking cadavers; the physical embodiment of former deities and things which had existed alongside Man since the Creation. Some still remained vague and ill-defined but, as Mankind strove to explain the horror which it felt towards them, such creatures emerged more readily into the light.
+
+In order to confirm their abnormal status, many of the Undead were often accorded attributes, which defied the natural order of things—the power to transform themselves into other shapes, the ability to sustain themselves by drinking human blood, and the ability to influence human minds across a distance. Such powers—described as supernatural—only [lent] an added dimension to the terror that humans felt regarding them.
+
+And it was only natural, too, that the Undead should become connected with the practice of magic. From very early times, Shamans and witchdoctors had claimed at least some power and control over the spirits of departed ancestors, and this has continued down into more "civilized" times. Formerly, the invisible spirits and forces that thronged around men's earliest encampments, had spoken "through" the tribal Shamans but now, as entities in their own right, they were subject to magical control and could be physically summoned by a competent sorcerer. However, the relationship between the magician and an Undead creature was often a very tenuous and uncertain one. Some sorcerers might have even become Undead entities once they died, but they might also have been susceptible to the powers of other magicians when they did.
+
+From the Middle Ages and into the Age of Enlightenment, theories of the Undead continued to grow and develop. Their names became more familiar—werewolf, vampire, ghoul—each one certain to strike fear into the hearts of ordinary humans.
+
+
+ 
+ CAT 2022 Slot 1 - VA RC
+
+ Which one of the following statements best describes what the passage is about?
+
+ 
+ 
+ 
+ The passage discusses the evolution of theories of the Undead from primitive thinking to the Age of Enlightenment.
+
+ The passage describes the failure of human beings to fully comprehend their environment.
+
+ The writer discusses the transition from primitive thinking to the Age of Enlightenment.
+
+ The writer describes the ways in which the Undead come to be associated with Shamans and the practice of magic.
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+The passage discusses the evolution of theories of the Undead from primitive thinking to the Age of Enlightenment.
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ CAT 2022 Slot 1 - VA RC
+
+ "In order to confirm their abnormal status, many of the Undead were often accorded attributes, which defied the natural order of things . . ." Which one of the following best expresses the claim made in this statement?
+
+ 
+ 
+ 
+ The Undead are deified in nature's order by giving them divine attributes.
+
+ According the Undead an abnormal status is to reject the natural order of things.
+
+ Human beings conceptualise the Undead as possessing abnormal features.
+
+ The natural attributes of the Undead are rendered abnormal by changing their status.
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice C
+Human beings conceptualise the Undead as possessing abnormal features.
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ CAT 2022 Slot 1 - VA RC
+
+ All of the following statements, if false, could be seen as being in accordance with the passage, EXCEPT:
+
+ 
+ 
+ 
+ the Undead remained vague and ill-defined, even as Mankind strove to understand the horror they inspired.
+
+ the relationship between Shamans and the Undead was believed to be a strong and stable one.
+
+ the growing sophistication of Mankind meant that humans stopped believing in the Undead.
+
+ the transition from the Middle Ages to the Age of Enlightenment saw new theories of the Undead.
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+the transition from the Middle Ages to the Age of Enlightenment saw new theories of the Undead.
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ CAT 2022 Slot 1 - VA RC
+
+ Which one of the following observations is a valid conclusion to draw from the statement, "From out of the primal darkness of Mankind's earliest years, come whispers of eerie creatures, not quite alive (or alive in a way which we can understand), yet not quite dead either."?
+
+ 
+ 
+ 
+ Mankind's primal years were marked by creatures alive with eerie whispers, but seen only in the darkness.
+
+ Mankind's early years were marked by a belief in the existence of eerie creatures that were neither quite alive nor dead.
+
+ We can understand the lives of the eerie creatures in Mankind's early years through their whispers in the darkness.
+
+ Long ago, eerie creatures used to whisper in the primal darkness that they were not quite dead.
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+Mankind's early years were marked by a belief in the existence of eerie creatures that were neither quite alive nor dead.
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ CAT 2022 Slot 1 - VA RC
+
+ The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.
+
+Petitioning is an expeditious democratic tradition, used frequently in prior centuries, by which citizens can bring issues directly to governments. As expressions of collective voice, they support procedural democracy by shaping agendas. They can also recruit citizens to causes, give voice to the voteless, and apply the discipline of rhetorical argument that clarifies a point of view. By contrast, elections are limited in several respects: they involve only a few candidates, and thus fall far short of a representative democracy. Further, voters' choices are not specific to particular policies or laws, and elections are episodic, whereas the voice of the people needs to be heard and integrated constantly into democratic government.
+
+ 
+ 
+ 
+ Petitioning has been important to democratic functioning, as it supplements the electoral process by enabling ongoing engagement with the government.
+
+ Petitioning is definitely more representative of the collective voice, and the functioning of democratic government could improve if we relied more on petitioning rather than holding periodic elections.
+
+ By giving citizens greater control over shaping political and democratic agendas, political petitions are invaluable as they represent an ideal form of a representative democracy.
+
+ Citizens become less inclined to petitioning as it enables vocal citizens to shape political agendas, but this needs to change to strengthen democracies today.
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+Petitioning has been important to democratic functioning, as it supplements the electoral process by enabling ongoing engagement with the government.
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ CAT 2022 Slot 1 - VA RC
+
+ The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.
+
+All that we think we know about how life hangs together is really some kind of illusion that we have perpetrated on ourselves because of our limited vision. What appear to be inanimate objects such as stones turn out not only to be alive in the same way that we are, but also in many infinitesimal ways to be affected by stimuli just as humans are. The distinction between animate and inanimate simply cannot be made when you enter the world of quantum mechanics and try to determine how those apparent subatomic particles, of which you and everything else in our universe is composed, are all tied together. The point is that physics and metaphysics show there is a pattern to the universe that goes beyond our capacity to grasp it with our brains.
+
+ 
+ 
+ 
+ Arbitrary distinctions between inanimate and animate objects disappear at the scale at which quantum mechanics works.
+
+ Quantum physics indicates that an astigmatic view of reality results in erroneous assumptions about the universe.
+
+ The inanimate world is both sentient and cognizant like its animate counterpart.
+
+ The effect of stimuli is similar in inanimate objects when compared to animate objects or living beings.
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+Arbitrary distinctions between inanimate and animate objects disappear at the scale at which quantum mechanics works.
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ CAT 2022 Slot 1 - VA RC
+
+ The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer:
+
+ 1. Some company leaders are basing their decisions on locating offices to foster innovation and growth, as their best-performing inventors suffered the greatest productivity losses when their commutes grew longer.
+2. Shorter commutes support innovation by giving employees more time in the office and greater opportunities for in-person collaboration, while removing the physical strain of a long commute.
+3. This is not always the case: remote work does not automatically lead to greater creativity and productivity as office water-cooler conversations are also very important for innovation.
+4. Some see the link between long commutes and productivity as support for work-from-home scenarios, as many workers have grown accustomed to their commute-free arrangements during the pandemic.
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 2143
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ CAT 2022 Slot 1 - VA RC
+
+ There is a sentence that is missing in the paragraph below. Look at the paragraph and decide in which blank (option 1, 2, 3, or 4) the following sentence would best fit.
+
+Sentence: Having made citizens more and less knowledgeable than their predecessors, the Internet has proved to be both a blessing and a curse.
+
+Paragraph: Never before has a population, nearly all of whom has enjoyed at a least a secondary school education, been exposed to so much information, whether in newspapers and magazines or through YouTube, Google, and Facebook. ___(1)___. Yet it is not clear that people today are more knowledgeable than their barely literate predecessors. Contemporary advances in technology offered more serious and inquisitive students access to realms of knowledge previously unimaginable and unavailable. ___(2)___. But such readily available knowledge leads many more students away from serious study, the reading of actual texts, and toward an inability to write effectively and grammatically. ___(3)___. It has let people choose sources that reinforce their opinions rather than encouraging them to question inherited beliefs. ___(4)___.
+
+ 
+ 
+ 
+ Option 1
+
+ Option 2
+
+ Option 3
+
+ Option 4 
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+Option 4 
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ CAT 2022 Slot 1 - VA RC
+
+ The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer:
+
+ 1. The creative element in product design has become of paramount importance as it is one of the few ways a firm or industry can sustain a competitive advantage over its rivals.
+2. In fact, the creative element in the value of world industry would be larger still, if we added the contribution of the creative element in other industries, such as the design of tech accessories.
+3. The creative industry is receiving a lot of attention today as its growth rate is faster than that of the world economy as a whole.
+4. It is for this reason that today's trade issues are increasingly involving intellectual property, as Western countries have an interest in protecting their revenues along with freeing trade in non-tangibles.
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 3214
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ CAT 2022 Slot 1 - VA RC
+
+ There is a sentence that is missing in the paragraph below. Look at the paragraph and decide in which blank (option 1, 2, 3, or 4) the following sentence would best fit.
+
+Sentence: Easing the anxiety and pressure of having a "big day" is part of the appeal for many couples who marry in secret.
+
+Paragraph: Wedding season is upon us and – after two years of Covid chaos that saw nuptials scaled back– you may think the temptation would be to go all out. ___(1)___. But instead of expanding the guest list, many couples are opting to have entirely secret ceremonies. With Covid case numbers remaining high and the cost of living crisis meaning that many couples are feeling the pinch, it's no wonder that some are less than eager to send out invites. ___(2)___. Plus, it can't hurt that in celebrity circles getting married in secret is all the rage. ___(3)___. "I would definitely say that secret weddings are becoming more common," says Landis Bejar, the founder of a therapy practice, which specialises in helping brides and grooms manage wedding stress. "People are looking for ways to get out of the spotlight and avoid the pomp and circumstance of weddings. ___(4)___. They just want to get to the part where they are married."
+
+ 
+ 
+ 
+ Option 1
+
+ Option 2
+
+ Option 3
+
+ Option 4
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+Option 2
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ CAT 2022 Slot 1 - VA RC
+
+ The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.
+
+It's not that modern historians of medieval Africa have been ignorant about contacts between Ethiopia and Europe; they just had the power dynamic reversed. The traditional narrative stressed Ethiopia as weak and in trouble in the face of aggression from external forces, so Ethiopia sought military assistance from their fellow Christians to the north. But the real story, buried in plain sight in medieval diplomatic texts, simply had not yet been put together by modern scholars. Recent research pushes scholars of medieval Europe to imagine a much more richly connected medieval world: at the beginning of the so-called Age of Exploration, there is evidence that the kings of Ethiopia were sponsoring their own missions of diplomacy, faith and commerce.
+
+ 
+ 
+ 
+ Medieval historical sources selectively promoted the narrative that powerful European forces were called on to protect weak African civilisations such as Ethiopia, but this is far from reality.
+
+ Medieval texts have been 'cherry-picked' to promote a view of Ethiopia as weak and in need of Europe's military help with aggressive neighbours, but recent studies reveal it was a well-connected and outward-looking culture.
+
+ Medieval texts have documented how strong connections between the Christian communities of Ethiopia and Europe were invaluable in establishing military and trade links between the two civilisations.
+
+ Historians were under the illusion that Ethiopia needed military protection from their neighbours, but in fact the country had close commercial and religious connections with them.
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+Medieval texts have been 'cherry-picked' to promote a view of Ethiopia as weak and in need of Europe's military help with aggressive neighbours, but recent studies reveal it was a well-connected and outward-looking culture.
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ CAT 2022 Slot 1 - VA RC
+
+ The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer:
+
+1. Fish skin collagen has excellent thermo-stability and tensile strength making it ideal for use as bandage that adheres to the skin and adjusts to body movements.
+2. Collagen, one of the main structural proteins in connective tissues in the human body, is well known for promoting skin regeneration.
+3. Fish skin swims in here as diseases and bacteria that affect fish are different from most human pathogens.
+4. The risk of introducing disease agents into other species through the use of pig and cow collagen proteins for wound healing has inhibited its broader applications in the medical field.
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 2431
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+ section of your HTML file -->
+
+ 🎯 2IIM’s VARC Offline Workshop — Sep 26 & 27 | Chennai | Master VARC with CAT Experts | RC, Para Summary, Para Jumble, Test & Analysis | ₹999 (₹1500)
+
+ Enrol Now →
+
+ -->
+
+ 🎯 2IIM’s CAT 2026 Percentile Booster — Classes Start This Monday!
+
+ Enrol Now →
+
+ Struggling with VARC, DILR, or Quant? Learn Just That Section.
+
+ ★ Click here!
+
+ 🔥 Limited-Time 3-Day Offer | Choose VARC, DILR or Quant for ₹5,000 Only
+
+ Click here! →
+
+ -->
+
+ First Edition Now Available | CAT PYQ 2020–2025 | Limited First Print
+
+ Order Now →
+
+ ⏳Register for a free 2IIM demo class and start your
+ preparation the right way.
+
+ ★ Click here!
+
+ -->
+
+ Download comprehensive
+ PDFs of past years’ question papers with answers.
+
+ ★ Click here
+
+ Repeating
+ CAT? Ace it with 2 IIM! Get expert guidance & exclusive discounts.
+ 🚀
+
+ ★ Register Now
+
+ -->
+
+ Best CAT Online Coaching
+
+ Try upto 40 hours for free
+ Learn from the best!
+
+ ★ Sign up Now!
+
+ -->
+
+ CAT
+ Coaching in Chennai
+CAT 2024
+
+ Classroom Batches Starting Now! @Gopalapuram and @Anna
+ nagar
+
+ ★ CAT Coaching
+
+ -->
+
+ Best CAT Coaching in Chennai
+
+ Attend a Demo Class
+
+ ★ Schedule a Demo!
+
+ -->
+
+ -->
+ -->
+ -->
+
+ -->
+ &#x1F3AF; Huge Discount: 5,000 off on Online CAT Course. Till June 30. Register now! -->
+ Upto 50% off - Take the Scholarship test now! -->
+
+ 
+
+
+
+
+ 
+ 
+ CAT Questions | CAT Quantitative Aptitude
+
+ 
+ 
+ CAT Questions | HCF LCM
+
+
+ CAT Questions |
+ Factors
+
+ CAT Questions |
+ Remainders
+
+ CAT Questions |
+ Factorials
+
+ CAT Questions | Digits 
+
+
+ CAT
+ Questions | Ratios, Mixtures, Averages
+
+ CAT Questions |
+ Percentages, Profit Loss, SICI
+
+
+
+ 
+ CAT Questions |
+ Time Speed and Distance, Races
+
+ CAT Questions
+ | Logarithms & Exponents
+
+ CAT
+ Questions | Pipes Cisterns, Work Time
+
+ CAT Questions | Set
+ Theory
+
+ CAT Questions | Geometry
+
+ CAT Questions |
+ Coordinate-Geometry
+
+ CAT Questions |
+ Mensuration
+
+
+
+ 
+ CAT Questions |
+ Trigonometry
+
+ CAT
+ Questions | Linear & Quadratic Equations
+
+ CAT Questions | Functions 
+
+
+ CAT Questions |
+ Inequalities
+
+ CAT Questions |
+ Polynomials
+
+ CAT Questions |
+ Progressions
+
+ CAT Questions |
+ Permutation Combination, Probability
+
+
+
+
+
+
+
+ CAT Questions | CAT DILR
+
+ 
+ 
+ CAT DILR | Sequencing
+
+ CAT DILR | Pie Charts
+
+ CAT DILR | Multiple Graphs
+
+ CAT DILR | Word Problems
+
+ CAT DILR | Line Graphs
+
+
+
+ 
+ CAT DILR | Bar Graphs
+
+ CAT DILR | Grid Puzzle
+
+ CAT DILR | Math Puzzle
+
+ CAT DILR | Visualization
+
+ CAT DILR | Other Patterns
+
+
+
+ 
+ CAT 2017 DILR Slot 2 | Assets
+
+
+ CAT 2017 DILR Slot 2 |
+ Pizzeria
+
+ CAT 2017 DILR Slot 2 |
+ Electives
+
+ CAT 2017 DILR Slot 2 |
+ Chess
+
+ CAT 2017 DILR Slot 2 |
+ Dorms
+
+
+
+ 
+ CAT 2017 DILR Slot 2 |
+ Tea
+
+ CAT 2017 DILR Slot 2 |
+ Friends
+
+ CAT 2017 DILR Slot 1 | CET 
+
+
+ CAT 2017 DILR Slot
+ 1 | Survey
+
+ CAT 2017 DILR
+ Slot 1 | Happiness
+
+
+
+
+-->
+
+
+ CAT Questions | Verbal Ability for CAT
+
+ 
+ 
+ Verbal Ability for CAT |
+ CAT Reading Comprehension
+
+ Verbal Ability for CAT|
+ CAT Para Jumble
+
+ Verbal Ability for CAT |
+ CAT Sentence Elimination
+
+ Verbal Ability for CAT |
+ CAT Paragraph Completion
+
+ Verbal Ability for CAT |
+ CAT Critical Reasoning
+
+
+
+ 
+ Verbal Ability for CAT | CAT Word
+ Usage
+
+ Verbal Ability for CAT| CAT Para
+ Summary
+
+ Verbal Ability for CAT | CAT
+ Text Completion
+
+ Verbal Ability for CAT |
+ CAT Sentence Correction
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 2IIM offers the best CAT coaching in Chennai. We conduct weekend CAT classes in Chennai.
+ 2IIM's Online CAT Coaching is the most comprehensive & Best CAT Online Coaching available in the
+ country.
+
+
+
+ 
+ 
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT Online Preparation
+
+ LIVE Classroom CAT classes
+
+ CAT Online
+ Coaching
+
+ CAT
+ Quantitative Aptitude Course
+
+ CAT DILR | Logical Reasoning for CAT
+
+ Best CAT Coaching in
+ Chennai
+
+
+
+ 
+ CAT Preparation
+
+ CAT Questions
+
+ CAT Preparation Youtube
+
+ CAT Question Paper
+
+ CAT Previous Year Papers
+
+ CAT
+ Preparation books
+
+
+
+ 
+ What is CAT?
+
+ CAT Syllabus | CAT Syllabus 2026
+
+ CAT Exam
+ Pattern
+
+ What is CAT
+ Exam? | CAT Exam Eligibility
+
+ How to
+ Prepare for CAT exam?
+
+
+
+ 
+ CAT Preparation | Videos
+
+ 
+ CAT Online Preparation
+
+ How to Prepare for CAT 2026 
+
+
+ CAT Preparation Do's and
+ Dont's
+
+ CAT Online Live Classes
+
+
+
+
+
+ 
+ 
+ 
+ 
+ Copyrights © All Rights Reserved by 2IIM.com - A Fermat Education Initiative .
+ Privacy Policy | Terms & Conditions
+
+ 
+ CAT ® (Common Admission Test) is a registered trademark of the Indian
+ Institutes of Management. This website is not endorsed or approved by IIMs.
+
+
+
+
+ 
+ Where is 2IIM located?
+
+ 2IIM Online CAT Coaching
+ A Fermat Education Initiative,
+19/43, MG Chakrapani St,
+ Sathya Garden, Saligramam, Chennai 600 093
+
+
+
+ 
+ How to reach 2IIM?
+
+ Mobile: (91) 99626 48484 / 94459
+ 38484
+ WhatsApp: WhatsApp Now
+ Email: info@2iim.com
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ Wizako GMAT Preparation
+
+ 
+ GMAT Preparation Online
+
+ GMAT Coaching in Chennai
+
+ GMAT Sample Questions
+
+ GMAT
+ Prep Videos
+
+
+
+ 
+ Wizako GRE
+
+ 
+ GRE Coaching in Chennai
+
+ GRE Questions
+
+ Online GRE Coaching
+
+ GRE
+ Preparation Videos
+
+
+
+ 
+ Ascent TANCET Coaching
+
+ 
+ TANCET Classes Online
+
+ TANCET Coaching Centres in Chennai
+
+ TANCET Previous Year Question Papers
+
+ TANCET Questions
+
+
+
+ 
+ Maxtute CBSE Maths Classes
+
+ 
+ CBSE Online
+ Classes
+
+ NCERT Solution for Class 10 Maths
+
+ CBSE Sample Papers for class 10
+
+ Class 10
+ Maths Videos
+
+
+
+ 
+ PiVerb
+
+ 
+ Intuitive Math
+ learning
+
+ School
+ Math Videos
+
+
+
+
+
+
+
+ Click to Browse Offline

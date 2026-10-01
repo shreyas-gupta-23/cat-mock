@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Geometry · CAT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,650;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/notes.css">
+<script>
+MathJax = {
+  tex: { inlineMath: [['\\(','\\)']], displayMath: [['\\[','\\]']] }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body data-theme="cat">
+<canvas id="field" aria-hidden="true"></canvas>
+<div class="progress" id="progress"></div>
+<button type="button" class="handle left" id="toc-btn" aria-expanded="false">Contents</button>
+<button type="button" class="handle right" id="study-btn" aria-expanded="false">Study</button>
+<aside class="rail left" id="toc-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">CAT 2026 · IIM A</p>
+    <h2>On this page</h2>
+  </div>
+  <nav class="rail-body toc" id="toc">
+    <a href="#sheet"><small>01</small>Sheet</a>
+    <a href="#questions"><small>02</small>PYQs (52)</a>
+  </nav>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="toc-mark"></div></div>
+  <div class="rail-foot" id="toc-foot">Contents</div>
+</aside>
+<aside class="rail right" id="study-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">Studio</p>
+    <h2>Study</h2>
+  </div>
+  <div class="rail-body">
+    <a class="tool" href="../index.html"><small>All topics</small>Theory home</a>
+    <button type="button" class="tool" id="exam-btn"><small>Hide commentary</small>Exam mode</button>
+    <button type="button" class="tool" id="formula-btn"><small>Only the slabs</small>Formulas</button>
+    <button type="button" class="tool" id="draw-btn"><small>From the PYQs</small>Draw a question</button>
+    <button type="button" class="tool" id="print-btn"><small>Browser print</small>Print</button>
+  </div>
+  <div class="draw" id="draw"><span class="lbl">Question</span>Draw a question when you want a prompt without rereading the sheet.</div>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="study-mark"></div></div>
+  <div class="rail-foot">Exam mode keeps formulas, takeaways, traps, and the PYQs (answers hidden). Formulas hides the papers.</div>
+</aside>
+<article class="page" id="top">
+  <header class="mast">
+    <div class="meta-row">
+      <span class="chip">CAT 2026</span>
+      <span class="chip gold">Geometry</span>
+      <span class="chip">52 PYQs</span>
+    </div>
+    <h1>Geometry</h1>
+    <p class="lede">Similar triangles, circles, 3-D scale, coordinate.</p>
+  </header>
+
+<div class="section-head" id="sheet">
+  <div class="num">01</div>
+  <h2>Sheet</h2>
+  <label class="review"><input type="checkbox"> reviewed</label>
+</div>
+<p>Similar triangles: AA. Sides proportional; areas square of the scale. Midline of a triangle is parallel to the third side and half as long. Median splits area equally; centroid divides each median \(2:1\).</p>
+<p>Right triangle: Pythagoras. \(30^circ\)-\(60^circ\)-\(90^circ\) \(=1:\sqrt{3}:2\). \(45^circ\)-\(45^circ\)-\(90^circ\) \(=1:1:\sqrt{2}\). Area \(\frac12 ab\sin C = \sqrt{s(s-a)(s-b)(s-c)}\).</p>
+<p>Circle: angle in a semicircle \(90^circ\). Centre angle \(=2\times\) circumference angle on the same arc. Tangent \(\perp\) radius; two tangents from an external point equal. Chord \(=2\sqrt{r^2-d^2}\). Power of a point: \(PA\cdot PB=PC\cdot PD=\mathrm{tangent}^2\).</p>
+<p>Cyclic quadrilateral: opposite angles sum \(180^circ\). Ptolemy if needed: \(AC\cdot BD=AB\cdot CD+AD\cdot BC\).</p>
+<p>Coordinate: distance, midpoint, slope; perpendicular \(m_1m_2=-1\). Section formula: point dividing \(A,B\) in \(m:n\) is \(\bigl(\frac{nx_1+mx_2}{m+n},\frac{ny_1+my_2}{m+n}\bigr)\). Circle \((x-h)^2+(y-k)^2=r^2\).</p>
+<p>Mensuration: cylinder \(\pi r^2 h\), cone \(\frac13\pi r^2 h\), sphere \(\frac43\pi r^3\), CSA sphere \(4\pi r^2\). Scale \(k\): area \(k^2\), volume \(k^3\).</p>
+<p>Regular polygon interior \(\frac{(n-2)180}{n}\). Number of diagonals \(\frac{n(n-3)}{2}\).</p>
+<div class="def">
+<p><strong>From CAT 2017–2020 — geometry the papers used.</strong></p>
+<ul>
+<li><strong>Diamond \(|x|+|y|=2\).</strong> Area 8 (square with diagonal 4). Inequality \(|x|+|y|\le 2\) minus the strip \(|x|&lt;1\) is a hexagon; compute as diamond minus two triangles, or pick’s / geometry of the band \(|x|\ge 1\).</li>
+<li><strong>Centroid.</strong> Medians divide a triangle into six small triangles of equal area. Cutting GBC off ABC leaves 2/3 of the area (the three small ones toward A). Area of 40-25-35 by Heron, then \(\times 2/3\).</li>
+<li><strong>Distance from a vertex to the hypotenuse</strong> is the altitude: \(\frac{ab}{c}\). Min time at 30 km/h is that length over 30 (in hours, then \(\times 60\)).</li>
+<li><strong>Right isosceles, hypotenuse as diameter of a semicircle, plus an arc centred at A.</strong> Region between the semicircle and the arc: \(\frac12\pi (c/2)^2 - \bigl(\frac14\pi c^2 - \frac12 a^2\bigr)\) — draw it; CAT 2017 S1 Q17 lands on 18, the two pizza-slices cancelling to the right triangle.</li>
+<li><strong>Cube melted into five cubes 1:1:8:27:27 in volume.</strong> Side scale is cube root: 1,1,2,3,3. Surface \(\propto\) side². Original volume 1+1+8+27+27=64, side 4. % extra surface \(= (1+1+4+9+9)/16 - 1\).</li>
+<li><strong>Frustum / cut cone.</strong> Similar: height 12, cut 3 from the tip (9 from the base). Remaining volume \(=\) original minus small similar cone of height 3. Scale 3/12=1/4, volume factor 1/64.</li>
+<li><strong>Cone cut parallel at 18 from the base, height 27.</strong> Small cone height 9, scale 1/3, volume 1/27 of original. Two pieces: small cone vs frustum. Difference 225 pins the original.</li>
+<li><strong>Regular hexagon side 1, square on AC.</strong> AC is \(\sqrt{3}\) (two equilateral heights? In hexagon AC skips one vertex: length \(\sqrt{3}\)). Square area 3.</li>
+<li><strong>Rectangle in a circle, diagonal = diameter = 26.</strong> \(l^2+b^2=26^2\). (24,10) works, (25,9) does not (625+81=706\(\ne\)676).</li>
+<li><strong>Two parallel chords same side, 4 and 6, gap 1.</strong> \(r^2=(d)^2+3^2=(d+1)^2+2^2\).</li>
+<li><strong>Chord length \(2r\sin(\theta/2)\).</strong> 5 cm at 60° \(\Rightarrow\) the 120° chord is \(5\sqrt{3}\).</li>
+<li><strong>Power / intersecting chords.</strong> Diameter 22, chord 20.5, CE=7 so ED=15. \(AE\cdot EB=CE\cdot ED=105\). Let AE\(=x\), EB\(=20.5-x\), \(|EB-AE|\).</li>
+<li><strong>Angle in a semicircle + inscribed.</strong> Cyclic ABCD, \(\angle COD=120\) is centre on arc CD so inscribed is 60; chase \(\angle BCD\).</li>
+<li><strong>Incircle of a rhombus.</strong> A rhombus has an incircle. \(r=\mathrm{area}/s\) with \(s\) the semiperimeter. Diagonals 12, 16: area 96, side 10, \(s=20\), \(r=4.8\). Circle-to-rhombus area ratio \(\pi(4.8)^2/96=6\pi/25\).</li>
+<li><strong>Medians perpendicular, 12 and 9.</strong> Area of triangle \(=\frac43\times\frac12\times 12\times 9=72\) (four small right triangles of legs 8 and 6 around the centroid, since centroid splits 2:1).</li>
+<li><strong>Equilateral, sum of perpendiculars from an interior point = height.</strong> Viviani. Area \(= s^2 / \sqrt{3}\) if \(s\) is that height? Height \(s\), area \(s^2/\sqrt{3}\). Yes CAT option.</li>
+<li><strong>Chord through (3 E, 4 N) of O, radius 5.</strong> Power: distance OM from O to the chord (line AB). A is 4 north, B 3 east, chord is the line through them. Distance from O to AB, then chord \(=2\sqrt{r^2-d^2}\).</li>
+<li><strong>Concentric: chord of C1 tangent to C2, length 6, diameters differ by 2.</strong> \(r_1^2 - r_2^2 = 3^2\), \(r_1=r_2+1\), so \(2r_2+1=9\), \(r_2=4\), diameter of C1 is 10.</li>
+<li><strong>Circumcircle of (0,0),(4,0),(3,9).</strong> Perp bisectors, or formula \(R=abc/(4K)\).</li>
+<li><strong>Parallelogram opposite vertices (2,1), (−3,−4); other two on a line.</strong> Midpoint of both diagonals coincides: midpoint \((\frac{-1}{2},\frac{-3}{2})\) lies on the line of the other two, and the line is given as \(x+9y+c=0\) so plug the midpoint after finding the two points — or: the other two have midpoint that same, so the given line must pass through that midpoint, pinning \(c\).</li>
+<li><strong>Grid paths (1,1)\(\to\)(8,10) via (4,6), only right and up:</strong> binomial \(\binom{3+5}{3}\times\binom{4+4}{4}\).</li>
+<li><strong>Trapezium AB ∥ DC, BC ⊥ DC, \(\angle BAD=45^\circ\), DC=5, BC=4.</strong> Height 4, the 45° makes the overhang 4, so AB=5+4=9 (or |5-4| depending which way). Area \(=\frac{AB+DC}{2}\times h\).</li>
+<li><strong>Infinite midpoint triangles of an equilateral.</strong> Each area is 1/4 of the previous. Sum \(A/(1-1/4)=\frac43 A\) with \(A=\frac{\sqrt{3}}{4}\times 24^2=144\sqrt{3}\), total \(192\sqrt{3}\).</li>
+<li><strong>Brick face diagonals 3 : \(2\sqrt{3}\) : \(\sqrt{15}\).</strong> \(l^2+b^2\), \(b^2+h^2\), \(h^2+l^2\) in that ratio. Add pairwise to isolate edges, then shortest:longest.</li>
+<li><strong>Square pyramid, equilateral triangular faces, side 20.</strong> Apex is directly above the square centre. Height from \(10\sqrt{2}\) (half-diagonal) and slant 20: \(h=\sqrt{20^2-10^2-10^2}=10\sqrt{2}\).</li>
+<li><strong>Max altitude to hypotenuse of a right triangle with hypotenuse 20</strong> is 10 (isosceles).</li>
+</ul>
+</div>
+<div class="miss"><strong>Trap.</strong> “Each edge \(+10\%\)” volumes \(+33.1\%\), not \(+10\%\) and not \(+30\%\). Height of equilateral is \(\frac{\sqrt{3}}{2}a\), not \(a\). Rectangle in a circle needs \(l^2+b^2=(\text{diameter})^2\), not just “looks Pythagorean.”</div>
+<div class="take"><strong>Move.</strong> Draw, mark equal angles, hunt one similar pair. If numbers are ugly, drop an altitude or use coordinates.</div>
+
+
+
+<div class="section-head" id="questions">
+  <div class="num">02</div>
+  <h2>CAT 2017–2020 PYQs</h2>
+  <label class="review"><input type="checkbox"> reviewed</label>
+</div>
+<p class="bank-note">52 authentic items from 2IIM’s public papers, tagged with year and slot. 2017: 13 · 2018: 13 · 2019: 14 · 2020: 12. Open a question for the official answer. Figures load from 2IIM.</p>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q15</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 1 – Co-ordinate Geometry</span>
+    </div>
+    <div class="q-stem">The area of the closed region bounded by the equation | x | + | y | = 2 in the two-dimensional plane is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 4π</li><li><span class="opt-k">B</span> 4</li><li><span class="opt-k">C</span> 8</li><li><span class="opt-k">D</span> 2π</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 8</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q16</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Geometry</span>
+    </div>
+    <div class="q-stem">From a triangle ABC with sides of lengths 40 ft, 25 ft and 35 ft, a triangular portion GBC is cut off where G is the centroid of ABC. The area, in sq ft, of the remaining portion of triangle ABC is:</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 225\(\sqrt{3}\)</li><li><span class="opt-k">B</span> \(\frac{500}{\(\sqrt{3}\)}\)\\)</li><li><span class="opt-k">C</span> \(\frac{275}{\(\sqrt{3}\)}\)\\)</li><li><span class="opt-k">D</span> \(\frac{250}{\(\sqrt{3}\)}\)\\)</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — \(\frac{500}{\(\sqrt{3}\)}\)\\)</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q17</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Geometry</span>
+    </div>
+    <div class="q-stem">Let ABC be a right-angled isosceles triangle with hypotenuse BC. Let BQC be a semi-circle, away from A, with diameter BC. Let BPC be an arc of a circle centered at A and lying between BC and BQC. If AB has length 6 cm then the area, in sq. cm, of the region enclosed by BPC and BQC is:</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 9π - 18</li><li><span class="opt-k">B</span> 18</li><li><span class="opt-k">C</span> 9π</li><li><span class="opt-k">D</span> 9</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 18</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q18</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Mensuration &amp; Geometry</span>
+    </div>
+    <div class="q-stem">A solid metallic cube is melted to form five solid cubes whose volumes are in the ratio 1 : 1 : 8: 27: 27. The percentage by which the sum of the surface areas of these five cubes exceeds the surface area of the original cube is nearest to:</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 10</li><li><span class="opt-k">B</span> 50</li><li><span class="opt-k">C</span> 60</li><li><span class="opt-k">D</span> 20</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 50</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q19</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Mensuration &amp; Geometry</span>
+    </div>
+    <div class="q-stem">A ball of diameter 4 cm is kept on top of a hollow cylinder standing vertically. The height of the cylinder is 3 cm, while its volume is 9 π cm<sup>3</sup>. Then the vertical distance, in cm, of the topmost point of the ball from the base of the cylinder is:</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">6</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q20</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Geometry</span>
+    </div>
+    <div class="q-stem">Let ABC be a right-angled triangle with BC as the hypotenuse. Lengths of AB and AC are 15 km and 20 km, respectively. The minimum possible time, in minutes, required to reach the hypotenuse from A at a speed of 30 km per hour is:</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">24</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q30</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Co-ordinate Geometry</span>
+    </div>
+    <div class="q-stem">The shortest distance of the point (\\(\frac{1}{2}\)),1) from the curve y = |x - 1| + |x + 1| is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 1</li><li><span class="opt-k">B</span> 0</li><li><span class="opt-k">C</span> \(\sqrt{2}\)</li><li><span class="opt-k">D</span> √\(\frac{3}{2}\))</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 1</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q15</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Geometry</span>
+    </div>
+    <div class="q-stem">Let ABCDEF be a regular hexagon with each side of length 1 cm. The area (in sq cm) of a square with AC as one side is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 3\(\sqrt{2}\)</li><li><span class="opt-k">B</span> 3</li><li><span class="opt-k">C</span> 4</li><li><span class="opt-k">D</span> \(\sqrt{3}\)</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 3</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q16</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Geometry</span>
+    </div>
+    <div class="q-stem">The base of a vertical pillar with uniform cross section is a trapezium whose parallel sides are of lengths 10 cm and 20 cm while the other two sides are of equal length. The perpendicular distance between the parallel sides of the trapezium is 12 cm. If the height of the pillar is 20 cm, then the total area, in sq cm, of all six surfaces of the pillar is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 1300</li><li><span class="opt-k">B</span> 1340</li><li><span class="opt-k">C</span> 1480</li><li><span class="opt-k">D</span> 1520</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 1480</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q17</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Co-ordinate Geometry</span>
+    </div>
+    <div class="q-stem">The points (2, 5) and (6, 3) are two end points of a diagonal of a rectangle. If the other diagonal has the equation y = 3x + c, then c is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> - 5</li><li><span class="opt-k">B</span> - 6</li><li><span class="opt-k">C</span> - 7</li><li><span class="opt-k">D</span> - 8</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — - 8</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q18</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Geometry</span>
+    </div>
+    <div class="q-stem">ABCD is a quadrilateral inscribed in a circle with centre O. If ∠COD = 120 degrees and ∠BAC = 30 degrees, then the value of ∠BCD (in degrees) is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">90</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q19</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Geometry</span>
+    </div>
+    <div class="q-stem">If three sides of a rectangular park have a total length 400 ft., then the area of the park is maximum when the length (in ft.) of its longer side is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">200</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q20</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Geometry</span>
+    </div>
+    <div class="q-stem">Let P be an interior point of a right-angled isosceles triangle ABC with hypotenuse AB. If the perpendicular distance of P from each of AB, BC, and CA is 4(\(\sqrt{2}\) - 1) cm, then the area, in sq. cm, of the triangle ABC is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">16</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q2</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Geometry</span>
+    </div>
+    <div class="q-stem">In a circle with centre O and radius 1 cm, an arc AB makes an angle 60 degrees at O. Let R be the region bounded by the radii OA, OB and the arc AB. If C and D are two points on OA and OB, respectively, such that OC = OD and the area of triangle OCD is half that of R, then the length of OC, in cm, is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> \(\frac{&amp;pi;}{4}\)) \(\frac{1}{2}\))</li><li><span class="opt-k">B</span> \(\frac{&amp;pi;}{6}\)) \(\frac{1}{2}\))</li><li><span class="opt-k">C</span> \(\frac{&amp;pi;}{4\(\sqrt{3}\)}\)) \(\frac{1}{2}\))</li><li><span class="opt-k">D</span> \(\frac{&amp;pi;}{3\(\sqrt{3}\)}\)) \(\frac{1}{2}\))</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — \(\frac{&amp;pi;}{3\(\sqrt{3}\)}\)) \(\frac{1}{2}\))</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q9</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Geometry</span>
+    </div>
+    <div class="q-stem">Given an equilateral triangle T1 with side 24 cm, a second triangle T2 is formed by joining the midpoints of the sides of T1. Then a third triangle T3 is formed by joining the midpoints of the sides of T2. If this process of forming triangles is continued, the sum of the areas, in sq cm, of infinitely many such triangles T1, T2, T3,... will be</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 192\(\sqrt{3}\)</li><li><span class="opt-k">B</span> 164\(\sqrt{3}\)</li><li><span class="opt-k">C</span> 248\(\sqrt{3}\)</li><li><span class="opt-k">D</span> 188\(\sqrt{3}\)</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 192\(\sqrt{3}\)</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q13</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Mensuration</span>
+    </div>
+    <div class="q-stem">A right circular cone, of height 12 ft, stands on its base which has diameter 8 ft. The tip of the cone is cut off with a plane which is parallel to the base and 9 ft from the base. With π = 22/7, the volume, in cubic ft, of the remaining part of the cone is:</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">198</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q18</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Geometry</span>
+    </div>
+    <div class="q-stem">Let ABCD be a rectangle inscribed in a circle of radius 13 cm. Which one of the following pairs can represent, in cm, the possible length and breadth of ABCD?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 25 , 10</li><li><span class="opt-k">B</span> 24 , 12</li><li><span class="opt-k">C</span> 25 , 9</li><li><span class="opt-k">D</span> 24 , 10</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — 24 , 10</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q24</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Geometry</span>
+    </div>
+    <div class="q-stem">Points E, F, G, H lie on the sides AB, BC, CD, and DA, respectively, of a square ABCD. If EFGH is also a square whose area is 62.5% of that of ABCD and CG is longer than EB, then the ratio of length of EB to that of CG is:</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 1 : 3</li><li><span class="opt-k">B</span> 4 : 9</li><li><span class="opt-k">C</span> 2 : 5</li><li><span class="opt-k">D</span> 3 : 8</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 1 : 3</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q29</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Mensuration</span>
+    </div>
+    <div class="q-stem">In a parallelogram ABCD of area 72 sq cm, the sides CD and AD have lengths 9 cm and 16 cm, respectively. Let P be a point on CD such that AP is perpendicular to CD. Then the area, in sq cm, of triangle APD is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 18\(\sqrt{3}\)</li><li><span class="opt-k">B</span> 24\(\sqrt{3}\)</li><li><span class="opt-k">C</span> 32\(\sqrt{3}\)</li><li><span class="opt-k">D</span> 12\(\sqrt{3}\)</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 32\(\sqrt{3}\)</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q30</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Geometry</span>
+    </div>
+    <div class="q-stem">In a circle, two parallel chords on the same side of a diameter have lengths 4 cm and 6 cm. If the distance between these chords is 1 cm, then the radius of the circle, in cm, is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> \(\sqrt{13}\)</li><li><span class="opt-k">B</span> \(\sqrt{14}\)</li><li><span class="opt-k">C</span> \(\sqrt{11}\)</li><li><span class="opt-k">D</span> \(\sqrt{12}\)</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — \(\sqrt{13}\)</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q4</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Geometry</span>
+    </div>
+    <div class="q-stem">On a triangle ABC, a circle with diameter BC is drawn, intersecting AB and AC at points P and Q, respectively. If the lengths of AB, AC, and CP are 30 cm, 25 cm, and 20 cm respectively, then the length of BQ, in cm, is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">24 cm</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q6</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Mensuration</span>
+    </div>
+    <div class="q-stem">From a rectangle ABCD of area 768 sq cm, a semicircular part with diameter AB and area 72π sq cm is removed. The perimeter of the leftover portion, in cm, is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 88 + 12π</li><li><span class="opt-k">B</span> 80 + 16π</li><li><span class="opt-k">C</span> 86 + 8π</li><li><span class="opt-k">D</span> 82 + 24π</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 88 + 12π</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q8</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Geometry</span>
+    </div>
+    <div class="q-stem">A chord of length 5 cm subtends an angle of 60° at the centre of a circle. The length, in cm, of a chord that subtends an angle of 120° at the centre of the same circle is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 2π</li><li><span class="opt-k">B</span> 5\(\sqrt{3}\)</li><li><span class="opt-k">C</span> 6\(\sqrt{2}\)</li><li><span class="opt-k">D</span> 8</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 5\(\sqrt{3}\)</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q12</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Mensuration</span>
+    </div>
+    <div class="q-stem">The area of a rectangle and the square of its perimeter are in the ratio 1 : 25. Then the lengths of the shorter and longer sides of the rectangle are in the ratio</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 3 : 8</li><li><span class="opt-k">B</span> 2 : 9</li><li><span class="opt-k">C</span> 1 : 4</li><li><span class="opt-k">D</span> 1 : 3</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 1 : 4</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q15</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Mensuration</span>
+    </div>
+    <div class="q-stem">A parallelogram ABCD has area 48 sqcm. If the length of CD is 8 cm and that of AD is s cm, then which one of the following is necessarily true?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> s ≥ 6</li><li><span class="opt-k">B</span> s ≠ 6</li><li><span class="opt-k">C</span> 5 ≤ s ≤ 7</li><li><span class="opt-k">D</span> s ≤ 6</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — s ≥ 6</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q25</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Coordinate Geometry</span>
+    </div>
+    <div class="q-stem">A triangle ABC has area 32 sq units and its side BC, of length 8 units, lies on the line x = 4. Then the shortest possible distance between A and the point (0,0) is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 4\(\sqrt{2}\) units</li><li><span class="opt-k">B</span> 2\(\sqrt{2}\) units</li><li><span class="opt-k">C</span> 4 units</li><li><span class="opt-k">D</span> 8 units</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 4 units</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q3</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Coordinate Geometry</span>
+    </div>
+    <div class="q-stem">With rectangular axes of coordinates, the number of paths from (1,1) to (8,10) via (4,6), where each step from any point (x,y) is either to (x,y+1) or to (x+1,y) is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">3920</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q5</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Circles</span>
+    </div>
+    <div class="q-stem">In a circle of radius 11 cm, CD is a diameter and AB is a chord of length 20.5 cm. If AB and CD intersect at a point E inside the circle and CE has length 7 cm, then the difference of the lengths of BE and AE, in cm, is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 1.5</li><li><span class="opt-k">B</span> 3.5</li><li><span class="opt-k">C</span> 0.5</li><li><span class="opt-k">D</span> 2.5</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 0.5</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q7</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Mensuration</span>
+    </div>
+    <div class="q-stem">Corners are cut off from an equilateral triangle T to produce a regular hexagon H. Then, the ratio of the area of H to the area of T is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 5 : 6</li><li><span class="opt-k">B</span> 3 : 4</li><li><span class="opt-k">C</span> 2 : 3</li><li><span class="opt-k">D</span> 4 : 5</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 2 : 3</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q8</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Coordinate Geometry</span>
+    </div>
+    <div class="q-stem">Let T be the triangle formed by the straight line 3x + 5y - 45 = 0 and the coordinate axes. Let the circumcircle of T have radius of length L, measured in the same unit as the coordinate axes. Then, the integer closest to L is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">9</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q17</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Trigonometry</span>
+    </div>
+    <div class="q-stem">The number of the real roots of the equation 2cos(x(x + 1)) = 2<sup>x</sup> + 2<sup>-x</sup> is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 0</li><li><span class="opt-k">B</span> Infinite</li><li><span class="opt-k">C</span> 1</li><li><span class="opt-k">D</span> 2</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 1</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q21</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Geometry</span>
+    </div>
+    <div class="q-stem">AB is a diameter of a circle of radius 5 cm. Let P and Q be two points on the circle so that the length of PB is 6 cm, and the length of AP is twice that of AQ. Then the length, in cm, of QB is nearest to</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 8.5</li><li><span class="opt-k">B</span> 9.3</li><li><span class="opt-k">C</span> 9.1</li><li><span class="opt-k">D</span> 7.8</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 9.1</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q27</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Mensuration</span>
+    </div>
+    <div class="q-stem">If the rectangular faces of a brick have their diagonals in the ratio 3 : 2 \\sqrt{3}) : \\sqrt{15}), then the ratio of the length of the shortest edge of the brick to that of its longest edge is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 1 : \\sqrt{3})</li><li><span class="opt-k">B</span> 2 : \\sqrt{5})</li><li><span class="opt-k">C</span> \\sqrt{2}) :\\sqrt{3})</li><li><span class="opt-k">D</span> \\sqrt{3}) : 2</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 1 : \\sqrt{3})</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q28</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Coordinate Geometry</span>
+    </div>
+    <div class="q-stem">Let S be the set of all points (x,y) in the x-y plane such that |x| + |y| ≤ 2 and |x| ≥ 1. Then, the area, in square units, of the region represented by S equals</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">2</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q4</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Geometry</span>
+    </div>
+    <div class="q-stem">In a triangle ABC, medians AD and BE are perpendicular to each other, and have lengths 12 cm and 9 cm, respectively. Then, the area of triangle ABC, in sq cm, is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 80</li><li><span class="opt-k">B</span> 68</li><li><span class="opt-k">C</span> 72</li><li><span class="opt-k">D</span> 78</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 72</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q7</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Geometry</span>
+    </div>
+    <div class="q-stem">Two circles, each of radius 4 cm, touch externally. Each of these two circles is touched externally by a third circle. If these three circles have a common tangent, then the radius of the third circle, in cm, is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> \(\frac{π}{3}\))</li><li><span class="opt-k">B</span> 1</li><li><span class="opt-k">C</span> \(\frac{1}{\sqrt{2}\)})</li><li><span class="opt-k">D</span> \\sqrt{2})</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 1</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q11</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Geometry</span>
+    </div>
+    <div class="q-stem">Let A and B be two regular polygons having a and b sides, respectively. If b = 2a and each interior angle of B is 3/2 times each interior angle of A, then each interior angle, in degrees, of a regular polygon with a + b sides is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">150</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q18</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Mensuration</span>
+    </div>
+    <div class="q-stem">The base of a regular pyramid is a square and each of the other four sides is an equilateral triangle, length of each side being 20 cm. The vertical height of the pyramid, in cm, is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 10\\sqrt{2})</li><li><span class="opt-k">B</span> 8\\sqrt{3})</li><li><span class="opt-k">C</span> 12</li><li><span class="opt-k">D</span> 5\\sqrt{5})</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 10\\sqrt{2})</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q20</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Geometry</span>
+    </div>
+    <div class="q-stem">Let ABC be a right-angled triangle with hypotenuse BC of length 20 cm. If AP is perpendicular on BC, then the maximum possible length of AP, in cm, is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 10</li><li><span class="opt-k">B</span> 8\\sqrt{2})</li><li><span class="opt-k">C</span> 6\\sqrt{2})</li><li><span class="opt-k">D</span> 5</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 10</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q24</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Mensuration</span>
+    </div>
+    <div class="q-stem">A man makes complete use of 405 cc of iron, 783 cc of aluminium, and 351 cc of copper to make a number of solid right circular cylinders of each type of metal. These cylinders have the same volume and each of these has radius 3 cm. If the total number of cylinders is to be kept at a minimum, then the total surface area of all these cylinders, in sq cm, is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 1044(4 + π)</li><li><span class="opt-k">B</span> 8464π</li><li><span class="opt-k">C</span> 928π</li><li><span class="opt-k">D</span> 1026(1 + π)</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — 1026(1 + π)</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">QA Q16</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Co-ordinate Geometry</span>
+    </div>
+    <div class="q-stem">The area of the region satisfying the inequalities |x| - y ≤ 1, y ≥ 0, and y ≤ 1 is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">3</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-Quant/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">QA Q17</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Mensuration</span>
+    </div>
+    <div class="q-stem">A solid right circular cone of height 27 cm is cut into 2 pieces along a plane parallel to it's base at a height of 18 cm from the base. If the difference in the volume of the two pieces is 225 cc, the volume, in cc, of the original cone is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 264</li><li><span class="opt-k">B</span> 232</li><li><span class="opt-k">C</span> 243</li><li><span class="opt-k">D</span> 256</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">C — 243</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-Quant/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">QA Q18</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Geometry</span>
+    </div>
+    <div class="q-stem">A circle is inscribed in a rhombus with diagonals 12 cm and 16 cm. The ratio of the area of the circle to the area of the rhombus is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> \(\frac{2π}{15}\))</li><li><span class="opt-k">B</span> \(\frac{6π}{25}\))</li><li><span class="opt-k">C</span> \(\frac{3π}{25}\))</li><li><span class="opt-k">D</span> \(\frac{5π}{18}\))</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">B — \(\frac{6π}{25}\))</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-Quant/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">QA Q22</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Mensuration</span>
+    </div>
+    <div class="q-stem">On a rectangular metal sheet of area 135 sq in, a circle is painted such that the circle touches opposite two sides. If the area of the sheet left unpainted is two-thirds of the painted area then the perimeter of the rectangle in inches is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 3√π(5 + \(\frac{12}{π}\)))</li><li><span class="opt-k">B</span> 4√π(3 + \(\frac{12}{π}\)))</li><li><span class="opt-k">C</span> 5√π(3 + \(\frac{12}{π}\)))</li><li><span class="opt-k">D</span> 3√π(\(\frac{5}{2}\)) + \(\frac{6}{π}\)))</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">A — 3√π(5 + \(\frac{12}{π}\)))</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-Quant/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">QA Q2</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Geometry</span>
+    </div>
+    <div class="q-stem">From the interior point of an equilateral triangle, perpendiculars are drawn on all three sides. The sum of the lengths of the perpendiculars is 's'. Then the area of the triangle is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> \frac{s^{2}}{2\(\sqrt{3}\)})</li><li><span class="opt-k">B</span> \frac{2s^{2}}{\(\sqrt{3}\)})</li><li><span class="opt-k">C</span> \frac{s^{2}}{\(\sqrt{3}\)})</li><li><span class="opt-k">D</span> \frac{\(\sqrt{3}\)s^{2}}{2})</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">C — \frac{s^{2}}{\(\sqrt{3}\)})</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">QA Q9</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Geometry</span>
+    </div>
+    <div class="q-stem">Let C be a circle of radius 5 meters having center at O. Let PQ be a chord of C that passes through points A and B where A is located 4 meters north of O and B is located 3 meters east of O. Then, the length of PQ, in meters, is nearest to</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 6.6</li><li><span class="opt-k">B</span> 7.2</li><li><span class="opt-k">C</span> 8.8</li><li><span class="opt-k">D</span> 7.8</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">C — 8.8</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">QA Q16</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Mensuration</span>
+    </div>
+    <div class="q-stem">The sum of perimeters of an equilateral triangle and a rectanmgle is 90 cm. The area, T, of the triangle and the area , R, of the rectangle, both in sq cm, satisfy the relationship R = T<sup>2</sup>. If the sides of the rectangle are in the ratio 1 : 3, then the length, in cm, of the longer side of the rectangle, is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 27</li><li><span class="opt-k">B</span> 18</li><li><span class="opt-k">C</span> 21</li><li><span class="opt-k">D</span> 24</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">A — 27</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">QA Q21</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Geometry</span>
+    </div>
+    <div class="q-stem">Let C1 and C2 be concentric circles such that the diameter of C1 is 2cm longer than that of C2. If a chord of C1 has length 6 cm and is a tangent to C2, then the diameter, in cm of C1 is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">10</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">QA Q5</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Co-ordinate Geometry</span>
+    </div>
+    <div class="q-stem">The area, in sq. units, enclosed by the lines x = 2, y = |x - 2| + 4, the X-axis and the Y-axis is equal to</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 12</li><li><span class="opt-k">B</span> 8</li><li><span class="opt-k">C</span> 6</li><li><span class="opt-k">D</span> 10</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">D — 10</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-Quant/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">QA Q19</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Co-ordinate Geometry</span>
+    </div>
+    <div class="q-stem">The vertices of a triangle are (0,0), (4,0) and (3,9). The area of the circle passing through these three points is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> \(\frac{14π}{3}\))</li><li><span class="opt-k">B</span> \(\frac{123π}{7}\))</li><li><span class="opt-k">C</span> \(\frac{205π}{9}\))</li><li><span class="opt-k">D</span> \(\frac{12π}{5}\))</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">C — \(\frac{205π}{9}\))</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-Quant/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">QA Q24</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Geometry</span>
+    </div>
+    <div class="q-stem">In a trepezium ABCD, AB is parallel to DC, BC is perpendicular to DC and ∠BAD = 45°. If DC = 5 cm, BC = 4 cm, the area of the trepezium in sq. cm is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">28</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-Quant/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">QA Q25</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Co-ordinate Geometry</span>
+    </div>
+    <div class="q-stem">The points (2 , 1) and (-3 , -4) are opposite vertices of a parellelogram. If the other two vertices lie on the line x + 9y + c = 0, then c is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 15</li><li><span class="opt-k">B</span> 13</li><li><span class="opt-k">C</span> 14</li><li><span class="opt-k">D</span> 12</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">C — 14</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-Quant/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+
+</article>
+<footer class="page">Geometry · CAT 2017–2020 PYQs</footer>
+<div class="toast" id="toast">Copied</div>
+<script src="../js/notes-ui.js"></script>
+</body>
+</html>

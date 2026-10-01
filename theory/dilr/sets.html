@@ -1,0 +1,2054 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Set selection and LR · CAT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,650;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/notes.css">
+<script>
+MathJax = {
+  tex: { inlineMath: [['\\(','\\)']], displayMath: [['\\[','\\]']] }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body data-theme="cat">
+<canvas id="field" aria-hidden="true"></canvas>
+<div class="progress" id="progress"></div>
+<button type="button" class="handle left" id="toc-btn" aria-expanded="false">Contents</button>
+<button type="button" class="handle right" id="study-btn" aria-expanded="false">Study</button>
+<aside class="rail left" id="toc-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">CAT 2026 · IIM A</p>
+    <h2>On this page</h2>
+  </div>
+  <nav class="rail-body toc" id="toc">
+    <a href="#sheet"><small>01</small>Sheet</a>
+    <a href="#questions"><small>02</small>PYQs (116)</a>
+  </nav>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="toc-mark"></div></div>
+  <div class="rail-foot" id="toc-foot">Contents</div>
+</aside>
+<aside class="rail right" id="study-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">Studio</p>
+    <h2>Study</h2>
+  </div>
+  <div class="rail-body">
+    <a class="tool" href="../index.html"><small>All topics</small>Theory home</a>
+    <button type="button" class="tool" id="exam-btn"><small>Hide commentary</small>Exam mode</button>
+    <button type="button" class="tool" id="formula-btn"><small>Only the slabs</small>Formulas</button>
+    <button type="button" class="tool" id="draw-btn"><small>From the PYQs</small>Draw a question</button>
+    <button type="button" class="tool" id="print-btn"><small>Browser print</small>Print</button>
+  </div>
+  <div class="draw" id="draw"><span class="lbl">Question</span>Draw a question when you want a prompt without rereading the sheet.</div>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="study-mark"></div></div>
+  <div class="rail-foot">Exam mode keeps formulas, takeaways, traps, and the PYQs (answers hidden). Formulas hides the papers.</div>
+</aside>
+<article class="page" id="top">
+  <header class="mast">
+    <div class="meta-row">
+      <span class="chip">CAT 2026</span>
+      <span class="chip gold">DILR</span>
+      <span class="chip">116 PYQs</span>
+    </div>
+    <h1>Set selection and LR</h1>
+    <p class="lede">Scan, abandon, arrangement, binary logic.</p>
+  </header>
+
+<div class="section-head" id="sheet">
+  <div class="num">01</div>
+  <h2>Sheet</h2>
+  <label class="review"><input type="checkbox"> reviewed</label>
+</div>
+<p>CAT DILR is set selection, not “attempt all.” Forty minutes, five sets (recent pattern). Target for 99.7: two clean sets plus maybe a leftover TITA — about 8–10 correct, not heroics.</p>
+<p><strong>Minute 0–3.</strong> Read the first 5–6 lines of every set. Rank: familiar skeleton, small integers, TITA that looks countable. Skip: nested “if A then unless B except C”, undefined figures, Q1 that already looks like an 8-minute grind.</p>
+<p><strong>Abandon rule.</strong> 12 minutes and one answer \(\Rightarrow\) leave. Sunk cost is how DILR percentiles die.</p>
+<p><strong>Arrangements.</strong> Slots as columns. Place the most constrained person first. Circular: fix one person to kill rotational symmetry. Linear with neighbours: glue. “Not adjacent” = total − adjacent.</p>
+<p><strong>Binary / games of truth.</strong> Two types (always-truth / always-lie, or two colours). Assume one statement, chase contradictions. Invariants: number of liars, parity.</p>
+<p><strong>Quant based LR.</strong> Treat the paragraph as constraints on a table you drew. Don’t start arithmetic before the grid exists.</p>
+<div class="miss"><strong>Trap.</strong> Opening the “interesting” set first. Interesting is not easy. Also: finishing a doomed set because you already spent 8 minutes.</div>
+<div class="take"><strong>Move.</strong> After every mock, tag sets should-have-picked / correctly-skipped / should-have-skipped. That log is the syllabus.</div>
+
+
+
+<div class="section-head" id="questions">
+  <div class="num">02</div>
+  <h2>CAT 2017–2020 PYQs</h2>
+  <label class="review"><input type="checkbox"> reviewed</label>
+</div>
+<p class="bank-note">116 authentic items from 2IIM’s public papers, tagged with year and slot. 2017: 28 · 2018: 36 · 2019: 16 · 2020: 36. Open a question for the official answer. Figures load from 2IIM.</p>
+<div class="set">
+  <p class="set-kicker">A new airlines company is planning to start…</p>
+  <div class="passage"><p>A new airlines company is planning to start operations in a country. The company has identified ten different cities which they plan to connect through their network to start with. The flight duration between any pair of cities will be less than one hour. To start operations, the company has to decide on a daily schedule.<br><br> The underlying principle that they are working on is the following:<br><br> Any person staying in any of these 10 cities should be able to make a trip to any other city in the morning and should be able to return by the evening of the same day. <br><br></p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">DILR Q1</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">If the underlying principle is to be satisfied in such a way that the journey between any two cities can be performed using only direct (non-stop) flights, then the minimum number of direct flights to be scheduled is: <br><br></div>
+    <ol class="opts"><li><span class="opt-k">A</span> 45</li><li><span class="opt-k">B</span> 90</li><li><span class="opt-k">C</span> 180</li><li><span class="opt-k">D</span> 135</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 180</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-DILR/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">DILR Q2</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Suppose three of the ten cities are to be developed as hubs. A hub is a city which is connected with every other city by direct flights each way, both in the morning as well as in the evening. The only direct flights which will be scheduled are originating and/or terminating in one of the hubs. Then the minimum number of direct flights that need to be scheduled so that the underlying principle of the airline to serve all the ten cities is met without visiting more than one hub during one trip is: <br><br> <img class="pyq-fig" src="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-DILR/figa/airlines-2-1.png" alt=""> <br><br></div>
+    <ol class="opts"><li><span class="opt-k">A</span> 54</li><li><span class="opt-k">B</span> 120</li><li><span class="opt-k">C</span> 96</li><li><span class="opt-k">D</span> 60</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 96</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-DILR/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">DILR Q3</span>
+      <span class="chip">TITA</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Suppose the 10 cities are divided into 4 distinct groups G1, G2, G3, G4 having 3, 3, 2 and 2 cities respectively and that G1 consists of cities named A, B and C. Further, suppose that direct flights are allowed only between two cities satisfying one of the following:<br><br> 1. Both cities are in G1<br> 2. Between A and any city in G2<br> 3. Between B and any city in G3<br> 4. Between C and any city in G4<br><br> Then the minimum number of direct flights that satisfies the underlying principle of the airline is:  <br><br></div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">40 flights</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-DILR/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">DILR Q4</span>
+      <span class="chip">TITA</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Suppose the 10 cities are divided into 4 distinct groups G1, G2, G3, G4 having 3, 3, 2 and 2 cities respectively and that G1 consists of cities named A, B and C. Further, suppose that direct flights are allowed only between two cities satisfying one of the following:<br><br> 1. Both cities are in G1<br> 2. Between A and any city in G2<br> 3. Between B and any city in G3<br> 4. Between C and any city in G4<br><br> However, due to operational difficulties at A, it was later decided that the only flights that would operate at A would be those to and from B. Cities in G2 would have to be assigned to G3 or to G4.<br> What would be the maximum reduction in the number of direct flights as compared to the situation before the operational difficulties arose?  <br><br></div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">4 flights</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-DILR/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+<div class="set">
+  <p class="set-kicker">Four cars need to travel from Akala (A) to…</p>
+  <div class="passage"><p>Four cars need to travel from Akala (A) to Bakala (B). Two routes are available, one via Mamur (M) and the other via Nanur (N). The roads from A to M, and from N to B, are both short and narrow. In each case, one car takes 6 minutes to cover the distance, and each additional car increases the travel time per car by 3 minutes because of congestion. (For example, if only two cars drive from A to M, each car takes 9 minutes.) On the road from A to N, one car takes 20 minutes, and each additional car increases the travel time per car by 1 minute. On the road from M to B, one car takes 20 minutes, and each additional car increases the travel time per car by 0.9 minute.<br><br> The police department orders each car to take a particular route in such a manner that it is not possible for any car to reduce its travel time by not following the order, while the other cars are following the order.<br><br></p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">DILR Q5</span>
+      <span class="chip">TITA</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">How many cars would be asked to take the route A-N-B, that is Akala-Nanur-Bakala route, by the police department?  <br><br></div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">2</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-DILR/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">DILR Q6</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">If all the cars follow the police order, what is the difference in travel time (in minutes) between a car which takes the route A-N-B and a car that takes the route A-M-B?<br><br></div>
+    <ol class="opts"><li><span class="opt-k">A</span> 1</li><li><span class="opt-k">B</span> 0.1</li><li><span class="opt-k">C</span> 0.2</li><li><span class="opt-k">D</span> 0.9</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 0.1</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-DILR/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">DILR Q7</span>
+      <span class="chip">TITA</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">A new one-way road is built from M to N. Each car now has three possible routes to travel from A to B: A-M-B, A-N-B and A-M-N-B. On the road from M to N, one car takes 7 minutes and each additional car increases the travel time per car by 1 minute. Assume that any car taking the A-M-N-B route travels the A-M portion at the same time as other cars taking the A-M-B route, and the N-B portion at the same time as other cars taking the A-N-B route.<br> How many cars would the police department order to take the A-M-N-B route so that it is not possible for any car to reduce its travel time by not following the order while the other cars follow the order? (Assume that the police department would never order all the cars to take the same route.) <br><br></div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">2</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-DILR/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">DILR Q8</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">A new one-way road is built from M to N. Each car now has three possible routes to travel from A to B: A-M-B, A-N-B and A-M-N-B. On the road from M to N, one car takes 7 minutes and each additional car increases the travel time per car by 1 minute. Assume that any car taking the A-M-N-B route travels the A-M portion at the same time as other cars taking the A-M-B route, and the N-B portion at the same time as other cars taking the A-N-B route.<br> If all the cars follow the police order, what is the minimum travel time (in minutes) from A to B? (Assume that the police department would never order all the cars to take the same route.) <br><br></div>
+    <ol class="opts"><li><span class="opt-k">A</span> 26</li><li><span class="opt-k">B</span> 32</li><li><span class="opt-k">C</span> 29.9</li><li><span class="opt-k">D</span> 30</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 32</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-DILR/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+<div class="set">
+  <p class="set-kicker">Applicants for the doctoral programmes of Ambi…</p>
+  <div class="passage"><p>Applicants for the doctoral programmes of Ambi Institute of Engineering (AIE) and Bambi Institute of Engineering (BIE) have to appear for a Common Entrance Test (CET). The test has three sections: Physics (P), Chemistry (C), and Maths (M). Among those appearing for CET, those at or above the 80th percentile in at least two sections, and at or above the 90th percentile overall, are selected for Advanced Entrance Test (AET) conducted by AIE. AET is used by AIE for final selection.<br><br> For the 200 candidates who are at or above the 90th percentile overall based on CET, the following are known about their performance in CET:<br> 1.No one is below the 80th percentile in all 3 sections.<br> 2.150 are at or above the 80th percentile in exactly two sections.<br> 3.The number of candidates at or above the 80th percentile only in P is the same as the number of candidates at or above the 80th percentile only in C. The same is the number of candidates at or above the 80th percentile only in M.<br> 4.Number of candidates below 80th percentile in P: Number of candidates below 80th percentile in C: Number of candidates below 80th percentile in M = 4:2:1.<br><br> BIE uses a different process for selection. If any candidate is appearing in the AET by AIE, BIE considers their AET score for final selection provided the candidate is at or above the 80th percentile in P. Any other candidate at or above the 80th percentile in P in CET, but who is not eligible for the AET, is required to appear in a separate test to be conducted by BIE for being considered for final selection. Altogether, there are 400 candidates this year who are at or above the 80th percentile in P.<br><br></p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">DILR Q9</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">What best can be concluded about the number of candidates sitting for the separate test for BIE who were at or above the 90th percentile overall in CET? <br><br></div>
+    <ol class="opts"><li><span class="opt-k">A</span> 3 or 10</li><li><span class="opt-k">B</span> 10</li><li><span class="opt-k">C</span> 5</li><li><span class="opt-k">D</span> 7 or 10</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 3 or 10</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-DILR/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">DILR Q10</span>
+      <span class="chip">TITA</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">If the number of candidates who are at or above the 90th percentile overall and also at or above the 80th percentile in all three sections in CET is actually a multiple of 5, what is the number of candidates who are at or above the 90th percentile overall and at or above the 80th percentile in both P and M in CET? <br><br></div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">60</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-DILR/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">DILR Q11</span>
+      <span class="chip">TITA</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">If the number of candidates who are at or above the 90th percentile overall and also at or above the 80th percentile in all three sections in CET is actually a multiple of 5, then how many candidates were shortlisted for the AET for AIE? <br><br></div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">170</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-DILR/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">DILR Q12</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">If the number of candidates who are at or above the 90th percentile overall and also are at or above the 80th percentile in P in CET, is more than 100, how many candidates had to sit for the separate test for BIE? <br><br></div>
+    <ol class="opts"><li><span class="opt-k">A</span> 299</li><li><span class="opt-k">B</span> 310</li><li><span class="opt-k">C</span> 321</li><li><span class="opt-k">D</span> 330</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 299</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-DILR/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+<div class="set">
+  <p class="set-kicker">Set 8 : Team Project</p>
+  <div class="passage"><p> There are 21 employees working in a division, out of whom 10 are special-skilled employees (SE) and the remaining are regular skilled employees (RE). During the next five months, the division has to complete five projects every month. Out of the 25 projects, 5 projects are "challenging", while the remaining ones are "standard". Each of the challenging projects has to be completed in different months. Every month, five teams - T1, T2, T3, T4 and T5, work on one project each. T1, T2, T3, T4 and T5 are allotted the challenging project in the first, second, third, fourth and fifth month, respectively. The team assigned the challenging project has one more employee than the rest.<br><br> In the first month, T1 has one more SE than T2, T2 has one more SE than T3, T3 has one more SE than T4, and T4 has one more SE than T5. Between two successive months, the composition of the teams changes as follows:<br><br> a. The team allotted the challenging project, gets two SE from the team which was allotted the challenging project in the previous month. In exchange, one RE is shifted from the former team to the latter team.<br><br> b. After the above exchange, if T1 has any SE and T5 has any RE, then one SE is shifted from T1 to T5, and one RE is shifted from T 5 to T1. Also, if T2 has any SE and T4 has any RE, then one SE is shifted from T2 to T4, and one RE is shifted from T4 to T2.<br><br> Each standard project has a total of 100 credit points, while each challenging project has 200 credit points. The credit points are equally shared between the employees included in that team.<br><br> </p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">DILR Q29</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">The number of times in which the composition of team T2 and the number of times in which composition of team T4 remained unchanged in two successive months are: <br><br></div>
+    <ol class="opts"><li><span class="opt-k">A</span> (2,1)</li><li><span class="opt-k">B</span> (1,0)</li><li><span class="opt-k">C</span> (0,0)</li><li><span class="opt-k">D</span> (1,1)</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — (1,0)</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-DILR/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">DILR Q30</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">The number of SE in T1 and T5 for the projects in the third month are, respectively:<br><br></div>
+    <ol class="opts"><li><span class="opt-k">A</span> (0,2)</li><li><span class="opt-k">B</span> (0,3)</li><li><span class="opt-k">C</span> (1,2)</li><li><span class="opt-k">D</span> (1,3)</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — (0,2)</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-DILR/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">DILR Q31</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Which of the following CANNOT be the total credit points earned by any employee from the projects?<br><br></div>
+    <ol class="opts"><li><span class="opt-k">A</span> 140</li><li><span class="opt-k">B</span> 150</li><li><span class="opt-k">C</span> 170</li><li><span class="opt-k">D</span> 200</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 150</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-DILR/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">DILR Q32</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">One of the employees named Aneek scored 185 points. Which of the following CANNOT be true?<br><br></div>
+    <ol class="opts"><li><span class="opt-k">A</span> Aneek worked only in teams T1, T2, T3, and T4</li><li><span class="opt-k">B</span> Aneek worked only in teams T1, T2, T4, and T5</li><li><span class="opt-k">C</span> Aneek worked only in teams T2, T3, T4, and T5</li><li><span class="opt-k">D</span> Aneek worked only in teams T1, T3, T4, and T5</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — Aneek worked only in teams T1, T3, T4, and T5</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-DILR/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+<div class="set">
+  <p class="set-kicker">In an 8 X 8 chessboard a queen placed anywhere…</p>
+  <div class="passage"><p>In an 8 X 8 chessboard a queen placed anywhere can attack another piece if the piece is present in the same row, or in the same column or in any diagonal position in any possible 4 directions, provided there is no other piece in between in the path from the queen to that piece. The columns are labelled a to h (left to right) and the rows are numbered 1 to 8 (bottom to top). The position of a piece is given by the combination of column and row labels. For example, position c5 means that the piece is in cth column and 5th row.<br><br></p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">DILR Q5</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">If the queen is at c5, and the other pieces at positions c2, gl, g3, g5 and a3, how many are under attack by the queen? There are no other pieces on the board. <br><br></div>
+    <ol class="opts"><li><span class="opt-k">A</span> 2</li><li><span class="opt-k">B</span> 3</li><li><span class="opt-k">C</span> 4</li><li><span class="opt-k">D</span> 5</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 4</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-DILR/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">DILR Q6</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">If the other pieces are only at positions al, a3, b4, d7, h7 and h8, then which of the following positions of the queen results in the maximum number of pieces being under attack?<br><br></div>
+    <ol class="opts"><li><span class="opt-k">A</span> f8</li><li><span class="opt-k">B</span> a7</li><li><span class="opt-k">C</span> c1</li><li><span class="opt-k">D</span> d3</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — d3</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-DILR/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">DILR Q7</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">If the other pieces are only at positions al, a3, b4, d7, h7 and h8, then from how many positions the queen cannot attack any of the pieces?<br><br></div>
+    <ol class="opts"><li><span class="opt-k">A</span> 0</li><li><span class="opt-k">B</span> 3</li><li><span class="opt-k">C</span> 4</li><li><span class="opt-k">D</span> 6</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Chioce C — 4</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-DILR/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">DILR Q8</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Suppose the queen is the only piece on the board and it is at position d5. In how many positions can another piece be placed on the board such that it is safe from attack from the queen? <br><br></div>
+    <ol class="opts"><li><span class="opt-k">A</span> 32</li><li><span class="opt-k">B</span> 35</li><li><span class="opt-k">C</span> 36</li><li><span class="opt-k">D</span> 37</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 36</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-DILR/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+<div class="set">
+  <p class="set-kicker">At a management school, the oldest 10 dorms,…</p>
+  <div class="passage"><p>At a management school, the oldest 10 dorms, numbered 1 to 10, need to be repaired urgently, The diagram represents the estimated repair costs (in Rs. Crores) for the 10 dorms. For any dorm, the estimated repair cost (in Rs. Crores) is an integer. Repairs with estimated cost Rs. 1 or 2 Crores are considered light repairs, repairs with estimated cost Rs. 3 or 4 are considered moderate repairs and repairs with estimated cost Rs. 5 or 6 Crores are considered extensive repairs. <br><br> Further, the following are known:<br> 1. Odd-numbered dorms do not need light repair; even-numbered dorms do not need moderate repair and dorms, whose numbers are divisible by 3, do not need extensive repair.<br> 2. Dorms 4 to 9 all need different repair costs, with Dorm 7 needing the maximum and Dorm 8 needing the minimum.<br><br> <br><br> <img class="pyq-fig" src="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-DILR/figa/dorms-1.png" alt=""> <br><br></p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">DILR Q9</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Which of the following is NOT necessarily true? <br><br></div>
+    <ol class="opts"><li><span class="opt-k">A</span> Dorm 1 needs a moderate repair</li><li><span class="opt-k">B</span> Dorm 5 repair will cost no more than Rs. 4 Crores</li><li><span class="opt-k">C</span> Dorm 7 needs an extensive repair</li><li><span class="opt-k">D</span> Dorm 10 repair will cost no more than Rs. 4 Crores</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — Dorm 10 repair will cost no more than Rs. 4 Crores</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-DILR/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">DILR Q10</span>
+      <span class="chip">TITA</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">What is the total cost of repairing the odd-numbered dorms (in Rs. Crores)? <br><br></div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Rs. 19 crores</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-DILR/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">DILR Q11</span>
+      <span class="chip">TITA</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Suppose further that:<br> 1. 4 of the 10 dorms needing repair are women's dorms and need a total of Rs. 20 Crores for repair.<br> 2. Only one of Dorms 1 to 5 is a women's dorm.<br> What is the cost for repairing Dorm 9 (in Rs. Crores)? <br><br></div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Rs. 3 crores</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-DILR/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">DILR Q12</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Suppose further that:<br> 1. 4 of the 10 dorms needing repair are women's dorms and need a total of Rs. 20 Crores for repair.<br> 2. Only one of Dorms 1 to 5 is a women's dorm.<br> Which of the following is a women's dorm? <br><br></div>
+    <ol class="opts"><li><span class="opt-k">A</span> Dorm 2</li><li><span class="opt-k">B</span> Dorm 5</li><li><span class="opt-k">C</span> Dorm 8</li><li><span class="opt-k">D</span> Dorm 10</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — Dorm 10</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-DILR/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+<div class="set">
+  <p class="set-kicker">Eight friends: Ajit, Byomkesh, Gargi, Jayanta,…</p>
+  <div class="passage"><p>Eight friends: Ajit, Byomkesh, Gargi, Jayanta, Kikira, Manik, Prodosh and Tapesh are going to Delhi from Kolkata by a flight operated by Cheap Air. In the flight, sitting is arranged in 30 rows, numbered 1 to 30, each consisting of 6 seats, marked by letters A to F from left to right, respectively. Seats A to C are to the left of the aisle (the passage running from the front of the aircraft to the back), and seats D to F are to the right of the aisle. Seats A and F are by the windows and referred to as Window seats, C and D are by the aisle and are referred to as Aisle seats while B and E are referred to as Middle seats. Seats marked by consecutive letters are called consecutive seats (or seats next to each other). A seat number is a combination of the row number, followed by the letter indicating the position in the row; e.g., 1A is the left window seat in the first row, while 12E is the right middle seat in the 12th row.<br><br> Cheap Air charges Rs. 1000 extra for any seats in Rows 1, 12 and 13 as those have extra legroom. For Rows 2-10, it charges Rs. 300 extra for Window seats and Rs. 500 extra for Aisle seats. For Rows 11 and 14 to 20, it charges Rs. 200 extra for Window seats and Rs. 400 extra for Aisle seats. All other seats are available at no extra charge.<br><br> The following are known:<br> 1. The eight friends were seated in six different rows.<br> 2. They occupied 3 Window seats, 4 Aisle seats and 1 Middle seat.<br> 3. Seven of them had to pay extra amounts, totaling to Rs. 4600, for their choices of seat. One of them did not pay any additional amount for his/her choice of seat.<br> 4. Jayanta, Ajit and Byomkesh were sitting in seats marked by the same letter, in consecutive rows in increasing order of row numbers; but all of them paid different amounts for their choices of seat. One of these amounts may be zero.<br> 5. Gargi was sitting next to Kikira, and Manik was sitting next to Jayanta.<br> 6. Prodosh and Tapesh were sitting in seats marked by the same letter, in consecutive rows in increasing order of row numbers; but they paid different amounts for their choices of seat. One of these amounts may be zero.<br><br></p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">DILR Q13</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">In which row was Manik sitting?<br><br></div>
+    <ol class="opts"><li><span class="opt-k">A</span> 10</li><li><span class="opt-k">B</span> 11</li><li><span class="opt-k">C</span> 12</li><li><span class="opt-k">D</span> 13</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 10</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-DILR/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">DILR Q14</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">How much extra did Jayanta pay for his choice of seat?<br><br></div>
+    <ol class="opts"><li><span class="opt-k">A</span> Rs.300</li><li><span class="opt-k">B</span> Rs.400</li><li><span class="opt-k">C</span> Rs.500</li><li><span class="opt-k">D</span> Rs.1000</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — Rs.500</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-DILR/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">DILR Q15</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">How much extra did Gargi pay for her choice of seat?<br><br></div>
+    <ol class="opts"><li><span class="opt-k">A</span> Rs.0</li><li><span class="opt-k">B</span> Rs.300</li><li><span class="opt-k">C</span> Rs.500</li><li><span class="opt-k">D</span> Rs.1000</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — Rs.1000</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-DILR/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">DILR Q16</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Who among the following did not pay any extra amount for his/her choice of seat? <br><br></div>
+    <ol class="opts"><li><span class="opt-k">A</span> Kikira</li><li><span class="opt-k">B</span> Manik</li><li><span class="opt-k">C</span> Gargi</li><li><span class="opt-k">D</span> Tapesh</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — Tapesh</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-DILR/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+<div class="set">
+  <p class="set-kicker">1600 satellites were sent up by a country for…</p>
+  <div class="passage"><p>1600 satellites were sent up by a country for several purposes. The purposes are classified as broadcasting (B), communication (C), surveillance (S), and others (O). A satellite can serve multiple purposes; however a satellite serving either B, or C, or S does not serve O.<br> The following facts are known about the satellites:<br> 1.The numbers of satellites serving B, C, and S (though may be not exclusively) are in the ratio 2:1:1.<br> 2.The number of satellites serving all three of B, C, and S is 100.<br> 3.The number of satellites exclusively serving C is the same as the number of satellites exclusively serving S. This number is 30% of the number of satellites exclusively serving B.<br> 4.The number of satellites serving O is the same as the number of satellites serving both C and S but not B.</p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">DILR Q5</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">What best can be said about the number of satellites serving C?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Must be between 400 and 800</li><li><span class="opt-k">B</span> Cannot be more than 800</li><li><span class="opt-k">C</span> Must be at least 100</li><li><span class="opt-k">D</span> Must be between 450 and 725</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — Must be between 450 and 725</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-DILR/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">DILR Q6</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">What is the minimum possible number of satellites serving B exclusively?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 100</li><li><span class="opt-k">B</span> 200</li><li><span class="opt-k">C</span> 250</li><li><span class="opt-k">D</span> 500</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 250</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-DILR/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">DILR Q7</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">If at least 100 of the 1600 satellites were serving O, what can be said about the number of satellites serving S?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> At least 475</li><li><span class="opt-k">B</span> No conclusion is possible based on the given information</li><li><span class="opt-k">C</span> Exactly 475</li><li><span class="opt-k">D</span> At most 475</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — At most 475</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-DILR/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">DILR Q8</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">If the number of satellites serving at least two among B, C, and S is 1200, which of the following MUST be FALSE?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> All 1600 satellites serve B or C or S</li><li><span class="opt-k">B</span> The number of satellites serving C cannot be uniquely determined</li><li><span class="opt-k">C</span> The number of satellites serving B exclusively is exactly 250</li><li><span class="opt-k">D</span> The number of satellites serving B is more than 1000</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — The number of satellites serving C cannot be uniquely determined</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-DILR/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+<div class="set">
+  <p class="set-kicker">You are given an n×n square matrix to be ﬁlled…</p>
+  <div class="passage"><p>You are given an n×n square matrix to be ﬁlled with numerals so that no two adjacent cells have the same numeral. Two cells are called adjacent if they touch each other horizontally, vertically or diagonally. So a cell in one of the four corners has three cells adjacent to it, and a cell in the ﬁrst or last row or column which is not in the corner has five cells adjacent to it. Any other cell has eight cells adjacent to it.</p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">DILR Q9</span>
+      <span class="chip">TITA</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">What is the minimum number of different numerals needed to ﬁll a 3×3 square matrix?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">4</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-DILR/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">DILR Q10</span>
+      <span class="chip">TITA</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">What is the minimum number of different numerals needed to ﬁll a 5×5 square matrix?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">4</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-DILR/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">DILR Q11</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Suppose you are allowed to make one mistake, that is, one pair of adjacent cells can have the same numeral. What is the minimum number of different numerals required to ﬁll a 5×5 matrix?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 4</li><li><span class="opt-k">B</span> 16</li><li><span class="opt-k">C</span> 9</li><li><span class="opt-k">D</span> 25</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 4</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-DILR/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">DILR Q12</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Suppose that all the cells adjacent to any particular cell must have different numerals. What is the minimum number of different numerals needed to fill a 5×5 square matrix?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 9</li><li><span class="opt-k">B</span> 25</li><li><span class="opt-k">C</span> 16</li><li><span class="opt-k">D</span> 4</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 9</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-DILR/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+<div class="set">
+  <p class="set-kicker">An ATM dispenses exactly Rs. 5000 per…</p>
+  <div class="passage"><p>An ATM dispenses exactly Rs. 5000 per withdrawal using 100, 200 and 500 rupee notes. The ATM requires every customer to give her preference for one of the three denominations of notes. It then dispenses notes such that the number of notes of the customer’s preferred denomination exceeds the total number of notes of other denominations dispensed to her.</p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">DILR Q17</span>
+      <span class="chip">TITA</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">In how many diﬀerent ways can the ATM serve a customer who gives 500 rupee notes as her preference?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">7 ways</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-DILR/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">DILR Q18</span>
+      <span class="chip">TITA</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">If the ATM could serve only 10 customers with a stock of fifty 500 rupee notes and a sufficient number of notes of other denominations, what is the maximum number of customers among these 10 who could have given 500 rupee notes as their preferences?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">6</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-DILR/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">DILR Q19</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">What is the maximum number of customers that the ATM can serve with a stock of fifty 500 rupee notes and a sufficient number of notes of other denominations, if all the customers are to be served with at most 20 notes per withdrawal?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 13</li><li><span class="opt-k">B</span> 10</li><li><span class="opt-k">C</span> 12</li><li><span class="opt-k">D</span> 16</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 12</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-DILR/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">DILR Q20</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">What is the number of 500 rupee notes required to serve 50 customers with 500 rupee notes as their preferences and another 50 customers with 100 rupee notes as their preferences, if the total number of notes to be dispensed is the smallest possible?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 750</li><li><span class="opt-k">B</span> 800</li><li><span class="opt-k">C</span> 1400</li><li><span class="opt-k">D</span> 900</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D 900</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-DILR/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+<div class="set">
+  <p class="set-kicker">Fuel contamination levels at each of 20 petrol…</p>
+  <div class="passage"><p>Fuel contamination levels at each of 20 petrol pumps P1, P2, …, P20 were recorded as either high, medium, or low.<br><br> 1. Contamination levels at three pumps among P1 – P5 were recorded as high.<br> 2. P6 was the only pump among P1 – P10 where the contamination level was recorded as low.<br> 3. P7 and P8 were the only two consecutively numbered pumps where the same levels of contamination were recorded.<br> 4. High contamination levels were not recorded at any of the pumps P16 – P20.<br> 5. The number of pumps where high contamination levels were recorded was twice the number of pumps where low contamination levels were recorded.</p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">DILR Q21</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Which of the following MUST be true?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> The contamination level at P12 was recorded as high.</li><li><span class="opt-k">B</span> The contamination level at P20 was recorded as medium.</li><li><span class="opt-k">C</span> The contamination level at P10 was recorded as high.</li><li><span class="opt-k">D</span> The contamination level at P13 was recorded as low.</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C P10 was recorded as High</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-DILR/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">DILR Q22</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">What best can be said about the number of pumps at which the contamination levels were recorded as medium?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Exactly 8</li><li><span class="opt-k">B</span> At most 9</li><li><span class="opt-k">C</span> At least 8</li><li><span class="opt-k">D</span> More than 4</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A Exactly 8</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-DILR/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">DILR Q23</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">If the contamination level at P11 was recorded as low, then which of the following MUST be true?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> The contamination level at P18 was recorded as low.</li><li><span class="opt-k">B</span> The contamination level at P15 was recorded as medium.</li><li><span class="opt-k">C</span> The contamination level at P14 was recorded as medium.</li><li><span class="opt-k">D</span> The contamination level at P12 was recorded as high.</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — The contamination level at P14 was recorded as medium.</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-DILR/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">DILR Q24</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">If contamination level at P15 was recorded as medium, then which of the following MUST be FALSE?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Contamination levels at P11 and P16 were recorded as the same.</li><li><span class="opt-k">B</span> Contamination levels at P10 and P14 were recorded as the same.</li><li><span class="opt-k">C</span> Contamination level at P14 was recorded to be higher than that at P15.</li><li><span class="opt-k">D</span> Contamination levels at P13 and P17 were recorded as the same.</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A P11 &amp; P16 were recorded as same</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-DILR/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+<div class="set">
+  <p class="set-kicker">Adriana, Bandita, Chitra, and Daisy are four…</p>
+  <div class="passage"><p>Adriana, Bandita, Chitra, and Daisy are four female students, and Amit, Barun, Chetan, and Deb are four male students. Each of them studies in one of three institutes - X, Y, and Z. Each student majors in one subject among Marketing, Operations, and Finance, and minors in a different one among these three subjects. The following facts are known about the eight students:<br><br> 1. Three students are from X, three are from Y, and the remaining two students, both female, are from Z.<br> 2. Both the male students from Y minor in Finance, while the female student from Y majors in Operations.<br> 3. Only one male student majors in Operations, while three female students minor in Marketing.<br> 4. One female and two male students major in Finance.<br> 5. Adriana and Deb are from the same institute. Daisy and Amit are from the same institute.<br> 6. Barun is from Y and majors in Operations. Chetan is from X and majors in Finance.<br> 7. Daisy minors in Operations.</p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">DILR Q25</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Who are the students from the institute Z?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Chitra and Daisy</li><li><span class="opt-k">B</span> Adriana and Daisy</li><li><span class="opt-k">C</span> Bandita and Chitra</li><li><span class="opt-k">D</span> Adriana and Bandita</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C Bandita and Chitra</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-DILR/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">DILR Q26</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Which subject does Deb minor in?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Operations</li><li><span class="opt-k">B</span> Marketing</li><li><span class="opt-k">C</span> Finance</li><li><span class="opt-k">D</span> Cannot be determined uniquely from the given information</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C Finance</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-DILR/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">DILR Q27</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Which subject does Amit major in?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Operations</li><li><span class="opt-k">B</span> Marketing</li><li><span class="opt-k">C</span> Finance</li><li><span class="opt-k">D</span> Cannot be determined uniquely from the given information</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C Finance</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-DILR/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">DILR Q28</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">If Chitra majors in Finance, which subject does Bandita major in?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Finance</li><li><span class="opt-k">B</span> Operations</li><li><span class="opt-k">C</span> Cannot be determined uniquely from the given information</li><li><span class="opt-k">D</span> Marketing</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B Operations</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-DILR/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+<div class="set">
+  <p class="set-kicker">Twenty four people are part of three committees…</p>
+  <div class="passage"><p>Twenty four people are part of three committees which are to look at research, teaching, and administration respectively. No two committees have any member in common. No two committees are of the same size. Each committee has three types of people: bureaucrats, educationalists, and politicians, with at least one from each of the three types in each committee. The following facts are also known about the committees:<br><br> 1. The numbers of bureaucrats in the research and teaching committees are equal, while the number of bureaucrats in the research committee is 75% of the number of bureaucrats in the administration committee.<br> 2. The number of educationalists in the teaching committee is less than the number of educationalists in the research committee. The number of educationalists in the research committee is the average of the numbers of educationalists in the other two committees.<br> 3. 60% of the politicians are in the administration committee, and 20% are in the teaching committee.<br></p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">DILR Q29</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Based on the given information, which of the following statements MUST be FALSE?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> In the administration committee the number of bureaucrats is equal to the number of educationalists</li><li><span class="opt-k">B</span> The size of the research committee is less than the size of the teaching committee</li><li><span class="opt-k">C</span> The size of the research committee is less than the size of the administration committee</li><li><span class="opt-k">D</span> In the teaching committee the number of educationalists is equal to the number of politicians</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — The size of the research committee is less than the size of the teaching committee</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-DILR/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">DILR Q30</span>
+      <span class="chip">TITA</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">What is the number of bureaucrats in the administration committee?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">4</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-DILR/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">DILR Q31</span>
+      <span class="chip">TITA</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">What is the number of educationalists in the research committee?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">3</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-DILR/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">DILR Q32</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Which of the following CANNOT be determined uniquely based on the given information?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> The total number of educationalists in the three committees</li><li><span class="opt-k">B</span> The total number of bureaucrats in the three committees</li><li><span class="opt-k">C</span> The size of the teaching committee</li><li><span class="opt-k">D</span> The size of the research committee</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C Size of Teaching Committee</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-DILR/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+<div class="set">
+  <p class="set-kicker">Fun Sports (FS) provides training in three…</p>
+  <div class="passage"><p>Fun Sports (FS) provides training in three sports - Gilli-danda (G), Kho-Kho (K), and Ludo (L). Currently it has an enrollment of 39 students each of whom is enrolled in at least one of the three sports. The following details are known:<br> 1. The number of students enrolled only in L is double the number of students enrolled in all the three sports.<br> 2. There are a total of 17 students enrolled in G.<br> 3. The number of students enrolled only in G is one less than the number of students enrolled only in L.<br> 4. The number of students enrolled only in K is equal to the number of students who are enrolled in both K and L.<br> 5. The maximum student enrollment is in L.<br> 6. Ten students enrolled in G are also enrolled in at least one more sport. <br></p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">DILR Q9</span>
+      <span class="chip">TITA</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">What is the minimum number of students enrolled in both G and L but not in K?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">4</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-DILR/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">DILR Q10</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">If the numbers of students enrolled in K and L are in the ratio 19:22, then what is the number of students enrolled in L?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 19</li><li><span class="opt-k">B</span> 18</li><li><span class="opt-k">C</span> 22</li><li><span class="opt-k">D</span> 17</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 22</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-DILR/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">DILR Q11</span>
+      <span class="chip">TITA</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Due to academic pressure, students who were enrolled in all three sports were asked to withdraw from one of the three sports. After the withdrawal, the number of students enrolled in G was six less than the number of students enrolled in L, while the number of students enrolled in K went down by one.After the withdrawal, how many students were enrolled in both G and K?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">2</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-DILR/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">DILR Q12</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Due to academic pressure, students who were enrolled in all three sports were asked to withdraw from one of the three sports. After the withdrawal, the number of students enrolled in G was six less than the number of students enrolled in L, while the number of students enrolled in K went down by one.After the withdrawal, how many students were enrolled in both G and L?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 5</li><li><span class="opt-k">B</span> 8</li><li><span class="opt-k">C</span> 7</li><li><span class="opt-k">D</span> 6</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — 6</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-DILR/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+<div class="set">
+  <p class="set-kicker">Seven candidates, Akil, Balaram, Chitra, Divya,…</p>
+  <div class="passage"><p>Seven candidates, Akil, Balaram, Chitra, Divya, Erina, Fatima, and Ganeshan, were invited to interview for a position. Candidates were required to reach the venue before 8 am. Immediately upon arrival, they were sent to one of three interview rooms: 101, 102, and 103. The following venue log shows the arrival times for these candidates. Some of the names have not been recorded in the log and have been marked as ‘?’.<br><br> <img class="pyq-fig" src="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-DILR/figa/job.png" alt=""> <br><br> Additionally here are some statements from the candidates:<br> Balaram: I was the third person to enter Room 101.<br> Chitra: I was the last person to enter the room I was allotted to.<br> Erina: I was the only person in the room I was allotted to.<br> Fatima: Three people including Akil were already in the room that I was allotted to when I entered it.<br> Ganeshan: I was one among the two candidates allotted to Room 102.<br></p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">DILR Q21</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">What best can be said about the room to which Divya was allotted?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Either Room 101 or Room 102</li><li><span class="opt-k">B</span> Definitely Room 103</li><li><span class="opt-k">C</span> Definitely Room 101</li><li><span class="opt-k">D</span> Definitely Room 102</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — Definitely Room 101</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-DILR/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">DILR Q22</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Who else was in Room 102 when Ganeshan entered?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> No one</li><li><span class="opt-k">B</span> Akil</li><li><span class="opt-k">C</span> Divya</li><li><span class="opt-k">D</span> Chitra</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — No one</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-DILR/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">DILR Q23</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">When did Erina reach the venue?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 7:45 am</li><li><span class="opt-k">B</span> 7:10 am</li><li><span class="opt-k">C</span> 7:15 am</li><li><span class="opt-k">D</span> 7:25 am</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 7:45 am</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-DILR/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">DILR Q24</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">If Ganeshan entered the venue before Divya, when did Balaram enter the venue?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 7:25 am</li><li><span class="opt-k">B</span> 7:45 am</li><li><span class="opt-k">C</span> 7:10 am</li><li><span class="opt-k">D</span> 7:15 am</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 7:25 am</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-DILR/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+<div class="set">
+  <p class="set-kicker">According to a coding scheme the sentence,…</p>
+  <div class="passage"><p>According to a coding scheme the sentence, <br> Peacock is designated as the national bird of India is coded as 5688999 35 1135556678 56 458 13666689 1334 79 13366<br> This coding scheme has the following rules:<br> 1. The scheme is case-insensitive (does not distinguish between upper case and lower case letters).<br> 2. Each letter has a unique code which is a single digit from among 1,2,3,......,9.<br> 3. The digit 9 codes two letters, and every other digit codes three letters.<br> 4. The code for a word is constructed by arranging the digits corresponding to its letters in a non-decreasing sequence.<br> Answer these questions on the basis of this information <br></p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">DILR Q25</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">What best can be concluded about the code for the letter L?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 6</li><li><span class="opt-k">B</span> 8</li><li><span class="opt-k">C</span> 1 or 8</li><li><span class="opt-k">D</span> 1</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — 1</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-DILR/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">DILR Q26</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">What best can be concluded about the code for the letter B?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 1 or 3 or 4</li><li><span class="opt-k">B</span> 1</li><li><span class="opt-k">C</span> 3</li><li><span class="opt-k">D</span> 3 or 4</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — 3 or 4</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-DILR/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">DILR Q27</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">For how many digits can the complete list of letters associated with that digit be identified?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 2</li><li><span class="opt-k">B</span> 1</li><li><span class="opt-k">C</span> 0</li><li><span class="opt-k">D</span> 3</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 2</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-DILR/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">DILR Q28</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Which set of letters CANNOT be coded with the same digit?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> S , U , V</li><li><span class="opt-k">B</span> X , Y , Z</li><li><span class="opt-k">C</span> S , E , Z</li><li><span class="opt-k">D</span> I , B , M</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — S , U , V</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-DILR/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+<div class="set">
+  <p class="set-kicker">A new game show on TV has 100 boxes numbered 1,…</p>
+  <div class="passage"><p>A new game show on TV has 100 boxes numbered 1, 2, ....., 100 in a row, each containing a mystery prize. The prizes are items of different types, a, b, c, ....., in decreasing order of value. The most expensive item is of type a, a diamond ring, and there is exactly one of these. You are told that the number of items at least doubles as you move to the next type. For example, there would be at least twice as many items of type b as of type a, at least twice as many items of type c as of type b and so on. There is no particular order in which the prizes are placed in the boxes<br><br> <ol class="ques ques1"> <li> CAT Previous year paper - CAT Exam DI LR <p>What is the minimum possible number of different types of prizes? ? (TITA) <br></p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">DILR Q1</span>
+      <span class="chip">TITA</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">What is the minimum possible number of different types of prizes? ?  <br></div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">2</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-DILR/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">DILR Q2</span>
+      <span class="chip">TITA</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">What is the maximum possible number of different types of prizes? ? <br></div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">6</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-DILR/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">DILR Q3</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Which of the following is not possible?<br></div>
+    <ol class="opts"><li><span class="opt-k">A</span> There are exactly 30 items of type b.</li><li><span class="opt-k">B</span> There are exactly 75 items of type e.</li><li><span class="opt-k">C</span> There are exactly 60 items of type d.</li><li><span class="opt-k">D</span> There are exactly 45 items of type c.</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — There are exactly 45 items of type c.</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-DILR/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">DILR Q4</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">You ask for the type of item in box 45. Instead of being given a direct answer, you are told that there are 31 items of the same type as box 45 in boxes 1 to 44 and 43 items of the same type as box 45 in boxes 46 to 100. What is the maximum possible number of different types of items?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 5</li><li><span class="opt-k">B</span> 6</li><li><span class="opt-k">C</span> 3</li><li><span class="opt-k">D</span> 4</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 5</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-DILR/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+<div class="set">
+  <p class="set-kicker">The figure below shows the street map for a…</p>
+  <div class="passage"><p>The figure below shows the street map for a certain region with the street intersections marked from a through l. A person standing at an intersection can see along straight lines to other intersections that are in her line of sight and all other people standing at these intersections. For example, a person standing at intersection g can see all people standing at intersections b, c, e, f, h, and k. In particular, the person standing at intersection g can see the person standing at intersection e irrespective of whether there is a person standing at intersection f. <br><br> <img class="pyq-fig" src="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-DILR/figa/Street-intersection-1.png" alt=""><br> Six people U, V, W, X, Y, and Z, are standing at different intersections. No two people are standing at the same intersection. <br> The following additional facts are known.<br> 1. X, U, and Z are standing at the three corners of a triangle formed by three street segments.<br> 2. X can see only U and Z.<br> 3. Y can see only U and W.<br> 4. U sees V standing in the next intersection behind Z.<br> 5. W cannot see V or Z.<br> 6. No one among the six is standing at intersection d.<br></p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">DILR Q5</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Who is standing at intersection a?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> W</li><li><span class="opt-k">B</span> Y</li><li><span class="opt-k">C</span> No one</li><li><span class="opt-k">D</span> V</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — No one</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-DILR/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">DILR Q6</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Who can V see?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> U, W and Z only</li><li><span class="opt-k">B</span> U and Z only</li><li><span class="opt-k">C</span> Z only</li><li><span class="opt-k">D</span> U only</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — U and Z only</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-DILR/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">DILR Q7</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">What is the minimum number of street segments that X must cross to reach Y?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 3</li><li><span class="opt-k">B</span> 2</li><li><span class="opt-k">C</span> 1</li><li><span class="opt-k">D</span> 4</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 2</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-DILR/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">DILR Q8</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Should a new person stand at intersection d, who among the six would she see?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> V and X only</li><li><span class="opt-k">B</span> U and Z only</li><li><span class="opt-k">C</span> U and W only</li><li><span class="opt-k">D</span> W and X only</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — W and X only</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-DILR/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+<div class="set">
+  <p class="set-kicker">Princess, Queen, Rani and Samragni were the…</p>
+  <div class="passage"><p>Princess, Queen, Rani and Samragni were the four finalists in a dance competition. Ashman, Badal, Gagan and Dyu were the four music composers who individually assigned items to the dancers. Each dancer had to individually perform in two dance items assigned by the different composers. The first items performed by the four dancers were all assigned by different music composers. No dancer performed her second item before the performance of the first item by any other dancers. The dancers performed their second items in the same sequence of their performance of their first items.<br> The following additional facts are known.<br> i) No composer who assigned item to Princess, assigned any item to Queen.<br> ii) No composer who assigned item to Rani, assigned any item to Samragni.<br> iii) The first performance was by Princess; this item was assigned by Badal.<br> iv) The last performance was by Rani; this item was assigned by Gagan.<br> v) The items assigned by Ashman were performed consecutively. The number of performances between items assigned by each of the remaining composers was the same.<br><br></p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">DILR Q29</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Which of the following is true?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> The third performance was composed by Ashman.</li><li><span class="opt-k">B</span> The second performance was composed by Dyu.</li><li><span class="opt-k">C</span> The second performance was composed by Gagan.</li><li><span class="opt-k">D</span> The third performance was composed by Dyu.</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — The second performance was composed by Dyu.</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-DILR/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">DILR Q30</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Which of the following is FALSE?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Queen did not perform in any item composed by Gagan.</li><li><span class="opt-k">B</span> Rani did not perform in any item composed by Badal.</li><li><span class="opt-k">C</span> Samragni did not perform in any item composed by Ashman.</li><li><span class="opt-k">D</span> Princess did not perform in any item composed by Dyu.</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — Queen did not perform in any item composed by Gagan.</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-DILR/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">DILR Q31</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">The sixth performance was composed by:</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Gagan</li><li><span class="opt-k">B</span> Ashman</li><li><span class="opt-k">C</span> Badal</li><li><span class="opt-k">D</span> Dyu</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — Badal</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-DILR/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">DILR Q32</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Which pair of performances were composed by the same composer?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> The third and the seventh</li><li><span class="opt-k">B</span> The first and the seventh</li><li><span class="opt-k">C</span> The first and the sixth</li><li><span class="opt-k">D</span> The second and the sixth</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — The first and the sixth</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-DILR/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+<div class="set">
+  <p class="set-kicker">The first year students in a business school…</p>
+  <div class="passage"><p>The first year students in a business school are split into six sections. In 2019 the Business Statistics course was taught in these six sections by Annie, Beti, Chetan, Dave, Esha, and Fakir. All six sections had a common midterm (MT) and a common endterm (ET) worth 100 marks each. ET contained more questions than MT. Questions for MT and ET were prepared collectively by the six faculty members. Considering MT and ET together, each faculty member prepared the same number of questions. Each of MT and ET had at least four questions that were worth 5 marks, at least three questions that were worth 10 marks, and at least two questions that were worth 15 marks. In both MT and ET, all the 5-mark questions preceded the 10-mark questions, and all the 15-mark questions followed the 10-mark questions.<br><br> The following additional facts are known.<br><br> i. Annie prepared the fifth question for both MT and ET. For MT, this question carried 5 marks.<br> ii. Annie prepared one question for MT. Every other faculty member prepared more than one questions for MT.<br> iii. All questions prepared by a faculty member appeared consecutively in MT as well as ET.<br> iv. Chetan prepared the third question in both MT and ET; and Esha prepared the eighth question in both.<br> v. Fakir prepared the first question of MT and the last one in ET. Dave prepared the last question of MT and the first one in ET.<br><br></p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">DILR Q21</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">The second question in ET was prepared by:</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Eshan</li><li><span class="opt-k">B</span> Chetan</li><li><span class="opt-k">C</span> Dave</li><li><span class="opt-k">D</span> Beti</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — Dave</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-DILR/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">DILR Q22</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">How many 5‐mark questions were there in MT and ET combined?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Cannot be determined</li><li><span class="opt-k">B</span> 12</li><li><span class="opt-k">C</span> 10</li><li><span class="opt-k">D</span> 13</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — 13</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-DILR/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">DILR Q23</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Who prepared 15-mark questions for MT and ET?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Only Dave, Esha and Fakir</li><li><span class="opt-k">B</span> Only Beti, Dave, Esha and Fakir</li><li><span class="opt-k">C</span> Only Esha and Fakir</li><li><span class="opt-k">D</span> Only Dave and Fakir</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — Only Dave, Esha and Fakir</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-DILR/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">DILR Q24</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">CAT Exam DI LR</span>
+    </div>
+    <div class="q-stem">Which of the following questions did Beti prepare in ET?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Ninth question</li><li><span class="opt-k">B</span> Tenth question</li><li><span class="opt-k">C</span> Fourth question</li><li><span class="opt-k">D</span> Seventh question</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — Tenth question</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-DILR/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+<div class="set">
+  <p class="set-kicker">The following facts are also known. I. Four of…</p>
+  <div class="passage"><p><br> The following facts are also known.<br> <br> I. Four of these students appeared in each of the English, Hindi, Science, and Social Science examinations.<br> II. The student who missed the Mathematics examination did not miss any other examination.<br> Ill. One of the students who missed the Hindi examination did not miss any other examination. The other student who missed the Hindi examination also missed the Science examination.</p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">DILR Q11</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 1</span>
+    </div>
+    <div class="q-stem">Who among the following did not appear for the Mathematics examination?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Carl</li><li><span class="opt-k">B</span> Alva</li><li><span class="opt-k">C</span> Esha</li><li><span class="opt-k">D</span> Foni</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — Carl</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-DILR/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">DILR Q12</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 1</span>
+    </div>
+    <div class="q-stem">Which students did not appear for the English examination?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Cannot be determined</li><li><span class="opt-k">B</span> Alva and Bithi</li><li><span class="opt-k">C</span> Carl and Deep</li><li><span class="opt-k">D</span> Esha and Foni</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — Esha and Foni</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-DILR/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">DILR Q13</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 1</span>
+    </div>
+    <div class="q-stem">What BEST can be concluded about the students who did not appear for the Hindi examination?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Two among Alva, Deep and Esha</li><li><span class="opt-k">B</span> Alva and Esha</li><li><span class="opt-k">C</span> Alva and Deep</li><li><span class="opt-k">D</span> Deep and Esha</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — Alva and Deep</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-DILR/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">DILR Q14</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 1</span>
+    </div>
+    <div class="q-stem">What BEST can be concluded about the students who missed the Science examination?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Deep and Bithi</li><li><span class="opt-k">B</span> Alva and Bithi</li><li><span class="opt-k">C</span> Alva and Deep</li><li><span class="opt-k">D</span> Bithi and one out of Alva and Deep</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — Bithi and one out of Alva and Deep</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-DILR/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">DILR Q15</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Slot 1</span>
+    </div>
+    <div class="q-stem">How many out of these six students missed exactly one examination?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">3</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-DILR/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">DILR Q16</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Slot 1</span>
+    </div>
+    <div class="q-stem">For how many students can we be definite about which examinations they missed?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">4</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-DILR/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+<div class="set">
+  <p class="set-kicker">Ten musicians (A, B, C, D, E, F, G, H, I and J)…</p>
+  <div class="passage"><p>Ten musicians (A, B, C, D, E, F, G, H, I and J) are experts in at least one of the following three percussion instruments: tabla, mridangam, and ghatam. Among them, three are experts in tabla but not in mridangam or ghatam, another three are experts in mridangam but not in tabla or ghatam, and one is an expert in ghatam but not in tabla or mridangam. Further, two are experts in tabla and mridangam but not in ghatam, and one is an expert in tabla and ghatam but not in mridangam. <br> <br> The following facts are known about these ten musicians.</p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">DILR Q17</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 1</span>
+    </div>
+    <div class="q-stem">Who among the following is DEFINITELY an expert in tabla but not in either mridangam or ghatam?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> A</li><li><span class="opt-k">B</span> F</li><li><span class="opt-k">C</span> H</li><li><span class="opt-k">D</span> C</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — H</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-DILR/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">DILR Q18</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 1</span>
+    </div>
+    <div class="q-stem">Who among the following is DEFINITELY an expert in mridangam but not in either tabla or ghatam?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> B</li><li><span class="opt-k">B</span> J</li><li><span class="opt-k">C</span> G</li><li><span class="opt-k">D</span> E</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — J</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-DILR/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">DILR Q19</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 1</span>
+    </div>
+    <div class="q-stem">Which of the following pairs CANNOT have any musician who is an expert in both tabla and mridangam but not in ghatam?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> A and B</li><li><span class="opt-k">B</span> F and G</li><li><span class="opt-k">C</span> C and E</li><li><span class="opt-k">D</span> C and F</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — C and E</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-DILR/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">DILR Q20</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 1</span>
+    </div>
+    <div class="q-stem">If C is an expert in mridangam and F is not, then which are the three musicians who are experts in tabla but not in either mridangam or ghatam?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> E, F and H</li><li><span class="opt-k">B</span> C, G and H</li><li><span class="opt-k">C</span> E, G and H</li><li><span class="opt-k">D</span> C, E and G</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — E, F and H</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-DILR/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+<div class="set">
+  <p class="set-kicker">Twenty five coloured beads are to be arranged…</p>
+  <div class="passage"><p>Twenty five coloured beads are to be arranged in a grid comprising of five rows and five columns. Each cell in the grid must contain exactly one bead. Each bead is coloured either Red, Blue or Green.<br> <br> While arranging the beads along any of the five rows or along any of the five columns, the rules given below are to be followed:<br> <br> 1. Two adjacent beads along the same row or column are always of different colours.<br> 2. There is at least one Green bead between any two Blue beads along the same row or column.<br> 3. There is at least one Blue and at least one Green bead between any two Red beads along the same row or column.<br> <br> Every unique, complete arrangement of twenty five beads is called a configuration.</p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">DILR Q1</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Slot 2</span>
+    </div>
+    <div class="q-stem">The total number of possible congurations using beads of only two colours is:</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">2</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-DILR/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">DILR Q2</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Slot 2</span>
+    </div>
+    <div class="q-stem">What is the maximum possible number of Red beads that can appear in any conguration?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">9</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-DILR/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">DILR Q3</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Slot 2</span>
+    </div>
+    <div class="q-stem">What is the minimum number of Blue beads in any conguration?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">6</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-DILR/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">DILR Q4</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Slot 2</span>
+    </div>
+    <div class="q-stem">Two Red beads have been placed in ‘second row, third column’ and ‘third row, second column’. How many more Red beads can be placed so as to maximise the number of Red beads used in the configuration?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">6</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-DILR/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+<div class="set">
+  <p class="set-kicker">A shopping mall has a large basement parking…</p>
+  <div class="passage"><p>A shopping mall has a large basement parking lot with parking slots painted in it along a single row. These slots are quite narrow; a compact car can fit in a single slot but an SUV requires two slots. When a car arrives, the parking attendant guides the car to the first available slot from the beginning of the row into which the car can fit.<br> <br> For our purpose, cars are numbered according to the order in which they arrive at the lot. For example, the first car to arrive is given a number 1, the second a number 2, and so on. This numbering does not indicate whether a car is a compact or an SUV. The configuration of a parking lot is a sequence of the car numbers in each slot. Each single vacant slot is represented by letter V.<br> <br> For instance, suppose cars numbered 1 through 5 arrive and park, where cars 1, 3 and 5 are compact cars and 2 and 4 are SUVs. At this point, the parking lot would be described by the sequence 1, 2, 3, 4, 5. If cars 2 and 5 now vacate their slots, the parking lot would now be described as 1, V, V, 3, 4. If a compact car (numbered 6) arrives subsequently followed by an SUV (numbered 7), the parking lot would be described by the sequence 1, 6, V, 3, 4, 7.<br> <br> Answer the following questions INDEPENDENTLY of each other.</p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">DILR Q5</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 2</span>
+    </div>
+    <div class="q-stem">Initially cars numbered 1, 2, 3, and 4 arrive among which 1 and 4 are SUVs while 2 and 3 are compact cars. Car 1 then leaves, followed by the arrivals of car 5 (a compact car) and car 6 (an SUV). Car 4 then leaves. Then car 7 (an SUV) and car 8 (a compact car) arrive. At this moment, which among the following numbered car is parked next to car 3?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 6</li><li><span class="opt-k">B</span> 5</li><li><span class="opt-k">C</span> 8</li><li><span class="opt-k">D</span> 7</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">D — 7</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-DILR/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">DILR Q6</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 2</span>
+    </div>
+    <div class="q-stem">Suppose eight cars have arrived, of which two have left. Also suppose that car 4 is a compact and car 7 is an SUV. Which of the following is a POSSIBLE current configuration of the parking lot?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 8, 2, 3, V, 5, 7, 6</li><li><span class="opt-k">B</span> 8, 2, 3, V, 6, 5, 7</li><li><span class="opt-k">C</span> 8, 2, 3, V, 5, 6, 7</li><li><span class="opt-k">D</span> V, 2, 3, 7, 5, 6, 8</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">C — 8, 2, 3, V, 5, 6, 7</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-DILR/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">DILR Q7</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 2</span>
+    </div>
+    <div class="q-stem">Suppose the sequence at some point of time is 4, 5, 6, V, 3. Which of the following is NOT necessarily true?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Car 5 is a compact.</li><li><span class="opt-k">B</span> Car 1 is an SUV.</li><li><span class="opt-k">C</span> Car 3 is an SUV.</li><li><span class="opt-k">D</span> Car 4 is a compact.</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">C — Car 3 is an SUV.</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-DILR/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">DILR Q8</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 2</span>
+    </div>
+    <div class="q-stem">Suppose that car 4 is not the first car to leave and that the sequence at a time between the arrival of the car 7 and car 8 is V, 7, 3, 6, 5. Then which of the following statements MUST be false?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Car 6 is a compact.</li><li><span class="opt-k">B</span> Car 2 is a compact.</li><li><span class="opt-k">C</span> Car 7 is a compact.</li><li><span class="opt-k">D</span> Car 4 is an SUV.</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">A — Car 6 is a compact.</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-DILR/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+<div class="set">
+  <p class="set-kicker">The Humanities department of a college is…</p>
+  <div class="passage"><p>The Humanities department of a college is planning to organize eight seminars, one for each of the eight doctoral students - A, B, C, D, E, F, G and H. Four of them are from Economics, three from Sociology and one from Anthropology department. Each student is guided by one among P, Q, R, S and T. Two students are guided by each of P, R and T, while one student is guided by each of Q and S. Each student is guided by a guide belonging to their department.<br> <br> Each seminar is to be scheduled in one of four consecutive 30-minute slots starting at 9:00 am, 9:30 am, 10:00 am and 10:30 am on the same day. More than one seminars can be scheduled in a slot, provided the guide is free. Only three rooms are available and hence at the most three seminars can be scheduled in a slot. Students who are guided by the same guide must be scheduled in consecutive slots.<br> <br> The following additional facts are also known.<br> <br> 1. Seminars by students from Economics are scheduled in each of the four slots.<br> 2. A’s is the only seminar that is scheduled at 10:00 am. A is guided by R.<br> 3. F is an Anthropology student whose seminar is scheduled at 10:30 am.<br> 4. The seminar of a Sociology student is scheduled at 9:00 am.<br> 5. B and G are both Sociology students, whose seminars are scheduled in the same slot. The seminar of an Economics student, who is guided by T, is also scheduled in the same slot.<br> 6. P, who is guiding both B and C, has students scheduled in the first two slots.<br> 7. A and G are scheduled in two consecutive slots.</p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">DILR Q19</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 2</span>
+    </div>
+    <div class="q-stem">Which one of the following statements is true?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Only one seminar is scheduled in the second slot.</li><li><span class="opt-k">B</span> Three seminars are scheduled in the last slot.</li><li><span class="opt-k">C</span> Three seminars are scheduled in the first slot.</li><li><span class="opt-k">D</span> Two seminars are scheduled in the first slot.</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">D — Two seminars are scheduled in the first slot.</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-DILR/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">DILR Q20</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 2</span>
+    </div>
+    <div class="q-stem">Who all are NOT guiding any Economics students?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> P, R and S</li><li><span class="opt-k">B</span> P, Q and R</li><li><span class="opt-k">C</span> P, Q and S</li><li><span class="opt-k">D</span> Q, R and S</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">C — P, Q and S</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-DILR/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">DILR Q21</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 2</span>
+    </div>
+    <div class="q-stem">Which of the following statements is necessarily true?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Q is guiding G.</li><li><span class="opt-k">B</span> H is an Economics student.</li><li><span class="opt-k">C</span> B is scheduled in the first slot.</li><li><span class="opt-k">D</span> S is guiding F.</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">B — H is an Economics student.</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-DILR/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">DILR Q22</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 2</span>
+    </div>
+    <div class="q-stem">If D is scheduled in a slot later than Q's, then which of the following two statement(s) is(are) true?<br> (i) E and H are guided by T. <br> (ii) G is guided by Q.</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Neither (i) nor (ii)</li><li><span class="opt-k">B</span> Both (i) and (ii)</li><li><span class="opt-k">C</span> Only (ii)</li><li><span class="opt-k">D</span> Only (i)</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">B — Both (i) and (ii)</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-DILR/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">DILR Q23</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 2</span>
+    </div>
+    <div class="q-stem">If E and Q are both scheduled in the same slot, then which of the following statements BEST describes the relationship between D, H, and T?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> At least one of D and H is guided by T.</li><li><span class="opt-k">B</span> Both D and H are guided by T.</li><li><span class="opt-k">C</span> Neither D nor H is guided by T.</li><li><span class="opt-k">D</span> Exactly one of D and H is guided by T.</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">A — At least one of D and H is guided by T.</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-DILR/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">DILR Q24</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 2</span>
+    </div>
+    <div class="q-stem">If D is scheduled in the slot immediately before Q’s, then which of the following is NOT necessarily true?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> G is guided by Q.</li><li><span class="opt-k">B</span> D is guided by T.</li><li><span class="opt-k">C</span> F is guided by S.</li><li><span class="opt-k">D</span> E is guided by R.</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">D — E is guided by R.</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-DILR/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+<div class="set">
+  <p class="set-kicker">A farmer had a rectangular land containing 205…</p>
+  <div class="passage"><p>A farmer had a rectangular land containing 205 trees. He distributed that land among his four daughters – Abha, Bina, Chitra and Dipti by dividing the land into twelve plots along three rows (X,Y,Z) and four Columns (1,2,3,4) as shown in the figure below:<br> <img class="pyq-fig" src="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-DILR/figa/756_489168_0_1011657_nd_psg.jpg" alt=""><br> The plots in rows X, Y, Z contained mango, teak and pine trees respectively. Each plot had trees in non-zero multiples of 3 or 4 and none of the plots had the same number of trees. Each daughter got an even number of plots. In the figure, the number mentioned in top left corner of a plot is the number of trees in that plot, while the letter in the bottom right corner is the first letter of the name of the daughter who got that plot (For example, Abha got the plot in row Y and column 1 containing 21 trees). Some information in the figure got erased, but the following is known: <br><br> 1. Abha got 20 trees more than Chitra but 6 trees less than Dipti.<br> 2. The largest number of trees in a plot was 32, but it was not with Abha.<br> 3. The number of teak trees in Column 3 was double of that in Column 2 but was half of that in Column 4.<br> 4. Both Abha and Bina got a higher number of plots than Dipti.<br> 5. Only Bina, Chitra and Dipti got corner plots.<br> 6. Dipti got two adjoining plots in the same row.<br> 7. Bina was the only one who got a plot in each row and each column.<br> 8. Chitra and Dipti did not get plots which were adjacent to each other (either in row / column / diagonal).<br> 9. The number of mango trees was double the number of teak trees.</p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">DILR Q1</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 3</span>
+    </div>
+    <div class="q-stem">How many mango trees were there in total?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 126</li><li><span class="opt-k">B</span> 84</li><li><span class="opt-k">C</span> 98</li><li><span class="opt-k">D</span> 49</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 98</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-DILR/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">DILR Q2</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 3</span>
+    </div>
+    <div class="q-stem">Which of the following is the correct sequence of trees received by Abha, Bina, Chitra and Dipti in that order?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 50, 69, 30, 56</li><li><span class="opt-k">B</span> 60, 39, 40, 66</li><li><span class="opt-k">C</span> 44, 87, 24, 50</li><li><span class="opt-k">D</span> 54, 57, 34, 60</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 50, 69, 30, 56</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-DILR/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">DILR Q3</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 3</span>
+    </div>
+    <div class="q-stem">How many pine trees did Chitra receive?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 15</li><li><span class="opt-k">B</span> 18</li><li><span class="opt-k">C</span> 30</li><li><span class="opt-k">D</span> 21</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 18</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-DILR/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">DILR Q4</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 3</span>
+    </div>
+    <div class="q-stem">Who got the plot with the smallest number of trees and how many trees did that plot have?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Abha, 4 trees</li><li><span class="opt-k">B</span> Dipti, 6 trees</li><li><span class="opt-k">C</span> Bina, 3 trees</li><li><span class="opt-k">D</span> Bina, 4 trees</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — Bina, 3 trees</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-DILR/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">DILR Q5</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 3</span>
+    </div>
+    <div class="q-stem">Which of the following statements is NOT true?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Bina got 32 pine trees.</li><li><span class="opt-k">B</span> Chitra got 12 mango trees.</li><li><span class="opt-k">C</span> Abha got 41 teak trees.</li><li><span class="opt-k">D</span> Dipti got 56 mango trees.</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — Bina got 32 pine trees.</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-DILR/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">DILR Q6</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 3</span>
+    </div>
+    <div class="q-stem">Which column had the highest number of trees?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 3</li><li><span class="opt-k">B</span> Cannot be determined</li><li><span class="opt-k">C</span> 2</li><li><span class="opt-k">D</span> 4</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — 4</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-DILR/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+<div class="set">
+  <p class="set-kicker">The Hi-Lo game is a four-player game played in…</p>
+  <div class="passage"><p>The Hi-Lo game is a four-player game played in six rounds. In every round, each player chooses to bid Hi or Lo. The bids are made simultaneously. If all four bid Hi, then all four lose 1 point each. If three players bid Hi and one bids Lo, then the players bidding Hi gain 1 point each and the player bidding Lo loses 3 points. If two players bid Hi and two bid Lo, then the players bidding Hi gain 2 points each and the players bidding Lo lose 2 points each. If one player bids Hi and three bid Lo, then the player bidding Hi gains 3 points and the players bidding Lo lose 1 point each. If all four bid Lo, then all four gain 1 point each.<br> <br> Four players Arun, Bankim, Charu, and Dipak played the Hi-Lo game. The following facts are known about their game:<br> <br> 1. At the end of three rounds, Arun had scored 6 points, Dipak had scored 2 points, Bankim and Charu had scored -2 points each.<br> 2. At the end of six rounds, Arun had scored 7 points, Bankim and Dipak had scored -1 point each, and Charu had scored -5 points. <br> 3. Dipak’s score in the third round was less than his score in the first round but was more than his score in the second round.<br> 4. In exactly two out of the six rounds, Arun was the only player who bid Hi.</p></div>
+  <details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">DILR Q7</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 3</span>
+    </div>
+    <div class="q-stem">What were the bids by Arun, Bankim, Charu and Dipak, respectively in the first round?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Hi, Lo, Lo, Lo</li><li><span class="opt-k">B</span> Lo, Lo, Lo, Hi</li><li><span class="opt-k">C</span> Hi, Lo, Lo, Hi</li><li><span class="opt-k">D</span> Hi, Hi, Lo, Lo</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — Hi, Lo, Lo, Hi</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-DILR/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">DILR Q8</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Slot 3</span>
+    </div>
+    <div class="q-stem">In how many rounds did Arun bid Hi?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">4</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-DILR/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">DILR Q9</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Slot 3</span>
+    </div>
+    <div class="q-stem">In how many rounds did Bankim bid Lo?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">4</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-DILR/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">DILR Q10</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Slot 3</span>
+    </div>
+    <div class="q-stem">In how many rounds did all four players make identical bids?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">2</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-DILR/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">DILR Q11</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Slot 3</span>
+    </div>
+    <div class="q-stem">In how many rounds did Dipak gain exactly 1 point?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">1</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-DILR/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">DILR Q12</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Slot 3</span>
+    </div>
+    <div class="q-stem">In which of the following rounds, was Arun DEFINITELY the only player to bid Hi?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Second</li><li><span class="opt-k">B</span> Third</li><li><span class="opt-k">C</span> Fourth</li><li><span class="opt-k">D</span> First</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — Second</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-DILR/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+</div>
+
+</article>
+<footer class="page">Set selection and LR · CAT 2017–2020 PYQs</footer>
+<div class="toast" id="toast">Copied</div>
+<script src="../js/notes-ui.js"></script>
+</body>
+</html>

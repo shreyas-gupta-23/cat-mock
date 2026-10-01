@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mixtures · CAT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,650;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/notes.css">
+<script>
+MathJax = {
+  tex: { inlineMath: [['\\(','\\)']], displayMath: [['\\[','\\]']] }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body data-theme="cat">
+<canvas id="field" aria-hidden="true"></canvas>
+<div class="progress" id="progress"></div>
+<button type="button" class="handle left" id="toc-btn" aria-expanded="false">Contents</button>
+<button type="button" class="handle right" id="study-btn" aria-expanded="false">Study</button>
+<aside class="rail left" id="toc-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">CAT 2026 · IIM A</p>
+    <h2>On this page</h2>
+  </div>
+  <nav class="rail-body toc" id="toc">
+    <a href="#sheet"><small>01</small>Sheet</a>
+    <a href="#questions"><small>02</small>PYQs (22)</a>
+  </nav>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="toc-mark"></div></div>
+  <div class="rail-foot" id="toc-foot">Contents</div>
+</aside>
+<aside class="rail right" id="study-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">Studio</p>
+    <h2>Study</h2>
+  </div>
+  <div class="rail-body">
+    <a class="tool" href="../index.html"><small>All topics</small>Theory home</a>
+    <button type="button" class="tool" id="exam-btn"><small>Hide commentary</small>Exam mode</button>
+    <button type="button" class="tool" id="formula-btn"><small>Only the slabs</small>Formulas</button>
+    <button type="button" class="tool" id="draw-btn"><small>From the PYQs</small>Draw a question</button>
+    <button type="button" class="tool" id="print-btn"><small>Browser print</small>Print</button>
+  </div>
+  <div class="draw" id="draw"><span class="lbl">Question</span>Draw a question when you want a prompt without rereading the sheet.</div>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="study-mark"></div></div>
+  <div class="rail-foot">Exam mode keeps formulas, takeaways, traps, and the PYQs (answers hidden). Formulas hides the papers.</div>
+</aside>
+<article class="page" id="top">
+  <header class="mast">
+    <div class="meta-row">
+      <span class="chip">CAT 2026</span>
+      <span class="chip gold">Arithmetic</span>
+      <span class="chip">22 PYQs</span>
+    </div>
+    <h1>Mixtures</h1>
+    <p class="lede">Alligation, replacement, three-vessel loops.</p>
+  </header>
+
+<div class="section-head" id="sheet">
+  <div class="num">01</div>
+  <h2>Sheet</h2>
+  <label class="review"><input type="checkbox"> reviewed</label>
+</div>
+<p>Alligation (cheap \(c\), dear \(d\), mean \(m\), \(c&lt;m&lt;d\)):</p>
+<div class="eq" data-tex="\frac{q_c}{q_d}=\frac{d-m}{m-c}"><button class="copy-eq" type="button">Copy</button>\[\frac{q_c}{q_d}=\frac{d-m}{m-c}\]</div>
+<p>Same cross for concentrations, % milk, even for speeds if the stem is a weighted mean in disguise.</p>
+<p><strong>Replacement.</strong> Vessel \(V\), draw \(x\), refill, \(n\) times. Fraction of original solute left \((1-x/V)^n\). Quantity left \(V(1-x/V)^n\) if it started pure. From the second draw you remove mixture, not pure solute — the formula already encodes that.</p>
+<p>If you replace with another solution of strength \(p\) instead of water, leftover original still \((1-x/V)^n\); the added component is a geometric series.</p>
+<p>Three vessels: write three linear equations in milk/water. CAT often gives “poured into a fourth empty” — totals add.</p>
+<div class="def">
+<p><strong>From CAT 2017–2020</strong> (this page also caught some ratio / average stems via 2IIM’s combined tag).</p>
+<ul>
+<li><strong>Alligation on milk fractions.</strong> Bottle 1 is \(7/9\) milk, bottle 2 is \(9/13\), target \(3/4\). Mix ratio \(=\) distances to the target.</li>
+<li><strong>Three mixes, then mix those.</strong> Convert each to a water-fraction, weight by 4 : 3 : 2, compare resulting water vs B vs C. Do not alligate three at once.</li>
+<li><strong>Replacement twice.</strong> Alcohol left \(=700\times(0.9)^2\) from 875 ml. Water is the complement. Strength \(p\%\) means \(p\) grams in 100 ml — treat as a concentration, same algebra.</li>
+<li><strong>A \(\to\) B \(\to\) C \(\to\) A transfers.</strong> After each 100 ml move, the source concentration updates before the next draw. Track grams of salt in each vessel, not just %.</li>
+<li><strong>Add water to change dye:water from 2:3 to 2:5</strong> (dye fixed). Then remove 1/4 of the new mix (dye and water both drop 25%), then add dye to restore 2:3.</li>
+<li><strong>Mix 1:3, then double the volume by adding more of A.</strong> Write two stages. Unknown % of B is one linear equation.</li>
+<li><strong>Volume vs weight.</strong> Alloy 3:4:7 <em>by volume</em>, densities 5:2:6. Weight of C in 130 kg is the C-share of \(\sum v_i d_i\).</li>
+<li><strong>Density of a blend.</strong> 1 L of liquid 1 is 1 kg, liquid 2 is 0.8 kg; 0.5 L of mix is 0.48 kg \(\Rightarrow\) volume fraction from a weighted density.</li>
+<li><strong>Elevator bound.</strong> All between 53 and 57 kg, total \(\le 630\). Max people: assume as light as possible except the stated heaviest must fit — \(53(n-1)+57\le 630\).</li>
+<li><strong>Lowest 9 mean 42, highest 9 mean 47, ten students.</strong> Sum of 10 \(=\) (sum of lowest 9) + max \(=\) (sum of highest 9) + min. Max \(-\) min is fixed by those two means; the gap between possible means of the ten is max\(-\)min minus the forced overlap.</li>
+<li><strong>Cricket:</strong> \(n+2\) innings, last two 38 and 15, first \(n\) average 30, each \(&lt;38\), minimise the lowest. Total of first \(n\) is \(30n\); to min \(x\), dump as much as possible into the other \(n-1\) without hitting 38.</li>
+</ul>
+</div>
+<div class="miss"><strong>Trap.</strong> “8 L replaced twice from 40 L” is not “16 L milk gone.” Milk gone is \(40-40(0.8)^2=14.4\).</div>
+<div class="take"><strong>Move.</strong> Track one component (usually milk or acid). Water is the complement if the vessel stays full.</div>
+
+
+
+<div class="section-head" id="questions">
+  <div class="num">02</div>
+  <h2>CAT 2017–2020 PYQs</h2>
+  <label class="review"><input type="checkbox"> reviewed</label>
+</div>
+<p class="bank-note">22 authentic items from 2IIM’s public papers, tagged with year and slot. 2017: 6 · 2018: 6 · 2019: 2 · 2020: 8. Open a question for the official answer. Figures load from 2IIM.</p>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q3</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Averages</span>
+    </div>
+    <div class="q-stem">An elevator has a weight limit of 630 kg. It is carrying a group of people of whom the heaviest weighs 57 kg and the lightest weighs 53 kg. What is the maximum possible number of people in the group?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">11</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q8</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Ratio &amp; Proportions</span>
+    </div>
+    <div class="q-stem">Suppose, C1, C2, C3, C4, and C5 are five companies. The profits made by C1, C2, and C3 are in the ratio 9 : 10 : 8 while the profits made by C2, C4, and C5 are in the ratio 18 : 19 : 20. If C5 has made a profit of Rs 19 crore more than C1, then the total profit (in Rs) made by all five companies is:</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 438 crore</li><li><span class="opt-k">B</span> 435 crore</li><li><span class="opt-k">C</span> 348 crore</li><li><span class="opt-k">D</span> 345 crore</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 438 crore</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q10</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Ratio &amp; Proportions</span>
+    </div>
+    <div class="q-stem">A stall sells popcorn and chips in packets of three sizes: large, super, and jumbo. The numbers of large, super, and jumbo packets in its stock are in the ratio 7 : 17 : 16 for popcorn and 6 : 15 : 14 for chips. If the total number of popcorn packets in its stock is the same as that of chips packets, then the numbers of jumbo popcorn packets and jumbo chips packets are in the ratio:</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 1 : 1</li><li><span class="opt-k">B</span> 8 : 7</li><li><span class="opt-k">C</span> 4 : 3</li><li><span class="opt-k">D</span> 6 : 5</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 1 : 1</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q14</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Mixture &amp; Alligation</span>
+    </div>
+    <div class="q-stem">A class consists of 20 boys and 30 girls. In the mid-semester examination, the average score of the girls was 5 higher than that of the boys. In the final exam, however, the average score of the girls dropped by 3 while the average score of the entire class increased by 2. The increase in the average score of the boys is:</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 9.5</li><li><span class="opt-k">B</span> 10</li><li><span class="opt-k">C</span> 4.5</li><li><span class="opt-k">D</span> 6</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 9.5</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q3</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Mixtures</span>
+    </div>
+    <div class="q-stem">Bottle 1 contains a mixture of milk and water in 7 : 2 ratio and Bottle 2 contains a mixture of milk and water in 9 : 4 ratio. In what ratio of volumes should the liquids in Bottle 1 and Bottle 2 be combined to obtain a mixture of milk and water in 3 : 1 ratio?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 27 : 14</li><li><span class="opt-k">B</span> 27 : 13</li><li><span class="opt-k">C</span> 27 : 16</li><li><span class="opt-k">D</span> 27 : 18</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 27 : 13</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q14</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Mixtures</span>
+    </div>
+    <div class="q-stem">Consider three mixtures - the first having water and liquid A in the ratio 1 : 2, the second having water and liquid B in the ratio 1 : 3, and the third having water and liquid C in the ratio 1 : 4. These three mixtures of A, B, and C, respectively, are further mixed in the proportion 4 : 3 : 2. Then the resulting mixture has</div>
+    <ol class="opts"><li><span class="opt-k">A</span> The same amount of water and liquid B</li><li><span class="opt-k">B</span> The same amount of liquids B and C</li><li><span class="opt-k">C</span> More water than liquid B</li><li><span class="opt-k">D</span> More water than liquid A</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — More water than liquid B</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q1</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Mixtures and Alligations</span>
+    </div>
+    <div class="q-stem">A trader sells 10 litres of a mixture of paints A and B, where the amount of B in the mixture does not exceed that of A. The cost of paint A per litre is Rs. 8 more than that of paint B. If the trader sells the entire mixture for Rs. 264 and makes a profit of 10%, then the highest possible cost of paint B, in Rs. per litre, is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 20</li><li><span class="opt-k">B</span> 16</li><li><span class="opt-k">C</span> 22</li><li><span class="opt-k">D</span> 26</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 20</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q7</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Mixtures</span>
+    </div>
+    <div class="q-stem">A wholesaler bought walnuts and peanuts, the price of walnut per kg being thrice that of peanut per kg. He then sold 8 kg of peanuts at a profit of 10% and 16 kg of walnuts at a profit of 20% to a shopkeeper. However, the shopkeeper lost 5 kg of walnuts and 3 kg of peanuts in transit. He then mixed the remaining nuts and sold the mixture at Rs. 166 per kg, thus making an overall profit of 25%. At what price, in Rs. per kg, did the wholesaler buy the walnuts?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 84</li><li><span class="opt-k">B</span> 86</li><li><span class="opt-k">C</span> 96</li><li><span class="opt-k">D</span> 98</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 96</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q3</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Ratio &amp; Proportion | Mixtures &amp; Alligations</span>
+    </div>
+    <div class="q-stem">There are two drums, each containing a mixture of paints A and B. In drum 1, A and B are in the ratio 18 : 7. The mixtures from drums 1 and 2 are mixed in the ratio 3 : 4 and in this final mixture, A and B are in the ratio 13 : 7. In drum 2, then A and B were in the ratio</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 251 : 163</li><li><span class="opt-k">B</span> 239 : 161</li><li><span class="opt-k">C</span> 220 : 149</li><li><span class="opt-k">D</span> 229 : 141</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 239 : 161</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q11</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Mixtures</span>
+    </div>
+    <div class="q-stem">A 20% ethanol solution is mixed with another ethanol solution, say, S of unknown concentration in the proportion 1:3 by volume. This mixture is then mixed with an equal volume of 20% ethanol solution. If the resultant mixture is a 31.25% ethanol solution, then the unknown concentration of S is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 50%</li><li><span class="opt-k">B</span> 55%</li><li><span class="opt-k">C</span> 48%</li><li><span class="opt-k">D</span> 52%</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 50%</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q19</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Mixtures and Alligations</span>
+    </div>
+    <div class="q-stem">A jar contains a mixture of 175 ml water and 700 ml alcohol. Gopal takes out 10% of the mixture and substitutes it by water of the same amount. The process is repeated once again. The percentage of water in the mixture is now</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 25.4</li><li><span class="opt-k">B</span> 20.5</li><li><span class="opt-k">C</span> 30.3</li><li><span class="opt-k">D</span> 35.2</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — 35.2</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q33</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Ratio &amp; Proportions | Mixtures &amp; Alligations</span>
+    </div>
+    <div class="q-stem">The strength of a salt solution is p% if 100 ml of the solution contains p grams of salt. If three salt solutions A, B, C are mixed in the proportion 1 : 2 : 3, then the resulting solution has strength 20%. If instead the proportion is 3 : 2 : 1, then the resulting solution has strength 30%. A fourth solution, D, is produced by mixing B and C in the ratio 2 : 7. The ratio of the strength of D to that of A is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 3 : 10</li><li><span class="opt-k">B</span> 1 : 3</li><li><span class="opt-k">C</span> 2 : 5</li><li><span class="opt-k">D</span> 1 : 4</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 1 : 3</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q25</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Mixtures</span>
+    </div>
+    <div class="q-stem">A chemist mixes two liquids 1 and 2. One litre of liquid 1 weighs 1 kg and one litre of liquid 2 weighs 800 gm. If half litre of the mixture weighs 480 gm, then the percentage of liquid 1 in the mixture, in terms of volume, is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 70</li><li><span class="opt-k">B</span> 85</li><li><span class="opt-k">C</span> 80</li><li><span class="opt-k">D</span> 75</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 80</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q30</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Mixtures</span>
+    </div>
+    <div class="q-stem">The strength of a salt solution is p% if 100 ml of the solution contains p grams of salt. Each of three vessels A, B, C contains 500 ml of salt solution of strengths 10%, 22%, and 32%, respectively. Now, 100 ml of the solution in vessel A is transferred to vessel B. Then, 100 ml of the solution in vessel B is transferred to vessel C. Finally, 100 ml of the solution in vessel C is transferred to vessel A. The strength, in percentage, of the resulting solution in vessel A is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 15</li><li><span class="opt-k">B</span> 12</li><li><span class="opt-k">C</span> 13</li><li><span class="opt-k">D</span> 14</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — 14</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">QA Q8</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Averages</span>
+    </div>
+    <div class="q-stem">Let A, B and C be three positive integers such that the sum of A and the mean of B and C is 5. In addition, the sum of B and the mean of A and C is 7. Then the sum of A and B is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 6</li><li><span class="opt-k">B</span> 4</li><li><span class="opt-k">C</span> 7</li><li><span class="opt-k">D</span> 5</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">A — 6</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-Quant/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">QA Q24</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Mixtures</span>
+    </div>
+    <div class="q-stem">An alloy is prepared by mixing metals A, B, C in the proportion 3 : 4 : 7 by volume. Weights of the same volume of metals A, B, C are in the ratio 5 : 2 : 6. In 130 kg of the alloy, the weight, in kg, of the metal C is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 84</li><li><span class="opt-k">B</span> 48</li><li><span class="opt-k">C</span> 96</li><li><span class="opt-k">D</span> 70</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">A — 84</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-Quant/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">QA Q26</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Ratio &amp; Proportions</span>
+    </div>
+    <div class="q-stem">A solution, of volume 40 litres, has dye and water in the proportion 2 : 3. Water is added to the solution to change this proportion to 2 : 5. If one-fourths of this diluted solution is taken out, how many litres of dye must be added to the remaining solution to bring the proportion back to 2 : 3?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">8</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-Quant/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">QA Q3</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Averages</span>
+    </div>
+    <div class="q-stem">In a group of 10 students, the mean of the lowest 9 scores is 42 while the mean of the highest 9 scores is 47. For the entire group of 10 students, the maximum possible mean exceeds the minimum possible mean by</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 5</li><li><span class="opt-k">B</span> 3</li><li><span class="opt-k">C</span> 4</li><li><span class="opt-k">D</span> 6</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">C — 4</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">QA Q25</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Ratio &amp; Proportions</span>
+    </div>
+    <div class="q-stem">A sum of money is split among Amal, Sunil and Mita so that the ratio of the shares of Amal and Sunil is 3:2, while the ratio of the shares of Sunil and Mita is 4:5. If the difference between the largest and the smallest of these three shares is Rs 400, then Sunil’s share, in rupees, is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">800</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">QA Q6</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Averages</span>
+    </div>
+    <div class="q-stem">Dick is thrice as old as Tom and Harry is twice as old as Dick. If Dick's age is 1 year less than the average age of all three, then Harry's age, in years, is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">18</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-Quant/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">QA Q17</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Averages</span>
+    </div>
+    <div class="q-stem">A batsman played n + 2 innings and got out on all occasions. His average score in these n + 2 innings was 29 runs and he scored 38 and 15 runs in the last two innings. The batsman scored less than 38 runs in each of the first n innings. In these n innings, his average score was 30 runs and lowest score was x runs. The smallest possible value of x is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 1</li><li><span class="opt-k">B</span> 3</li><li><span class="opt-k">C</span> 2</li><li><span class="opt-k">D</span> 4</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">C — 2</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-Quant/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">QA Q18</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Mixtures</span>
+    </div>
+    <div class="q-stem">Two alcohol solutions, A and B, are mixed in the proportion 1:3 by volume. The volume of the mixture is then doubled by adding solution A such that the resulting mixture has 72% alcohol. If solution A has 60% alcohol, then the percentage of alcohol in solution B is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 94%</li><li><span class="opt-k">B</span> 92%</li><li><span class="opt-k">C</span> 90%</li><li><span class="opt-k">D</span> 89%</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">B — 92%</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-Quant/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+
+</article>
+<footer class="page">Mixtures · CAT 2017–2020 PYQs</footer>
+<div class="toast" id="toast">Copied</div>
+<script src="../js/notes-ui.js"></script>
+</body>
+</html>

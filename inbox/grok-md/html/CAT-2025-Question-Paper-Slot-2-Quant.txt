@@ -1,0 +1,1569 @@
+Source: https://online.2iim.com/CAT-question-paper/CAT-2025-Question-Paper-Slot-2-Quant/
+Note: Public HTML question set from 2IIM (no login). Not an official IIM PDF.
+
+CAT 2025 slot 2 Question Paper | 2IIM CAT
+ CAT 2024CAT Online Coaching, Online CAT preparation | 2IIM Online CAT
+ Coaching
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+ 
+ 2IIM CAT Question Bank
+
+ 
+
+
+
+ 
+ 
+ 🎯 2IIM’s VARC Offline Workshop — Sep 26 & 27 | Chennai | Master VARC with CAT Experts | RC, Para Summary, Para Jumble, Test & Analysis | ₹999 (₹1500) 
+
+
+
+
+
+
+ -->
+
+ 
+ 
+
+
+
+
+
+
+ 
+
+ 
+ ⏳All India Scholarship Test – Unlock up to 100% Scholarship.
+
+ -->
+
+ 
+
+
+ &#x1f389;
+ May Month-End Sale is Live | Enjoy Up to 20% OFF | Valid Until May 31
+ -->
+
+ 
+ &#x1f389;Effortlessly calculate your score with the 2IIM Score Calculator!&#x1f389;
+ -->
+
+
+
+
+
+
+
+ 
+ 
+ Online CAT Coaching 
+ 
+ Visit our Website
+
+ 
+
+
+ CAT Coaching 
+ 
+ CAT Coaching in Chennai
+
+ CAT Preparation Books
+
+ 
+
+
+ CAT Preparation 
+ 
+ CAT Previous Year Papers
+
+ 2IIM's CAT Questions
+
+ XAT Previous Year Papers
+
+ IIFT Previous Year Papers
+
+ How to prepare for CAT exam 
+ 
+ How
+ to prepare for CAT Quantitative Aptitude
+
+ How
+ to prepare for CAT DILR Section
+
+ How
+ to prepare for CAT VARC Section
+
+ 
+
+
+ What is CAT Exam All about
+
+ CAT Syllabus
+
+ CAT Online Live Classes
+-->
+ GMAT Preparation Online
+
+ 
+
+
+ Blogs / Social 2IIM CAT Preparation Blog
+ 2IIM CAT Preparation Reviews
+ CAT Preparation Quora Answers
+ CAT Preparation Videos
+ CAT Preparation Facebook Group
+ CAT Preparation Facebook Page
+ CAT Preparation Blogs CAT Questions Quantitative Aptitude Blog
+ CAT Preparation Blog
+
+ -->
+ Contact 
+ 
+ About Us
+-->
+ Our Team
+-->
+ Results
+
+ Work for Us
+
+ 
+
+
+ Signup
+ Login
+-->
+ IPMAT 2026 Coaching
+ Online
+
+ 
+
+
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ CAT 2025 Question Paper slot 2 | CAT Quants
+
+ CAT Quantitative Aptitude | CAT 2025 Question
+ Paper
+
+
+
+
+
+ 
+ 
+ CAT Question
+ Paper / CAT-2025-Slot 2-Quants
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ 
+ C AT 2025 Quant, unlike previous years was not dominated by
+ Arithmetic. Though Arithematic was the most tested topic followed by Algebra. In Arithmetic, the
+ questions were dominated by topics like Speed-time-distance , Mixture and Alligations . This year,
+ there was a surprise. The questions from Geometry were relatively on the lower
+ side as compared to the previous years. There were 8 TITA Qs this year. Overall this section was
+ at a medium level of difficulty.
+
+
+ 
+
+ 
+ CAT 2025 Slot 2 - QA
+
+ 
+ If \( m \) and \( n \) are integers such that \( ( m + 2 n ) ( 2 m + n ) = 27 \), then the maximum
+possible value of \( 2 m - 3 n \) is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 17
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 1.5%
+Incorrect: 52.83%
+Unattempted: 45.67%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - QA
+
+ 
+ If \( \log _ { 64 } x ^ { 2 } + \log _ { 8 } \sqrt { y } + 3 \log _ { 512 } ( \sqrt { y } z ) = 4 \), where \( x , y \) and \( z \) are positive real
+numbers, then the minimum possible value of \( ( x + y + z ) \) is
+
+ 
+ 
+ 
+ \( 96 \)
+
+ \( 48 \)
+
+ \( 36 \)
+
+ \( 24 \)
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+\( 48 \)
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 19.0%
+Incorrect: 9.85%
+Unattempted: 71.15%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - QA
+
+ 
+ The average number of copies of a book sold per day by a shopkeeper is 60 in the initial seven days and 63 in the initial eight days, after the book launch. On the ninth day, she sells 11 copies less than the eighth day, and the average number of copies sold per day from second day to ninth day becomes 66. The number of copies sold on the first day of the book launch is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 49
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 35.47%
+Incorrect: 34.49%
+Unattempted: 30.04%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - QA
+
+ 
+ Let \( f ( x ) = \frac { x } { ( 2 x - 1 ) } \) and \( g ( x ) = \frac { x } { ( x - 1 ) } \). Then, the domain of the function
+\( h ( x ) = f ( g ( x ) ) + g ( f ( x ) ) \) is all real numbers except
+
+ 
+ 
+ 
+ \( - 1 , \frac { 1 } { 2 } \), and 1
+
+ \( \frac { 1 } { 2 } , 1 \), and \( \frac { 3 } { 2 } \)
+
+ \( - \frac { 1 } { 2 } , \frac { 1 } { 2 } \), and 1
+
+ \( \frac { 1 } { 2 } \), and 1
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+\( - 1 , \frac { 1 } { 2 } \), and 1
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 18.96%
+Incorrect: 9.67%
+Unattempted: 71.37%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - QA
+
+ 
+ If \( 9 ^ { x ^ { 2 } + 2 x - 3 } - 4 \left( 3 ^ { x ^ { 2 } + 2 x - 2 } \right) + 27 = 0 \), then the product of all possible
+values of \( x \) is
+
+ 
+ 
+ 
+ \( 5 \)
+
+ \( 20 \)
+
+ \( 30 \)
+
+ \( 15 \)
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+\( 20 \)
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 7.3%
+Incorrect: 9.75%
+Unattempted: 82.95%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - QA
+
+ 
+ Let ABCDEF be a regular hexagon and P and Q be the midpoints of AB and CD, respectively. Then, the ratio of the areas of trapezium PBCQ and hexagon ABCDEF is
+
+ 
+ 
+ 
+ 5 : 24
+
+ 7 : 24
+
+ 6 : 25
+
+ 6 : 19
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+5 : 24
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 12.96%
+Incorrect: 11.57%
+Unattempted: 75.47%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - QA
+
+ 
+ If \( a , b , c \) and \( d \) are integers such that their sum is 46 , then the minimum
+possible value of \( ( a - b ) ^ { 2 } + ( a - c ) ^ { 2 } + ( a - d ) ^ { 2 } \) is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 2
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 17.25%
+Incorrect: 38.0%
+Unattempted: 44.75%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - QA
+
+ 
+ Let \( a _ { n } \) be the \( n ^ { \text {th } } \) term of a decreasing infinite geometric progression.
+If \( a _ { 1 } + a _ { 2 } + a _ { 3 } = 52 \) and \( a _ { 1 } a _ { 2 } + a _ { 2 } a _ { 3 } + a _ { 3 } a _ { 1 } = 624 \), then the sum of
+this geometric progression is
+
+ 
+ 
+ 
+ \( 63 \)
+
+ \( 60 \)
+
+ \( 54 \)
+
+ \( 57 \)
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice C
+\( 54 \)
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 10.83%
+Incorrect: 7.94%
+Unattempted: 81.23%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - QA
+
+ 
+ Suppose \( a , b , c \) are three distinct natural numbers, such that \( 3 a c = 8 ( a + b ) \). Then, the smallest possible
+value of \( 3 a + 2 b + c \) is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 12
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 16.67%
+Incorrect: 43.28%
+Unattempted: 40.05%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - QA
+
+ 
+ Two tangents drawn from a point \( P \) touch a circle with center \( O \) at points
+\( Q \) and \( R \). Points \( A \) and \( B \) lie on \( P Q \) and \( P R \), respectively, such that \( A B \) is also
+a tangent to the same circle. If \( \angle A O B = 50 ^ { \circ } \), then \( \angle A P B \), in degrees, equals
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 80
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 2.44%
+Incorrect: 44.17%
+Unattempted: 53.39%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - QA
+
+ 
+ The number of divisors of \( \left( 2 ^ { 6 } \times 3 ^ { 5 } \times 5 ^ { 3 } \times 7 ^ { 2 } \right) \), which are of the form \( ( 3 r + 1 ) \), where \( r \) is a
+non-negative integer, is
+
+ 
+ 
+ 
+ \( 42 \)
+
+ \( 36 \)
+
+ \( 56 \)
+
+ \( 24 \)
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+\( 42 \)
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 3.56%
+Incorrect: 9.56%
+Unattempted: 86.88%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - QA
+
+ 
+ Ankita is twice as efficient as Bipin, while Bipin is twice as efficient as Chandan. All three of them start together on a job, and Bipin leaves the job after 20 days. If the job got completed in 60 days, the number of days needed by Chandan to complete the job alone, is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 340
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 46.55%
+Incorrect: 37.46%
+Unattempted: 15.99%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - QA
+
+ 
+ The ratio of expenditures of Lakshmi and Meenakshi is 2 : 3, and the ratio of income of Lakshmi to expenditure of Meenakshi is 6 : 7. If excess of income over expenditure is saved by Lakshmi and Meenakshi, and the ratio of their savings is 4 : 9, then the ratio of their incomes is
+
+ 
+ 
+ 
+ 5 : 6
+
+ 3 : 5
+
+ 7 : 8
+
+ 2 : 1
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+3 : 5
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 44.91%
+Incorrect: 13.05%
+Unattempted: 42.04%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - QA
+
+ 
+ The set of all real values of \( x \) for which \( \left( x ^ { 2 } - | x + 9 | + x \right) > 0 \), is
+
+ 
+ 
+ 
+ \( ( - \infty , - 9 ) \cup ( 9 , \infty ) \)
+
+ \( ( - \infty , - 3 ) \cup ( 3 , \infty ) \)
+
+ \( ( - 9 , - 3 ) \cup ( 3 , \infty ) \)
+
+ \( ( - \infty , - 9 ) \cup ( 3 , \infty ) \)
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+\( ( - \infty , - 3 ) \cup ( 3 , \infty ) \)
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 32.96%
+Incorrect: 20.33%
+Unattempted: 46.71%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - QA
+
+ 
+ An item with a cost price of Rs. 1650 is sold at a certain discount on a fixed marked price to earn a profit of 20% on the cost price. If the discount was doubled, the profit would have been Rs. 110. The rate of discount, in percentage, at which the profit percentage would be equal to the rate of discount, is nearest to
+
+ 
+ 
+ 
+ 12
+
+ 14
+
+ 16
+
+ 18
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+14
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 18.32%
+Incorrect: 20.34%
+Unattempted: 61.34%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - QA
+
+ 
+ The equations \( 3 x ^ { 2 } - 5 x + p = 0 \) and \( 2 x ^ { 2 } - 2 x + q = 0 \) have one common
+root. The sum of the other roots of these two equations is
+
+ 
+ 
+ 
+ \( \frac { 2 } { 3 } - p + \frac { 3 } { 2 } q \)
+
+ \( \frac { 8 } { 3 } + p + \frac { 1 } { 3 } q \)
+
+ \( \frac { 2 } { 3 } - 2 p + \frac { 2 } { 3 } q \)
+
+ \( \frac { 8 } { 3 } - p + \frac { 3 } { 2 } q \)
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+\( \frac { 8 } { 3 } - p + \frac { 3 } { 2 } q \)
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 8.26%
+Incorrect: 9.54%
+Unattempted: 82.2%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - QA
+
+ 
+ A mixture of coffee and cocoa, 16% of which is coffee, costs Rs 240 per kg. Another mixture of coffee and cocoa, of which 36% is coffee, costs Rs 320 per kg. If a new mixture of coffee and cocoa costs Rs 376 per kg, then the quantity, in kg, of coffee in 10 kg of this new mixture is
+
+ 
+ 
+ 
+ 4
+
+ 6
+
+ 2.5
+
+ 5
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+5
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 18.17%
+Incorrect: 19.61%
+Unattempted: 62.22%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - QA
+
+ 
+ A loan of Rs 1000 is fully repaid by two installments of Rs 530 and Rs 594, paid at the end of first and second year, respectively. If the interest is compounded annually, then the rate of interest, in percentage, is
+
+ 
+ 
+ 
+ 8
+
+ 10
+
+ 11
+
+ 9
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+8
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 39.72%
+Incorrect: 19.87%
+Unattempted: 40.41%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - QA
+
+ 
+ Rita and Sneha can row a boat at 5 km/h and 6 km/h in still water, respectively. In a river flowing with a constant velocity, Sneha takes 48 minutes more to row 14 km upstream than to row the same distance downstream. If Rita starts from a certain location in the river, and returns downstream to the same location, taking a total of 100 minutes, then the total distance, in km, Rita will cover is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 8
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 6.01%
+Incorrect: 39.09%
+Unattempted: 54.9%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - QA
+
+ 
+ The sum of digits of the number \( ( 625 ) ^ { 65 } \times ( 128 ) ^ { 36 } \), is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 25
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 5.96%
+Incorrect: 36.31%
+Unattempted: 57.73%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - QA
+
+ 
+ In a \( \triangle A B C \), points D and E are on the sides BC and AC , respectively. BE and
+AD intersect at point T such that \( \mathrm { AD } : A T = 4 : 3 \), and \( \mathrm { BE } : \mathrm { BT } = 5 : 4 \). Point
+F lies on AC such that DF is parallel to BE . Then, \( \mathrm { BD } : \mathrm { CD } \) is
+
+ 
+ 
+ 
+ \( 9 : 4 \)
+
+ \( 15 : 4 \)
+
+ \( 11 : 4 \)
+
+ \( 7 : 4 \)
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice C
+\( 11 : 4 \)
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 4.1%
+Incorrect: 10.51%
+Unattempted: 85.39%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - QA
+
+ 
+ A certain amount of money was divided among Pinu, Meena, Rinu and Seema. Pinu received 20% of the total amount and Meena received 40% of the remaining amount. If Seema received 20% less than Pinu, the ratio of the amounts received by Pinu and Rinu is
+
+ 
+ 
+ 
+ 8 : 5
+
+ 5 : 8
+
+ 2 : 1
+
+ 1 : 2
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+5 : 8
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 77.07%
+Incorrect: 10.4%
+Unattempted: 12.53%
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+ section of your HTML file -->
+
+ 🎯 2IIM’s VARC Offline Workshop — Sep 26 & 27 | Chennai | Master VARC with CAT Experts | RC, Para Summary, Para Jumble, Test & Analysis | ₹999 (₹1500)
+
+ Enrol Now →
+
+ -->
+
+ 🎯 2IIM’s CAT 2026 Percentile Booster — Classes Start This Monday!
+
+ Enrol Now →
+
+ Struggling with VARC, DILR, or Quant? Learn Just That Section.
+
+ ★ Click here!
+
+ 🔥 Limited-Time 3-Day Offer | Choose VARC, DILR or Quant for ₹5,000 Only
+
+ Click here! →
+
+ -->
+
+ First Edition Now Available | CAT PYQ 2020–2025 | Limited First Print
+
+ Order Now →
+
+ ⏳Register for a free 2IIM demo class and start your
+ preparation the right way.
+
+ ★ Click here!
+
+ -->
+
+ Download comprehensive
+ PDFs of past years’ question papers with answers.
+
+ ★ Click here
+
+ Repeating
+ CAT? Ace it with 2 IIM! Get expert guidance & exclusive discounts.
+ 🚀
+
+ ★ Register Now
+
+ -->
+
+ Best CAT Online Coaching
+
+ Try upto 40 hours for free
+ Learn from the best!
+
+ ★ Sign up Now!
+
+ -->
+
+ CAT
+ Coaching in Chennai
+CAT 2024
+
+ Classroom Batches Starting Now! @Gopalapuram and @Anna
+ nagar
+
+ ★ CAT Coaching
+
+ -->
+
+ Best CAT Coaching in Chennai
+
+ Attend a Demo Class
+
+ ★ Schedule a Demo!
+
+ -->
+
+ -->
+ -->
+ -->
+
+ -->
+ &#x1F3AF; Huge Discount: 5,000 off on Online CAT Course. Till June 30. Register now! -->
+ Upto 50% off - Take the Scholarship test now! -->
+
+ 
+
+
+
+
+ 
+ 
+ CAT Questions | CAT Quantitative Aptitude
+
+ 
+ 
+ CAT Questions | HCF LCM
+
+
+ CAT Questions |
+ Factors
+
+ CAT Questions |
+ Remainders
+
+ CAT Questions |
+ Factorials
+
+ CAT Questions | Digits 
+
+
+ CAT
+ Questions | Ratios, Mixtures, Averages
+
+ CAT Questions |
+ Percentages, Profit Loss, SICI
+
+
+
+ 
+ CAT Questions |
+ Time Speed and Distance, Races
+
+ CAT Questions
+ | Logarithms & Exponents
+
+ CAT
+ Questions | Pipes Cisterns, Work Time
+
+ CAT Questions | Set
+ Theory
+
+ CAT Questions | Geometry
+
+ CAT Questions |
+ Coordinate-Geometry
+
+ CAT Questions |
+ Mensuration
+
+
+
+ 
+ CAT Questions |
+ Trigonometry
+
+ CAT
+ Questions | Linear & Quadratic Equations
+
+ CAT Questions | Functions 
+
+
+ CAT Questions |
+ Inequalities
+
+ CAT Questions |
+ Polynomials
+
+ CAT Questions |
+ Progressions
+
+ CAT Questions |
+ Permutation Combination, Probability
+
+
+
+
+
+
+
+ CAT Questions | CAT DILR
+
+ 
+ 
+ CAT DILR | Sequencing
+
+ CAT DILR | Pie Charts
+
+ CAT DILR | Multiple Graphs
+
+ CAT DILR | Word Problems
+
+ CAT DILR | Line Graphs
+
+
+
+ 
+ CAT DILR | Bar Graphs
+
+ CAT DILR | Grid Puzzle
+
+ CAT DILR | Math Puzzle
+
+ CAT DILR | Visualization
+
+ CAT DILR | Other Patterns
+
+
+
+ 
+ CAT 2017 DILR Slot 2 | Assets
+
+
+ CAT 2017 DILR Slot 2 |
+ Pizzeria
+
+ CAT 2017 DILR Slot 2 |
+ Electives
+
+ CAT 2017 DILR Slot 2 |
+ Chess
+
+ CAT 2017 DILR Slot 2 |
+ Dorms
+
+
+
+ 
+ CAT 2017 DILR Slot 2 |
+ Tea
+
+ CAT 2017 DILR Slot 2 |
+ Friends
+
+ CAT 2017 DILR Slot 1 | CET 
+
+
+ CAT 2017 DILR Slot
+ 1 | Survey
+
+ CAT 2017 DILR
+ Slot 1 | Happiness
+
+
+
+
+-->
+
+
+ CAT Questions | Verbal Ability for CAT
+
+ 
+ 
+ Verbal Ability for CAT |
+ CAT Reading Comprehension
+
+ Verbal Ability for CAT|
+ CAT Para Jumble
+
+ Verbal Ability for CAT |
+ CAT Sentence Elimination
+
+ Verbal Ability for CAT |
+ CAT Paragraph Completion
+
+ Verbal Ability for CAT |
+ CAT Critical Reasoning
+
+
+
+ 
+ Verbal Ability for CAT | CAT Word
+ Usage
+
+ Verbal Ability for CAT| CAT Para
+ Summary
+
+ Verbal Ability for CAT | CAT
+ Text Completion
+
+ Verbal Ability for CAT |
+ CAT Sentence Correction
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 2IIM offers the best CAT coaching in Chennai. We conduct weekend CAT classes in Chennai.
+ 2IIM's Online CAT Coaching is the most comprehensive & Best CAT Online Coaching available in the
+ country.
+
+
+
+ 
+ 
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT Online Preparation
+
+ LIVE Classroom CAT classes
+
+ CAT Online
+ Coaching
+
+ CAT
+ Quantitative Aptitude Course
+
+ CAT DILR | Logical Reasoning for CAT
+
+ Best CAT Coaching in
+ Chennai
+
+
+
+ 
+ CAT Preparation
+
+ CAT Questions
+
+ CAT Preparation Youtube
+
+ CAT Question Paper
+
+ CAT Previous Year Papers
+
+ CAT
+ Preparation books
+
+
+
+ 
+ What is CAT?
+
+ CAT Syllabus | CAT Syllabus 2026
+
+ CAT Exam
+ Pattern
+
+ What is CAT
+ Exam? | CAT Exam Eligibility
+
+ How to
+ Prepare for CAT exam?
+
+
+
+ 
+ CAT Preparation | Videos
+
+ 
+ CAT Online Preparation
+
+ How to Prepare for CAT 2026 
+
+
+ CAT Preparation Do's and
+ Dont's
+
+ CAT Online Live Classes
+
+
+
+
+
+ 
+ 
+ 
+ 
+ Copyrights © All Rights Reserved by 2IIM.com - A Fermat Education Initiative .
+ Privacy Policy | Terms & Conditions
+
+ 
+ CAT ® (Common Admission Test) is a registered trademark of the Indian
+ Institutes of Management. This website is not endorsed or approved by IIMs.
+
+
+
+
+ 
+ Where is 2IIM located?
+
+ 2IIM Online CAT Coaching
+ A Fermat Education Initiative,
+19/43, MG Chakrapani St,
+ Sathya Garden, Saligramam, Chennai 600 093
+
+
+
+ 
+ How to reach 2IIM?
+
+ Mobile: (91) 99626 48484 / 94459
+ 38484
+ WhatsApp: WhatsApp Now
+ Email: info@2iim.com
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ Wizako GMAT Preparation
+
+ 
+ GMAT Preparation Online
+
+ GMAT Coaching in Chennai
+
+ GMAT Sample Questions
+
+ GMAT
+ Prep Videos
+
+
+
+ 
+ Wizako GRE
+
+ 
+ GRE Coaching in Chennai
+
+ GRE Questions
+
+ Online GRE Coaching
+
+ GRE
+ Preparation Videos
+
+
+
+ 
+ Ascent TANCET Coaching
+
+ 
+ TANCET Classes Online
+
+ TANCET Coaching Centres in Chennai
+
+ TANCET Previous Year Question Papers
+
+ TANCET Questions
+
+
+
+ 
+ Maxtute CBSE Maths Classes
+
+ 
+ CBSE Online
+ Classes
+
+ NCERT Solution for Class 10 Maths
+
+ CBSE Sample Papers for class 10
+
+ Class 10
+ Maths Videos
+
+
+
+ 
+ PiVerb
+
+ 
+ Intuitive Math
+ learning
+
+ School
+ Math Videos
+
+
+
+
+
+
+
+ Click to Browse Offline

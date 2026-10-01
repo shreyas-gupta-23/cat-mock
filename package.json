@@ -1,0 +1,8 @@
+{
+  "name": "cat-prep",
+  "private": true,
+  "scripts": {
+    "theory": "node theory/scripts/build.mjs",
+    "pyq": "node theory/scripts/parse-2iim.mjs"
+  }
+}

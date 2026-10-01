@@ -1,0 +1,1552 @@
+Source: https://online.2iim.com/CAT-question-paper/CAT-2025-Question-Paper-Slot-1-Quant/
+Note: Public HTML question set from 2IIM (no login). Not an official IIM PDF.
+
+CAT 2025 Slot 1 Question Paper | 2IIM CAT
+ CAT 2024CAT Online Coaching, Online CAT preparation | 2IIM Online CAT
+ Coaching
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+ 
+ 2IIM CAT Question Bank
+
+ 
+
+
+
+ 
+ 
+ 🎯 2IIM’s VARC Offline Workshop — Sep 26 & 27 | Chennai | Master VARC with CAT Experts | RC, Para Summary, Para Jumble, Test & Analysis | ₹999 (₹1500) 
+
+
+
+
+
+
+ -->
+
+ 
+ 
+
+
+
+
+
+
+ 
+
+ 
+ ⏳All India Scholarship Test – Unlock up to 100% Scholarship.
+
+ -->
+
+ 
+
+
+ &#x1f389;
+ May Month-End Sale is Live | Enjoy Up to 20% OFF | Valid Until May 31
+ -->
+
+ 
+ &#x1f389;Effortlessly calculate your score with the 2IIM Score Calculator!&#x1f389;
+ -->
+
+
+
+
+
+
+
+ 
+ 
+ Online CAT Coaching 
+ 
+ Visit our Website
+
+ 
+
+
+ CAT Coaching 
+ 
+ CAT Coaching in Chennai
+
+ CAT Preparation Books
+
+ 
+
+
+ CAT Preparation 
+ 
+ CAT Previous Year Papers
+
+ 2IIM's CAT Questions
+
+ XAT Previous Year Papers
+
+ IIFT Previous Year Papers
+
+ How to prepare for CAT exam 
+ 
+ How
+ to prepare for CAT Quantitative Aptitude
+
+ How
+ to prepare for CAT DILR Section
+
+ How
+ to prepare for CAT VARC Section
+
+ 
+
+
+ What is CAT Exam All about
+
+ CAT Syllabus
+
+ CAT Online Live Classes
+-->
+ GMAT Preparation Online
+
+ 
+
+
+ Blogs / Social 2IIM CAT Preparation Blog
+ 2IIM CAT Preparation Reviews
+ CAT Preparation Quora Answers
+ CAT Preparation Videos
+ CAT Preparation Facebook Group
+ CAT Preparation Facebook Page
+ CAT Preparation Blogs CAT Questions Quantitative Aptitude Blog
+ CAT Preparation Blog
+
+ -->
+ Contact 
+ 
+ About Us
+-->
+ Our Team
+-->
+ Results
+
+ Work for Us
+
+ 
+
+
+ Signup
+ Login
+-->
+ IPMAT 2026 Coaching
+ Online
+
+ 
+
+
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ CAT 2025 Question Paper Slot 1 | CAT Quants
+
+ CAT Quantitative Aptitude | CAT 2025 Question
+ Paper
+
+
+
+
+
+ 
+ 
+ CAT Question
+ Paper / CAT-2025-Slot1-Quants
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ 
+ C AT 2025 Quant, unlike previous years was not dominated by
+ Arithmetic. Though Arithematic was the most tested topic followed by Algebra. In Arithmetic, the
+ questions were dominated by topics like Speed-time-distance , Mixture and Alligations . This year,
+ there was a surprise. The questions from Geometry were relatively on the lower
+ side as compared to the previous years. There were 8 TITA Qs this year. Overall this section was
+ at a medium level of difficulty.
+
+
+ 
+
+ 
+ CAT 2025 Slot 1 - QA
+
+ 
+ If \(a-6 b+6 c=4\) and \(6 a+3 b-3 c=50\), where \(a, b\) and \(c\) are real numbers, the value of \(2 a+3 b-3 c\) is
+
+ 
+ 
+ 
+ 18
+
+ 20
+
+ 15
+
+ 14
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+18
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 34.1%
+Incorrect: 10.75%
+Unattempted: 55.15%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 1 - QA
+
+ 
+ A cafeteria offers 5 types of sandwiches. Moreover, for each type of sandwich, a customer can choose one of 4 breads and opt for either small or large sized sandwich. Optionally, the customer may also add up to 2 out of 6 available sauces. The number of different ways in which an order can be placed for a sandwich, is
+
+ 
+ 
+ 
+ 880
+
+ 600
+
+ 800
+
+ 840
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+880
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 9.12%
+Incorrect: 31.1%
+Unattempted: 59.78%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 1 - QA
+
+ 
+ The number of distinct integers \(n\) for which \(\log _{\left(\frac{1}{4}\right)}\left(n^2-7 n+11\right)>0\), is
+
+ 
+ 
+ 
+ infinite
+
+ 0
+
+ 2
+
+ 1
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+0
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 15.45%
+Incorrect: 28.8%
+Unattempted: 55.75%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 1 - QA
+
+ 
+ In the set of consecutive odd numbers \(\{1,3,5, \ldots, 57\}\), there is a number \(k\) such that the sum of all the elements less than \(k\) is equal to the sum of all the elements greater than \(k\). Then, \(k\) equals
+
+ 
+ 
+ 
+ 41
+
+ 39
+
+ 37
+
+ 43
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+41
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 18.85%
+Incorrect: 15.45%
+Unattempted: 65.7%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 1 - QA
+
+ 
+ In a 3-digit number N, the digits are non-zero and distinct such that none of the digits is a perfect square, and only one of the digits is a prime number. Then, the number of factors of the minimum possible value of N is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 6
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 13.88%
+Incorrect: 43.69%
+Unattempted: 42.43%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 1 - QA
+
+ 
+ At a certain simple rate of interest, a given sum amounts to Rs 13920 in 3 years, and to Rs 18960 in 6 years and 6 months. If the same given sum had been invested for 2 years at the same rate as before but with interest compounded every 6 months, then the total interest earned, in rupees, would have been nearest to
+
+ 
+ 
+ 
+ 3096
+
+ 3150
+
+ 3180
+
+ 3221
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+3221
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 17.01%
+Incorrect: 14.15%
+Unattempted: 68.84%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 1 - QA
+
+ 
+ The number of non-negative integer values of \(k\) for which the quadratic equation \(x^2-5 x+k=0\) has only integer roots, is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 3
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 13.5%
+Incorrect: 55.66%
+Unattempted: 30.84%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 1 - QA
+
+ 
+ A value of \(c\) for which the minimum value of \(f(x)=x^2-4 c x+8 c\) is greater than the maximum value of \(g(x)=-x^2+3 c x-2 c\), is
+
+ 
+ 
+ 
+ 2
+
+ \(-\frac{1}{2}\)
+
+ \(-2\)
+
+ \(\frac{1}{2}\)
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+\(\frac{1}{2}\)
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 13.13%
+Incorrect: 16.55%
+Unattempted: 70.32%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 1 - QA
+
+ 
+ A container holds 200 litres of a solution of acid and water, having 30% acid by volume. Atul replaces 20% of this solution with water, then replaces 10% of the resulting solution with acid, and finally replaces 15% of the solution thus obtained, with water. The percentage of acid by volume in the final solution obtained after these three replacements, is nearest to
+
+ 
+ 
+ 
+ 23
+
+ 25
+
+ 29
+
+ 27
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+27
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 30.76%
+Incorrect: 22.92%
+Unattempted: 46.32%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 1 - QA
+
+ 
+ Shruti travels a distance of 224 km in four parts for a total travel time of 3 hours. Her speeds in these four parts follow an arithmetic progression, and the corresponding time taken to cover these four parts follow another arithmetic progression. If she travels at a speed of 960 meters per minute for 30 minutes to cover the first part, then the distance, in meters, she travels in the fourth part is
+
+ 
+ 
+ 
+ 96000
+
+ 112000
+
+ 76800
+
+ 86400
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+86400
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 8.65%
+Incorrect: 11.12%
+Unattempted: 80.23%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 1 - QA
+
+ 
+ The ratio of the number of students in the morning shift and afternoon shift of a school was 13 : 9. After 21 students moved from the morning shift to the afternoon shift, this ratio became 19 : 14. Next, some new students joined the morning and afternoon shifts in the ratio 3 : 8 and then the ratio of the number of students in the morning shift and the afternoon shift became 5 : 4. The number of new students who joined is
+
+ 
+ 
+ 
+ 110
+
+ 88
+
+ 121
+
+ 99
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+99
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 27.75%
+Incorrect: 15.58%
+Unattempted: 56.67%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 1 - QA
+
+ 
+ In a circle with center \(C\) and radius \(6 \sqrt{2} \mathrm{~cm}, P Q\) and \(S R\) are two parallel chords separated by one of the diameters. If \(\angle P Q C=45^{\circ}\), and the ratio of the perpendicular distance of \(P Q\) and \(S R\) from \(C\) is \(3: 2\), then the area, in sq. cm , of the quadrilateral \(P Q R S\) is
+
+ 
+ 
+ 
+ \(4(3+\sqrt{14})\)
+
+ \(20(3 \sqrt{2}+\sqrt{7})\)
+
+ \(20(3+\sqrt{14})\)
+
+ \(4(3 \sqrt{2}+\sqrt{7})\)
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice C
+\(20(3+\sqrt{14})\)
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 3.33%
+Incorrect: 6.39%
+Unattempted: 90.28%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 1 - QA
+
+ 
+ The \((x, y)\) coordinates of vertices \(\mathrm{P}, \mathrm{Q}\) and R of a parallelogram PQRS are \((-3,-2),(1,-5)\) and \((9,1)\), respectively. If the diagonal SQ intersects the \(x\)-axis at \((a, 0)\), then the value of \(a\) is
+
+ 
+ 
+ 
+ \(\frac{13}{4}\)
+
+ \(\frac{29}{9}\)
+
+ \(\frac{10}{3}\)
+
+ \(\frac{27}{7}\)
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+\(\frac{29}{9}\)
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 7.69%
+Incorrect: 9.77%
+Unattempted: 82.54%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 1 - QA
+
+ 
+ In a class, there were more than 10 boys and a certain number of girls. After 40% of the girls and 60% of the boys left the class, the remaining number of girls was 8 more than the remaining number of boys. Then, the minimum possible number of students initially in the class was
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 55
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 5.94%
+Incorrect: 62.36%
+Unattempted: 31.7%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 1 - QA
+
+ 
+ If the length of a side of a rhombus is 36 cm and the area of the rhombus is 396 sq. cm, then the absolute value of the difference between the lengths, in cm, of the diagonals of the rhombus is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 60
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 8.59%
+Incorrect: 40.97%
+Unattempted: 50.44%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 1 - QA
+
+ 
+ A shopkeeper offers a discount of 22% on the marked price of each chair, and gives 13 chairs to a customer for the discounted price of 12 chairs to earn a profit of 26% on the transaction. If the cost price of each chair is Rs 100, then the marked price, in rupees, of each chair is
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 175
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 19.65%
+Incorrect: 42.2%
+Unattempted: 38.15%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 1 - QA
+
+ 
+ The number of distinct pairs of integers \((x, y)\) satisfying the inequalities \(x>y \geq 3\) and \(x+y 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 16
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 16.73%
+Incorrect: 47.89%
+Unattempted: 35.38%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 1 - QA
+
+ 
+ Arun, Varun and Tarun, if working alone, can complete a task in 24, 21, and 15 days, respectively. They charge Rs 2160, Rs 2400, and Rs 2160 per day, respectively, even if they are employed for a partial day. On any given day, any of the workers may or may not be employed to work. If the task needs to be completed in 10 days or less, then the minimum possible amount, in rupees, required to be paid for the entire task is
+
+ 
+ 
+ 
+ 34400
+
+ 38880
+
+ 47040
+
+ 38400
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+38400
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 13.83%
+Incorrect: 22.91%
+Unattempted: 63.26%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 1 - QA
+
+ 
+ For any natural number \(k\), let \(a_k=3^k\). The smallest natural number \(m\) for which \(\left\{\left(a_1\right)^1 \times\left(a_2\right)^2 \times \ldots \times\left(a_{20}\right)^{20}\right\} 
+ 
+ 
+ 59
+
+ 56
+
+ 58
+
+ 57
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice C
+58
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 4.54%
+Incorrect: 8.28%
+Unattempted: 87.18%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 1 - QA
+
+ 
+ Stocks A, B and C are priced at rupees 120, 90 and 150 per share, respectively. A trader holds a portfolio consisting of 10 shares of stock A, and 20 shares of stocks B and C put together. If the total value of her portfolio is rupees 3300, then the number of shares of stock B that she holds, is
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 15
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 58.58%
+Incorrect: 24.0%
+Unattempted: 17.42%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 1 - QA
+
+ 
+ Kamala divided her investment of Rs 100000 between stocks, bonds, and gold. Her investment in bonds was 25% of her investment in gold. With annual returns of 10%, 6%, 8% on stocks, bonds, and gold, respectively, she gained a total amount of Rs 8200 in one year. The amount, in rupees, that she gained from the bonds, was
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 900
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 18.49%
+Incorrect: 41.27%
+Unattempted: 40.24%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 1 - QA
+
+ 
+ Let \(3 \leq x \leq 6\) and \(\left[x^2\right]=[x]^2\), where \([x]\) is the greatest integer not exceeding \(x\). If set S represents all feasible values of \(x\), then a possible subset of S is
+
+ 
+ 
+ 
+ \((4, \sqrt{18}) \cup[5, \sqrt{27}) \cup\{6\}\)
+
+ \([3, \sqrt{10}] \cup[4, \sqrt{17}] \cup\{6\}\)
+
+ \([3, \sqrt{10}] \cup[5, \sqrt{26}]\)
+
+ \((3, \sqrt{10}) \cup[5, \sqrt{26}) \cup\{6\}\)
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+\((3, \sqrt{10}) \cup[5, \sqrt{26}) \cup\{6\}\)
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 8.23%
+Incorrect: 7.45%
+Unattempted: 84.32%
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+ section of your HTML file -->
+
+ 🎯 2IIM’s VARC Offline Workshop — Sep 26 & 27 | Chennai | Master VARC with CAT Experts | RC, Para Summary, Para Jumble, Test & Analysis | ₹999 (₹1500)
+
+ Enrol Now →
+
+ -->
+
+ 🎯 2IIM’s CAT 2026 Percentile Booster — Classes Start This Monday!
+
+ Enrol Now →
+
+ Struggling with VARC, DILR, or Quant? Learn Just That Section.
+
+ ★ Click here!
+
+ 🔥 Limited-Time 3-Day Offer | Choose VARC, DILR or Quant for ₹5,000 Only
+
+ Click here! →
+
+ -->
+
+ First Edition Now Available | CAT PYQ 2020–2025 | Limited First Print
+
+ Order Now →
+
+ ⏳Register for a free 2IIM demo class and start your
+ preparation the right way.
+
+ ★ Click here!
+
+ -->
+
+ Download comprehensive
+ PDFs of past years’ question papers with answers.
+
+ ★ Click here
+
+ Repeating
+ CAT? Ace it with 2 IIM! Get expert guidance & exclusive discounts.
+ 🚀
+
+ ★ Register Now
+
+ -->
+
+ Best CAT Online Coaching
+
+ Try upto 40 hours for free
+ Learn from the best!
+
+ ★ Sign up Now!
+
+ -->
+
+ CAT
+ Coaching in Chennai
+CAT 2024
+
+ Classroom Batches Starting Now! @Gopalapuram and @Anna
+ nagar
+
+ ★ CAT Coaching
+
+ -->
+
+ Best CAT Coaching in Chennai
+
+ Attend a Demo Class
+
+ ★ Schedule a Demo!
+
+ -->
+
+ -->
+ -->
+ -->
+
+ -->
+ &#x1F3AF; Huge Discount: 5,000 off on Online CAT Course. Till June 30. Register now! -->
+ Upto 50% off - Take the Scholarship test now! -->
+
+ 
+
+
+
+
+ 
+ 
+ CAT Questions | CAT Quantitative Aptitude
+
+ 
+ 
+ CAT Questions | HCF LCM
+
+
+ CAT Questions |
+ Factors
+
+ CAT Questions |
+ Remainders
+
+ CAT Questions |
+ Factorials
+
+ CAT Questions | Digits 
+
+
+ CAT
+ Questions | Ratios, Mixtures, Averages
+
+ CAT Questions |
+ Percentages, Profit Loss, SICI
+
+
+
+ 
+ CAT Questions |
+ Time Speed and Distance, Races
+
+ CAT Questions
+ | Logarithms & Exponents
+
+ CAT
+ Questions | Pipes Cisterns, Work Time
+
+ CAT Questions | Set
+ Theory
+
+ CAT Questions | Geometry
+
+ CAT Questions |
+ Coordinate-Geometry
+
+ CAT Questions |
+ Mensuration
+
+
+
+ 
+ CAT Questions |
+ Trigonometry
+
+ CAT
+ Questions | Linear & Quadratic Equations
+
+ CAT Questions | Functions 
+
+
+ CAT Questions |
+ Inequalities
+
+ CAT Questions |
+ Polynomials
+
+ CAT Questions |
+ Progressions
+
+ CAT Questions |
+ Permutation Combination, Probability
+
+
+
+
+
+
+
+ CAT Questions | CAT DILR
+
+ 
+ 
+ CAT DILR | Sequencing
+
+ CAT DILR | Pie Charts
+
+ CAT DILR | Multiple Graphs
+
+ CAT DILR | Word Problems
+
+ CAT DILR | Line Graphs
+
+
+
+ 
+ CAT DILR | Bar Graphs
+
+ CAT DILR | Grid Puzzle
+
+ CAT DILR | Math Puzzle
+
+ CAT DILR | Visualization
+
+ CAT DILR | Other Patterns
+
+
+
+ 
+ CAT 2017 DILR Slot 2 | Assets
+
+
+ CAT 2017 DILR Slot 2 |
+ Pizzeria
+
+ CAT 2017 DILR Slot 2 |
+ Electives
+
+ CAT 2017 DILR Slot 2 |
+ Chess
+
+ CAT 2017 DILR Slot 2 |
+ Dorms
+
+
+
+ 
+ CAT 2017 DILR Slot 2 |
+ Tea
+
+ CAT 2017 DILR Slot 2 |
+ Friends
+
+ CAT 2017 DILR Slot 1 | CET 
+
+
+ CAT 2017 DILR Slot
+ 1 | Survey
+
+ CAT 2017 DILR
+ Slot 1 | Happiness
+
+
+
+
+-->
+
+
+ CAT Questions | Verbal Ability for CAT
+
+ 
+ 
+ Verbal Ability for CAT |
+ CAT Reading Comprehension
+
+ Verbal Ability for CAT|
+ CAT Para Jumble
+
+ Verbal Ability for CAT |
+ CAT Sentence Elimination
+
+ Verbal Ability for CAT |
+ CAT Paragraph Completion
+
+ Verbal Ability for CAT |
+ CAT Critical Reasoning
+
+
+
+ 
+ Verbal Ability for CAT | CAT Word
+ Usage
+
+ Verbal Ability for CAT| CAT Para
+ Summary
+
+ Verbal Ability for CAT | CAT
+ Text Completion
+
+ Verbal Ability for CAT |
+ CAT Sentence Correction
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 2IIM offers the best CAT coaching in Chennai. We conduct weekend CAT classes in Chennai.
+ 2IIM's Online CAT Coaching is the most comprehensive & Best CAT Online Coaching available in the
+ country.
+
+
+
+ 
+ 
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT Online Preparation
+
+ LIVE Classroom CAT classes
+
+ CAT Online
+ Coaching
+
+ CAT
+ Quantitative Aptitude Course
+
+ CAT DILR | Logical Reasoning for CAT
+
+ Best CAT Coaching in
+ Chennai
+
+
+
+ 
+ CAT Preparation
+
+ CAT Questions
+
+ CAT Preparation Youtube
+
+ CAT Question Paper
+
+ CAT Previous Year Papers
+
+ CAT
+ Preparation books
+
+
+
+ 
+ What is CAT?
+
+ CAT Syllabus | CAT Syllabus 2026
+
+ CAT Exam
+ Pattern
+
+ What is CAT
+ Exam? | CAT Exam Eligibility
+
+ How to
+ Prepare for CAT exam?
+
+
+
+ 
+ CAT Preparation | Videos
+
+ 
+ CAT Online Preparation
+
+ How to Prepare for CAT 2026 
+
+
+ CAT Preparation Do's and
+ Dont's
+
+ CAT Online Live Classes
+
+
+
+
+
+ 
+ 
+ 
+ 
+ Copyrights © All Rights Reserved by 2IIM.com - A Fermat Education Initiative .
+ Privacy Policy | Terms & Conditions
+
+ 
+ CAT ® (Common Admission Test) is a registered trademark of the Indian
+ Institutes of Management. This website is not endorsed or approved by IIMs.
+
+
+
+
+ 
+ Where is 2IIM located?
+
+ 2IIM Online CAT Coaching
+ A Fermat Education Initiative,
+19/43, MG Chakrapani St,
+ Sathya Garden, Saligramam, Chennai 600 093
+
+
+
+ 
+ How to reach 2IIM?
+
+ Mobile: (91) 99626 48484 / 94459
+ 38484
+ WhatsApp: WhatsApp Now
+ Email: info@2iim.com
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ Wizako GMAT Preparation
+
+ 
+ GMAT Preparation Online
+
+ GMAT Coaching in Chennai
+
+ GMAT Sample Questions
+
+ GMAT
+ Prep Videos
+
+
+
+ 
+ Wizako GRE
+
+ 
+ GRE Coaching in Chennai
+
+ GRE Questions
+
+ Online GRE Coaching
+
+ GRE
+ Preparation Videos
+
+
+
+ 
+ Ascent TANCET Coaching
+
+ 
+ TANCET Classes Online
+
+ TANCET Coaching Centres in Chennai
+
+ TANCET Previous Year Question Papers
+
+ TANCET Questions
+
+
+
+ 
+ Maxtute CBSE Maths Classes
+
+ 
+ CBSE Online
+ Classes
+
+ NCERT Solution for Class 10 Maths
+
+ CBSE Sample Papers for class 10
+
+ Class 10
+ Maths Videos
+
+
+
+ 
+ PiVerb
+
+ 
+ Intuitive Math
+ learning
+
+ School
+ Math Videos
+
+
+
+
+
+
+
+ Click to Browse Offline

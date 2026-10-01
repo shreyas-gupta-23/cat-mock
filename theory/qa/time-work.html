@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Time and work · CAT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,650;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/notes.css">
+<script>
+MathJax = {
+  tex: { inlineMath: [['\\(','\\)']], displayMath: [['\\[','\\]']] }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body data-theme="cat">
+<canvas id="field" aria-hidden="true"></canvas>
+<div class="progress" id="progress"></div>
+<button type="button" class="handle left" id="toc-btn" aria-expanded="false">Contents</button>
+<button type="button" class="handle right" id="study-btn" aria-expanded="false">Study</button>
+<aside class="rail left" id="toc-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">CAT 2026 · IIM A</p>
+    <h2>On this page</h2>
+  </div>
+  <nav class="rail-body toc" id="toc">
+    <a href="#sheet"><small>01</small>Sheet</a>
+    <a href="#questions"><small>02</small>PYQs (15)</a>
+  </nav>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="toc-mark"></div></div>
+  <div class="rail-foot" id="toc-foot">Contents</div>
+</aside>
+<aside class="rail right" id="study-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">Studio</p>
+    <h2>Study</h2>
+  </div>
+  <div class="rail-body">
+    <a class="tool" href="../index.html"><small>All topics</small>Theory home</a>
+    <button type="button" class="tool" id="exam-btn"><small>Hide commentary</small>Exam mode</button>
+    <button type="button" class="tool" id="formula-btn"><small>Only the slabs</small>Formulas</button>
+    <button type="button" class="tool" id="draw-btn"><small>From the PYQs</small>Draw a question</button>
+    <button type="button" class="tool" id="print-btn"><small>Browser print</small>Print</button>
+  </div>
+  <div class="draw" id="draw"><span class="lbl">Question</span>Draw a question when you want a prompt without rereading the sheet.</div>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="study-mark"></div></div>
+  <div class="rail-foot">Exam mode keeps formulas, takeaways, traps, and the PYQs (answers hidden). Formulas hides the papers.</div>
+</aside>
+<article class="page" id="top">
+  <header class="mast">
+    <div class="meta-row">
+      <span class="chip">CAT 2026</span>
+      <span class="chip gold">Arithmetic</span>
+      <span class="chip">15 PYQs</span>
+    </div>
+    <h1>Time and work</h1>
+    <p class="lede">Rates, pipes, alternate days, wages.</p>
+  </header>
+
+<div class="section-head" id="sheet">
+  <div class="num">01</div>
+  <h2>Sheet</h2>
+  <label class="review"><input type="checkbox"> reviewed</label>
+</div>
+<p>Rate of A in \(a\) days: \(1/a\) job per day. LCM-of-days as total units is the same model with integers.</p>
+<div class="eq" data-tex="\frac{1}{T}=\frac{1}{a}+\frac{1}{b}-\frac{1}{c}\quad(\text{c a leak})"><button class="copy-eq" type="button">Copy</button>\[\frac{1}{T}=\frac{1}{a}+\frac{1}{b}-\frac{1}{c}\quad(\text{c a leak})\]</div>
+<p>Efficiency ratio \(e_A:e_B\) \(\Rightarrow\) time ratio \(e_B:e_A\). “\(A\) is \(p\%\) more efficient than \(B\)” \(\Rightarrow\) rates \(100+p:100\), not times \(100+p:100\).</p>
+<p>Alternate days: work in a 2-day cycle, leftover &lt; one cycle handled separately. If they start with A, the last partial day may be A’s or B’s — check leftover against one person’s rate.</p>
+<p>Pipes: inlet \(+\), outlet \(-\). A cistern fills in \(a\), empties in \(b\): net \(1/a-1/b\). Overflow after a tap is closed: split the timeline.</p>
+<p>Men-women-children: convert to one unit (man-days). \(m_1\times d_1\times h_1 / w_1 = m_2\times d_2\times h_2 / w_2\) if efficiency is uniform.</p>
+<p>Wages \(\propto\) work done (rate \(\times\) time actually worked), not \(\propto\) days present if rates differ.</p>
+<div class="def">
+<p><strong>From CAT 2017–2020.</strong></p>
+<ul>
+<li><strong>One new equal worker every day.</strong> Day \(k\) has \(k\) people of rate \(1/120\). Work after \(n\) days: \(\frac{1}{120}\cdot\frac{n(n+1)}{2}=1\) \(\Rightarrow n(n+1)=240\), \(n=15\).</li>
+<li><strong>Inlet 8 h, inlet+outlet 10 h.</strong> Outlet rate \(=1/8-1/10=1/40\) tank/h. Full to half-full with only outlet: 20 h.</li>
+<li><strong>Humans and robots, two mixes.</strong> \(15h+5r=1/30\), \(5h+15r=1/60\). Linear. Then 15 humans alone.</li>
+<li><strong>Fill pipes vs drain pipes, two scenarios.</strong> \(6f-5d=1/6\), \(5f-6d=1/60\). Then \(2f-d\).</li>
+<li><strong>Two types of inlet.</strong> Same idea, both positive: \(10A+45B=1/30\), \(8A+18B=1/60\) (per minute).</li>
+<li><strong>Clock: tank emptied at a fixed time, then A and/or B fill.</strong> Monday A done at 8 pm, Tuesday B at 6 pm, Wednesday A till 5 then B to 7. The empty-time is the unknown start \(T\). Three equations in \(T, a, b\) as hours of work. Thursday both: time \(T + 1/(1/a+1/b)\).</li>
+<li><strong>Efficiency drop after day 7.</strong> Together 16 days usually. After 7, Ramesh at 70%. They finish on day 17. Remaining after 7 is 9/16; the extra day is because of the 30% cut. Ganesh-alone on that remaining is leftover / Ganesh’s rate.</li>
+<li><strong>Half job A, then 4 days together, then B finishes the last 5%.</strong> B is 25% slower than A. Let A’s days be \(a\), B’s \(1.25a\). The 5% leftover pins \(a\).</li>
+<li><strong>A half as efficient, B triple, 9 days vs usual 12 together.</strong> \(A+B=1/12\), \(A/2+3B=1/9\).</li>
+<li><strong>Men vs machines.</strong> \(3m+8M\) takes half the time of \(8m+3M\) \(\Rightarrow\) rate ratio 2:1. Two machines in 13 days \(\Rightarrow\) one machine’s rate, then how many men match that in 13 days.</li>
+<li><strong>Third person does 10% of the job.</strong> Anil 3 days, then Sunil joins, then Bimal. Work remaining after Anil’s 3 is 17/20. Bimal’s 10% is 0.1 of the whole job, not of the leftover.</li>
+<li><strong>MDH leftover.</strong> 6 km in 200 days, 140 people, 1.5 km in 60 days. Remaining 4.5 km in 140 days. People needed \(=\) (140 \(\times\) 60 / 1.5) \(\times\) 4.5 / 140, then extra \(=\) that minus 140.</li>
+<li><strong>Overtime at 2\(\times\) wage, 15% of regular income.</strong> \(114\,o = 0.15\times 57\,r\) and \(r+o=172\).</li>
+</ul>
+</div>
+<div class="miss"><strong>Trap.</strong> “Together they would have finished in 10, but B leaves after 4” — do not assign 4 days of combined rate to both remaining. Compute work done, then leftover / leftover person’s rate.</div>
+<div class="take"><strong>Move.</strong> Units of work first. Then who is on stage in each interval.</div>
+
+
+
+<div class="section-head" id="questions">
+  <div class="num">02</div>
+  <h2>CAT 2017–2020 PYQs</h2>
+  <label class="review"><input type="checkbox"> reviewed</label>
+</div>
+<p class="bank-note">15 authentic items from 2IIM’s public papers, tagged with year and slot. 2017: 3 · 2018: 6 · 2019: 4 · 2020: 2. Open a question for the official answer. Figures load from 2IIM.</p>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q2</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Pipes &amp; Cisterns</span>
+    </div>
+    <div class="q-stem">A person can complete a job in 120 days. He works alone on Day 1. On Day 2, he is joined by another person who also can complete the job in exactly 120 days. On Day 3, they are joined by another person of equal efficiency. Like this, everyday a new person with the same efficiency joins the work. How many days are required to complete the job?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">15</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q8</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Pipes &amp; Cisterns</span>
+    </div>
+    <div class="q-stem">A tank has an inlet pipe and an outlet pipe. If the outlet pipe is closed then the inlet pipe fills the empty tank in 8 hours. If the outlet pipe is open then the inlet pipe fills the empty tank in 10 hours. If only the outlet pipe is open then in how many hours the full tank becomes half-full?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 20</li><li><span class="opt-k">B</span> 30</li><li><span class="opt-k">C</span> 40</li><li><span class="opt-k">D</span> 45</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 20</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q13</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Work and Time</span>
+    </div>
+    <div class="q-stem">Amal can complete a job in 10 days and Bimal can complete it in 8 days. Amal, Bimal and Kamal together complete the job in 4 days and are paid a total amount of Rs 1000 as remuneration. If this amount is shared by them in proportion to their work, then Kamal's share, in rupees, is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 100</li><li><span class="opt-k">B</span> 200</li><li><span class="opt-k">C</span> 300</li><li><span class="opt-k">D</span> 400</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 100</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q8</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Work and Time</span>
+    </div>
+    <div class="q-stem">When they work alone, B needs 25% more time to ﬁnish a job than A does. They two ﬁnish the job in 13 days in the following manner: A works alone till half the job is done, then A and B work together for four days, and ﬁnally B works alone to complete the remaining 5% of the job. In how many days can B alone ﬁnish the entire job?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 16</li><li><span class="opt-k">B</span> 22</li><li><span class="opt-k">C</span> 20</li><li><span class="opt-k">D</span> 18</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 20</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q28</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Work and Time</span>
+    </div>
+    <div class="q-stem">Humans and robots can both perform a job but at diﬀerent eﬃciencies. Fifteen humans and ﬁve robots working together take thirty days to ﬁnish the job, whereas ﬁve humans and ﬁfteen robots working together take sixty days to ﬁnish it. How many days will ﬁfteen humans working together (without any robot) take to ﬁnish it?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 40</li><li><span class="opt-k">B</span> 32</li><li><span class="opt-k">C</span> 36</li><li><span class="opt-k">D</span> 45</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 32</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q31</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Pipes &amp; Cisterns</span>
+    </div>
+    <div class="q-stem">A tank is fitted with pipes, some filling it and the rest draining it. All filling pipes fill at the same rate, and all draining pipes drain at the same rate. The empty tank gets completely filled in 6 hours when 6 filling and 5 draining pipes are on, but this time becomes 60 hours when 5 filling and 6 draining pipes are on. In how many hours will the empty tank get completely filled when one draining and two filling pipes are on?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">10</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q21</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Pipes &amp; Cisterns</span>
+    </div>
+    <div class="q-stem">A tank is emptied everyday at a fixed time point. Immediately thereafter, either pump A or pump B or both start working until the tank is full. On Monday, A alone completed filling the tank at 8 pm. On Tuesday, B alone completed filling the tank at 6 pm. On Wednesday, A alone worked till 5 pm, and then B worked alone from 5 pm to 7 pm, to fill the tank. At what time was the tank filled on Thursday if both pumps were used simultaneously all along?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 4 : 12 PM</li><li><span class="opt-k">B</span> 4 : 24 PM</li><li><span class="opt-k">C</span> 4 : 48 PM</li><li><span class="opt-k">D</span> 4 : 36 PM</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 4 : 24 PM</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q22</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Work &amp; Time</span>
+    </div>
+    <div class="q-stem">Ramesh and Ganesh can together complete a work in 16 days. After seven days of working together, Ramesh got sick and his efficiency fell by 30%. As a result, they completed the work in 17 days instead of 16 days. If Ganesh had worked alone after Ramesh got sick, in how many days would he have completed the remaining work?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 12</li><li><span class="opt-k">B</span> 14.5</li><li><span class="opt-k">C</span> 13.5</li><li><span class="opt-k">D</span> 11</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 13.5</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q27</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Pipes &amp; Cisterns</span>
+    </div>
+    <div class="q-stem">A water tank has inlets of two types A and B. All inlets of type A when open, bring in water at the same rate. All inlets of type B, when open, bring in water at the same rate. The empty tank is completely filled in 30 minutes if 10 inlets of type A and 45 inlets of type B are open, and in 1 hour if 8 inlets of type A and 18 inlets of type B are open. In how many minutes will the empty tank get completely filled if 7 inlets of type A and 27 inlets of type B are open?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">48 minutes</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q15</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Work, time</span>
+    </div>
+    <div class="q-stem">At their usual efficiency levels, A and B together finish a task in 12 days. If A had worked half as efficiently as she usually does, and B had worked thrice as efficiently as he usually does, the task would have been completed in 9 days. How many days would A take to finish the task if she works alone at her usual efficiency?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 18</li><li><span class="opt-k">B</span> 12</li><li><span class="opt-k">C</span> 24</li><li><span class="opt-k">D</span> 36</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 18</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q30</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Work, time</span>
+    </div>
+    <div class="q-stem">Three men and eight machines can finish a job in half the time taken by three machines and eight men to finish the same job. If two machines can finish the job in 13 days, then how many men can finish the job in 13 days?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">13</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q15</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Work &amp; time</span>
+    </div>
+    <div class="q-stem">Anil alone can do a job in 20 days while Sunil alone can do it in 40 days. Anil starts the job, and after 3 days, Sunil joins him. Again, after a few more days, Bimal joins them and they together finish the job. If Bimal has done 10% of the job, then in how many days was the job done?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 13</li><li><span class="opt-k">B</span> 12</li><li><span class="opt-k">C</span> 15</li><li><span class="opt-k">D</span> 14</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 13</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q34</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Work &amp; time</span>
+    </div>
+    <div class="q-stem">John gets Rs 57 per hour of regular work and Rs 114 per hour of overtime work. He works altogether 172 hours and his income from overtime hours is 15% of his income from regular hours. Then, for how many hours did he work overtime?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">12</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">QA Q22</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Work &amp; time</span>
+    </div>
+    <div class="q-stem">John takes twice as much time as Jack to finish a job. Jack and Jim together take one-thirds of the time to finish the job than John takes working alone. Moreover, in order to finish the job, John takes three days more than that taken by three of them working together. In how many days will Jim finish the job working alone?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">4</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">QA Q4</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Work &amp; time</span>
+    </div>
+    <div class="q-stem">A contractor agreed to construct a 6 km road in 200 days. He employed 140 persons for the work. After 60 days, he realized that only 1.5 km road has been completed. How many additional people would he need to employ in order to finish the work exactly on time?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">40</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-Quant/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+
+</article>
+<footer class="page">Time and work · CAT 2017–2020 PYQs</footer>
+<div class="toast" id="toast">Copied</div>
+<script src="../js/notes-ui.js"></script>
+</body>
+</html>

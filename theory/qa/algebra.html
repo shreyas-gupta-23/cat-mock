@@ -1,0 +1,1445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Algebra · CAT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,650;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/notes.css">
+<script>
+MathJax = {
+  tex: { inlineMath: [['\\(','\\)']], displayMath: [['\\[','\\]']] }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body data-theme="cat">
+<canvas id="field" aria-hidden="true"></canvas>
+<div class="progress" id="progress"></div>
+<button type="button" class="handle left" id="toc-btn" aria-expanded="false">Contents</button>
+<button type="button" class="handle right" id="study-btn" aria-expanded="false">Study</button>
+<aside class="rail left" id="toc-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">CAT 2026 · IIM A</p>
+    <h2>On this page</h2>
+  </div>
+  <nav class="rail-body toc" id="toc">
+    <a href="#sheet"><small>01</small>Sheet</a>
+    <a href="#questions"><small>02</small>PYQs (83)</a>
+  </nav>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="toc-mark"></div></div>
+  <div class="rail-foot" id="toc-foot">Contents</div>
+</aside>
+<aside class="rail right" id="study-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">Studio</p>
+    <h2>Study</h2>
+  </div>
+  <div class="rail-body">
+    <a class="tool" href="../index.html"><small>All topics</small>Theory home</a>
+    <button type="button" class="tool" id="exam-btn"><small>Hide commentary</small>Exam mode</button>
+    <button type="button" class="tool" id="formula-btn"><small>Only the slabs</small>Formulas</button>
+    <button type="button" class="tool" id="draw-btn"><small>From the PYQs</small>Draw a question</button>
+    <button type="button" class="tool" id="print-btn"><small>Browser print</small>Print</button>
+  </div>
+  <div class="draw" id="draw"><span class="lbl">Question</span>Draw a question when you want a prompt without rereading the sheet.</div>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="study-mark"></div></div>
+  <div class="rail-foot">Exam mode keeps formulas, takeaways, traps, and the PYQs (answers hidden). Formulas hides the papers.</div>
+</aside>
+<article class="page" id="top">
+  <header class="mast">
+    <div class="meta-row">
+      <span class="chip">CAT 2026</span>
+      <span class="chip gold">Algebra</span>
+      <span class="chip">83 PYQs</span>
+    </div>
+    <h1>Algebra</h1>
+    <p class="lede">Identities, modulus, logs, sequences, max–min.</p>
+  </header>
+
+<div class="section-head" id="sheet">
+  <div class="num">01</div>
+  <h2>Sheet</h2>
+  <label class="review"><input type="checkbox"> reviewed</label>
+</div>
+<div class="eq" data-tex="\sum\alpha=-\tfrac{b}{a},\;\prod\alpha=\tfrac{c}{a}\quad\text{for }ax^2+bx+c=0"><button class="copy-eq" type="button">Copy</button>\[\sum\alpha=-\tfrac{b}{a},\;\prod\alpha=\tfrac{c}{a}\quad\text{for }ax^2+bx+c=0\]</div>
+<p>\(D=b^2-4ac\). Vertex at \(x=-b/(2a)\). For \(x+1/x=k\), \(x^2+1/x^2=k^2-2\), \(x^3+1/x^3=k^3-3k\). If \(a+b+c=0\) then \(a^3+b^3+c^3=3abc\).</p>
+<div class="eq" data-tex="a^3\pm b^3=(a\pm b)(a^2\mp ab+b^2),\quad (a+b+c)^2=\sum a^2+2\sum ab"><button class="copy-eq" type="button">Copy</button>\[a^3\pm b^3=(a\pm b)(a^2\mp ab+b^2),\quad (a+b+c)^2=\sum a^2+2\sum ab\]</div>
+<p>AM–GM: \(\frac{x_1+\cdots+x_n}{n}\ge\sqrt[n]{x_1\cdots x_n}\). Weighted AM–GM. For \(x&gt;0\), \(x+\frac{k}{x}\ge 2\sqrt{k}\).</p>
+<p>\(|x-a|&lt;b\iff a-b&lt;x&lt;a+b\). \(|x-a|&gt;b\iff x&lt;a-b\) or \(x&gt;a+b\). Squaring inequalities: both sides non-negative, or split.</p>
+<p>\(f\circ g\): inner first. Inverse iff injective on the stated domain. \(f(x)=|x-a|+|x-b|\) minimises on \([a,b]\) (the interval between).</p>
+<p>Logs (CAT): \(\log_b a = \frac{\log_k a}{\log_k b}\), \(\log_b a\cdot\log_a b=1\), \(\log_b a^c=c\log_b a\), change of base. Domain \(a&gt;0,a\ne 1\) for the base; argument \(&gt;0\).</p>
+<p>AP: \(T_n=a+(n-1)d\), \(S_n=\frac{n}{2}[2a+(n-1)d]\). GP: \(T_n=ar^{n-1}\), \(S_n=a\frac{r^n-1}{r-1}\). Special: \(1+r+r^2+\cdots=\frac{1}{1-r}\) for \(|r|&lt;1\) (rare in CAT; finite GP is the default).</p>
+<p>Integer roots: rational root theorem. Max/min of quadratic on integers: evaluate near the vertex.</p>
+<div class="def">
+<p><strong>From CAT 2017–2020 — algebra toolkit the papers actually used.</strong></p>
+<ul>
+<li><strong>Logs.</strong> \(\log_b a=1/\log_a b=\log a/\log b\). \(\log_b a\cdot\log_c b\cdot\log_a c=1\). If \(\log_3 x=\log_{12} y=a\) then \(x=3^a\), \(y=12^a\), GM \(=\sqrt{xy}=6^a\), so \(\log_6 G=a\). Nested: \(\log_2(5+\log_3 a)=3\) unwraps inside-out. \(1/\log_k 100=\log_{100} k\), so a long alternating chain is \(\log_{100}\) of a product/quotient of the bases.</li>
+<li><strong>Change to one base when \(p^3=q^4=r^5=s^6=k\).</strong> \(p=k^{1/3}\) etc. Then \(\log_s(pqr)=\frac13/\frac16+\frac14/\frac16+\frac15/\frac16\).</li>
+<li><strong>Exponents to a common base.</strong> \(9^{2x-1}-81^{x-1}=1944\) is \(3^{4x-2}-3^{4x-4}\). \(2^{6x}+2^{3x+2}-21=0\) is quadratic in \(2^{3x}\). \(a^{m}=b^{n}=c^{p}\) take logs, or write all as \(k\).</li>
+<li><strong>\(x+1/x=k\) substitution</strong> on \((x+1/x)^2-3(x+1/x)+2=0\). Then solve \(x+1/x=1\) or 2 and discard \(x=0\).</li>
+<li><strong>\(f(ab)=f(a)f(b)\) on positives.</strong> Completely multiplicative. \(f(1)=f(1)^2\Rightarrow f(1)\in\{0,1\}\); largest is 1. If \(f(1),f(2),f(3)\) positive integers, \(f(24)=54=2\cdot 3^3\) pins the primes: \(f(2)^3 f(3)=54\), with \(f(1)&lt;f(2)\).</li>
+<li><strong>Even about a point.</strong> \(f(5+x)=f(5-x)\) \(\Rightarrow\) roots symmetric about 5. Four distinct roots: they pair as \(5\pm a\), \(5\pm b\), sum \(20\).</li>
+<li><strong>min / max of two graphs.</strong> \(f=\min\{2x^2, 52-5x\}\): max of \(f\) is at the intersection of the two, in the positive reals. \(f=\max\{5x, 52-2x^2\}\): min of \(f\) is at their intersection.</li>
+<li><strong>\(|f+g|=|f|+|g|\)</strong> iff \(fg\ge 0\). For \(f=2x-5\), \(g=7-2x\), that is \(x\) between the two roots.</li>
+<li><strong>Quadratic always positive:</strong> \(a&gt;0\) and \(D&lt;0\) (or \(D=0\) if \(\ge\)). Two such, maximise a linear in the coefficients.</li>
+<li><strong>\(|x^2-x-6|=x+2\)</strong> split on the kinks of the abs. Distinct roots, then product.</li>
+<li><strong>\((p(x))^{q(x)}=1\)</strong> cases: base 1; base \(-1\) and even exponent; exponent 0 with base \(\ne 0\). For a product of two integer-valued quadratics equal to 1, the integer pairs are \((1,1)\) and \((-1,-1)\) (each quadratic ranging in a small set).</li>
+<li><strong>AP.</strong> \(T_7^2=T_3 T_{17}\) with \(d&gt;0\) pins \(a:d\). Partial sum of first \(n\) vs first \(3n\). Telescoping \(\frac1{(3k-1)(3k+2)}=\frac13\bigl(\frac1{3k-1}-\frac1{3k+2}\bigr)\). Common terms of two APs: AP with difference lcm, first common term, last \(\le\) both ends.</li>
+<li><strong>GP infinite:</strong> \(a_n=3(a_{n+1}+a_{n+2}+\cdots)=3\cdot a_{n+1}/(1-r)\). Plus sum 32 pins \(a,r\).</li>
+<li><strong>GP in \(x,y,z\), and 5x, 16y, 12z in AP:</strong> \(y^2=xz\), \(32y=5x+12z\). Let \(y=xr\), \(z=xr^2\).</li>
+<li><strong>Recurrence \(x_{m}=x_{m+1}+(m+1)\)</strong> with \(x_1=-1\) is a backward sum: \(x_{100}=-1-\sum_{k=2}^{100}k\).</li>
+<li><strong>Fibonacci-like \(f(x+2)=f(x)+f(x+1)\).</strong> Work backwards from two given terms; the linear recurrence runs both ways.</li>
+<li><strong>Linear Diophantine.</strong> \(2x+5y=99\), \(x\ge y\ge -20\). Particular solution, then the general step (\(+5,-2\)), count lattice points in the band.</li>
+<li><strong>Unique solution of two linears</strong> iff determinant \(k^2-4\ne 0\), i.e. \(|k|\ne 2\).</li>
+<li><strong>Toffees: each child gets half the remaining plus one, five children empty the stock.</strong> Work backwards: before the last child there was 1 (because \(\frac12 s+1=s\Rightarrow s=2\)? Last child takes all: remaining after 4 is 2 if the rule is “half plus one empties”). Standard: if after taking half plus one nothing is left, remaining going in was 2. Unfold five times.</li>
+</ul>
+</div>
+<div class="miss"><strong>Trap.</strong> \(x^2&gt;9\Rightarrow x&gt;3\) is false. \(\log(ab)=\log a+\log b\) needs \(a,b&gt;0\). Cancelling \((x-1)\) loses the root \(x=1\). \(a^0=1\) fails at \(a=0\).</div>
+<div class="take"><strong>Move.</strong> Factor or substitute (\(t=x+1/x\), \(t=\sqrt{x}\), \(t=2^{3x}\)). If it looks messy, an identity is sitting there.</div>
+
+
+
+<div class="section-head" id="questions">
+  <div class="num">02</div>
+  <h2>CAT 2017–2020 PYQs</h2>
+  <label class="review"><input type="checkbox"> reviewed</label>
+</div>
+<p class="bank-note">83 authentic items from 2IIM’s public papers, tagged with year and slot. 2017: 21 · 2018: 18 · 2019: 20 · 2020: 24. Open a question for the official answer. Figures load from 2IIM.</p>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q13</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Algebra</span>
+    </div>
+    <div class="q-stem">If a and b are integers of opposite signs such that (a + 3)<sup>2</sup> : b<sup>2</sup> = 9 : 1 and (a - 1)<sup>2</sup> : (b - 1)<sup>2</sup> = 4 : 1, then the ratio a<sup>2</sup> : b<sup>2</sup> is:</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 9 : 4</li><li><span class="opt-k">B</span> 81 : 4</li><li><span class="opt-k">C</span> 1 : 4</li><li><span class="opt-k">D</span> 25 : 4</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — 25 : 4</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q21</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Exponents &amp; Logarithms</span>
+    </div>
+    <div class="q-stem">Suppose, log<sub>3</sub>x = log<sub>12</sub>y = a, where x, y are positive numbers. If G is the geometric mean of x and y, and log<sub>6</sub>G is equal to:</div>
+    <ol class="opts"><li><span class="opt-k">A</span> √a</li><li><span class="opt-k">B</span> 2a</li><li><span class="opt-k">C</span> \(\frac{a}{2}\))</li><li><span class="opt-k">D</span> a</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — a</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q22</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Algebra</span>
+    </div>
+    <div class="q-stem">If x + 1 = x<sup>2</sup> and x > 0, then 2x<sup>4</sup> is:</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 6 + 4\(\sqrt{5}\)</li><li><span class="opt-k">B</span> 3 + 5\(\sqrt{5}\)</li><li><span class="opt-k">C</span> 5 + 3\(\sqrt{5}\)</li><li><span class="opt-k">D</span> 7 + 3\(\sqrt{5}\)</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — 7 + 3\(\sqrt{5}\)</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q23</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Exponents &amp; Logarithms</span>
+    </div>
+    <div class="q-stem">The value of log<sub>0.008</sub>\(\sqrt{5}\) + log<sub>\(\sqrt{3}\)</sub>81 – 7 is equal to:</div>
+    <ol class="opts"><li><span class="opt-k">A</span> \(\frac{1}{3}\))</li><li><span class="opt-k">B</span> \(\frac{2}{3}\))</li><li><span class="opt-k">C</span> \(\frac{5}{6}\))</li><li><span class="opt-k">D</span> \(\frac{7}{6}\))</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — \(\frac{5}{6}\))</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q24</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Exponents &amp; Logarithms</span>
+    </div>
+    <div class="q-stem">If 9<sup>2x – 1</sup> – 81<sup>x-1</sup> = 1944, then x is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 3</li><li><span class="opt-k">B</span> \(\frac{9}{4}\))</li><li><span class="opt-k">C</span> \(\frac{4}{9}\))</li><li><span class="opt-k">D</span> \(\frac{1}{3}\))</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — \(\frac{9}{4}\))</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q26</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Inequalities</span>
+    </div>
+    <div class="q-stem">For how many integers n, will the inequality (n – 5) (n – 10) – 3(n – 2) ≤ 0 be satisfied?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">11</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q27</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Functions</span>
+    </div>
+    <div class="q-stem">If f<sub>1</sub>(x) = x<sup>2</sup> + 11x + n and f<sub>2</sub>(x) = x, then the largest positive integer n for which the equation f<sub>1</sub>(x) = f<sub>2</sub>(x) has two distinct real roots, is:</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">24</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q28</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Algebra</span>
+    </div>
+    <div class="q-stem">If a, b, c, and d are integers such that a + b + c + d = 30, then the minimum possible value of (a - b)<sup>2</sup> + (a - c)<sup>2</sup> + (a - d)<sup>2</sup> is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">2</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q31</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Progressions</span>
+    </div>
+    <div class="q-stem">If the square of the 7<sup>th</sup> term of an arithmetic progression with positive common difference equals the product of the 3<sup>rd</sup> and 17<sup>th</sup> terms, then the ratio of the first term to the common difference is:</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 2 : 3</li><li><span class="opt-k">B</span> 3 : 2</li><li><span class="opt-k">C</span> 3 : 4</li><li><span class="opt-k">D</span> 4 : 3</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 2 : 3</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q33</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Functions</span>
+    </div>
+    <div class="q-stem">If f(x) = \\(\frac{5x + 2}{3x - 5}\)) and g(x) = x<sup>2</sup> – 2x – 1, then the value of g(f(f(3))) is:</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 2</li><li><span class="opt-k">B</span> \(\frac{1}{3}\))</li><li><span class="opt-k">C</span> 6</li><li><span class="opt-k">D</span> \(\frac{2}{3}\))</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 2</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q34</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Progressions</span>
+    </div>
+    <div class="q-stem">Let a<sub>1</sub>, a<sub>2</sub>,.......a<sub>3n</sub> be an arithmetic progression with a<sub>1</sub> = 3 and a<sub>2</sub> = 7. If a<sub>1</sub> + a<sub>2</sub> + ......+a<sub>3n</sub> = 1830, then what is the smallest positive integer m such that m (a<sub>1</sub> + a<sub>2</sub> + ..... + a<sub>n</sub>) > 1830?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 8</li><li><span class="opt-k">B</span> 9</li><li><span class="opt-k">C</span> 10</li><li><span class="opt-k">D</span> 11</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 9</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q22</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Exponents &amp; Logarithms</span>
+    </div>
+    <div class="q-stem">If x is a real number such that log<sub>3</sub>5 = log<sub>5</sub>(2 + x), then which of the following is true?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 0 &lt; x &lt; 3</li><li><span class="opt-k">B</span> 23 &lt; x &lt; 30</li><li><span class="opt-k">C</span> x &gt; 30</li><li><span class="opt-k">D</span> 3 &lt; x &lt; 23</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — 3 &lt; x &lt; 23</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q23</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Functions</span>
+    </div>
+    <div class="q-stem">Let f(x) = x<sup>2</sup> and g(x) = 2<sup>x</sup>, for all real x. Then the value of f(f(g(x)) + g(f(x))) at x = 1 is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 16</li><li><span class="opt-k">B</span> 18</li><li><span class="opt-k">C</span> 36</li><li><span class="opt-k">D</span> 40</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 36</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q24</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Quadratic Equations</span>
+    </div>
+    <div class="q-stem">The minimum possible value of the sum of the squares of the roots of the equation x<sup>2</sup> + (a + 3)x - (a + 5) = 0 is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 1</li><li><span class="opt-k">B</span> 2</li><li><span class="opt-k">C</span> 3</li><li><span class="opt-k">D</span> 4</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 3</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q25</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Exponents &amp; Logarithms</span>
+    </div>
+    <div class="q-stem">If 9<sup>x - (\\(\frac{1}{2}\)))</sup> – 2<sup>2x – 2</sup> = 4<sup>x</sup> – 3<sup>2x – 3</sup>, then x is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> \(\frac{3}{2}\)\\)</li><li><span class="opt-k">B</span> \(\frac{2}{5}\)\\)</li><li><span class="opt-k">C</span> \(\frac{3}{4}\)\\)</li><li><span class="opt-k">D</span> \(\frac{4}{9}\)\\)</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — \(\frac{3}{2}\)\\)</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q26</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Exponents &amp; Logarithms</span>
+    </div>
+    <div class="q-stem">If log(2<sup>a</sup> × 3<sup>b</sup> × 5<sup>c</sup>) is the arithmetic mean of log(2<sup>2</sup> × 3<sup>3</sup> × 5), log(2<sup>6</sup> × 3 × 5<sup>7</sup>), and log(2 × 3<sup>2</sup> × 5<sup>4</sup>), then a equals</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">3</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q27</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Progressions</span>
+    </div>
+    <div class="q-stem">Let a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, a<sub>4</sub>, a<sub>5</sub> be a sequence of five consecutive odd numbers. Consider a new sequence of five consecutive even numbers ending with 2a<sub>3</sub>. If the sum of the numbers in the new sequence is 450, then a<sub>5</sub> is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">51</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q31</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Functions</span>
+    </div>
+    <div class="q-stem">If f(ab) = f(a)f(b) for all positive integers a and b, then the largest possible value of f(1) is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">1</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q32</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Functions</span>
+    </div>
+    <div class="q-stem">Let f(x) = 2x – 5 and g(x) = 7 – 2x. Then |f(x) + g(x)| = |f(x)| + |g(x)| if and only if</div>
+    <ol class="opts"><li><span class="opt-k">A</span> \(\frac{5}{2}\)) &lt; x &lt; \(\frac{7}{2}\))</li><li><span class="opt-k">B</span> x ≤ \(\frac{5}{2}\)) or x ≥ \(\frac{7}{2}\))</li><li><span class="opt-k">C</span> x &lt; \(\frac{5}{2}\)) or x ≥ \(\frac{7}{2}\))</li><li><span class="opt-k">D</span> \(\frac{5}{2}\)) ≤ x ≤ \(\frac{7}{2}\))</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — \(\frac{5}{2}\)) ≤ x ≤ \(\frac{7}{2}\))</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q33</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Progressions</span>
+    </div>
+    <div class="q-stem">An infinite geometric progression a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>,... has the property that a<sub>n</sub> = 3(a<sub>n+1</sub> + a<sub>n+2</sub> +....) for every n ≥ 1. If the sum a<sub>1</sub> + a<sub>2</sub> + a<sub>3</sub> +...... = 32, then a<sub>5</sub> is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> \(\frac{1}{32}\))</li><li><span class="opt-k">B</span> \(\frac{2}{32}\))</li><li><span class="opt-k">C</span> \(\frac{3}{32}\))</li><li><span class="opt-k">D</span> \(\frac{4}{32}\))</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — \(\frac{3}{32}\))</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q34</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Progressions</span>
+    </div>
+    <div class="q-stem">If a<sub>1</sub> = \\(\frac{1}{2 × 5}\)) , a<sub>2</sub> = \\(\frac{1}{5 × 8}\)) , a<sub>3</sub> = \\(\frac{1}{8 × 11}\)),...., then a<sub>1</sub> + a<sub>2</sub> + a<sub>3</sub> + ...... + a<sub>100</sub> is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> \(\frac{25}{151}\))</li><li><span class="opt-k">B</span> \(\frac{1}{2}\))</li><li><span class="opt-k">C</span> \(\frac{1}{4}\))</li><li><span class="opt-k">D</span> \(\frac{111}{55}\))</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — \(\frac{25}{151}\))</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q3</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Functions</span>
+    </div>
+    <div class="q-stem">If f(x + 2) = f(x) + f(x + 1) for all positive integers x, and f(11) = 91, f(15) = 617, then f(10) equals.</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">54</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q11</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Logarithm</span>
+    </div>
+    <div class="q-stem">If x is a positive quantity such that 2<sup>x</sup> = 3<sup>log<sub>5</sub>2</sup> , then x is equal to</div>
+    <ol class="opts"><li><span class="opt-k">A</span> log 5 9</li><li><span class="opt-k">B</span> 1 + log 5 \(\frac{3}{5}\))</li><li><span class="opt-k">C</span> 1 + log 3 \(\frac{5}{3}\))</li><li><span class="opt-k">D</span> log 5 8</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 1 + log 5 \(\frac{3}{5}\))</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q12</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Logarithm</span>
+    </div>
+    <div class="q-stem">If log<sub>12</sub>81 = p, then 3(\\(\frac{4 - p}{4 + p}\))) is equal to:</div>
+    <ol class="opts"><li><span class="opt-k">A</span> log 2 8</li><li><span class="opt-k">B</span> log 6 8</li><li><span class="opt-k">C</span> log 4 16</li><li><span class="opt-k">D</span> log 6 16</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — log 6 8</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q16</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Linear and Quadratic Equations</span>
+    </div>
+    <div class="q-stem">If u<sup>2</sup> + (u−2v−1)<sup>2</sup> = −4v(u + v), then what is the value of u + 3v?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> \(\frac{1}{4}\))</li><li><span class="opt-k">B</span> \(\frac{1}{2}\))</li><li><span class="opt-k">C</span> 0</li><li><span class="opt-k">D</span> -\(\frac{1}{4}\))</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — -\(\frac{1}{4}\))</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q20</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Sequence &amp; Series</span>
+    </div>
+    <div class="q-stem">Let x, y, z be three positive real numbers in a geometric progression such that x &lt; y &lt; z. If 5x, 16y, and 12z are in an arithmetic progression then the common ratio of the geometric progression is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> \(\frac{1}{6}\))</li><li><span class="opt-k">B</span> \(\frac{3}{6}\))</li><li><span class="opt-k">C</span> \(\frac{3}{2}\))</li><li><span class="opt-k">D</span> \(\frac{5}{2}\))</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — \(\frac{5}{2}\))</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q25</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Exponents</span>
+    </div>
+    <div class="q-stem">Given that x<sup>2018</sup> y<sup>2017</sup> = 1/2 and x<sup>2016</sup> y<sup>2019</sup> = 8, the value of x<sup>2</sup> + y<sup>3</sup> is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> \(\frac{37}{4}\))</li><li><span class="opt-k">B</span> \(\frac{31}{4}\))</li><li><span class="opt-k">C</span> \(\frac{35}{4}\))</li><li><span class="opt-k">D</span> \(\frac{33}{4}\))</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — \(\frac{33}{4}\))</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q27</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Logarithms</span>
+    </div>
+    <div class="q-stem">If log<sub>2</sub>(5 + log<sub>3</sub>a) = 3 and log<sub>5</sub>(4a + 12 + log<sub>2</sub>b) = 3, then a + b is equal to</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 32</li><li><span class="opt-k">B</span> 59</li><li><span class="opt-k">C</span> 67</li><li><span class="opt-k">D</span> 40</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 59</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q33</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Functions</span>
+    </div>
+    <div class="q-stem">Let f(x)=min{2x<sup>2</sup>, 52 - 5x}, where x is any positive real number.Then the maximum possible value of f(x) is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">32</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q2</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Sequence &amp; Series</span>
+    </div>
+    <div class="q-stem">Let a<sub>1</sub>, a<sub>2</sub>, ... , a<sub>52</sub> be positive integers such that a<sub>1</sub> ＜ a<sub>2</sub> ＜ ... ＜ a<sub>52</sub>. Suppose, their arithmetic mean is one less than the arithmetic mean of a<sub>2</sub>, a<sub>3</sub>, ..., a<sub>52</sub>. If a<sub>52</sub> = 100, then the largest possible value of a<sub>1</sub> is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 48</li><li><span class="opt-k">B</span> 20</li><li><span class="opt-k">C</span> 45</li><li><span class="opt-k">D</span> 23</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — 23</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q5</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Sequence &amp; Series</span>
+    </div>
+    <div class="q-stem">Let t<sub>1</sub>, t<sub>2</sub>,… be real numbers such that t<sub>1</sub>+ t<sub>2</sub> +... + t<sub>n</sub> = 2n<sup>2</sup> + 9n + 13, for every positive integer n ≥ 2. If t<sub>k</sub>=103, then k equals</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">24</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q9</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Logarithm</span>
+    </div>
+    <div class="q-stem">If p<sup>3</sup> = q<sup>4</sup> = r<sup>5</sup> = s<sup>6</sup>, then the value of log<sub>s</sub> (pqr) is equal to</div>
+    <ol class="opts"><li><span class="opt-k">A</span> \(\frac{24}{5}\)\\)</li><li><span class="opt-k">B</span> 1</li><li><span class="opt-k">C</span> \(\frac{47}{10}\)\\)</li><li><span class="opt-k">D</span> \(\frac{16}{5}\)\\)</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — \(\frac{47}{10}\)\\)</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q13</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Number Theory | Inequalities</span>
+    </div>
+    <div class="q-stem">The smallest integer n for which 4<sup>n</sup> ＞ 17<sup>19</sup> holds, is closest to</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 33</li><li><span class="opt-k">B</span> 39</li><li><span class="opt-k">C</span> 37</li><li><span class="opt-k">D</span> 35</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 39</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q14</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Polynomials | Inequalities</span>
+    </div>
+    <div class="q-stem">The smallest integer n such that n<sup>3</sup> - 11n<sup>2</sup> + 32n - 28 ＞ 0 is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">8</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q16</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Sequence &amp; Series</span>
+    </div>
+    <div class="q-stem">The value of the sum 7 x 11 + 11 x 15 + 15 x 19 + ..... + 95 x 99 is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 80707</li><li><span class="opt-k">B</span> 80751</li><li><span class="opt-k">C</span> 80730</li><li><span class="opt-k">D</span> 80773</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 80707</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q23</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Inequalities</span>
+    </div>
+    <div class="q-stem">If a and b are integers such that 2x<sup>2</sup> − ax + 2 ＞ 0 and x<sup>2</sup> − bx + 8 ≥ 0 for all real numbers x, then the largest possible value of 2a − 6b is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">36</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q29</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Progressions &amp; Series</span>
+    </div>
+    <div class="q-stem">The arithmetic mean of x, y and z is 80, and that of x, y, z, u and v is 75, where u = \\(\frac{(x+y)}{2}\)\\) and v = \\(\frac{(y+z)}{2}\)\\). If x ≥ z, then the minimum possible value of x is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">105</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q30</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Functions</span>
+    </div>
+    <div class="q-stem">Let f(x)=max{5x, 52 - 2x<sup>2</sup>}, where x is any positive real number.Then the minimum possible value of f(x) is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">20</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q34</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Logarithm</span>
+    </div>
+    <div class="q-stem">\\(\frac{1}{log_{2}\)100}\\) - \\(\frac{1}{log_{4}\)100}\\) + \\(\frac{1}{log_{5}\)100}\\) - \\(\frac{1}{log_{10}\)100}\\) + \\(\frac{1}{log_{20}\)100}\\) - \\(\frac{1}{log_{25}\)100}\\) + \\(\frac{1}{log_{50}\)100}\\) = ?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 0</li><li><span class="opt-k">B</span> \(\frac{1}{2}\)\\)</li><li><span class="opt-k">C</span> -4</li><li><span class="opt-k">D</span> 10</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — \(\frac{1}{2}\)\\)</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q2</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Exponents</span>
+    </div>
+    <div class="q-stem">If (5.55)<sup>x</sup> = (0.555)<sup>y</sup> = 1000, then the value of \\(\frac{1}{x}\)) - \\(\frac{1}{y}\)) is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 1</li><li><span class="opt-k">B</span> \(\frac{1}{3}\))</li><li><span class="opt-k">C</span> \(\frac{2}{3}\))</li><li><span class="opt-k">D</span> 3</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — \(\frac{1}{3}\))</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q9</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Functions</span>
+    </div>
+    <div class="q-stem">For any positive integer n, let f(n) = n(n + 1) if n is even, and f(n) = n + 3 if n is odd. If m is a positive integer such that 8f(m + 1) - f(m) = 2, then m equals</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">10</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q10</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Progressions</span>
+    </div>
+    <div class="q-stem">If the population of a town is p in the beginning of any year then it becomes 3+2p in the beginning of the next year. If the population in the beginning of 2019 is 1000, then the population in the beginning of 2034 will be</div>
+    <ol class="opts"><li><span class="opt-k">A</span> (1003) 15 + 6</li><li><span class="opt-k">B</span> (977) 15 - 3</li><li><span class="opt-k">C</span> (1003)2 15 - 3</li><li><span class="opt-k">D</span> (977)2 14 + 3</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — (1003)2 15 - 3</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q16</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Progressions</span>
+    </div>
+    <div class="q-stem">If a<sub>1</sub> + a<sub>2</sub> + a<sub>3</sub> + ... + a<sub>n</sub> = 3(2<sup>n+1</sup> - 2), then a<sub>11</sub> equals</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">6144</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q20</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Progressions</span>
+    </div>
+    <div class="q-stem">If a<sub>1</sub>, a<sub>2</sub>, ......... are in A.P , \\(\frac{1}{\sqrt{a_1}\) + \sqrt{a_2}}) + \\(\frac{1}{\sqrt{a_2}\) + \sqrt{a_3}}) + ......... + \\(\frac{1}{\sqrt{a_n}\) + \sqrt{a_{n+1}}}) then , is equal to</div>
+    <ol class="opts"><li><span class="opt-k">A</span> \(\frac{n}{\sqrt{a_1}\) + \sqrt{a_{n+1}}})</li><li><span class="opt-k">B</span> \(\frac{n - 1}{\sqrt{a_1}\) + \sqrt{a_n}})</li><li><span class="opt-k">C</span> \(\frac{n}{\sqrt{a_1}\) - \sqrt{a_{n+1}}})</li><li><span class="opt-k">D</span> \(\frac{n - 1}{\sqrt{a_1}\) + \sqrt{a_{n-1}}})</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — \(\frac{n}{\sqrt{a_1}\) + \sqrt{a_{n+1}}})</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q24</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Exponents</span>
+    </div>
+    <div class="q-stem">If m and n are integers such that (\\sqrt{2}))<sup>19</sup> 3<sup>4</sup> 4<sup>2</sup> 9<sup>m</sup> 8<sup>n</sup> = 3<sup>n</sup> 16<sup>m</sup> (∜64) then m is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> -16</li><li><span class="opt-k">B</span> -24</li><li><span class="opt-k">C</span> -12</li><li><span class="opt-k">D</span> -20</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — -12</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q26</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Logarithms</span>
+    </div>
+    <div class="q-stem">Let x and y be positive real numbers such that log<sub>5</sub>(x + y) + log<sub>5</sub>(x - y) = 3, and log<sub>2</sub>y - log<sub>2</sub>x = 1 - log<sub>2</sub>3. Then xy equals</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 25</li><li><span class="opt-k">B</span> 150</li><li><span class="opt-k">C</span> 250</li><li><span class="opt-k">D</span> 100</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 150</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q29</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Quadratic equations</span>
+    </div>
+    <div class="q-stem">The number of solutions of the equation |x|(6x<sup>2</sup> + 1) = 5x<sup>2</sup> is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">5</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q31</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Quadratic equations</span>
+    </div>
+    <div class="q-stem">The product of the distinct roots of |x<sup>2</sup> - x - 6| = x + 2 is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> -4</li><li><span class="opt-k">B</span> -16</li><li><span class="opt-k">C</span> -8</li><li><span class="opt-k">D</span> -24</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — -16</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q33</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Functions</span>
+    </div>
+    <div class="q-stem">Consider a function f(x+y) = f(x) f(y) where x , y are positive integers, and f(1) = 2. If f (a+1) + f (a+2) + ..... + f(a+n) = 16 (2<sup>n</sup> - 1) then a is equal to.</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">3</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q1</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Logarithms</span>
+    </div>
+    <div class="q-stem">The real root of the equation 2<sup>6x</sup> + 2<sup>3x+2</sup> - 21 = 0 is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> \frac{log_{2}3}{3})</li><li><span class="opt-k">B</span> log 2 9</li><li><span class="opt-k">C</span> \frac{log_{2}7}{3})</li><li><span class="opt-k">D</span> log 2 27</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — \frac{log_{2}3}{3})</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q5</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Sequence &amp; series</span>
+    </div>
+    <div class="q-stem">Let a<sub>1</sub> , a<sub>2</sub> be integers such that a<sub>1</sub> - a<sub>2</sub> + a<sub>3</sub> - a<sub>4</sub> + ........ +(-1)<sup>n-1</sup> a<sub>n</sub> = n , for n ≥ 1. Then a<sub>51</sub> + a<sub>52</sub> + ........ + a<sub>1023</sub> equals</div>
+    <ol class="opts"><li><span class="opt-k">A</span> -1</li><li><span class="opt-k">B</span> 1</li><li><span class="opt-k">C</span> 0</li><li><span class="opt-k">D</span> 10</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 1</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q8</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Linear &amp; quadratic equations</span>
+    </div>
+    <div class="q-stem">What is the largest positive integer such that \\(\frac{n^2+7n+12}{n^2-n-12}\)) is also positive integer?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 6</li><li><span class="opt-k">B</span> 8</li><li><span class="opt-k">C</span> 16</li><li><span class="opt-k">D</span> 12</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — 12</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q10</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Functions</span>
+    </div>
+    <div class="q-stem">Let f be a function such that f (mn) = f (m) f (n) for every positive integers m and n. If f (1), f (2) and f (3) are positive integers, f (1) &lt; f (2), and f (24) = 54, then f (18) equals</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">12</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q13</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Linear &amp; quadratic equations</span>
+    </div>
+    <div class="q-stem">Let A be a real number. Then the roots of the equation x<sup>2</sup> - 4x - log<sub>2</sub>A = 0 are real and distinct if and only if</div>
+    <ol class="opts"><li><span class="opt-k">A</span> A &lt; \(\frac{1}{16}\))</li><li><span class="opt-k">B</span> A &gt; \(\frac{1}{8}\))</li><li><span class="opt-k">C</span> A &gt; \(\frac{1}{16}\))</li><li><span class="opt-k">D</span> A &lt; \(\frac{1}{8}\))</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — \(\frac{1}{16}\))</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q19</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Logarithms</span>
+    </div>
+    <div class="q-stem">If x is a real number ,then \\sqrt{log_{e}\(\frac{4x - x^2}{3}\)}) is a real number if and only if</div>
+    <ol class="opts"><li><span class="opt-k">A</span> -3 ≤ x ≤ 3</li><li><span class="opt-k">B</span> 1 ≤ x ≤ 2</li><li><span class="opt-k">C</span> 1 ≤ x ≤ 3</li><li><span class="opt-k">D</span> -1 ≤ x ≤ 3</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 1 ≤ x ≤ 3</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q25</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Linear &amp; quadratic equations</span>
+    </div>
+    <div class="q-stem">The quadratic equation x<sup>2</sup> + bx + c = 0 has two roots 4a and 3a, where a is an integer. Which of the following is a possible value of b<sup>2</sup> + c?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 3721</li><li><span class="opt-k">B</span> 549</li><li><span class="opt-k">C</span> 361</li><li><span class="opt-k">D</span> 427</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 549</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q28</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">- Sequence &amp; series</span>
+    </div>
+    <div class="q-stem">The number of common terms in the two sequences: 15, 19, 23, 27, ...... , 415 and 14, 19, 24, 29, ...... , 464 is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 20</li><li><span class="opt-k">B</span> 18</li><li><span class="opt-k">C</span> 21</li><li><span class="opt-k">D</span> 19</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 20</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q29</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Sequence &amp; series</span>
+    </div>
+    <div class="q-stem">If (2n+1) + (2n+3) + (2n+5) + ... + (2n+47) = 5280 , then what is the value of 1+2+3+ ... +n ?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">4851</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q31</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Exponents &amp; Powers</span>
+    </div>
+    <div class="q-stem">If 5<sup>x</sup> - 3<sup>y</sup> = 13438 and 5<sup>x-1</sup> + 3<sup>y+1</sup> = 9686 , then x+y equals</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">13</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">QA Q2</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Functions</span>
+    </div>
+    <div class="q-stem">If <em>f(5 + x) = f(5 - x)</em> for every real <em>x</em> and <em>f(x) = 0</em> has four distinct real roots, then the sum of the roots is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 0</li><li><span class="opt-k">B</span> 40</li><li><span class="opt-k">C</span> 10</li><li><span class="opt-k">D</span> 20</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">D — 20</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-Quant/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">QA Q5</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Logarithms</span>
+    </div>
+    <div class="q-stem">If log<sub>4</sub> 5 = (log<sub>4</sub> y) (log<sub>6</sub> \(\sqrt{5}\)), then y equals</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">36</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-Quant/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">QA Q6</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Exponents &amp; Powers</span>
+    </div>
+    <div class="q-stem">The number of real-valued solutions of the equation 2<sup>x</sup> + 2<sup>-x</sup> = 2 - (x - 2)<sup>2</sup> is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> infinite</li><li><span class="opt-k">B</span> 0</li><li><span class="opt-k">C</span> 1</li><li><span class="opt-k">D</span> 2</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">B — 0</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-Quant/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">QA Q9</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Exponents &amp; Powers</span>
+    </div>
+    <div class="q-stem">If x = (4096)<sup>7+4\(\sqrt{3}\)</sup>, then which of the following equals 64?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> \frac{x^{7/2}}{x^{4/\(\sqrt{3}\)}})</li><li><span class="opt-k">B</span> \frac{x^{7}}{x^{4\(\sqrt{3}\)}})</li><li><span class="opt-k">C</span> \frac{x^{7/2}}{x^{2\(\sqrt{3}\)}})</li><li><span class="opt-k">D</span> \frac{x^{7}}{x^{2\(\sqrt{3}\)}})</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">C — \frac{x^{7/2}}{x^{2\(\sqrt{3}\)}})</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-Quant/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">QA Q11</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Linear &amp; quadratic equations</span>
+    </div>
+    <div class="q-stem">The number of distinct real roots of the equation <br> (x + \\(\frac{1}{x}\)))<sup>2</sup> - 3(x + \\(\frac{1}{x}\))) + 2 = 0 equals</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">1</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-Quant/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">QA Q15</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Linear &amp; quadratic equations</span>
+    </div>
+    <div class="q-stem">How many distinct positive integer-valued solutions exist to the equation (x<sup>2</sup> - 7x + 11)<sup>(x<sup>2</sup> - 13x + 42)</sup> = 1?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 6</li><li><span class="opt-k">B</span> 2</li><li><span class="opt-k">C</span> 4</li><li><span class="opt-k">D</span> 8</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">A — 6</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-Quant/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">QA Q21</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Exponents &amp; Powers</span>
+    </div>
+    <div class="q-stem">If y is a negative number such that 2<sup>y<sup>2</sup>log<sub>3</sub>5</sup> = 5<sup>log<sub>2</sub>3</sup>, then y equals</div>
+    <ol class="opts"><li><span class="opt-k">A</span> log 2 (1/3)</li><li><span class="opt-k">B</span> log 2 (1/5)</li><li><span class="opt-k">C</span> −log 2 (1/3)</li><li><span class="opt-k">D</span> −log 2 (1/5)</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">A — log 2 (1/3)</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-Quant/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 1</span>
+      <span class="chip">QA Q25</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Sequence &amp; Series</span>
+    </div>
+    <div class="q-stem">A gentleman decided to treat a few children in the following manner. He gives half of his total stock of toffees and one extra to the first child, and then the half of the remaining stock along with one extra to the second and continues giving away in this fashion. His total stock exhausts after he takes care of 5 children. How many toffees were there in his stock initially?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">62</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-1-Quant/">CAT 2020 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">QA Q4</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Linear &amp; quadratic equations</span>
+    </div>
+    <div class="q-stem">The number of pairs of integers(x,y) satisfying x ≥ y ≥ -20 and 2x + 5y = 99 is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">17</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">QA Q5</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Logarithms</span>
+    </div>
+    <div class="q-stem">The value of log<sub>a</sub>\\(\frac{a}{b}\)) + log<sub>b</sub>\\(\frac{b}{a}\)), for 1 &lt; a ≤ b cannot be equal to</div>
+    <ol class="opts"><li><span class="opt-k">A</span> -0.5</li><li><span class="opt-k">B</span> 1</li><li><span class="opt-k">C</span> 0</li><li><span class="opt-k">D</span> -1</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">B — 1</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">QA Q6</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Sequence &amp; series</span>
+    </div>
+    <div class="q-stem">Let the m-th and n-th terms of a Geometric progression be \\(\frac{3}{4}\)) and 12, respectively, when m &lt; n. If the common ratio of the progression is an integer r, then the smallest possible value of r + n - m is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> -4</li><li><span class="opt-k">B</span> -2</li><li><span class="opt-k">C</span> 6</li><li><span class="opt-k">D</span> 2</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">B — -2</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">QA Q10</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Polynomials</span>
+    </div>
+    <div class="q-stem">For real x, the maximum possible value of \\(\frac{x}{√(1 + x^{4}\))}) is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 1</li><li><span class="opt-k">B</span> \(\frac{1}{2}\))</li><li><span class="opt-k">C</span> \(\frac{1}{\(\sqrt{2}\)}\))</li><li><span class="opt-k">D</span> \(\frac{1}{\(\sqrt{3}\)}\))</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">C — \(\frac{1}{\(\sqrt{2}\)}\))</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">QA Q12</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Inequalities</span>
+    </div>
+    <div class="q-stem">If x and y are non-negative integers such that x + 9 = z, y + 1 = z and x + y &lt; z + 5, then the maximum possible value of 2x + y equals</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">23</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">QA Q14</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Functions</span>
+    </div>
+    <div class="q-stem">Let f(x) = x<sup>2</sup> + ax + b and g(x) = f(x + 1) - f(x - 1). If f(x) ≥ 0 for all real x, and g(20) = 72, then the smallest possible value of b is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 16</li><li><span class="opt-k">B</span> 1</li><li><span class="opt-k">C</span> 4</li><li><span class="opt-k">D</span> 0</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">C — 4</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">QA Q17</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Linear &amp; quadratic equations</span>
+    </div>
+    <div class="q-stem">The number of integers that satisfy the equality (x<sup>2</sup> - 5x + 7)<sup>x + 1</sup> = 1 is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 5</li><li><span class="opt-k">B</span> 4</li><li><span class="opt-k">C</span> 3</li><li><span class="opt-k">D</span> 2</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">C — 3</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">QA Q18</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Linear &amp; quadratic equations</span>
+    </div>
+    <div class="q-stem">In how many ways can a pair of integers (x , a) be chosen such that x<sup>2</sup> − 2 | x | + | a - 2 | = 0 ?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 7</li><li><span class="opt-k">B</span> 6</li><li><span class="opt-k">C</span> 4</li><li><span class="opt-k">D</span> 5</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">A — 7</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">QA Q24</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Linear &amp; quadratic equations</span>
+    </div>
+    <div class="q-stem">Aron bought some pencils and sharpeners. Spending the same amount of money as Aron, Aditya bought twice as many pencils and 10 less sharpeners. If the cost of one sharpener is 2 more than the cost of a pencil, then the minimum possible number of pencils bought by Aron and Aditya together is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 33</li><li><span class="opt-k">B</span> 27</li><li><span class="opt-k">C</span> 30</li><li><span class="opt-k">D</span> 36</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">A — 33</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">QA Q1</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Exponents &amp; Powers</span>
+    </div>
+    <div class="q-stem">If x<sub>1</sub> = -1 and x<sub>m</sub> = x<sub>m + 1</sub> + (m + 1) for every positive integer m, then x<sub>100</sub> equals</div>
+    <ol class="opts"><li><span class="opt-k">A</span> -5050</li><li><span class="opt-k">B</span> -5051</li><li><span class="opt-k">C</span> -5150</li><li><span class="opt-k">D</span> -5151</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">A — -5050</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-Quant/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">QA Q3</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Logarithms</span>
+    </div>
+    <div class="q-stem">Let log<sub>a</sub>30 = A, log<sub>a</sub>\\(\frac{5}{3}\)) = -B and log<sub>2</sub>a = \\(\frac{1}{3}\)), then log<sub>3</sub>a equals</div>
+    <ol class="opts"><li><span class="opt-k">A</span> \(\frac{2}{A+B-3}\))</li><li><span class="opt-k">B</span> \(\frac{A+B-3}{2}\))</li><li><span class="opt-k">C</span> \(\frac{A+B}{2}\)) - 3</li><li><span class="opt-k">D</span> \(\frac{2}{A+B}\)) - 3</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">A — \(\frac{2}{A+B-3}\))</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-Quant/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">QA Q9</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Functions</span>
+    </div>
+    <div class="q-stem">If f(x+y) = f(x)f(y) and f(5) = 4, then f(10) - f(-10) is equal to</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 3</li><li><span class="opt-k">B</span> 0</li><li><span class="opt-k">C</span> 14.0625</li><li><span class="opt-k">D</span> 15.9375</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">D — 15.9375</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-Quant/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">QA Q10</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Logarithms</span>
+    </div>
+    <div class="q-stem">\\(\frac{2×4×8×16}{(log_{2}\)4)^{2}(log_{4}8)^{3}(log_{8}16)^{4}}) equals</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">24</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-Quant/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">QA Q11</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Exponents &amp; Powers</span>
+    </div>
+    <div class="q-stem">If a,b,c are non-zero and 14<sup>a</sup> = 36<sup>b</sup> = 84<sup>c</sup>, then 6b(\\(\frac{1}{c}\)) - \\(\frac{1}{a}\))) is equal to</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">3</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-Quant/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">QA Q15</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Linear &amp; quadratic equations</span>
+    </div>
+    <div class="q-stem">Let k be a constant. The equations kx + y = 3 and 4x + ky = 4 have a unique solution if and only if</div>
+    <ol class="opts"><li><span class="opt-k">A</span> |k| = 2</li><li><span class="opt-k">B</span> k ≠ 2</li><li><span class="opt-k">C</span> |k| ≠ 2</li><li><span class="opt-k">D</span> k = 2</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">C — |k| ≠ 2</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-Quant/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">QA Q23</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Linear &amp; quadratic equations</span>
+    </div>
+    <div class="q-stem">Let m and n be positive integers, If x<sup>2 </sup>+ mx + 2n = 0 and x<sup>2 </sup>+ 2nx + m = 0 have real roots, then the smallest possible value of m + n is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 8</li><li><span class="opt-k">B</span> 6</li><li><span class="opt-k">C</span> 5</li><li><span class="opt-k">D</span> 7</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">B — 6</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-Quant/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+
+</article>
+<footer class="page">Algebra · CAT 2017–2020 PYQs</footer>
+<div class="toast" id="toast">Copied</div>
+<script src="../js/notes-ui.js"></script>
+</body>
+</html>

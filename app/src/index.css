@@ -1,0 +1,59 @@
+@import "tailwindcss";
+@import "./press.css";
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* TCS iON Fullscreen enforcement */
+:fullscreen,
+:-webkit-full-screen,
+:-moz-full-screen {
+  background: #161814;
+}
+
+/* Prevent text selection during exam */
+.exam-active {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.tcs-header {
+  background: #161814;
+}
+
+/* Warning overlay animation */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-8px); }
+  75% { transform: translateX(8px); }
+}
+.warning-shake {
+  animation: shake 0.4s ease-in-out;
+}
+
+/* Section tab active indicator */
+.q-not-visited,
+.q-not-answered,
+.q-answered,
+.q-marked,
+.q-answered-marked {
+  border-radius: 50%;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #3a3e36;
+  border-radius: 3px;
+}

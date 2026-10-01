@@ -1,0 +1,1356 @@
+Source: https://online.2iim.com/CAT-question-paper/CAT-2025-Question-Paper-Slot-2-DILR/
+Note: Public HTML question set from 2IIM (no login). Not an official IIM PDF.
+
+CAT Question Paper 2025 - DILR Slot 2, 2IIM CAT
+ CAT 2024 CAT Online classes, CAT coaching in Chennai | 2IIM Online CAT
+ Coaching
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+ 
+ 2IIM CAT Question Bank
+
+ 
+
+
+
+ 
+ 
+ 🎯 2IIM’s VARC Offline Workshop — Sep 26 & 27 | Chennai | Master VARC with CAT Experts | RC, Para Summary, Para Jumble, Test & Analysis | ₹999 (₹1500) 
+
+
+
+
+
+
+ -->
+
+ 
+ 
+
+
+
+
+
+
+ 
+
+ 
+ ⏳All India Scholarship Test – Unlock up to 100% Scholarship.
+
+ -->
+
+ 
+
+
+ &#x1f389;
+ May Month-End Sale is Live | Enjoy Up to 20% OFF | Valid Until May 31
+ -->
+
+ 
+ &#x1f389;Effortlessly calculate your score with the 2IIM Score Calculator!&#x1f389;
+ -->
+
+
+
+
+
+
+
+ 
+ 
+ Online CAT Coaching 
+ 
+ Visit our Website
+
+ 
+
+
+ CAT Coaching 
+ 
+ CAT Coaching in Chennai
+
+ CAT Preparation Books
+
+ 
+
+
+ CAT Preparation 
+ 
+ CAT Previous Year Papers
+
+ 2IIM's CAT Questions
+
+ XAT Previous Year Papers
+
+ IIFT Previous Year Papers
+
+ How to prepare for CAT exam 
+ 
+ How
+ to prepare for CAT Quantitative Aptitude
+
+ How
+ to prepare for CAT DILR Section
+
+ How
+ to prepare for CAT VARC Section
+
+ 
+
+
+ What is CAT Exam All about
+
+ CAT Syllabus
+
+ CAT Online Live Classes
+-->
+ GMAT Preparation Online
+
+ 
+
+
+ Blogs / Social 2IIM CAT Preparation Blog
+ 2IIM CAT Preparation Reviews
+ CAT Preparation Quora Answers
+ CAT Preparation Videos
+ CAT Preparation Facebook Group
+ CAT Preparation Facebook Page
+ CAT Preparation Blogs CAT Questions Quantitative Aptitude Blog
+ CAT Preparation Blog
+
+ -->
+ Contact 
+ 
+ About Us
+-->
+ Our Team
+-->
+ Results
+
+ Work for Us
+
+ 
+
+
+ Signup
+ Login
+-->
+ IPMAT 2026 Coaching
+ Online
+
+ 
+
+
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ CAT 2025 Question Paper | CAT LR DI
+
+ CAT Question Paper | CAT Previous Year Paper
+
+
+
+
+
+ 
+ 
+ CAT Online Coaching / CAT Previous Year Paper / CAT 2025 DILR Slot 2
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ 
+ 
+
+ 
+
+ The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
+
+The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities.
+
+There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset.
+
+The PIs of all three states are distinct integers , with Humbleset and Fogglia having the highest and the lowest PI respectively.
+
+ 
+ CAT 2025 Slot 2 - DI LR
+
+ 
+ What is the PI of Whimshire?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 45
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 4.32%
+Incorrect: 41.87%
+Unattempted: 53.81%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - DI LR
+
+ 
+ What is the PI of Fogglia?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 35
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 3.13%
+Incorrect: 44.24%
+Unattempted: 52.63%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - DI LR
+
+ 
+ What is the PI of Humbleset?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 50
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 8.09%
+Incorrect: 38.16%
+Unattempted: 53.75%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - DI LR
+
+ 
+ Which pair of cities definitely belong to the same state?
+
+ 
+ 
+ 
+ Blusterburg, Mumpypore
+
+ Splutterville, Quackford
+
+ Mumpypore, Zingaloo
+
+ Noodleton, Quackford
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+Noodleton, Quackford
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 5.54%
+Incorrect: 9.07%
+Unattempted: 85.39%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - DI LR
+
+ 
+ For how many of the cities and NURs is it possible to identify their PM and the state they belong to?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 9
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 6.41%
+Incorrect: 33.08%
+Unattempted: 60.51%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ There are six spherical balls, B1, B2, B3, B4, B5, and B6, and four circular hoops H1, H2, H3, and H4.
+
+Each ball was tested on each hoop once, by attempting to pass the ball through the hoop. If the diameter of a ball is not larger than the diameter of the hoop, the ball passes through the hoop and makes a "ping". Any ball having a diameter larger than that of the hoop gets stuck on that hoop and does not make a ping.
+
+The following additional information is known:
+1. B1 and B6 each made a ping on H4, but B5 did not.
+2. B4 made a ping on H3, but B1 did not.
+3. All balls, except B3, made pings on H1.
+4. None of the balls, except B2, made a ping on H2.
+
+ 
+ CAT 2025 Slot 2 - DI LR
+
+ 
+ What was the total number of pings made by B1, B2, and B3?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 6
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 51.06%
+Incorrect: 35.52%
+Unattempted: 13.42%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - DI LR
+
+ 
+ Which of the following statements about the relative sizes of the balls is NOT NECESSARILY true?
+
+ 
+ 
+ 
+ B4 B1 B1 B2 
+
+
+ 
+ 
+ Correct Answer Choice B
+B1
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 48.59%
+Incorrect: 24.76%
+Unattempted: 26.65%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - DI LR
+
+ 
+ Which of the following statements about the relative sizes of the hoops is true?
+
+ 
+ 
+ 
+ H2 H1 H2 H1 
+
+
+ 
+ 
+ Correct Answer Choice C
+H2
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 48.04%
+Incorrect: 28.73%
+Unattempted: 23.23%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - DI LR
+
+ 
+ What BEST can be said about the total number of pings from all the tests undertaken?
+
+
+ 
+ 
+ 
+ 13 or 14
+
+ 12 or 13
+
+ At least 9
+
+ 12 or 13 or 14
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+12 or 13
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 34.62%
+Incorrect: 35.99%
+Unattempted: 29.39%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ Ananya Raga, Bhaskar Tala, Charu Veena, and Devendra Sur are four musicians. Each of them started and completed their training as students under each of three Gurus — Pandit Meghnath, Ustad Samiran, and Acharya Raghunath between 2013 and 2024, including both the years. Each Guru trains any student for consecutive years only, for a span of 2, 3, or 4 years, with each Guru having a different span. During some of these years, a student may not have trained under these Gurus; however, they never trained under multiple Gurus in the same year.
+In none of these years, any of these Gurus trained more than two of these students at the same time. When two students train under the same Guru at the same time, they are referred to as Gurubhai, irrespective of their gender.
+The following additional facts are known.
+1. Ustad Samiran never trained more than one of these students in the same year.
+2. Acharya Raghunath did not train any of these students during 2015-2018, as well as during 2021-24.
+3. Ananya and Devendra were never Gurubhai; neither were Bhaskar and Charu. All other pairs of musicians were Gurubhai for exactly 2 years.
+4. In 2013, Ananya and Bhaskar started their trainings under Pandit Meghnath and under Ustad Samiran, respectively.
+
+ 
+ CAT 2025 Slot 2 - DI LR
+
+ 
+ In which of the following years were Ananya and Bhaskar Gurubhai?
+
+ 
+ 
+ 
+ 2018
+
+ 2014
+
+ 2021
+
+ 2020
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+2020
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 18.34%
+Incorrect: 14.3%
+Unattempted: 67.36%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - DI LR
+
+ 
+ In which year did Charu begin her training under Pandit Meghnath?
+
+ 
+ 
+ 
+ 2021
+
+ 2015
+
+ 2017
+
+ 2016
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+2015
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 12.64%
+Incorrect: 12.33%
+Unattempted: 75.03%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - DI LR
+
+ 
+ In which of the following years were Bhaskar and Devendra Gurubhai?
+
+ 
+ 
+ 
+ 2022
+
+ 2015
+
+ 2018
+
+ 2020
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+2022
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 10.01%
+Incorrect: 13.88%
+Unattempted: 76.11%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - DI LR
+
+ 
+ Which of the following statements is TRUE?
+
+ 
+ 
+ 
+ Ananya was training under Ustad Samiran in 2015.
+
+ Ananya was training under Ustad Samiran in 2018.
+
+ Charu was training under Ustad Samiran in 2019.
+
+ Charu was training under Ustad Samiran in 2018.
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice C
+Charu was training under Ustad Samiran in 2019.
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 8.87%
+Incorrect: 13.02%
+Unattempted: 78.11%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - DI LR
+
+ 
+ In how many of the years between 2013-24, were only two of these four musicians training under these three Gurus?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 4
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 15.56%
+Incorrect: 33.07%
+Unattempted: 51.37%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ The Sustainability Index (SI) of a country at a point in time is an integer between 1 and 100. This question is related to SI of six countries – A, B, C, D, E, and F – at three different points in time – 2016, 2020, and 2024. The plot represents the exact changes in their SI, with X-coordinate representing % increase in 2020 from 2016, i.e., (SI in 2020 minus SI in 2016) / (SI in 2016), and Y-coordinate representing % increase in 2024 from 2020. At any point in time, the country with highest SI is ranked 1, while the country with the lowest SI is ranked 6. The following additional facts are known.
+1. In 2016, B, C, E, and A had ranks 1, 2, 3, and 4 respectively.
+2. F had lower SI than any other country in 2016, 2020, and 2024.
+3. In 2024, E was the only country with SI of 90.
+4. The range of SI of the six countries was 60 in 2016 as well as in 2024.
+
+
+ 
+ CAT 2025 Slot 2 - DI LR
+
+ 
+ What was the SI of E in 2016?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 60
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 38.65%
+Incorrect: 27.9%
+Unattempted: 33.45%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - DI LR
+
+ 
+ What was the SI of F in 2020?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 40
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 14.72%
+Incorrect: 42.59%
+Unattempted: 42.69%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - DI LR
+
+ 
+ What was the SI of C in 2024?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 84
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 9.36%
+Incorrect: 42.16%
+Unattempted: 48.48%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - DI LR
+
+ 
+ What was the SI of B in 2024?
+
+ 
+ 
+ 
+ 54
+
+ 60
+
+ 80
+
+ 45
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+45
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 17.29%
+Incorrect: 14.56%
+Unattempted: 68.15%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ The following charts depict details of research papers written by four authors, Arman, Brajen, Chintan, and Devon. The papers were of four types, single-author, two-author, three-author, and four-author, that is, written by one, two, three, or all four of these authors, respectively. No other authors were involved in writing these papers.
+
+The following additional facts are known.
+1. Each of the authors wrote at least one of each of the four types of papers.
+2. The four authors wrote different numbers of single-author papers.
+3. Both Chintan and Devon wrote more three-author papers than Brajen.
+4. The number of single-author and two-author papers written by Brajen were the same.
+
+ 
+ CAT 2025 Slot 2 - DI LR
+
+ 
+ What was the total number of two-author and three-author papers written by Brajen?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 4
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 40.59%
+Incorrect: 37.06%
+Unattempted: 22.35%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - DI LR
+
+ 
+ Which of the following statements is/are NECESSARILY true?
+i. Chintan wrote exactly three two-author papers.
+ii. Chintan wrote more single-author papers than Devon.
+
+ 
+ 
+ 
+ Neither i nor ii
+
+ Only ii
+
+ Both i and ii
+
+ Only i
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+Neither i nor ii
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 13.96%
+Incorrect: 33.26%
+Unattempted: 52.78%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - DI LR
+
+ 
+ Which of the following statements is/are NECESSARILY true?
+i. Arman wrote three-author papers only with Chintan and Devon.
+ii. Brajen wrote three-author papers only with Chintan and Devon.
+
+ 
+ 
+ 
+ Neither i or ii
+
+ Only ii
+
+ Only i
+
+ Both i and ii
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice D
+Both i and ii
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 22.06%
+Incorrect: 19.41%
+Unattempted: 58.53%
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT 2025 Slot 2 - DI LR
+
+ 
+ If Devon wrote more than one two-author papers, then how many two-author papers did Chintan write?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 3
+
+ Video Explanation 
+ Explanation 
+ Check Stats Correct: 29.08%
+Incorrect: 39.28%
+Unattempted: 31.64%
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+ section of your HTML file -->
+
+ 🎯 2IIM’s VARC Offline Workshop — Sep 26 & 27 | Chennai | Master VARC with CAT Experts | RC, Para Summary, Para Jumble, Test & Analysis | ₹999 (₹1500)
+
+ Enrol Now →
+
+ -->
+
+ 🎯 2IIM’s CAT 2026 Percentile Booster — Classes Start This Monday!
+
+ Enrol Now →
+
+ Struggling with VARC, DILR, or Quant? Learn Just That Section.
+
+ ★ Click here!
+
+ 🔥 Limited-Time 3-Day Offer | Choose VARC, DILR or Quant for ₹5,000 Only
+
+ Click here! →
+
+ -->
+
+ First Edition Now Available | CAT PYQ 2020–2025 | Limited First Print
+
+ Order Now →
+
+ ⏳Register for a free 2IIM demo class and start your
+ preparation the right way.
+
+ ★ Click here!
+
+ -->
+
+ Download comprehensive
+ PDFs of past years’ question papers with answers.
+
+ ★ Click here
+
+ Repeating
+ CAT? Ace it with 2 IIM! Get expert guidance & exclusive discounts.
+ 🚀
+
+ ★ Register Now
+
+ -->
+
+ Best CAT Online Coaching
+
+ Try upto 40 hours for free
+ Learn from the best!
+
+ ★ Sign up Now!
+
+ -->
+
+ CAT
+ Coaching in Chennai
+CAT 2024
+
+ Classroom Batches Starting Now! @Gopalapuram and @Anna
+ nagar
+
+ ★ CAT Coaching
+
+ -->
+
+ Best CAT Coaching in Chennai
+
+ Attend a Demo Class
+
+ ★ Schedule a Demo!
+
+ -->
+
+ -->
+ -->
+ -->
+
+ -->
+ &#x1F3AF; Huge Discount: 5,000 off on Online CAT Course. Till June 30. Register now! -->
+ Upto 50% off - Take the Scholarship test now! -->
+
+ 
+
+
+ 
+
+
+ 
+ 
+
+
+ 
+ 2IIM offers the best CAT coaching in Chennai. We conduct weekend CAT classes in Chennai.
+ 2IIM's Online CAT Coaching is the most comprehensive & Best CAT Online Coaching available in the
+ country.
+
+
+
+ 
+ 
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT Online Preparation
+
+ LIVE Classroom CAT classes
+
+ CAT Online
+ Coaching
+
+ CAT
+ Quantitative Aptitude Course
+
+ CAT DILR | Logical Reasoning for CAT
+
+ Best CAT Coaching in
+ Chennai
+
+
+
+ 
+ CAT Preparation
+
+ CAT Questions
+
+ CAT Preparation Youtube
+
+ CAT Question Paper
+
+ CAT Previous Year Papers
+
+ CAT
+ Preparation books
+
+
+
+ 
+ What is CAT?
+
+ CAT Syllabus | CAT Syllabus 2026
+
+ CAT Exam
+ Pattern
+
+ What is CAT
+ Exam? | CAT Exam Eligibility
+
+ How to
+ Prepare for CAT exam?
+
+
+
+ 
+ CAT Preparation | Videos
+
+ 
+ CAT Online Preparation
+
+ How to Prepare for CAT 2026 
+
+
+ CAT Preparation Do's and
+ Dont's
+
+ CAT Online Live Classes
+
+
+
+
+
+ 
+ 
+ 
+ 
+ Copyrights © All Rights Reserved by 2IIM.com - A Fermat Education Initiative .
+ Privacy Policy | Terms & Conditions
+
+ 
+ CAT ® (Common Admission Test) is a registered trademark of the Indian
+ Institutes of Management. This website is not endorsed or approved by IIMs.
+
+
+
+
+ 
+ Where is 2IIM located?
+
+ 2IIM Online CAT Coaching
+ A Fermat Education Initiative,
+19/43, MG Chakrapani St,
+ Sathya Garden, Saligramam, Chennai 600 093
+
+
+
+ 
+ How to reach 2IIM?
+
+ Mobile: (91) 99626 48484 / 94459
+ 38484
+ WhatsApp: WhatsApp Now
+ Email: info@2iim.com
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ Wizako GMAT Preparation
+
+ 
+ GMAT Preparation Online
+
+ GMAT Coaching in Chennai
+
+ GMAT Sample Questions
+
+ GMAT
+ Prep Videos
+
+
+
+ 
+ Wizako GRE
+
+ 
+ GRE Coaching in Chennai
+
+ GRE Questions
+
+ Online GRE Coaching
+
+ GRE
+ Preparation Videos
+
+
+
+ 
+ Ascent TANCET Coaching
+
+ 
+ TANCET Classes Online
+
+ TANCET Coaching Centres in Chennai
+
+ TANCET Previous Year Question Papers
+
+ TANCET Questions
+
+
+
+ 
+ Maxtute CBSE Maths Classes
+
+ 
+ CBSE Online
+ Classes
+
+ NCERT Solution for Class 10 Maths
+
+ CBSE Sample Papers for class 10
+
+ Class 10
+ Maths Videos
+
+
+
+ 
+ PiVerb
+
+ 
+ Intuitive Math
+ learning
+
+ School
+ Math Videos
+
+
+
+
+
+
+
+ Click to Browse Offline

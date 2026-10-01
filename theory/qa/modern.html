@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>P&C, probability, sets · CAT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,650;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/notes.css">
+<script>
+MathJax = {
+  tex: { inlineMath: [['\\(','\\)']], displayMath: [['\\[','\\]']] }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body data-theme="cat">
+<canvas id="field" aria-hidden="true"></canvas>
+<div class="progress" id="progress"></div>
+<button type="button" class="handle left" id="toc-btn" aria-expanded="false">Contents</button>
+<button type="button" class="handle right" id="study-btn" aria-expanded="false">Study</button>
+<aside class="rail left" id="toc-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">CAT 2026 · IIM A</p>
+    <h2>On this page</h2>
+  </div>
+  <nav class="rail-body toc" id="toc">
+    <a href="#sheet"><small>01</small>Sheet</a>
+    <a href="#questions"><small>02</small>PYQs (13)</a>
+  </nav>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="toc-mark"></div></div>
+  <div class="rail-foot" id="toc-foot">Contents</div>
+</aside>
+<aside class="rail right" id="study-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">Studio</p>
+    <h2>Study</h2>
+  </div>
+  <div class="rail-body">
+    <a class="tool" href="../index.html"><small>All topics</small>Theory home</a>
+    <button type="button" class="tool" id="exam-btn"><small>Hide commentary</small>Exam mode</button>
+    <button type="button" class="tool" id="formula-btn"><small>Only the slabs</small>Formulas</button>
+    <button type="button" class="tool" id="draw-btn"><small>From the PYQs</small>Draw a question</button>
+    <button type="button" class="tool" id="print-btn"><small>Browser print</small>Print</button>
+  </div>
+  <div class="draw" id="draw"><span class="lbl">Question</span>Draw a question when you want a prompt without rereading the sheet.</div>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="study-mark"></div></div>
+  <div class="rail-foot">Exam mode keeps formulas, takeaways, traps, and the PYQs (answers hidden). Formulas hides the papers.</div>
+</aside>
+<article class="page" id="top">
+  <header class="mast">
+    <div class="meta-row">
+      <span class="chip">CAT 2026</span>
+      <span class="chip gold">Modern maths</span>
+      <span class="chip">13 PYQs</span>
+    </div>
+    <h1>P&C, probability, sets</h1>
+    <p class="lede">Counting, Bayes at CAT depth, Venn.</p>
+  </header>
+
+<div class="section-head" id="sheet">
+  <div class="num">01</div>
+  <h2>Sheet</h2>
+  <label class="review"><input type="checkbox"> reviewed</label>
+</div>
+<p><strong>P&amp;C.</strong> \(n! = n(n-1)\cdots 1\). \(^nP_r = \frac{n!}{(n-r)!}\). \(^nC_r = \frac{n!}{r!(n-r)!}=\,^nC_{n-r}\). \(^nC_r + \,^nC_{r-1}=\,^{n+1}C_r\).</p>
+<p>Permutations of multiset: \(n!/(n_1!n_2!\cdots)\). Circular: \((n-1)!\) if rotations are the same; necklace with flips: \(n!/2n\) for \(n\ge 3\) distinct (careful: CAT usually just \((n-1)!\)).</p>
+<p>Number of functions \(A\to B\): \(|B|^{|A|}\). Injective: \(^nP_{|A|}\) if \(|B|=n\ge|A|\). Onto: inclusion-exclusion \(n!\,S(k,n)\) or \(\sum_{i=0}^n (-1)^i \binom{n}{i}(n-i)^k\).</p>
+<p><strong>Probability.</strong> \(P=\frac{\#\text{favourable}}{\#\text{total}}\) equally likely. \(P(A\cup B)=P(A)+P(B)-P(A\cap B)\). Independent: \(P(A\cap B)=P(A)P(B)\). Conditional \(P(A|B)=P(A\cap B)/P(B)\). Bayes: \(P(A|B)=\frac{P(B|A)P(A)}{P(B)}\).</p>
+<p>Binomial: \(P(X=k)=\binom{n}{k}p^k(1-p)^{n-k}\). At CAT, \(n\le 8\) usually. Expected value of a count is linearity — you do not need independence.</p>
+<p><strong>Sets / Venn.</strong> \(|A\cup B\cup C|=\sum|A|-\sum|A\cap B|+|A\cap B\cap C|\). “Only \(A\)” \(= |A|-|A\cap B|-|A\cap C|+|A\cap B\cap C|\).</p>
+<div class="def">
+<p><strong>From CAT 2017–2020.</strong></p>
+<ul>
+<li><strong>Stars and bars with caps.</strong> Identical erasers to kids, each at least 1, at most 3: set \(y_i=x_i-1\in\{0,1,2\}\), \(\sum y=3\), four variables. Inclusion-exclusion or listing (CAT-scale). Pens: Amal \(\ge 1\), Bimal \(\ge 2\), Kamal \(\ge 3\), 8 identical: shift \(a'+b'+c'=8-6=2\), non-neg, \(\binom{2+2}{2}=6\).</li>
+<li><strong>Integer solutions of \(x-y-z=25\)</strong> with upper caps. Let \(y'=y\), etc., or shift \(x=25+y+z\) and apply the three upper bounds; count the lattice rectangle that remains.</li>
+<li><strong>Three points among 5 diameters plus centre, forming a triangle.</strong> Total \(\binom{11}{3}\) minus collinear triples: each diameter with O is one line (\(\binom{3}{3}=1\) per diameter? A,O,B collinear — 5 such triples). Also no three endpoints of distinct diameters are collinear through O except those.  \(\binom{11}{3}-5=160\)? 165-5=160.</li>
+<li><strong>4-digit from \{0,2,3,4,6\}\), no repeat, divisible by 6 (even and digit-sum \(\div 3\)), no leading 0.</strong> Casework on last digit even, then the rest, skip 0 first.</li>
+<li><strong>Venn, “everyone who studies P also studies H or E.”</strong> Only-P is empty. 10 in the triple intersection, 20 in H\(\cap\)E only. \(|H|=|E|\), universe 74. Fill the seven regions; the empty only-P is the key.</li>
+<li><strong>Only-burger max/min.</strong> 105 pizza, 134 burger, 200 people. Only burger \(= |B|-|P\cap B|\). Intersection between \(\max(0,105+134-200)=39\) and \(\min(105,134)=105\). Only burger between \(134-105=29\) and \(134-39=95\). 93 is inside, 96 is not.</li>
+<li><strong>Symmetric difference</strong> \(A\Delta B=(A\cup B)\setminus(A\cap B)\) is associative. Compute element-wise on a 10-element universe, or note \(x\) ends in the result iff it sits in an odd number of the four sets.</li>
+<li><strong>Juniors 43, seniors 51, girl-girl junior matches 153 \(=\binom{g_j}{2}\)</strong> so \(g_j=18\). Boy-boy senior 276 \(=\binom{b_s}{2}\) so \(b_s=24\). Then boy-girl matches = junior mixed \(+\) senior mixed.</li>
+<li><strong>At least two subjects, all-three 18, maths 23, physics 25, min chemistry.</strong> Everyone has at least two, so the 18 triple already count toward each. Remaining maths 5 must pair with C or P; remaining physics 7 similarly. Min C is 18 plus the leftover who cannot go to MP only — 20 in the paper.</li>
+<li><strong>3-digit with at least one repeated digit:</strong> 900 total 100–999, minus \(9\times 9\times 8\) strictly distinct (first 1–9, then rest avoiding used). 900-648=252.</li>
+</ul>
+</div>
+<div class="miss"><strong>Trap.</strong> Arranging people with two particular together: glue as one, \(\times 2\) for internal order. Complementary counting (total − bad) beats casework. Probability “at least one” is \(1-P(\text{none})\). Only-X bounds come from inclusion-exclusion on the complement, not from “looks plausible.”</div>
+<div class="take"><strong>Move.</strong> Write the sample space size first. If order doesn’t matter, C; if it does, P. For Venn, fill the innermost intersection first.</div>
+
+
+
+<div class="section-head" id="questions">
+  <div class="num">02</div>
+  <h2>CAT 2017–2020 PYQs</h2>
+  <label class="review"><input type="checkbox"> reviewed</label>
+</div>
+<p class="bank-note">13 authentic items from 2IIM’s public papers, tagged with year and slot. 2017: 5 · 2018: 5 · 2019: 1 · 2020: 2. Open a question for the official answer. Figures load from 2IIM.</p>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q25</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Permutation &amp; Combination</span>
+    </div>
+    <div class="q-stem">The number of solutions (x, y, z) to the equation x – y – z = 25, where x, y, and z are positive integers such that x ≤ 40, y ≤ 12, and z ≤ 12 is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 101</li><li><span class="opt-k">B</span> 99</li><li><span class="opt-k">C</span> 87</li><li><span class="opt-k">D</span> 105</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 99</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q29</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Permutation &amp; Combination</span>
+    </div>
+    <div class="q-stem">Let AB, CD, EF, GH, and JK be five diameters of a circle with center at O. In how many ways can three points be chosen out of A, B, C, D, E, F, G, H, J, K, and O so as to form a triangle?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">160</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 1</span>
+      <span class="chip">QA Q32</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Permutation &amp; Combination</span>
+    </div>
+    <div class="q-stem">In how many ways can 7 identical erasers be distributed among 4 kids in such a way that each kid gets at least one eraser but nobody gets more than 3 erasers?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 16</li><li><span class="opt-k">B</span> 20</li><li><span class="opt-k">C</span> 14</li><li><span class="opt-k">D</span> 15</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 16</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/">CAT 2017 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q29</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Permutation &amp; Combination</span>
+    </div>
+    <div class="q-stem">In how many ways can 8 identical pens be distributed among Amal, Bimal, and Kamal so that Amal gets at least 1 pen, Bimal gets at least 2 pens, and Kamal gets at least 3 pens?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">6</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q30</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Permutation &amp; Combination</span>
+    </div>
+    <div class="q-stem">How many four digit numbers, which are divisible by 6, can be formed using the digits 0, 2, 3, 4, 6, such that no digit is used more than once and 0 does not occur in the left-most position?</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">50</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q22</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Set Theory</span>
+    </div>
+    <div class="q-stem">Each of 74 students in a class studies at least one of the three subjects H, E and P. Ten students study all three subjects, while twenty study H and E, but not P. Every student who studies P also studies H or E or both. If the number of students studying H equals that studying E, then the number of students studying H is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">52</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q32</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Set Theory</span>
+    </div>
+    <div class="q-stem">If among 200 students, 105 like pizza and 134 like burger, then the number of students who like only burger can possibly be</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 26</li><li><span class="opt-k">B</span> 23</li><li><span class="opt-k">C</span> 96</li><li><span class="opt-k">D</span> 93</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — 93</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q10</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Permutation &amp; Combination</span>
+    </div>
+    <div class="q-stem">In a tournament, there are 43 junior level and 51 senior level participants. Each pair of juniors play one match. Each pair of seniors play one match. There is no junior versus senior match. The number of girl versus girl matches in junior level is 153, while the number of boy versus boy matches in senior level is 276. The number of matches a boy plays against a girl is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">1098</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q31</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Set Theory</span>
+    </div>
+    <div class="q-stem">For two sets A and B, let AΔB denote the set of elements which belong to A or B but not both. If P = {1,2,3,4}, Q = {2,3,5,6,}, R = {1,3,7,8,9}, S = {2,4,9,10}, then the number of elements in (PΔQ)Δ(RΔS) is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 7</li><li><span class="opt-k">B</span> 8</li><li><span class="opt-k">C</span> 9</li><li><span class="opt-k">D</span> 6</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 7</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 2</span>
+      <span class="chip">QA Q32</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Set Theory</span>
+    </div>
+    <div class="q-stem">If A = {6<sup>2n</sup> - 35n - 1: n = 1,2,3,...} and B = {35(n-1) : n = 1,2,3,...} then which of the following is true?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> Neither every member of A is in B nor every member of B is in A</li><li><span class="opt-k">B</span> Every member of A is in B and at least one member of B is not in A</li><li><span class="opt-k">C</span> Every member of B is in A.</li><li><span class="opt-k">D</span> At least one member of A is not in B</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — Every member of A is in B and at least one member of B is not in A</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/">CAT 2018 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q4</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Set Theory</span>
+    </div>
+    <div class="q-stem">A club has 256 members of whom 144 can play football, 123 can play tennis, and 132 can play cricket. Moreover, 58 members can play both football and tennis, 25 can play both cricket and tennis, while 63 can play both football and cricket. If every member can play at least one game, then the number of members who can play only tennis is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 32</li><li><span class="opt-k">B</span> 43</li><li><span class="opt-k">C</span> 38</li><li><span class="opt-k">D</span> 45</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 43</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 2</span>
+      <span class="chip">QA Q13</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Set Theory</span>
+    </div>
+    <div class="q-stem">Students in a college have to choose at least two subjects from chemistry, mathematics and physics. The number of students choosing all three subjects is 18, choosing mathematics as one of their subjects is 23 and choosing physics as one of their subjects is 25. The smallest possible number of students who could choose chemistry as one of their subjects is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 22</li><li><span class="opt-k">B</span> 19</li><li><span class="opt-k">C</span> 20</li><li><span class="opt-k">D</span> 21</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">C — 20</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/">CAT 2020 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2020 Slot 3</span>
+      <span class="chip">QA Q16</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Combinatorics</span>
+    </div>
+    <div class="q-stem">How many integers in the set {100, 101, 102, ..., 999} have at least one digit repeated?<br></div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">252</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-Quant/">CAT 2020 Slot 3 · 2IIM</a></p>
+  </div>
+</details>
+
+</article>
+<footer class="page">P&C, probability, sets · CAT 2017–2020 PYQs</footer>
+<div class="toast" id="toast">Copied</div>
+<script src="../js/notes-ui.js"></script>
+</body>
+</html>

@@ -1,0 +1,1596 @@
+Source: https://online.2iim.com/CAT-question-paper/CAT-2023-Question-Paper-Slot-2-DILR/
+Note: Public HTML question set from 2IIM (no login). Not an official IIM PDF.
+
+CAT Question Paper 2023 - DILR Slot 2, 2IIM CAT
+ CAT 2024 CAT Online classes, CAT coaching in Chennai | 2IIM Online CAT
+ Coaching
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+ 
+ 2IIM CAT Question Bank
+
+ 
+
+
+
+ 
+ 
+ 🎯 2IIM’s VARC Offline Workshop — Sep 26 & 27 | Chennai | Master VARC with CAT Experts | RC, Para Summary, Para Jumble, Test & Analysis | ₹999 (₹1500) 
+
+
+
+
+
+
+ -->
+
+ 
+ 
+
+
+
+
+
+
+ 
+
+ 
+ ⏳All India Scholarship Test – Unlock up to 100% Scholarship.
+
+ -->
+
+ 
+
+
+ &#x1f389;
+ May Month-End Sale is Live | Enjoy Up to 20% OFF | Valid Until May 31
+ -->
+
+ 
+ &#x1f389;Effortlessly calculate your score with the 2IIM Score Calculator!&#x1f389;
+ -->
+
+
+
+
+
+
+
+ 
+ 
+ Online CAT Coaching 
+ 
+ Visit our Website
+
+ 
+
+
+ CAT Coaching 
+ 
+ CAT Coaching in Chennai
+
+ CAT Preparation Books
+
+ 
+
+
+ CAT Preparation 
+ 
+ CAT Previous Year Papers
+
+ 2IIM's CAT Questions
+
+ XAT Previous Year Papers
+
+ IIFT Previous Year Papers
+
+ How to prepare for CAT exam 
+ 
+ How
+ to prepare for CAT Quantitative Aptitude
+
+ How
+ to prepare for CAT DILR Section
+
+ How
+ to prepare for CAT VARC Section
+
+ 
+
+
+ What is CAT Exam All about
+
+ CAT Syllabus
+
+ CAT Online Live Classes
+-->
+ GMAT Preparation Online
+
+ 
+
+
+ Blogs / Social 2IIM CAT Preparation Blog
+ 2IIM CAT Preparation Reviews
+ CAT Preparation Quora Answers
+ CAT Preparation Videos
+ CAT Preparation Facebook Group
+ CAT Preparation Facebook Page
+ CAT Preparation Blogs CAT Questions Quantitative Aptitude Blog
+ CAT Preparation Blog
+
+ -->
+ Contact 
+ 
+ About Us
+-->
+ Our Team
+-->
+ Results
+
+ Work for Us
+
+ 
+
+
+ Signup
+ Login
+-->
+ IPMAT 2026 Coaching
+ Online
+
+ 
+
+
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ CAT 2023 Question Paper | CAT LR DI
+
+ CAT Question Paper | CAT Previous Year Paper
+
+
+
+
+
+ 
+ 
+ CAT Online Coaching / CAT Previous Year Paper / CAT 2023 DILR Slot 2
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ 
+ C AT DI LR section has become increasingly tough beginning from 2015.
+ DILR used to have distinct Data Interpretation sets and Logical reasoning puzzles. It used to be
+ about computation and ability to read charts, graphs and tables for the Data Interpretation and
+ Logical reasoning used to have Family tree, grid puzzles, arrangement, tournaments, cubes as
+ some standard forms of puzzles.Since 2015 this pattern has been broken. With passing years, even
+ the distinction between DI and LR has come down significantly. All you get in that 40 minutes,
+ are 4 high quality puzzles, with more than a few of them being significantly tough. Between CAT
+ 2017 Question paper to CAT 2023 Question paper, you get to solve 102 actual CAT puzzles. This
+ page intends to provide you just that. So, head on and crack those puzzles!
+
+
+
+ 
+
+ There are nine boxes arranged in a 3×3 array as shown in Tables 1 and 2. Each
+ box contains three sacks. Each sack has a certain number of coins, between 1 and 9, both
+ inclusive.
+
+The average number of coins per sack in the boxes are all distinct
+ integers. The total number of coins in each row is the same. The total number of coins in
+ each column is also the same.
+
+Table 1 gives
+ information regarding the median of the numbers of coins in the three sacks in a box for
+ some of the boxes. In Table 2 each box has a number which represents the number of sacks in
+ that box having more than 5 coins. That number is followed by a * if the sacks in that box
+ satisfy exactly one among the following three conditions, and it is followed by ** if two or
+ more of these conditions are satisfied.
+
+i) The minimum among the numbers of
+ coins in the three sacks in the box is 1.
+ii) The median of the numbers of coins in the
+ three sacks is 1.
+iii) The maximum among the numbers of coins in the three sacks in the
+ box is 9.
+
+ 
+ CAT 2023 Slot 2 - DI LR
+
+ What is the total number of coins in all the boxes in the 3 rd row?
+
+ 
+ 
+ 
+ 36
+
+ 30
+
+ 45
+
+ 15
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice C
+45
+
+ Video
+ Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - DI LR
+
+ How many boxes have at least one sack containing 9 coins?
+
+ 
+ 
+ 
+ 3
+
+ 5
+
+ 4
+
+ 8
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+5
+
+ Video
+ Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - DI LR
+
+ For how many boxes are the average and median of the numbers of coins contained in the
+ three sacks in that box the same?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 4
+
+ Video
+ Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - DI LR
+
+ How many sacks have exactly one coin?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 9
+
+ Video
+ Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - DI LR
+
+ In how many boxes do all three sacks contain different numbers of coins?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 5
+
+ Video
+ Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ Three participants – Akhil, Bimal and Chatur participate in a random draw
+ competition for five days. Every day, each participant randomly picks up a ball numbered
+ between 1 and 9. The number on the ball determines his score on that day. The total score of
+ a participant is the sum of his scores attained in the five days. The total score of a day
+ is the sum of participants' scores on that day. The 2-day average on a day, except on Day 1,
+ is the average of the total scores of that day and of the previous day. For example, if the
+ total scores of Day 1 and Day 2 are 25 and 20, then the 2-day average on Day 2 is calculated
+ as 22.5. Table 1 gives the 2-day averages for Days 2 through 5.
+ 
+ 
+ 
+ Table 1:
+ 2-day averages for Days 2
+ through 5 
+
+
+ 
+ Day 2 
+ Day 3 
+ Day 4 
+ Day 5 
+
+
+ 
+ 15 
+ 15.5 
+ 16 
+ 17 
+
+
+ 
+
+Participants are ranked each day, with the person having the maximum score being
+ awarded the minimum rank (1) on that day. If there is a tie, all participants with the tied
+ score are awarded the best available rank. For example, if on a day Akhil, Bimal, and Chatur
+ score 8, 7 and 7 respectively, then their ranks will be 1, 2 and 2 respectively on that day.
+ These ranks are given in Table 2.
+
+ 
+ 
+ 
+ Table 2: Ranks of participants on each
+ day 
+
+
+ 
+ 
+ Day 1 
+ Day 2 
+ Day 3 
+ Day 4 
+ Day 5 
+
+
+ 
+ Akhil 
+ 1 
+ 2 
+ 2 
+ 3 
+ 3 
+
+
+ 
+ Bimal 
+ 2 
+ 3 
+ 2 
+ 1 
+ 1 
+
+
+ 
+ Chatur 
+ 3 
+ 1 
+ 1 
+ 2 
+ 2 
+
+
+ 
+
+The following information is also known.
+1. Chatur always scores in multiples
+ of 3. His score on Day 2 is the unique highest score in the competition. His minimum score is
+ observed only on Day 1, and it matches Akhil's score on Day 4.
+2. The total score on Day 3
+ is the same as the total score on Day 4.
+3. Bimal's scores are the same on Day 1 and Day 3.
+
+
+ 
+ CAT 2023 Slot 2 - DI LR
+
+ What is Akhil's score on Day 1?
+
+ 
+ 
+ 
+ 5
+
+ 6
+
+ 7
+
+ 8
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice C
+7
+
+ Video
+ Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - DI LR
+
+ Who attains the maximum total score?
+
+ 
+ 
+ 
+ Chatur
+
+ Bimal
+
+ Cannot be determined
+
+ Akhil
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+Chatur
+
+ Video
+ Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - DI LR
+
+ What is the minimum possible total score of Bimal?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 25
+
+ Video
+ Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - DI LR
+
+ If the total score of Bimal is a multiple of 3, what is the score of Akhil on Day 2?
+
+ 
+ 
+ 
+ Cannot be determined
+
+ 4
+
+ 6
+
+ 5
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+4
+
+ Video
+ Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - DI LR
+
+ If Akhil attains a total score of 24, then what is the total score of Bimal?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 26
+
+ Video
+ Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ Odsville has five firms – Alfloo, Bzygoo, Czechy, Drjbna and Elavalaki. Each of
+ these firms was founded in some year and also closed down a few years later.
+
+
+Each firm raised Rs. 1 crore in its first and last year of existence. The amount each
+ firm raised every year increased until it reached a maximum, and then decreased until the
+ firm closed down. No firm raised the same amount of money in two consecutive years. Each
+ annual increase and decrease was either by Rs. 1 crore or by Rs. 2 crores.
+
+The
+ table below provides partial information about the five firms.
+
+ 
+ 
+ 
+ Firm 
+ First year of existence 
+ Last year of
+ existence 
+ Total amount raised (Rs. crores) 
+
+
+ 
+ Alfloo 
+ 2009 
+ 2016 
+ 21 
+
+
+ 
+ Bzygoo 
+ 2012 
+ 2015 
+ 
+
+
+ 
+ Czechy 
+ 2013 
+ 
+ 9 
+
+
+ 
+ Drjbna 
+ 2011 
+ 2015 
+ 10 
+
+
+ 
+ Elavalaki 
+ 2010 
+ 
+ 13 
+
+
+ 
+ 
+
+
+ 
+ CAT 2023 Slot 2 - DI LR
+
+ For which firm(s) can the amounts raised by them be concluded with certainty in each
+ year?
+
+ 
+ 
+ 
+ Only Czechy and Drjbna
+
+ Only Bzygoo and Czechy and Drjbna
+
+ Only Czechy
+
+ Only Drjbna
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+Only Czechy and Drjbna
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - DI LR
+
+ What best can be concluded about the total amount of money raised in 2015?
+
+ 
+ 
+ 
+ It is either Rs. 7 crores or Rs. 8 crores.
+
+ It is either Rs. 7 crores or Rs. 8 crores or Rs. 9 crores.
+
+ It is exactly Rs. 8 crores.
+
+ It is either Rs. 8 crores or Rs. 9 crores.
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+It is either Rs. 7 crores or Rs. 8
+ crores.
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - DI LR
+
+ What is the largest possible total amount of money (in Rs. crores) that could have been
+ raised in 2013?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 17
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - DI LR
+
+ If Elavalaki raised Rs. 3 crores in 2013, then what is the smallest possible total amount
+ of money (in Rs. crores) that could have been raised by all the companies in 2012?
+
+ 
+ 
+ 
+ 12
+
+ 11
+
+ 10
+
+ 9
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+11
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - DI LR
+
+ If the total amount of money raised in 2014 is Rs. 12 crores, then which of the following
+ is not possible?
+
+ 
+ 
+ 
+ Bzygoo raised the same amount of money as Elavalaki in 2013.
+
+ Alfloo raised the same amount of money as Drjbna in 2013.
+
+ Alfloo raised the same amount of money as Bzygoo in 2014.
+
+ Bzygoo raised more money than Elavalaki in 2014.
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice A
+Bzygoo raised the same amount of
+ money as Elavalaki in 2013.
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ Anjali, Bipasha, and Chitra visited an entertainment park that has four rides.
+ Each ride lasts one hour and can accommodate one visitor at one point. All rides begin at 9
+ am and must be completed by 5 pm except for Ride-3, for which the last ride has to be
+ completed by 1 pm. Ride gates open every 30 minutes, e.g. 10 am, 10:30 am, and so on.
+ Whenever a ride gate opens, and there is no visitor inside, the first visitor waiting in the
+ queue buys the ticket just before taking the ride. The ticket prices are Rs. 20, Rs. 50, Rs.
+ 30 and Rs. 40 for Rides 1 to 4, respectively. Each of the three visitors took at least one
+ ride and did not necessarily take all rides. None of them took the same ride more than once.
+ The movement time from one ride to another is negligible, and a visitor leaves the ride
+ immediately after the completion of the ride. No one takes a break inside the park unless
+ mentioned explicitly.
+
+The following information is also known.
+
+1.
+ Chitra never waited in the queue and completed her visit by 11 am after spending Rs. 50 to
+ pay for the ticket(s).
+2. Anjali took Ride-1 at 11 am after waiting for 30 mins for
+ Chitra to complete it. It was the only ride where Anjali waited.
+3. Bipasha began her
+ first of three rides at 11:30 am. All three visitors incurred the same amount of ticket
+ expense by 12:15 pm.
+4. The last ride taken by Anjali and Bipasha was the same, where
+ Bipasha waited 30 mins for Anjali to complete her ride. Before standing in the queue for
+ that ride, Bipasha took a 1-hour coffee break after completing her previous ride.
+
+ 
+ CAT 2023 Slot 2 - DI LR
+
+ What was the total amount spent on tickets (in Rs.) by Bipasha?
+
+ 
+ 
+ 
+ 120
+
+ 110
+
+ 100
+
+ 90
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+110
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - DI LR
+
+ Which were all the rides that Anjali completed by 2:00 pm?
+
+ 
+ 
+ 
+ Ride-1 and Ride-4
+
+ Ride-1, Ride-2, and Ride-3
+
+ Ride-1 and Ride-3
+
+ Ride-1, Ride-2, and Ride-4
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+Ride-1, Ride-2, and Ride-3 
+
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - DI LR
+
+ Which ride was taken by all three visitors?
+
+ 
+ 
+ 
+ Ride-3
+
+ Ride-1
+
+ Ride-4
+
+ Ride-2
+
+ 
+
+
+ 
+ 
+ Correct Answer Choice B
+Ride-1
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - DI LR
+
+ How many rides did Anjali and Chitra take in total?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 6
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+
+ 
+ CAT 2023 Slot 2 - DI LR
+
+ What was the total amount spent on tickets (in Rs.) by Anjali?
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ Correct Answer 140
+
+ Video Explanation 
+ Explanation 
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+ section of your HTML file -->
+
+ 🎯 2IIM’s VARC Offline Workshop — Sep 26 & 27 | Chennai | Master VARC with CAT Experts | RC, Para Summary, Para Jumble, Test & Analysis | ₹999 (₹1500)
+
+ Enrol Now →
+
+ -->
+
+ 🎯 2IIM’s CAT 2026 Percentile Booster — Classes Start This Monday!
+
+ Enrol Now →
+
+ Struggling with VARC, DILR, or Quant? Learn Just That Section.
+
+ ★ Click here!
+
+ 🔥 Limited-Time 3-Day Offer | Choose VARC, DILR or Quant for ₹5,000 Only
+
+ Click here! →
+
+ -->
+
+ First Edition Now Available | CAT PYQ 2020–2025 | Limited First Print
+
+ Order Now →
+
+ ⏳Register for a free 2IIM demo class and start your
+ preparation the right way.
+
+ ★ Click here!
+
+ -->
+
+ Download comprehensive
+ PDFs of past years’ question papers with answers.
+
+ ★ Click here
+
+ Repeating
+ CAT? Ace it with 2 IIM! Get expert guidance & exclusive discounts.
+ 🚀
+
+ ★ Register Now
+
+ -->
+
+ Best CAT Online Coaching
+
+ Try upto 40 hours for free
+ Learn from the best!
+
+ ★ Sign up Now!
+
+ -->
+
+ CAT
+ Coaching in Chennai
+CAT 2024
+
+ Classroom Batches Starting Now! @Gopalapuram and @Anna
+ nagar
+
+ ★ CAT Coaching
+
+ -->
+
+ Best CAT Coaching in Chennai
+
+ Attend a Demo Class
+
+ ★ Schedule a Demo!
+
+ -->
+
+ -->
+ -->
+ -->
+
+ -->
+ &#x1F3AF; Huge Discount: 5,000 off on Online CAT Course. Till June 30. Register now! -->
+ Upto 50% off - Take the Scholarship test now! -->
+
+ 
+
+
+
+
+ 
+ 
+ CAT Questions | CAT Quantitative Aptitude
+
+ 
+ 
+ CAT Questions | HCF LCM
+
+
+ CAT Questions |
+ Factors
+
+ CAT Questions |
+ Remainders
+
+ CAT Questions |
+ Factorials
+
+ CAT Questions | Digits 
+
+
+ CAT
+ Questions | Ratios, Mixtures, Averages
+
+ CAT Questions |
+ Percentages, Profit Loss, SICI
+
+
+
+ 
+ CAT Questions |
+ Time Speed and Distance, Races
+
+ CAT Questions
+ | Logarithms & Exponents
+
+ CAT
+ Questions | Pipes Cisterns, Work Time
+
+ CAT Questions | Set
+ Theory
+
+ CAT Questions | Geometry
+
+ CAT Questions |
+ Coordinate-Geometry
+
+ CAT Questions |
+ Mensuration
+
+
+
+ 
+ CAT Questions |
+ Trigonometry
+
+ CAT
+ Questions | Linear & Quadratic Equations
+
+ CAT Questions | Functions 
+
+
+ CAT Questions |
+ Inequalities
+
+ CAT Questions |
+ Polynomials
+
+ CAT Questions |
+ Progressions
+
+ CAT Questions |
+ Permutation Combination, Probability
+
+
+
+
+
+
+
+ CAT Questions | CAT DILR
+
+ 
+ 
+ CAT DILR | Sequencing
+
+ CAT DILR | Pie Charts
+
+ CAT DILR | Multiple Graphs
+
+ CAT DILR | Word Problems
+
+ CAT DILR | Line Graphs
+
+
+
+ 
+ CAT DILR | Bar Graphs
+
+ CAT DILR | Grid Puzzle
+
+ CAT DILR | Math Puzzle
+
+ CAT DILR | Visualization
+
+ CAT DILR | Other Patterns
+
+
+
+ 
+ CAT 2017 DILR Slot 2 | Assets
+
+
+ CAT 2017 DILR Slot 2 |
+ Pizzeria
+
+ CAT 2017 DILR Slot 2 |
+ Electives
+
+ CAT 2017 DILR Slot 2 |
+ Chess
+
+ CAT 2017 DILR Slot 2 |
+ Dorms
+
+
+
+ 
+ CAT 2017 DILR Slot 2 |
+ Tea
+
+ CAT 2017 DILR Slot 2 |
+ Friends
+
+ CAT 2017 DILR Slot 1 | CET 
+
+
+ CAT 2017 DILR Slot
+ 1 | Survey
+
+ CAT 2017 DILR
+ Slot 1 | Happiness
+
+
+
+
+-->
+
+
+ CAT Questions | Verbal Ability for CAT
+
+ 
+ 
+ Verbal Ability for CAT |
+ CAT Reading Comprehension
+
+ Verbal Ability for CAT|
+ CAT Para Jumble
+
+ Verbal Ability for CAT |
+ CAT Sentence Elimination
+
+ Verbal Ability for CAT |
+ CAT Paragraph Completion
+
+ Verbal Ability for CAT |
+ CAT Critical Reasoning
+
+
+
+ 
+ Verbal Ability for CAT | CAT Word
+ Usage
+
+ Verbal Ability for CAT| CAT Para
+ Summary
+
+ Verbal Ability for CAT | CAT
+ Text Completion
+
+ Verbal Ability for CAT |
+ CAT Sentence Correction
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 2IIM offers the best CAT coaching in Chennai. We conduct weekend CAT classes in Chennai.
+ 2IIM's Online CAT Coaching is the most comprehensive & Best CAT Online Coaching available in the
+ country.
+
+
+
+ 
+ 
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ CAT Online Preparation
+
+ LIVE Classroom CAT classes
+
+ CAT Online
+ Coaching
+
+ CAT
+ Quantitative Aptitude Course
+
+ CAT DILR | Logical Reasoning for CAT
+
+ Best CAT Coaching in
+ Chennai
+
+
+
+ 
+ CAT Preparation
+
+ CAT Questions
+
+ CAT Preparation Youtube
+
+ CAT Question Paper
+
+ CAT Previous Year Papers
+
+ CAT
+ Preparation books
+
+
+
+ 
+ What is CAT?
+
+ CAT Syllabus | CAT Syllabus 2026
+
+ CAT Exam
+ Pattern
+
+ What is CAT
+ Exam? | CAT Exam Eligibility
+
+ How to
+ Prepare for CAT exam?
+
+
+
+ 
+ CAT Preparation | Videos
+
+ 
+ CAT Online Preparation
+
+ How to Prepare for CAT 2026 
+
+
+ CAT Preparation Do's and
+ Dont's
+
+ CAT Online Live Classes
+
+
+
+
+
+ 
+ 
+ 
+ 
+ Copyrights © All Rights Reserved by 2IIM.com - A Fermat Education Initiative .
+ Privacy Policy | Terms & Conditions
+
+ 
+ CAT ® (Common Admission Test) is a registered trademark of the Indian
+ Institutes of Management. This website is not endorsed or approved by IIMs.
+
+
+
+
+ 
+ Where is 2IIM located?
+
+ 2IIM Online CAT Coaching
+ A Fermat Education Initiative,
+19/43, MG Chakrapani St,
+ Sathya Garden, Saligramam, Chennai 600 093
+
+
+
+ 
+ How to reach 2IIM?
+
+ Mobile: (91) 99626 48484 / 94459
+ 38484
+ WhatsApp: WhatsApp Now
+ Email: info@2iim.com
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ Wizako GMAT Preparation
+
+ 
+ GMAT Preparation Online
+
+ GMAT Coaching in Chennai
+
+ GMAT Sample Questions
+
+ GMAT
+ Prep Videos
+
+
+
+ 
+ Wizako GRE
+
+ 
+ GRE Coaching in Chennai
+
+ GRE Questions
+
+ Online GRE Coaching
+
+ GRE
+ Preparation Videos
+
+
+
+ 
+ Ascent TANCET Coaching
+
+ 
+ TANCET Classes Online
+
+ TANCET Coaching Centres in Chennai
+
+ TANCET Previous Year Question Papers
+
+ TANCET Questions
+
+
+
+ 
+ Maxtute CBSE Maths Classes
+
+ 
+ CBSE Online
+ Classes
+
+ NCERT Solution for Class 10 Maths
+
+ CBSE Sample Papers for class 10
+
+ Class 10
+ Maths Videos
+
+
+
+ 
+ PiVerb
+
+ 
+ Intuitive Math
+ learning
+
+ School
+ Math Videos
+
+
+
+
+
+
+
+ Click to Browse Offline

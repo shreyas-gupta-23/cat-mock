@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Percentages · CAT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,650;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/notes.css">
+<script>
+MathJax = {
+  tex: { inlineMath: [['\\(','\\)']], displayMath: [['\\[','\\]']] }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body data-theme="cat">
+<canvas id="field" aria-hidden="true"></canvas>
+<div class="progress" id="progress"></div>
+<button type="button" class="handle left" id="toc-btn" aria-expanded="false">Contents</button>
+<button type="button" class="handle right" id="study-btn" aria-expanded="false">Study</button>
+<aside class="rail left" id="toc-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">CAT 2026 · IIM A</p>
+    <h2>On this page</h2>
+  </div>
+  <nav class="rail-body toc" id="toc">
+    <a href="#sheet"><small>01</small>Sheet</a>
+    <a href="#questions"><small>02</small>PYQs (8)</a>
+  </nav>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="toc-mark"></div></div>
+  <div class="rail-foot" id="toc-foot">Contents</div>
+</aside>
+<aside class="rail right" id="study-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">Studio</p>
+    <h2>Study</h2>
+  </div>
+  <div class="rail-body">
+    <a class="tool" href="../index.html"><small>All topics</small>Theory home</a>
+    <button type="button" class="tool" id="exam-btn"><small>Hide commentary</small>Exam mode</button>
+    <button type="button" class="tool" id="formula-btn"><small>Only the slabs</small>Formulas</button>
+    <button type="button" class="tool" id="draw-btn"><small>From the PYQs</small>Draw a question</button>
+    <button type="button" class="tool" id="print-btn"><small>Browser print</small>Print</button>
+  </div>
+  <div class="draw" id="draw"><span class="lbl">Question</span>Draw a question when you want a prompt without rereading the sheet.</div>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="study-mark"></div></div>
+  <div class="rail-foot">Exam mode keeps formulas, takeaways, traps, and the PYQs (answers hidden). Formulas hides the papers.</div>
+</aside>
+<article class="page" id="top">
+  <header class="mast">
+    <div class="meta-row">
+      <span class="chip">CAT 2026</span>
+      <span class="chip gold">Arithmetic</span>
+      <span class="chip">8 PYQs</span>
+    </div>
+    <h1>Percentages</h1>
+    <p class="lede">Successive change, constancy, elections — no fraction-to-% tables.</p>
+  </header>
+
+<div class="section-head" id="sheet">
+  <div class="num">01</div>
+  <h2>Sheet</h2>
+  <label class="review"><input type="checkbox"> reviewed</label>
+</div>
+<p>Skip converting \(3/8=37.5\%\). CAT is change-of-base and chained multipliers.</p>
+<div class="eq" data-tex="(1+\tfrac{a}{100})(1+\tfrac{b}{100})(1+\tfrac{c}{100})-1"><button class="copy-eq" type="button">Copy</button>\[(1+\tfrac{a}{100})(1+\tfrac{b}{100})(1+\tfrac{c}{100})-1\]</div>
+<p>Two-step net (signed \(a,b\)):</p>
+<div class="eq" data-tex="a+b+\tfrac{ab}{100}"><button class="copy-eq" type="button">Copy</button>\[a+b+\tfrac{ab}{100}\]</div>
+<p>Equal successive \(x\%\) giving net \(N\%\): \(2x+x^2/100=N\). Three equal: \((1+x/100)^3-1=N/100\).</p>
+<p><strong>More / less inversion.</strong> If \(A\) is \(p\%\) more than \(B\), then \(B\) is \(\frac{100p}{100+p}\%\) less than \(A\). If \(A\) is \(p\%\) less than \(B\), \(B\) is \(\frac{100p}{100-p}\%\) more than \(A\).</p>
+<p>\(x\%\) of \(A = y\%\) of \(B\) \(\Rightarrow\) \(A:B = y:x\). “\(A\) is \(p\%\) of \(B\)” is not “\(A\) is \(p\%\) more than \(B\)”.</p>
+<p><strong>Product constancy</strong> (price \(\times\) consumption = spend). Price \(+p\%\), spend fixed \(\Rightarrow\) consumption \(-\frac{100p}{100+p}\%\). If one factor \(+x\%\) and the other \(-x\%\), product falls \((x/10)^2\%\).</p>
+<p>Numerator \(+p\%\), denominator \(+q\%\): fraction multiplies by \(\frac{100+p}{100+q}\).</p>
+<p><strong>Elections.</strong> Valid \(=\) polled \(-\) invalid. Winner’s votes \(=\frac12(\text{valid}+\text{margin})\). Margin as % of valid is not margin as % of polled.</p>
+<p><strong>Two tests.</strong> Fail \(E\), fail \(M\), fail both: inclusion-exclusion. Pass both \(= 100 - (e+m-b)\).</p>
+<div class="def">
+<p><strong>From CAT 2017–2020.</strong> Every % question on this page is one of these moves.</p>
+<ul>
+<li><strong>Remainder chain.</strong> After a filter of \(p\%\), leftover is \((1-p/100)\) of the <em>current</em> base. Two filters in sequence: leftover \(= N(1-a)(1-b)\). “20% of the rest” is never 20% of the original. Invert from the last leftover: shirts 8840 after 15% defect then 20% of rest domestic \(\Rightarrow N=8840/(0.85\times 0.80)\).</li>
+<li><strong>Product split.</strong> Production \(=\) population \(\times\) per capita. Multipliers divide: population factor \(=\) production factor / per-capita factor. \(+40\%\) production and \(+27\%\) per capita \(\Rightarrow\) population \(\times 1.40/1.27\).</li>
+<li><strong>Falls short of the pass mark by \(k\%\)</strong> means scored \((1-k/100)\) of the <em>pass mark</em>, not of \(N\). Pass \(=0.45N\), scored 36 \(=0.32\times 0.45N\) if 68% short of pass.</li>
+<li><strong>Two groups + a count.</strong> \(g=0.6n\), \(b=0.4n\), \(g-b=30\) pins \(n\). Then a second % on the same \(n\) (who passed) is a new equation, not a new base unless they say so.</li>
+<li><strong>Review of a score</strong> is successive % on marks. “Fails by 35” and “7 more than pass after another hike” is two linear equations in (original marks, pass marks).</li>
+<li><strong>\(A\) is \(p\%\) more than \(B\) and \(q\%\) less than \(C\).</strong> \(A=B(1+p/100)=C(1-q/100)\). Then apply fresh % changes to \(B\) and \(C\) and compare the new pair.</li>
+<li><strong>Two-category growth.</strong> \(F+N=T_0\), \(1.1F+1.12N=T_1\). Two equations, two stocks. They will ask the later stock, not the earlier, half the time.</li>
+<li><strong>Score chain.</strong> Write every person as a multiplier of the last free variable: \(A=0.9B\), \(B=1.25C\), \(C=0.8D\). One given score pins all.</li>
+</ul>
+</div>
+<div class="miss"><strong>Trap.</strong> Successive % sit on different bases. 10% of a 20% increment is 2% of the original, not 30% stacked. Weighted % of two groups is never \((p_1+p_2)/2\) unless \(n_1=n_2\). “Short by 68%” is not “scored 32% of maximum.”</div>
+<div class="take"><strong>Move.</strong> Convert every % into a multiplier on 100 or on a letter, then multiply. Restore the original only at the end. Work backwards from the last leftover.</div>
+
+
+
+<div class="section-head" id="questions">
+  <div class="num">02</div>
+  <h2>CAT 2017–2020 PYQs</h2>
+  <label class="review"><input type="checkbox"> reviewed</label>
+</div>
+<p class="bank-note">8 authentic items from 2IIM’s public papers, tagged with year and slot. 2017: 2 · 2018: 1 · 2019: 5. Open a question for the official answer. Figures load from 2IIM.</p>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q5</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Percentages</span>
+    </div>
+    <div class="q-stem">Out of the shirts produced in a factory, 15% are defective, while 20% of the rest are sold in the domestic market. If the remaining 8840 shirts are left for export, then the number of shirts produced in the factory is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 13600</li><li><span class="opt-k">B</span> 13000</li><li><span class="opt-k">C</span> 13400</li><li><span class="opt-k">D</span> 14000</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 13000</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2017 Slot 2</span>
+      <span class="chip">QA Q10</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Percentages</span>
+    </div>
+    <div class="q-stem">In a village, the production of food grains increased by 40% and the per capita production of food grains increased by 27% during a certain period. The percentage by which the population of the village increased during the same period is nearest to</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 16</li><li><span class="opt-k">B</span> 13</li><li><span class="opt-k">C</span> 10</li><li><span class="opt-k">D</span> 7</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 10</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-2-Quant/">CAT 2017 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2018 Slot 1</span>
+      <span class="chip">QA Q19</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Percentages</span>
+    </div>
+    <div class="q-stem">In an examination, the maximum possible score is N while the pass mark is 45% of N. A candidate obtains 36 marks, but falls short of the pass mark by 68%. Which one of the following is then correct?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> N ≤ 200</li><li><span class="opt-k">B</span> 243 ≤ N ≤ 252</li><li><span class="opt-k">C</span> N ≥ 253</li><li><span class="opt-k">D</span> 201 ≤ N ≤ 242</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice B — 243 ≤ N ≤ 252</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/">CAT 2018 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q1</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Percentages</span>
+    </div>
+    <div class="q-stem">In a class, 60% of the students are girls and the rest are boys. There are 30 more girls than boys. If 68% of the students, including 30 boys,pass an examination, the percentage of the girls who do not pass is</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">20</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q6</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Percentages</span>
+    </div>
+    <div class="q-stem">Meena scores 40% in an examination and after review, even though her score is increased by 50%, she fails by 35 marks. If her post-review score is increased by 20%, she will have 7 marks more than the passing score. The percentage score needed for passing the examination is</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 75</li><li><span class="opt-k">B</span> 80</li><li><span class="opt-k">C</span> 60</li><li><span class="opt-k">D</span> 70</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice D — 70</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 1</span>
+      <span class="chip">QA Q18</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Percentages</span>
+    </div>
+    <div class="q-stem">The income of Amala is 20% more than that of Bimala and 20% less than that of Kamala. If Kamala's income goes down by 4% and Bimala's goes up by 10%, then the percentage by which Kamala's income would exceed Bimala's is nearest to</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 28</li><li><span class="opt-k">B</span> 29</li><li><span class="opt-k">C</span> 31</li><li><span class="opt-k">D</span> 32</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice C — 31</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/">CAT 2019 Slot 1 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q9</span>
+      <span class="chip">MCQ</span>
+      <span class="chip">Percentages</span>
+    </div>
+    <div class="q-stem">In 2010, a library contained a total of 11500 books in two categories - fiction and non-fiction. In 2015, the library contained a total of 12760 books in these two categories. During this period, there was 10% increase in the fiction category while there was 12% increase in the non-fiction category. How many fiction books were in the library in 2015?</div>
+    <ol class="opts"><li><span class="opt-k">A</span> 6600</li><li><span class="opt-k">B</span> 6160</li><li><span class="opt-k">C</span> 6000</li><li><span class="opt-k">D</span> 5500</li></ol>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">Choice A — 6600</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+<details class="q pyq">
+  <summary>
+    <div class="q-meta">
+      <span class="chip gold">CAT 2019 Slot 2</span>
+      <span class="chip">QA Q17</span>
+      <span class="chip">TITA</span>
+      <span class="chip">Percentages</span>
+    </div>
+    <div class="q-stem">In an examination, the score of A was 10% less than that of B, the score of B was 25% more than that of C, and the score of C was 20% less than that of D. If A scored 72, then the score of D was</div>
+    <p class="tita-tag">TITA — no options, no negative marking.</p>
+  </summary>
+  <div class="qbody">
+    <p><span class="key">80</span></p>
+    <p class="src"><a href="https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/">CAT 2019 Slot 2 · 2IIM</a></p>
+  </div>
+</details>
+
+</article>
+<footer class="page">Percentages · CAT 2017–2020 PYQs</footer>
+<div class="toast" id="toast">Copied</div>
+<script src="../js/notes-ui.js"></script>
+</body>
+</html>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CAT 2026 theory</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,650;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/notes.css">
+<script>
+MathJax = {
+  tex: { inlineMath: [['\\(','\\)']], displayMath: [['\\[','\\]']] }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body data-theme="cat">
+<canvas id="field" aria-hidden="true"></canvas>
+<div class="progress" id="progress"></div>
+<button type="button" class="handle left" id="toc-btn" aria-expanded="false">Contents</button>
+<button type="button" class="handle right" id="study-btn" aria-expanded="false">Study</button>
+<aside class="rail left" id="toc-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">CAT 2026 · IIM A</p>
+    <h2>On this page</h2>
+  </div>
+  <nav class="rail-body toc" id="toc">
+    <a href="#how"><small>01</small>How</a>
+    <a href="#qa"><small>02</small>QA</a>
+    <a href="#rest"><small>03</small>DILR / VARC</a>
+    <a href="#papers"><small>04</small>2017–2020 papers</a>
+  </nav>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="toc-mark"></div></div>
+  <div class="rail-foot" id="toc-foot">Contents</div>
+</aside>
+<aside class="rail right" id="study-panel">
+  <div class="rail-head">
+    <p class="rail-kicker">Studio</p>
+    <h2>Study</h2>
+  </div>
+  <div class="rail-body">
+    <a class="tool" href="index.html"><small>All topics</small>Theory home</a>
+    <button type="button" class="tool" id="exam-btn"><small>Hide commentary</small>Exam mode</button>
+    <button type="button" class="tool" id="formula-btn"><small>Only the slabs</small>Formulas</button>
+    <button type="button" class="tool" id="draw-btn"><small>From the PYQs</small>Draw a question</button>
+    <button type="button" class="tool" id="print-btn"><small>Browser print</small>Print</button>
+  </div>
+  <div class="draw" id="draw"><span class="lbl">Question</span>Draw a question when you want a prompt without rereading the sheet.</div>
+  <div class="rail-fill" aria-hidden="true"><div class="rail-mark" id="study-mark"></div></div>
+  <div class="rail-foot">Exam mode keeps formulas, takeaways, traps, and the PYQs (answers hidden). Formulas hides the papers.</div>
+</aside>
+<article class="page" id="top">
+  <header class="mast">
+    <div class="meta-row">
+      <span class="chip">CAT 2026</span>
+      <span class="chip gold">IIM A · 99.7</span>
+    </div>
+    <h1>CAT 2026 theory</h1>
+    <p class="lede">Short sheets: every CAT-usable identity, none of the Class-10 filler. Practice is the real CAT 2017–2020 papers, classified the way 2IIM and Cracku split the syllabus — percentages / P&amp;L / SI-CI, ratios-mixtures-averages, TSD, work, geometry, numbers, algebra, modern maths; DILR as sets vs tables; VARC as RC vs VA.</p>
+  </header>
+
+<h2 id="how">How to use this</h2>
+<ol>
+<li>Open a sheet. If you cannot see why a formula is there, you do not know the topic yet.</li>
+<li>Exam mode (right rail) for a clean pass; Formulas for the slabs only.</li>
+<li>Every topic ends with the actual CAT 2017–2020 questions on that idea, tagged by paper and slot. Then sit a full paper under Papers.</li>
+<li>Order: arithmetic → algebra / numbers → geometry → modern maths. DILR is selection plus families. VARC is traps; there is no grammar syllabus.</li>
+</ol>
+<div class="take"><strong>Target.</strong> 99.7 / rank ~800 / scaled ~105–110, no section under 92. Profile in <code>PROFILE.md</code>. Simulator at <code>/</code> (2021–25).</div>
+<p class="bank-note">828 questions from nine public 2IIM papers (2017–19 two slots × 100 Q; 2020 three slots × 76 Q).</p>
+<h2 id="qa">Quantitative aptitude</h2>
+<div class="hub-grid">
+    <a href="qa/percentages.html">
+      <div class="meta">Arithmetic · 8 PYQs</div>
+      <h3>Percentages</h3>
+      <p>Successive change, constancy, elections — no fraction-to-% tables.</p>
+    </a>
+    <a href="qa/ratio.html">
+      <div class="meta">Arithmetic · 7 PYQs</div>
+      <h3>Ratio and proportion</h3>
+      <p>Chain ratios, partnership, componendo, ages.</p>
+    </a>
+    <a href="qa/averages.html">
+      <div class="meta">Arithmetic · 5 PYQs</div>
+      <h3>Averages</h3>
+      <p>Weighted, replacement, AM–GM–HM, cricket.</p>
+    </a>
+    <a href="qa/mixtures.html">
+      <div class="meta">Arithmetic · 22 PYQs</div>
+      <h3>Mixtures</h3>
+      <p>Alligation, replacement, three-vessel loops.</p>
+    </a>
+    <a href="qa/profit-loss.html">
+      <div class="meta">Arithmetic · 17 PYQs</div>
+      <h3>Profit and loss</h3>
+      <p>False weight, successive discount, two-article.</p>
+    </a>
+    <a href="qa/interest.html">
+      <div class="meta">Arithmetic · 7 PYQs</div>
+      <h3>SI and CI</h3>
+      <p>Effective rate, CI−SI, installments.</p>
+    </a>
+    <a href="qa/tsd.html">
+      <div class="meta">Arithmetic · 29 PYQs</div>
+      <h3>Time, speed, distance</h3>
+      <p>Harmonic mean, races, boats, trains, circular.</p>
+    </a>
+    <a href="qa/time-work.html">
+      <div class="meta">Arithmetic · 15 PYQs</div>
+      <h3>Time and work</h3>
+      <p>Rates, pipes, alternate days, wages.</p>
+    </a>
+    <a href="qa/numbers.html">
+      <div class="meta">Numbers · 24 PYQs</div>
+      <h3>Number system</h3>
+      <p>Remainders, factors, last digits, bases.</p>
+    </a>
+    <a href="qa/algebra.html">
+      <div class="meta">Algebra · 83 PYQs</div>
+      <h3>Algebra</h3>
+      <p>Identities, modulus, logs, sequences, max–min.</p>
+    </a>
+    <a href="qa/geometry.html">
+      <div class="meta">Geometry · 52 PYQs</div>
+      <h3>Geometry</h3>
+      <p>Similar triangles, circles, 3-D scale, coordinate.</p>
+    </a>
+    <a href="qa/modern.html">
+      <div class="meta">Modern maths · 13 PYQs</div>
+      <h3>P&C, probability, sets</h3>
+      <p>Counting, Bayes at CAT depth, Venn.</p>
+    </a>
+</div>
+<h2 id="rest">DILR and VARC</h2>
+<div class="hub-grid">
+    <a href="dilr/sets.html">
+      <div class="meta">DILR · 116 PYQs</div>
+      <h3>Set selection and LR</h3>
+      <p>Scan, abandon, arrangement, binary logic.</p>
+    </a>
+    <a href="dilr/tables.html">
+      <div class="meta">DILR · 148 PYQs</div>
+      <h3>Tables and tournaments</h3>
+      <p>Missing cells, points, invariants.</p>
+    </a>
+    <a href="varc/rc.html">
+      <div class="meta">VARC · 216 PYQs</div>
+      <h3>Reading comprehension</h3>
+      <p>Traps only. Then the 2017–2020 RC passages.</p>
+    </a>
+    <a href="varc/va.html">
+      <div class="meta">VARC · 66 PYQs</div>
+      <h3>Verbal ability</h3>
+      <p>Jumbles, summary, odd one out.</p>
+    </a>
+</div>
+<h2 id="papers">CAT 2017–2020 papers</h2>
+<div class="hub-grid">
+    <a href="papers/cat-2017-s1.html">
+      <div class="meta">Full paper · 100 Q</div>
+      <h3>CAT 2017 Slot 1</h3>
+      <p>100 Q · 3 sections. VARC, DILR, then QA, with 2IIM answers.</p>
+    </a>
+    <a href="papers/cat-2017-s2.html">
+      <div class="meta">Full paper · 100 Q</div>
+      <h3>CAT 2017 Slot 2</h3>
+      <p>100 Q · 3 sections. VARC, DILR, then QA, with 2IIM answers.</p>
+    </a>
+    <a href="papers/cat-2018-s1.html">
+      <div class="meta">Full paper · 100 Q</div>
+      <h3>CAT 2018 Slot 1</h3>
+      <p>100 Q · 3 sections. VARC, DILR, then QA, with 2IIM answers.</p>
+    </a>
+    <a href="papers/cat-2018-s2.html">
+      <div class="meta">Full paper · 100 Q</div>
+      <h3>CAT 2018 Slot 2</h3>
+      <p>100 Q · 3 sections. VARC, DILR, then QA, with 2IIM answers.</p>
+    </a>
+    <a href="papers/cat-2019-s1.html">
+      <div class="meta">Full paper · 100 Q</div>
+      <h3>CAT 2019 Slot 1</h3>
+      <p>100 Q · 3 sections. VARC, DILR, then QA, with 2IIM answers.</p>
+    </a>
+    <a href="papers/cat-2019-s2.html">
+      <div class="meta">Full paper · 100 Q</div>
+      <h3>CAT 2019 Slot 2</h3>
+      <p>100 Q · 3 sections. VARC, DILR, then QA, with 2IIM answers.</p>
+    </a>
+    <a href="papers/cat-2020-s1.html">
+      <div class="meta">Full paper · 76 Q</div>
+      <h3>CAT 2020 Slot 1</h3>
+      <p>76 Q · 3 sections. VARC, DILR, then QA, with 2IIM answers.</p>
+    </a>
+    <a href="papers/cat-2020-s2.html">
+      <div class="meta">Full paper · 76 Q</div>
+      <h3>CAT 2020 Slot 2</h3>
+      <p>76 Q · 3 sections. VARC, DILR, then QA, with 2IIM answers.</p>
+    </a>
+    <a href="papers/cat-2020-s3.html">
+      <div class="meta">Full paper · 76 Q</div>
+      <h3>CAT 2020 Slot 3</h3>
+      <p>76 Q · 3 sections. VARC, DILR, then QA, with 2IIM answers.</p>
+    </a>
+</div>
+
+</article>
+<footer class="page">CAT 2026 · IIM Ahmedabad track · General</footer>
+<div class="toast" id="toast">Copied</div>
+<script src="js/notes-ui.js"></script>
+</body>
+</html>
