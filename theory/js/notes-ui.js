@@ -1,6 +1,105 @@
 if (/[?&]exam=1/.test(location.search)) document.body.classList.add("exam");
 
 (function () {
+  var root = document.documentElement;
+  var key = "cat-notes-theme";
+  var themes = [
+    { id: "midnight", name: "Midnight" },
+    { id: "paper", name: "Paper" },
+    { id: "ocean", name: "Ocean" },
+    { id: "ember", name: "Ember" },
+    { id: "dusk", name: "Dusk" },
+    { id: "mono", name: "Mono" }
+  ];
+  var legacy = { bone: "paper", lamp: "ember", night: "midnight", olive: "midnight", ink: "ocean" };
+  function find(id) { return themes.filter(function (t) { return t.id === id; })[0]; }
+  var saved = "";
+  try { saved = localStorage.getItem(key) || ""; } catch (e) {}
+  if (legacy[saved]) saved = legacy[saved];
+  if (!find(saved)) saved = "midnight";
+
+  var tocBtn = document.getElementById("toc-btn");
+  var studyBtn = document.getElementById("study-btn");
+  var home = document.querySelector("#study-panel a.tool");
+  var h1 = document.querySelector("article.page h1");
+
+  var bar = document.createElement("header");
+  bar.className = "topbar";
+  var brand = document.createElement("a");
+  brand.className = "brand";
+  brand.href = home ? home.getAttribute("href") : "index.html";
+  brand.innerHTML = "CAT<span>/26</span>";
+  var crumb = document.createElement("span");
+  crumb.className = "crumb";
+  crumb.textContent = h1 ? h1.textContent : "";
+  var spacer = document.createElement("span");
+  spacer.className = "spacer";
+  var label = document.createElement("span");
+  label.className = "theme-name";
+  var dots = document.createElement("div");
+  dots.className = "theme-dots";
+  dots.setAttribute("role", "radiogroup");
+  dots.setAttribute("aria-label", "Theme");
+
+  function apply(id) {
+    root.setAttribute("data-notes", id);
+    label.textContent = find(id).name;
+    [].forEach.call(dots.children, function (b) {
+      var on = b.getAttribute("data-notes") === id;
+      b.classList.toggle("on", on);
+      b.setAttribute("aria-checked", on ? "true" : "false");
+    });
+    try { localStorage.setItem(key, id); } catch (e) {}
+    window.dispatchEvent(new CustomEvent("notes-theme"));
+  }
+
+  themes.forEach(function (t) {
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "dot " + t.id;
+    b.title = t.name + " (press T to cycle)";
+    b.setAttribute("data-notes", t.id);
+    b.setAttribute("role", "radio");
+    b.setAttribute("aria-label", t.name);
+    b.addEventListener("click", function () { apply(t.id); });
+    dots.appendChild(b);
+  });
+
+  if (tocBtn) bar.appendChild(tocBtn);
+  bar.appendChild(brand);
+  bar.appendChild(crumb);
+  bar.appendChild(spacer);
+  bar.appendChild(label);
+  bar.appendChild(dots);
+  if (studyBtn) bar.appendChild(studyBtn);
+  document.body.insertBefore(bar, document.body.firstChild);
+
+  var scrim = document.createElement("div");
+  scrim.className = "scrim";
+  scrim.addEventListener("click", function () {
+    document.body.classList.remove("toc-open", "study-open");
+    if (tocBtn) tocBtn.setAttribute("aria-expanded", "false");
+    if (studyBtn) studyBtn.setAttribute("aria-expanded", "false");
+  });
+  document.body.appendChild(scrim);
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key !== "t" && e.key !== "T") return;
+    if (e.metaKey || e.ctrlKey || e.altKey) return;
+    var t = e.target;
+    if (t && (/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName) || t.isContentEditable)) return;
+    var i = themes.indexOf(find(root.getAttribute("data-notes")));
+    var step = e.shiftKey ? themes.length - 1 : 1;
+    apply(themes[(i + step) % themes.length].id);
+  });
+
+  function onScroll() { document.body.classList.toggle("scrolled", scrollY > 140); }
+  addEventListener("scroll", onScroll, { passive: true });
+  onScroll();
+  apply(saved);
+})();
+
+(function () {
   var tocBtn = document.getElementById("toc-btn");
   var studyBtn = document.getElementById("study-btn");
   var examBtn = document.getElementById("exam-btn");
@@ -296,10 +395,20 @@ if (/[?&]exam=1/.test(location.search)) document.body.classList.add("exam");
       });
     }
   }
-  function inPaper(x, y) {
-    var r = paper.getBoundingClientRect();
-    var pad = 16;
-    return x > r.left - pad && x < r.right + pad && y > r.top - pad && y < r.bottom + pad;
+  var colors = { ink: "", glow: "" };
+  function readColors() {
+    var cs = getComputedStyle(document.documentElement);
+    colors.ink = cs.getPropertyValue("--rain").trim() || theme().ink;
+    colors.glow = cs.getPropertyValue("--rain-glow").trim() || theme().glow;
+  }
+  readColors();
+  addEventListener("notes-theme", readColors);
+  var lane = paper.getBoundingClientRect();
+  function fadeAt(x, y) {
+    if (y < lane.top - 30 || y > lane.bottom + 30) return 1;
+    if (x >= lane.left && x <= lane.right) return 0;
+    var d = x < lane.left ? lane.left - x : x - lane.right;
+    return Math.min(1, d / 140);
   }
   addEventListener("mousemove", function (e) {
     mouse.x = e.clientX;
@@ -312,8 +421,9 @@ if (/[?&]exam=1/.test(location.search)) document.body.classList.add("exam");
   function frame(now) {
     var dt = Math.min(0.05, (now - last) / 1000);
     last = now;
-    var th = theme();
-    document.body.style.background = th.wall;
+    var base = theme();
+    var th = { glyphs: base.glyphs, stamps: base.stamps, ink: colors.ink, glow: colors.glow };
+    lane = paper.getBoundingClientRect();
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.textAlign = "center";
     var ink = th.ink;
@@ -322,10 +432,11 @@ if (/[?&]exam=1/.test(location.search)) document.body.classList.add("exam");
       b.y -= b.v * dt;
       b.x += Math.sin(now / 1400 + b.p) * 8 * dt;
       if (b.y < -24) { b.y = canvas.height + 24; b.x = Math.random() * canvas.width; }
-      if (inPaper(b.x, b.y)) continue;
+      var fb = fadeAt(b.x, b.y);
+      if (fb <= 0.02) continue;
       var d = Math.hypot(b.x - mouse.x, b.y - mouse.y);
       var glow = d < 160 ? (160 - d) / 160 * 0.45 : 0;
-      ctx.globalAlpha = Math.min(0.85, b.a + glow);
+      ctx.globalAlpha = Math.min(0.85, b.a + glow) * fb;
       ctx.fillStyle = glow > 0.08 ? th.glow : ink;
       ctx.font = "500 " + b.s + "px 'IBM Plex Mono', monospace";
       ctx.fillText(b.g, b.x, b.y);
@@ -337,8 +448,9 @@ if (/[?&]exam=1/.test(location.search)) document.body.classList.add("exam");
       st.y -= st.v * dt;
       st.x += Math.sin(now / 1800 + st.p) * 5 * dt;
       if (st.y < -60) { st.y = canvas.height + 40; st.x = Math.random() * canvas.width; }
-      if (inPaper(st.x + 20, st.y + 16)) continue;
-      ctx.globalAlpha = st.a;
+      var fs = fadeAt(st.x + 20, st.y + 16);
+      if (fs <= 0.02) continue;
+      ctx.globalAlpha = st.a * fs;
       ctx.fillStyle = ink;
       var lines = st.t.split("\n");
       for (var li = 0; li < lines.length; li++) ctx.fillText(lines[li], st.x, st.y + li * 13);
@@ -350,8 +462,9 @@ if (/[?&]exam=1/.test(location.search)) document.body.classList.add("exam");
       q.y -= q.v * dt;
       q.x += Math.sin(now / 1600 + q.p) * 4 * dt;
       if (q.y < -50) { q.y = canvas.height + 40; q.x = Math.random() * canvas.width; }
-      if (inPaper(q.x, q.y)) continue;
-      ctx.globalAlpha = 0.16;
+      var fq = fadeAt(q.x, q.y);
+      if (fq <= 0.02) continue;
+      ctx.globalAlpha = 0.16 * fq;
       ctx.strokeStyle = ink;
       ctx.beginPath();
       if (q.kind === 0) ctx.arc(q.x, q.y, q.r, 0, Math.PI * 2);
@@ -377,7 +490,7 @@ if (/[?&]exam=1/.test(location.search)) document.body.classList.add("exam");
       ctx.stroke();
     }
     ctx.textAlign = "center";
-    var r = paper.getBoundingClientRect();
+    var r = lane;
     var ornaments = {
       groups: drawGroups, crypto: drawGroups, number: drawNumber, owf: drawOwf,
       complexity: drawComplexity, prng: drawPrng, python: drawPython, software: drawSoftware, dsa: drawDsa, play: drawPlay, cat: drawNumber
@@ -600,4 +713,57 @@ if (/[?&]exam=1/.test(location.search)) document.body.classList.add("exam");
 
   resize();
   requestAnimationFrame(frame);
+})();
+
+(function () {
+  function keyLetter(text) {
+    var t = String(text || "").replace(/\s+/g, " ").trim();
+    var m = t.match(/^(?:Ch\w*ce\s+)?([A-D])\b/i);
+    if (!m) return "";
+    var rest = t.slice(m[0].length).trim();
+    if (rest && !/^[—–-]/.test(rest)) return "";
+    return m[1].toUpperCase();
+  }
+  [].forEach.call(document.querySelectorAll("details.q.pyq"), function (card) {
+    var key = card.querySelector(".qbody .key");
+    var letter = keyLetter(key ? key.textContent : "");
+    if (!letter) return;
+    [].forEach.call(card.querySelectorAll("ol.opts li"), function (li) {
+      var mark = li.querySelector(".opt-k");
+      if (mark && mark.textContent.trim().toUpperCase() === letter) li.classList.add("is-key");
+    });
+  });
+
+  [].forEach.call(document.querySelectorAll("ol.opts"), function (ol) {
+    var longest = 0;
+    [].forEach.call(ol.children, function (li) {
+      var mark = li.querySelector(".opt-k");
+      var text = li.textContent.replace(/\s+/g, " ").trim();
+      if (mark) text = text.slice(mark.textContent.trim().length).trim();
+      longest = Math.max(longest, text.length);
+    });
+    if (ol.querySelector("img")) return;
+    if (ol.children.length === 4 && longest <= 10) ol.classList.add("opts-row");
+    else if (longest <= 38) ol.classList.add("opts-grid");
+  });
+
+  document.addEventListener("click", function (e) {
+    var li = e.target.closest && e.target.closest("details.q.pyq ol.opts > li");
+    if (!li) return;
+    var card = li.closest("details");
+    var again = li.classList.contains("picked");
+    [].forEach.call(li.parentNode.children, function (x) { x.classList.remove("picked"); });
+    if (document.body.classList.contains("exam")) {
+      e.preventDefault();
+      if (!again) li.classList.add("picked");
+      return;
+    }
+    li.classList.add("picked");
+    if (card.open) e.preventDefault();
+  });
+  document.addEventListener("toggle", function (e) {
+    var card = e.target;
+    if (!card.matches || !card.matches("details.q.pyq") || card.open) return;
+    [].forEach.call(card.querySelectorAll("li.picked"), function (x) { x.classList.remove("picked"); });
+  }, true);
 })();
