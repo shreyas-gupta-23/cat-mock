@@ -1,7 +1,11 @@
 import { create } from 'zustand';
 import bank from '../data/pyq-bank.json';
+import { sectionSeconds } from '../utils/percentile';
 
-const SECTION_TIME = 40 * 60; // 40 minutes in seconds
+function sectionClock(year) {
+  const seconds = sectionSeconds(year);
+  return { VARC: seconds, DILR: seconds, Quant: seconds };
+}
 export const SECTIONS = ['VARC', 'DILR', 'Quant'];
 export const SECTION_LABELS = { VARC: 'VARC', DILR: 'DILR', Quant: 'Quantitative Ability' };
 export const PAPERS = bank.papers;
@@ -35,7 +39,7 @@ const useExamStore = create((set, get) => ({
   responses: {},
   currentSection: 'VARC',
   currentQuestionIndex: 0,
-  sectionTimeLeft: { VARC: SECTION_TIME, DILR: SECTION_TIME, Quant: SECTION_TIME },
+  sectionTimeLeft: sectionClock(null),
   questionStartTime: null,
   examStatus: 'idle',
   showSectionWarning: false,
@@ -44,6 +48,7 @@ const useExamStore = create((set, get) => ({
   currentInput: '',
   fontSizeLevel: 1,
   sectionInstructionsShown: { VARC: false, DILR: false, Quant: false },
+  fromHistory: false,
 
   setCurrentInput: (val) => set({ currentInput: val }),
 
@@ -70,7 +75,7 @@ const useExamStore = create((set, get) => ({
       responses: initialResponses,
       currentSection: 'VARC',
       currentQuestionIndex: 0,
-      sectionTimeLeft: { VARC: SECTION_TIME, DILR: SECTION_TIME, Quant: SECTION_TIME },
+      sectionTimeLeft: sectionClock(config?.year),
       questionStartTime: Date.now(),
       examStatus: 'active',
       showSectionWarning: false,
@@ -79,6 +84,60 @@ const useExamStore = create((set, get) => ({
       currentInput: '',
       fontSizeLevel: 1,
       sectionInstructionsShown: { VARC: false, DILR: false, Quant: false },
+      fromHistory: false,
+    });
+  },
+
+  openReview: (attempt) => {
+    const config = attempt?.examConfig || {};
+    let questionsBySection = selectQuestions(config);
+    if (!Object.values(questionsBySection).flat().length && attempt?.questionResults) {
+      questionsBySection = { VARC: [], DILR: [], Quant: [] };
+      attempt.questionResults.forEach((r) => {
+        const section = questionsBySection[r.section] ? r.section : 'VARC';
+        questionsBySection[section].push({
+          id: r.id,
+          section,
+          topic: r.topic,
+          type: r.type,
+          difficulty: r.difficulty,
+          question: r.question || '',
+          passage: r.passage || '',
+          options: r.options || [],
+          answer: r.correctAnswer,
+          explanation: r.explanation || '',
+        });
+      });
+    }
+    const responses = {};
+    Object.values(questionsBySection).flat().forEach((q) => {
+      responses[q.id] = { answer: null, timeSpent: 0, markedForReview: false, visited: true };
+    });
+    (attempt?.questionResults || []).forEach((r) => {
+      if (!responses[r.id]) return;
+      responses[r.id] = {
+        answer: r.yourAnswer ?? null,
+        timeSpent: r.timeSpent || 0,
+        markedForReview: false,
+        visited: true,
+      };
+    });
+    set({
+      examConfig: config,
+      questions: questionsBySection,
+      responses,
+      currentSection: 'VARC',
+      currentQuestionIndex: 0,
+      sectionTimeLeft: sectionClock(config?.year),
+      questionStartTime: null,
+      examStatus: 'submitted',
+      showSectionWarning: false,
+      pendingSection: null,
+      showSubmitConfirm: false,
+      currentInput: '',
+      fontSizeLevel: 1,
+      sectionInstructionsShown: { VARC: true, DILR: true, Quant: true },
+      fromHistory: true,
     });
   },
 
@@ -164,8 +223,8 @@ const useExamStore = create((set, get) => ({
     set({ responses: newResponses, currentQuestionIndex: index, questionStartTime: Date.now() });
   },
 
-  requestSectionSwitch: () => {
-    // Real CAT: sections are locked. Timer auto-advances only.
+  requestSectionSwitch: (section) => {
+    get().switchSection(section);
   },
 
   confirmSectionSwitch: () => {
@@ -205,8 +264,30 @@ const useExamStore = create((set, get) => ({
     set({ sectionTimeLeft: newTimeLeft });
   },
 
-  switchSection: () => {
-    // Real CAT: no switching. tickTimer auto-advances when the 40 min ends.
+  switchSection: (section) => {
+    if (!SECTIONS.includes(section)) return;
+    const { currentSection, questions, responses, questionStartTime } = get();
+    if (section === currentSection) return;
+    const currentQ = get().getCurrentQuestion();
+    const newResponses = { ...responses };
+    if (currentQ) {
+      const elapsed = Math.floor((Date.now() - (questionStartTime || Date.now())) / 1000);
+      newResponses[currentQ.id] = {
+        ...newResponses[currentQ.id],
+        timeSpent: (newResponses[currentQ.id]?.timeSpent || 0) + elapsed,
+      };
+    }
+    const sectionQs = questions[section] || [];
+    if (sectionQs[0] && !newResponses[sectionQs[0].id]?.visited) {
+      newResponses[sectionQs[0].id] = { ...newResponses[sectionQs[0].id], visited: true };
+    }
+    set({
+      currentSection: section,
+      currentQuestionIndex: 0,
+      responses: newResponses,
+      questionStartTime: Date.now(),
+      currentInput: '',
+    });
   },
 
   nextQuestion: () => {
@@ -260,7 +341,7 @@ const useExamStore = create((set, get) => ({
     responses: {},
     currentSection: 'VARC',
     currentQuestionIndex: 0,
-    sectionTimeLeft: { VARC: SECTION_TIME, DILR: SECTION_TIME, Quant: SECTION_TIME },
+    sectionTimeLeft: sectionClock(null),
     questionStartTime: null,
     examStatus: 'idle',
     showSectionWarning: false,
@@ -269,6 +350,7 @@ const useExamStore = create((set, get) => ({
     currentInput: '',
     fontSizeLevel: 1,
     sectionInstructionsShown: { VARC: false, DILR: false, Quant: false },
+    fromHistory: false,
   }),
 }));
 

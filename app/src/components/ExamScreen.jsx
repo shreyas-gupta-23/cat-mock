@@ -8,6 +8,7 @@ import Timer from './Timer';
 import Calculator from './Calculator';
 import ScratchPad from './ScratchPad';
 import SectionInstructions from './SectionInstructions';
+import { sectionMinutes } from '../utils/percentile';
 import { playWarningBeep, playTimeUpSound, playViolationSound } from '../utils/sounds';
 
 const SECTIONS = ['VARC', 'DILR', 'Quant'];
@@ -39,6 +40,7 @@ export default function ExamScreen() {
   const requestSubmit = useExamStore(s => s.requestSubmit);
   const cancelSubmit = useExamStore(s => s.cancelSubmit);
   const submitExam = useExamStore(s => s.submitExam);
+  const switchSection = useExamStore(s => s.switchSection);
 
   // Proctoring
   const { violations, warningVisible, dismissWarning, requestFullscreen } = useProctor({ enabled: true });
@@ -122,9 +124,9 @@ export default function ExamScreen() {
               <button
                 key={section}
                 type="button"
-                disabled
-                title="Sections are locked. The timer moves you forward."
+                title={section === currentSection ? 'This section' : 'Open this section. Its clock runs only while it is open.'}
                 className={section === currentSection ? 'exam-tab on' : 'exam-tab'}
+                onClick={() => switchSection(section)}
               >
                 {name} {stats.answered}/{stats.total}
               </button>
@@ -189,6 +191,7 @@ export default function ExamScreen() {
       {showSectionInstructions && (
         <SectionInstructions
           section={currentSection}
+          minutes={sectionMinutes(examConfig?.year)}
           onAcknowledge={() => acknowledgeSectionInstructions(currentSection)}
         />
       )}

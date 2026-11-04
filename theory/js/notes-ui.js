@@ -5,13 +5,13 @@ if (/[?&]exam=1/.test(location.search)) document.body.classList.add("exam");
   var key = "cat-notes-theme";
   var themes = [
     { id: "midnight", name: "Midnight" },
-    { id: "paper", name: "Paper" },
-    { id: "ocean", name: "Ocean" },
-    { id: "ember", name: "Ember" },
-    { id: "dusk", name: "Dusk" },
+    { id: "ink", name: "Ink" },
+    { id: "moss", name: "Moss" },
+    { id: "wine", name: "Wine" },
+    { id: "slate", name: "Slate" },
     { id: "mono", name: "Mono" }
   ];
-  var legacy = { bone: "paper", lamp: "ember", night: "midnight", olive: "midnight", ink: "ocean" };
+  var legacy = { bone: "midnight", lamp: "wine", night: "midnight", olive: "moss", paper: "midnight", ocean: "ink", ember: "wine", dusk: "slate" };
   function find(id) { return themes.filter(function (t) { return t.id === id; })[0]; }
   var saved = "";
   try { saved = localStorage.getItem(key) || ""; } catch (e) {}
@@ -403,12 +403,30 @@ if (/[?&]exam=1/.test(location.search)) document.body.classList.add("exam");
   }
   readColors();
   addEventListener("notes-theme", readColors);
-  var lane = paper.getBoundingClientRect();
+  var foot = document.querySelector("footer.page");
+  var lane = { top: 0, left: 0, right: 0, bottom: 0 };
+  function measureLane() {
+    var r = paper.getBoundingClientRect();
+    var bottom = r.bottom;
+    var left = r.left;
+    var right = r.right;
+    if (foot) {
+      var f = foot.getBoundingClientRect();
+      bottom = Math.max(bottom, f.bottom);
+      left = Math.min(left, f.left);
+      right = Math.max(right, f.right);
+    }
+    lane.top = r.top;
+    lane.left = left;
+    lane.right = right;
+    lane.bottom = bottom;
+  }
+  measureLane();
   function fadeAt(x, y) {
-    if (y < lane.top - 30 || y > lane.bottom + 30) return 1;
-    if (x >= lane.left && x <= lane.right) return 0;
-    var d = x < lane.left ? lane.left - x : x - lane.right;
-    return Math.min(1, d / 140);
+    if (y < lane.top || y > lane.bottom) return 1;
+    var d = x < lane.left ? lane.left - x : x > lane.right ? x - lane.right : 0;
+    if (d < 16) return 0;
+    return Math.min(1, (d - 16) / 64);
   }
   addEventListener("mousemove", function (e) {
     mouse.x = e.clientX;
@@ -423,7 +441,7 @@ if (/[?&]exam=1/.test(location.search)) document.body.classList.add("exam");
     last = now;
     var base = theme();
     var th = { glyphs: base.glyphs, stamps: base.stamps, ink: colors.ink, glow: colors.glow };
-    lane = paper.getBoundingClientRect();
+    measureLane();
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.textAlign = "center";
     var ink = th.ink;

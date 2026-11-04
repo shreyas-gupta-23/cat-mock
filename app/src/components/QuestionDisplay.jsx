@@ -1,21 +1,61 @@
+import katex from 'katex';
+import 'katex/dist/katex.min.css';
 import useExamStore from '../store/examStore';
 
-function Prose({ text }) {
-  const bits = text.split(/(!\[[^\]]*\]\([^)]+\))/g);
+const TOKEN = /(\$\$[\s\S]+?\$\$|\\\[[\s\S]+?\\\]|\\\([\s\S]+?\\\)|\$(?:\\.|[^$\n])+?\$|\*\*[^*\n]+?\*\*|\*[A-Za-z][^*\n]*?\*|`[^`\n]+`)/g;
+
+function mathHtml(tex, display) {
+  try {
+    return katex.renderToString(tex.trim(), { throwOnError: false, displayMode: display, strict: 'ignore' });
+  } catch {
+    return '';
+  }
+}
+
+function MathSpan({ tex, display }) {
+  const html = mathHtml(tex, display);
+  if (!html) return tex;
+  return <span dangerouslySetInnerHTML={{ __html: html }} />;
+}
+
+function inlinePieces(text, prefix) {
+  const nodes = [];
+  let last = 0;
+  let n = 0;
+  for (const match of text.matchAll(TOKEN)) {
+    if (match.index > last) nodes.push(text.slice(last, match.index));
+    const s = match[0];
+    const key = `${prefix}-${n}`;
+    n += 1;
+    if (s.startsWith('$$')) nodes.push(<MathSpan key={key} tex={s.slice(2, -2)} display />);
+    else if (s.startsWith('\\[')) nodes.push(<MathSpan key={key} tex={s.slice(2, -2)} display />);
+    else if (s.startsWith('\\(')) nodes.push(<MathSpan key={key} tex={s.slice(2, -2)} />);
+    else if (s.startsWith('$')) nodes.push(<MathSpan key={key} tex={s.slice(1, -1)} />);
+    else if (s.startsWith('**')) nodes.push(<strong key={key}>{s.slice(2, -2)}</strong>);
+    else if (s.startsWith('*')) nodes.push(<em key={key}>{s.slice(1, -1)}</em>);
+    else nodes.push(<code key={key}>{s.slice(1, -1)}</code>);
+    last = match.index + s.length;
+  }
+  if (last < text.length) nodes.push(text.slice(last));
+  return nodes;
+}
+
+export function Rich({ text }) {
+  const bits = String(text || '').split(/(!\[[^\]]*\]\([^)]+\))/g);
   return bits.map((bit, i) => {
     const img = bit.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
     if (img) return <img key={i} className="stem-fig" alt={img[1]} src={img[2]} />;
-    return <span key={i}>{bit}</span>;
+    return <span key={i}>{inlinePieces(bit, i)}</span>;
   });
 }
 
-function Stem({ text, size }) {
+export function Stem({ text, size }) {
   const parts = String(text || '').split('```');
   return parts.map((part, i) => {
     const body = part.replace(/^\n/, '').replace(/\n$/, '');
     if (!body.trim()) return null;
     if (i % 2 === 1) return <pre key={i} className="figure" style={{ fontSize: size }}>{body}</pre>;
-    return <p key={i} className="stem" style={{ fontSize: size }}><Prose text={body} /></p>;
+    return <p key={i} className="stem" style={{ fontSize: size }}><Rich text={body} /></p>;
   });
 }
 
@@ -57,7 +97,7 @@ export default function QuestionDisplay() {
                   checked={selected}
                   onChange={() => setAnswer(question.id, letter)}
                 />
-                <span>{opt}</span>
+                <span><Rich text={opt} /></span>
               </label>
             );
           })}
@@ -86,7 +126,7 @@ export default function QuestionDisplay() {
       <div className="exam-split">
         <div className="passage">
           <p className="kicker">{currentSection} · passage</p>
-          <p style={{ fontSize: size, whiteSpace: 'pre-wrap' }}>{question.passage}</p>
+          <Stem text={question.passage} size={size} />
         </div>
         {ask}
       </div>

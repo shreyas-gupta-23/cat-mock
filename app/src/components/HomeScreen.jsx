@@ -2,10 +2,30 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import useExamStore, { PAPERS, ALL_QUESTIONS } from '../store/examStore';
 import useHistoryStore from '../store/historyStore';
+import { sectionMinutes } from '../utils/percentile';
+import { scoreQuestion } from '../utils/score';
+
+function scoredAttempt(attempt) {
+  const rows = attempt.questionResults || [];
+  if (!rows.length) return { score: attempt.totalScore, accuracy: attempt.accuracy };
+  let score = 0;
+  let attempted = 0;
+  let correct = 0;
+  rows.forEach((q) => {
+    const s = scoreQuestion({ type: q.type, answer: q.correctAnswer }, q.yourAnswer);
+    score += s.delta;
+    if (s.has) {
+      attempted += 1;
+      if (s.correct) correct += 1;
+    }
+  });
+  return { score, accuracy: attempted ? Math.round((correct / attempted) * 100) : 0 };
+}
 
 export default function HomeScreen() {
   const navigate = useNavigate();
   const startExam = useExamStore(s => s.startExam);
+  const openReview = useExamStore(s => s.openReview);
   const attempts = useHistoryStore(s => s.attempts);
   const deleteAttempt = useHistoryStore(s => s.deleteAttempt);
   const clearHistory = useHistoryStore(s => s.clearHistory);
@@ -50,6 +70,7 @@ export default function HomeScreen() {
         <strong>{paper.label}</strong>
         <small>
           VARC {paper.counts.VARC} · DILR {paper.counts.DILR} · QA {paper.counts.Quant}
+          {' · '}{sectionMinutes(paper.year)} min each
           {paper.note ? ` · ${paper.note}` : ''}
         </small>
       </span>
@@ -72,14 +93,14 @@ export default function HomeScreen() {
         <div className="press-hero">
           <h2>Sit a paper</h2>
           <p>
-            Official-order slots. Each section locks at 40 minutes. The percentile is scaled to the paper you sat, using CAT 2025 bands. It is not All-India rank.
+            Official-order slots. CAT 2017–2019 locks each section at 60 minutes. From 2020, and on the free mocks, each section is 40 minutes. The percentile uses that year’s published score table.
           </p>
         </div>
 
         <div className="press-stats">
           <div className="press-stat"><b>{ALL_QUESTIONS.length}</b><span>Questions loaded</span></div>
           <div className="press-stat"><b>{fullPapers.length}</b><span>Full papers</span></div>
-          <div className="press-stat"><b>120 min</b><span>Three locked sections</span></div>
+          <div className="press-stat"><b>60 / 40</b><span>Minutes per section</span></div>
         </div>
 
         <p className="press-section-label">CAT papers</p>
@@ -100,17 +121,21 @@ export default function HomeScreen() {
                 Clear
               </button>
             </div>
-            {attempts.slice(0, 5).map(attempt => (
+            {attempts.slice(0, 5).map(attempt => {
+              const scored = scoredAttempt(attempt);
+              return (
               <div key={attempt.id} className="press-attempt">
-                <b>{attempt.totalScore}</b>
+                <b>{scored.score}</b>
                 <div>
                   <div>{attempt.examConfig?.label || 'Mock'}</div>
                   <small className="press-quiet">{new Date(attempt.date).toLocaleDateString('en-IN', { dateStyle: 'medium' })}</small>
                 </div>
-                <span className="press-quiet">{attempt.accuracy}% of attempts right</span>
+                <span className="press-quiet">{scored.accuracy}% of attempts right</span>
+                <button type="button" className="press-btn" onClick={() => { openReview(attempt); navigate('/result'); }}>Review</button>
                 <button type="button" className="press-btn" onClick={() => deleteAttempt(attempt.id)} aria-label="Delete attempt">×</button>
               </div>
-            ))}
+              );
+            })}
           </section>
         )}
       </main>
@@ -121,7 +146,7 @@ export default function HomeScreen() {
             <h3>{selectedConfig.label}</h3>
             <p className="press-muted">Same rules as the paper.</p>
             <ul>
-              <li>VARC, DILR, Quant. 40 minutes each. No switching.</li>
+              <li>VARC, DILR, Quant. {sectionMinutes(selectedConfig.year)} minutes each. You can switch; a clock runs only while that section is open.</li>
               <li>MCQ: +3 correct, −1 wrong. TITA: +3 correct, 0 wrong.</li>
               <li>A marked question with an answer still counts.</li>
             </ul>

@@ -31,6 +31,7 @@ export default function QuestionNav() {
               key={q.id}
               type="button"
               className={`qdot ${status} ${current}`}
+              aria-current={current ? 'true' : undefined}
               onClick={() => navigateToQuestion(idx)}
               title={`Q${idx + 1}: ${LABEL[status]}`}
             >
