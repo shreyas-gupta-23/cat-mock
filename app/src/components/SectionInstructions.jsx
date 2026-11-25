@@ -4,17 +4,17 @@ const SECTION_DATA = {
   VARC: {
     title: 'VARC',
     name: 'Verbal Ability and Reading Comprehension',
-    details: 'MCQ wrong answers cost 1 mark. TITA wrong answers cost nothing.',
+    details: 'MCQ wrong answers cost 1 mark. TITA wrong answers cost nothing. When this section ends, you cannot return to it.',
   },
   DILR: {
     title: 'DILR',
     name: 'Data Interpretation and Logical Reasoning',
-    details: 'This clock runs only while DILR is open. You can switch to another section and come back.',
+    details: 'MCQ wrong answers cost 1 mark. TITA wrong answers cost nothing. When this section ends, you cannot return to it.',
   },
   Quant: {
     title: 'Quantitative Ability',
     name: 'Quantitative Ability',
-    details: 'MCQ wrong answers cost 1 mark. TITA wrong answers cost nothing.',
+    details: 'MCQ wrong answers cost 1 mark. TITA wrong answers cost nothing. When this section ends, you cannot return to it.',
   },
 };
 

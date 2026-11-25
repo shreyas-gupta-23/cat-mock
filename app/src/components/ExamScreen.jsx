@@ -1,17 +1,57 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import useExamStore from '../store/examStore';
-import { useProctor } from '../hooks/useProctor';
 import QuestionNav from './QuestionNav';
-import QuestionDisplay from './QuestionDisplay';
+import QuestionDisplay, { Rich } from './QuestionDisplay';
 import Timer from './Timer';
 import Calculator from './Calculator';
 import ScratchPad from './ScratchPad';
 import SectionInstructions from './SectionInstructions';
 import { sectionMinutes } from '../utils/percentile';
-import { playWarningBeep, playTimeUpSound, playViolationSound } from '../utils/sounds';
+import { playWarningBeep, playTimeUpSound } from '../utils/sounds';
 
 const SECTIONS = ['VARC', 'DILR', 'Quant'];
+
+function sectionShort(section) {
+  return section === 'Quant' ? 'QA' : section;
+}
+
+function SectionScore({ result, nextSection, onContinue }) {
+  if (!result) return null;
+  const name = sectionShort(result.section);
+  const misses = result.misses || [];
+  return (
+    <div className="exam-paused section-break">
+      <h2>{name}</h2>
+      <p className="section-score-total">{result.score} <span>/ {result.maxScore}</span></p>
+      <div className="section-score">
+        <div><b>{result.correct}</b><span>Correct</span></div>
+        <div><b>{result.incorrect}</b><span>Wrong</span></div>
+        <div><b>{result.blank}</b><span>Blank</span></div>
+        <div><b>{result.percentile}</b><span>Percentile</span></div>
+      </div>
+      <p>MCQ wrong answers are −1. TITA wrong answers are 0. This section stays closed.</p>
+      <h3 className="miss-head">Wrong answers</h3>
+      {misses.length === 0 ? (
+        <p>None in this section.</p>
+      ) : (
+        <ol className="miss-list">
+          {misses.map((item) => (
+            <li key={item.n} className="miss">
+              <p className="miss-q">Question {item.n} · {item.type}</p>
+              <p className="miss-line"><Rich text={item.line} /></p>
+              <p className="miss-ans yours"><span>You</span><Rich text={item.yours} /></p>
+              <p className="miss-ans key"><span>Correct</span><Rich text={item.key} /></p>
+            </li>
+          ))}
+        </ol>
+      )}
+      <button type="button" className="exam-pause" onClick={onContinue}>
+        {nextSection ? `Start ${sectionShort(nextSection)}` : 'See result'}
+      </button>
+    </div>
+  );
+}
 
 export default function ExamScreen() {
   const navigate = useNavigate();
@@ -23,12 +63,20 @@ export default function ExamScreen() {
   const currentQuestionIndex = useExamStore(s => s.currentQuestionIndex);
   const questions = useExamStore(s => s.questions);
   const responses = useExamStore(s => s.responses);
-  const showSubmitConfirm = useExamStore(s => s.showSubmitConfirm);
   const fontSizeLevel = useExamStore(s => s.fontSizeLevel);
   const setFontSize = useExamStore(s => s.setFontSize);
   const sectionInstructionsShown = useExamStore(s => s.sectionInstructionsShown);
   const acknowledgeSectionInstructions = useExamStore(s => s.acknowledgeSectionInstructions);
   const sectionTimeLeft = useExamStore(s => s.sectionTimeLeft);
+  const resumeExam = useExamStore(s => s.resumeExam);
+  const closeSection = useExamStore(s => s.closeSection);
+  const rescoreClosed = useExamStore(s => s.rescoreClosed);
+  const continueFromBreak = useExamStore(s => s.continueFromBreak);
+  const sectionResults = useExamStore(s => s.sectionResults);
+  const sectionBreak = useExamStore(s => s.sectionBreak);
+  const clockExpiry = useExamStore(s => s.clockExpiry);
+  const paused = examStatus === 'paused';
+  const onBreak = examStatus === 'section-break';
 
   // Store actions
   const nextQuestion = useExamStore(s => s.nextQuestion);
@@ -37,16 +85,8 @@ export default function ExamScreen() {
   const clearResponse = useExamStore(s => s.clearResponse);
   const getCurrentQuestion = useExamStore(s => s.getCurrentQuestion);
   const getSectionStats = useExamStore(s => s.getSectionStats);
-  const requestSubmit = useExamStore(s => s.requestSubmit);
-  const cancelSubmit = useExamStore(s => s.cancelSubmit);
-  const submitExam = useExamStore(s => s.submitExam);
-  const switchSection = useExamStore(s => s.switchSection);
 
-  // Proctoring
-  const { violations, warningVisible, dismissWarning, requestFullscreen } = useProctor({ enabled: true });
-
-  // State
-  const [submitShake, setSubmitShake] = useState(false);
+  const [confirmSection, setConfirmSection] = useState(false);
   const [showCalculator, setShowCalculator] = useState(false);
   const [showScratchPad, setShowScratchPad] = useState(false);
 
@@ -63,26 +103,18 @@ export default function ExamScreen() {
     if (examStatus === 'submitted') navigate('/result');
   }, [examStatus, navigate]);
 
-  // Trigger shake animation on warning
   useEffect(() => {
-    if (warningVisible) {
-      setSubmitShake(true);
-      const timer = setTimeout(() => setSubmitShake(false), 600);
-      return () => clearTimeout(timer);
-    }
-  }, [warningVisible]);
+    if (onBreak) rescoreClosed();
+  }, [onBreak, rescoreClosed]);
 
-  // Warning beep at 5 minutes remaining and time up sound
   useEffect(() => {
     const timeLeft = sectionTimeLeft[currentSection];
-    if (timeLeft === 300) playWarningBeep(); // exactly at 5 min
-    if (timeLeft === 0) playTimeUpSound();
+    if (timeLeft === 300) playWarningBeep();
   }, [sectionTimeLeft, currentSection]);
 
-  // Violation sound
   useEffect(() => {
-    if (warningVisible) playViolationSound();
-  }, [warningVisible]);
+    if (clockExpiry > 0) playTimeUpSound();
+  }, [clockExpiry]);
 
   const handleMarkAndNext = () => {
     if (currentQuestion) markForReview(currentQuestion.id);
@@ -93,60 +125,74 @@ export default function ExamScreen() {
     if (currentQuestion) clearResponse(currentQuestion.id);
   };
 
-  const handleReturnToExam = async () => {
-    await requestFullscreen();
-    dismissWarning();
-  };
-
   const handleSubmitClick = () => {
-    requestSubmit();
+    setConfirmSection(true);
   };
 
-  const handleConfirmSubmit = () => {
-    submitExam();
-  };
-
-  const handleCancelSubmit = () => {
-    cancelSubmit();
+  const handleConfirmSection = () => {
+    setConfirmSection(false);
+    closeSection();
   };
 
   const showSectionInstructions = currentSection && !sectionInstructionsShown?.[currentSection];
 
   return (
-    <div className={`exam-active exam-shell ${submitShake ? 'warning-shake' : ''}`}>
+    <div className="exam-active exam-shell">
       <header className="exam-top">
         <span className="press-brand">{examConfig?.label || 'CAT'}</span>
         <nav className="exam-tabs">
           {SECTIONS.map(section => {
             const stats = getSectionStats(section);
             const name = section === 'Quant' ? 'QA' : section;
+            const result = sectionResults[section];
+            const here = section === currentSection && !onBreak;
+            const label = result ? `${name} ${result.score}` : here ? `${name} ${stats.answered}/${stats.total}` : name;
             return (
               <button
                 key={section}
                 type="button"
-                title={section === currentSection ? 'This section' : 'Open this section. Its clock runs only while it is open.'}
-                className={section === currentSection ? 'exam-tab on' : 'exam-tab'}
-                onClick={() => switchSection(section)}
+                disabled
+                title={result ? `${name} is closed` : here ? 'This section' : 'Opens after this section'}
+                className={here ? 'exam-tab on' : 'exam-tab'}
               >
-                {name} {stats.answered}/{stats.total}
+                {label}
               </button>
             );
           })}
         </nav>
         <div className="exam-tools">
-          <button type="button" onClick={() => setFontSize(fontSizeLevel - 1)} disabled={fontSizeLevel <= 1}>A−</button>
-          <button type="button" onClick={() => setFontSize(fontSizeLevel + 1)} disabled={fontSizeLevel >= 3}>A+</button>
-          <button type="button" className={showCalculator ? 'on' : ''} onClick={() => setShowCalculator(v => !v)}>Calc</button>
-          <button type="button" className={showScratchPad ? 'on' : ''} onClick={() => setShowScratchPad(v => !v)}>Notes</button>
+          <button type="button" onClick={() => setFontSize(fontSizeLevel - 1)} disabled={paused || onBreak || fontSizeLevel <= 1}>A−</button>
+          <button type="button" onClick={() => setFontSize(fontSizeLevel + 1)} disabled={paused || onBreak || fontSizeLevel >= 3}>A+</button>
+          <button type="button" className={showCalculator ? 'on' : ''} disabled={paused || onBreak} onClick={() => setShowCalculator(v => !v)}>Calc</button>
+          <button type="button" className={showScratchPad ? 'on' : ''} disabled={paused || onBreak} onClick={() => setShowScratchPad(v => !v)}>Notes</button>
         </div>
         <Timer />
       </header>
 
+      {onBreak ? (
+        <div className="exam-body">
+          <SectionScore
+            result={sectionResults[sectionBreak]}
+            nextSection={SECTIONS[SECTIONS.indexOf(sectionBreak) + 1]}
+            onContinue={continueFromBreak}
+          />
+        </div>
+      ) : paused ? (
+        <div className="exam-body">
+          <div className="exam-paused">
+            <h2>Paused</h2>
+            <p>The clock is stopped. The paper stays hidden until you start again.</p>
+            <button type="button" className="exam-pause" onClick={resumeExam}>Start</button>
+          </div>
+        </div>
+      ) : (
       <div className="exam-body">
         <QuestionDisplay />
         <QuestionNav />
       </div>
+      )}
 
+      {!paused && !onBreak && (
       <footer className="exam-foot">
         <div className="group">
           <button type="button" className="press-btn" onClick={prevQuestion} disabled={isFirstQuestion}>Previous</button>
@@ -155,40 +201,26 @@ export default function ExamScreen() {
         </div>
         <div className="group">
           <button type="button" className="press-btn solid" onClick={nextQuestion} disabled={isLastQuestion}>Save and next</button>
-          <button type="button" className="press-btn bad" onClick={handleSubmitClick}>Submit</button>
+          <button type="button" className="press-btn bad" onClick={handleSubmitClick}>Submit section</button>
         </div>
       </footer>
-
-      {/* Proctoring Warning Modal */}
-      {warningVisible && (
-        <div className="press-overlay">
-          <div className="press-modal">
-            <h3>You left the window</h3>
-            <p>Violations recorded: {violations}</p>
-            <div className="press-row">
-              <button type="button" className="press-btn solid" onClick={handleReturnToExam}>Return</button>
-            </div>
-          </div>
-        </div>
       )}
 
-      {/* Submit Confirmation Modal */}
-      {showSubmitConfirm && (
+      {confirmSection && !paused && !onBreak && (
         <div className="press-overlay">
           <div className="press-modal">
-            <h3>Submit this paper?</h3>
-            <p>{totalAnswered} answered of {totalQuestions}. This cannot be undone.</p>
-            {violations > 0 && <p>{violations} window leave{violations === 1 ? '' : 's'} recorded.</p>}
+            <h3>Submit {currentSection === 'Quant' ? 'QA' : currentSection}?</h3>
+            <p>{totalAnswered} answered of {totalQuestions} on the paper. You cannot return to this section.</p>
             <div className="press-row">
-              <button type="button" className="press-btn" onClick={handleCancelSubmit}>Cancel</button>
-              <button type="button" className="press-btn bad" onClick={handleConfirmSubmit}>Submit</button>
+              <button type="button" className="press-btn" onClick={() => setConfirmSection(false)}>Cancel</button>
+              <button type="button" className="press-btn bad" onClick={handleConfirmSection}>Submit section</button>
             </div>
           </div>
         </div>
       )}
 
       {/* Section Instructions Modal */}
-      {showSectionInstructions && (
+      {!paused && !onBreak && showSectionInstructions && (
         <SectionInstructions
           section={currentSection}
           minutes={sectionMinutes(examConfig?.year)}
@@ -197,17 +229,8 @@ export default function ExamScreen() {
       )}
 
       {/* Calculator and ScratchPad */}
-      {showCalculator && <Calculator onClose={() => setShowCalculator(false)} />}
-      {showScratchPad && <ScratchPad onClose={() => setShowScratchPad(false)} />}
-
-      {/* CSS Animation for shake */}
-      <style>{`
-        @keyframes shake {
-          0%, 100% { transform: translateX(0); }
-          25% { transform: translateX(-4px); }
-          75% { transform: translateX(4px); }
-        }
-      `}</style>
+      {!paused && !onBreak && showCalculator && <Calculator onClose={() => setShowCalculator(false)} />}
+      {!paused && !onBreak && showScratchPad && <ScratchPad onClose={() => setShowScratchPad(false)} />}
     </div>
   );
 }

@@ -21403,10 +21403,10 @@
       "passage": "",
       "question": "In a circle with centre O and radius 1 cm, an arc AB makes an angle 60 degrees at O. Let R be the region bounded by the radii OA, OB and the arc AB. If C and D are two points on OA and OB, respectively, such that OC = OD and the area of triangle OCD is half that of R, then the length of OC, in cm, is",
       "options": [
-        "A) \\(\\frac{&pi;}{4}\\)) \\(\\frac{1}{2}\\))",
-        "B) \\(\\frac{&pi;}{6}\\)) \\(\\frac{1}{2}\\))",
-        "C) \\(\\frac{&pi;}{4\\(\\sqrt{3}\\)}\\)) \\(\\frac{1}{2}\\))",
-        "D) \\(\\frac{&pi;}{3\\(\\sqrt{3}\\)}\\)) \\(\\frac{1}{2}\\))"
+        "A) \\(\\left(\\frac{\\pi}{4}\\right)^{1/2}\\)",
+        "B) \\(\\left(\\frac{\\pi}{6}\\right)^{1/2}\\)",
+        "C) \\(\\left(\\frac{\\pi}{4\\sqrt{3}}\\right)^{1/2}\\)",
+        "D) \\(\\left(\\frac{\\pi}{3\\sqrt{3}}\\right)^{1/2}\\)"
       ],
       "answer": "D",
       "explanation": "",
@@ -21540,10 +21540,10 @@
       "passage": "",
       "question": "Given an equilateral triangle T1 with side 24 cm, a second triangle T2 is formed by joining the midpoints of the sides of T1. Then a third triangle T3 is formed by joining the midpoints of the sides of T2. If this process of forming triangles is continued, the sum of the areas, in sq cm, of infinitely many such triangles T1, T2, T3,... will be",
       "options": [
-        "A) 192\\(\\sqrt{3}\\)",
-        "B) 164\\(\\sqrt{3}\\)",
-        "C) 248\\(\\sqrt{3}\\)",
-        "D) 188\\(\\sqrt{3}\\)"
+        "A) \\(192\\sqrt{3}\\)",
+        "B) \\(164\\sqrt{3}\\)",
+        "C) \\(248\\sqrt{3}\\)",
+        "D) \\(188\\sqrt{3}\\)"
       ],
       "answer": "A",
       "explanation": "",
@@ -21575,12 +21575,12 @@
       "topic": "Logarithm",
       "type": "MCQ",
       "passage": "",
-      "question": "If x is a positive quantity such that 2 x = 3 log 5 2 , then x is equal to",
+      "question": "If \\(x\\) is a positive quantity such that \\(2^{x} = 3^{\\log_{5} 2}\\), then \\(x\\) is equal to",
       "options": [
-        "A) log 5 9",
-        "B) 1 + log 5 \\(\\frac{3}{5}\\))",
-        "C) 1 + log 3 \\(\\frac{5}{3}\\))",
-        "D) log 5 8"
+        "A) \\(\\log_{5} 9\\)",
+        "B) \\(1 + \\log_{5} \\frac{3}{5}\\)",
+        "C) \\(1 + \\log_{3} \\frac{5}{3}\\)",
+        "D) \\(\\log_{5} 8\\)"
       ],
       "answer": "B",
       "explanation": "",
@@ -21596,12 +21596,12 @@
       "topic": "Logarithm",
       "type": "MCQ",
       "passage": "",
-      "question": "If log 12 81 = p, then 3(\\(\\frac{4 - p}{4 + p}\\))) is equal to:",
+      "question": "If \\(\\log_{12} 81 = p\\), then \\(3\\left(\\frac{4 - p}{4 + p}\\right)\\) is equal to:",
       "options": [
-        "A) log 2 8",
-        "B) log 6 8",
-        "C) log 4 16",
-        "D) log 6 16"
+        "A) \\(\\log_{2} 8\\)",
+        "B) \\(\\log_{6} 8\\)",
+        "C) \\(\\log_{4} 16\\)",
+        "D) \\(\\log_{6} 16\\)"
       ],
       "answer": "B",
       "explanation": "",
@@ -21617,7 +21617,7 @@
       "topic": "Mensuration",
       "type": "TITA",
       "passage": "",
-      "question": "A right circular cone, of height 12 ft, stands on its base which has diameter 8 ft. The tip of the cone is cut off with a plane which is parallel to the base and 9 ft from the base. With π = 22/7, the volume, in cubic ft, of the remaining part of the cone is:",
+      "question": "A right circular cone, of height 12 ft, stands on its base which has diameter 8 ft. The tip of the cone is cut off with a plane which is parallel to the base and 9 ft from the base. With \\(\\pi = 22/7\\), the volume, in cubic ft, of the remaining part of the cone is:",
       "options": [],
       "answer": "198",
       "explanation": "",
@@ -21665,12 +21665,12 @@
       "topic": "Linear and Quadratic Equations",
       "type": "MCQ",
       "passage": "",
-      "question": "If u 2 + (u−2v−1) 2 = −4v(u + v), then what is the value of u + 3v?",
+      "question": "If \\(u^{2} + (u - 2v - 1)^{2} = -4v(u + v)\\), then what is the value of \\(u + 3v\\)?",
       "options": [
-        "A) \\(\\frac{1}{4}\\))",
-        "B) \\(\\frac{1}{2}\\))",
+        "A) \\(\\frac{1}{4}\\)",
+        "B) \\(\\frac{1}{2}\\)",
         "C) 0",
-        "D) -\\(\\frac{1}{4}\\))"
+        "D) \\(-\\frac{1}{4}\\)"
       ],
       "answer": "D",
       "explanation": "",
@@ -21746,10 +21746,10 @@
       "passage": "",
       "question": "Let x, y, z be three positive real numbers in a geometric progression such that x < y < z. If 5x, 16y, and 12z are in an arithmetic progression then the common ratio of the geometric progression is",
       "options": [
-        "A) \\(\\frac{1}{6}\\))",
-        "B) \\(\\frac{3}{6}\\))",
-        "C) \\(\\frac{3}{2}\\))",
-        "D) \\(\\frac{5}{2}\\))"
+        "A) \\(\\frac{1}{6}\\)",
+        "B) \\(\\frac{3}{6}\\)",
+        "C) \\(\\frac{3}{2}\\)",
+        "D) \\(\\frac{5}{2}\\)"
       ],
       "answer": "D",
       "explanation": "",
@@ -21765,7 +21765,7 @@
       "topic": "Number Theory",
       "type": "TITA",
       "passage": "",
-      "question": "The number of integers x such that 0.25 < 2 x < 200, and 2 x + 2 is perfectly divisible by either 3 or 4, is",
+      "question": "The number of integers \\(x\\) such that \\(0.25 < 2^{x} < 200\\), and \\(2^{x} + 2\\) is perfectly divisible by either 3 or 4, is",
       "options": [],
       "answer": "5",
       "explanation": "",
@@ -21834,12 +21834,12 @@
       "topic": "Exponents",
       "type": "MCQ",
       "passage": "",
-      "question": "Given that x 2018 y 2017 = 1/2 and x 2016 y 2019 = 8, the value of x 2 + y 3 is",
+      "question": "Given that \\(x^{2018} y^{2017} = \\frac{1}{2}\\) and \\(x^{2016} y^{2019} = 8\\), the value of \\(x^{2} + y^{3}\\) is",
       "options": [
-        "A) \\(\\frac{37}{4}\\))",
-        "B) \\(\\frac{31}{4}\\))",
-        "C) \\(\\frac{35}{4}\\))",
-        "D) \\(\\frac{33}{4}\\))"
+        "A) \\(\\frac{37}{4}\\)",
+        "B) \\(\\frac{31}{4}\\)",
+        "C) \\(\\frac{35}{4}\\)",
+        "D) \\(\\frac{33}{4}\\)"
       ],
       "answer": "D",
       "explanation": "",
@@ -21857,10 +21857,10 @@
       "passage": "",
       "question": "Raju and Lalitha originally had marbles in the ratio 4 : 9. Then Lalitha gave some of her marbles to Raju. As a result, the ratio of the number of marbles with Raju to that with Lalitha became 5 : 6. What fraction of her original number of marbles was given by Lalitha to Raju?",
       "options": [
-        "A) \\(\\frac{1}{4}\\))",
-        "B) \\(\\frac{1}{5}\\))",
-        "C) \\(\\frac{6}{19}\\))",
-        "D) \\(\\frac{7}{33}\\))"
+        "A) \\(\\frac{1}{4}\\)",
+        "B) \\(\\frac{1}{5}\\)",
+        "C) \\(\\frac{6}{19}\\)",
+        "D) \\(\\frac{7}{33}\\)"
       ],
       "answer": "D",
       "explanation": "",
@@ -21876,7 +21876,7 @@
       "topic": "Logarithms",
       "type": "MCQ",
       "passage": "",
-      "question": "If log 2 (5 + log 3 a) = 3 and log 5 (4a + 12 + log 2 b) = 3, then a + b is equal to",
+      "question": "If \\(\\log_{2}(5 + \\log_{3} a) = 3\\) and \\(\\log_{5}(4a + 12 + \\log_{2} b) = 3\\), then \\(a + b\\) is equal to",
       "options": [
         "A) 32",
         "B) 59",
@@ -21920,10 +21920,10 @@
       "passage": "",
       "question": "In a parallelogram ABCD of area 72 sq cm, the sides CD and AD have lengths 9 cm and 16 cm, respectively. Let P be a point on CD such that AP is perpendicular to CD. Then the area, in sq cm, of triangle APD is",
       "options": [
-        "A) 18\\(\\sqrt{3}\\)",
-        "B) 24\\(\\sqrt{3}\\)",
-        "C) 32\\(\\sqrt{3}\\)",
-        "D) 12\\(\\sqrt{3}\\)"
+        "A) \\(18\\sqrt{3}\\)",
+        "B) \\(24\\sqrt{3}\\)",
+        "C) \\(32\\sqrt{3}\\)",
+        "D) \\(12\\sqrt{3}\\)"
       ],
       "answer": "C",
       "explanation": "",
@@ -21997,7 +21997,7 @@
       "topic": "Functions",
       "type": "TITA",
       "passage": "",
-      "question": "Let f(x)=min{2x 2 , 52 - 5x}, where x is any positive real number.Then the maximum possible value of f(x) is",
+      "question": "Let \\(f(x) = \\min\\{2x^{2},\\, 52 - 5x\\}\\), where \\(x\\) is any positive real number. Then the maximum possible value of \\(f(x)\\) is",
       "options": [],
       "answer": "32",
       "explanation": "",
@@ -23366,7 +23366,7 @@
       "topic": "Sequence & Series",
       "type": "MCQ",
       "passage": "",
-      "question": "Let a 1 , a 2 , ... , a 52 be positive integers such that a 1 ＜ a 2 ＜ ... ＜ a 52 . Suppose, their arithmetic mean is one less than the arithmetic mean of a 2 , a 3 , ..., a 52 . If a 52 = 100, then the largest possible value of a 1 is",
+      "question": "Let \\(a_{1}, a_{2}, \\ldots, a_{52}\\) be positive integers such that \\(a_{1} < a_{2} < \\ldots < a_{52}\\). Suppose, their arithmetic mean is one less than the arithmetic mean of \\(a_{2}, a_{3}, \\ldots, a_{52}\\). If \\(a_{52} = 100\\), then the largest possible value of \\(a_{1}\\) is",
       "options": [
         "A) 48",
         "B) 20",
@@ -23424,7 +23424,7 @@
       "topic": "Sequence & Series",
       "type": "TITA",
       "passage": "",
-      "question": "Let t 1 , t 2 ,… be real numbers such that t 1 + t 2 +... + t n = 2n 2 + 9n + 13, for every positive integer n ≥ 2. If t k =103, then k equals",
+      "question": "Let \\(t_{1}, t_{2}, \\ldots\\) be real numbers such that \\(t_{1} + t_{2} + \\ldots + t_{n} = 2n^{2} + 9n + 13\\), for every positive integer \\(n \\geq 2\\). If \\(t_{k} = 103\\), then \\(k\\) equals",
       "options": [],
       "answer": "24",
       "explanation": "",
@@ -23440,12 +23440,12 @@
       "topic": "Mensuration",
       "type": "MCQ",
       "passage": "",
-      "question": "From a rectangle ABCD of area 768 sq cm, a semicircular part with diameter AB and area 72π sq cm is removed. The perimeter of the leftover portion, in cm, is",
+      "question": "From a rectangle ABCD of area 768 sq cm, a semicircular part with diameter AB and area \\(72\\pi\\) sq cm is removed. The perimeter of the leftover portion, in cm, is",
       "options": [
-        "A) 88 + 12π",
-        "B) 80 + 16π",
-        "C) 86 + 8π",
-        "D) 82 + 24π"
+        "A) \\(88 + 12\\pi\\)",
+        "B) \\(80 + 16\\pi\\)",
+        "C) \\(86 + 8\\pi\\)",
+        "D) \\(82 + 24\\pi\\)"
       ],
       "answer": "A",
       "explanation": "",
@@ -23461,7 +23461,7 @@
       "topic": "Number Theory",
       "type": "TITA",
       "passage": "",
-      "question": "If N and x are positive integers such that N N = 2 160 and N 2 + 2 N is an integral multiple of 2 x , then the largest possible x is",
+      "question": "If \\(N\\) and \\(x\\) are positive integers such that \\(N^{N} = 2^{160}\\) and \\(N^{2} + 2^{N}\\) is an integral multiple of \\(2^{x}\\), then the largest possible \\(x\\) is",
       "options": [],
       "answer": "10",
       "explanation": "",
@@ -23479,9 +23479,9 @@
       "passage": "",
       "question": "A chord of length 5 cm subtends an angle of 60° at the centre of a circle. The length, in cm, of a chord that subtends an angle of 120° at the centre of the same circle is",
       "options": [
-        "A) 2π",
-        "B) 5\\(\\sqrt{3}\\)",
-        "C) 6\\(\\sqrt{2}\\)",
+        "A) \\(2\\pi\\)",
+        "B) \\(5\\sqrt{3}\\)",
+        "C) \\(6\\sqrt{2}\\)",
         "D) 8"
       ],
       "answer": "B",
@@ -23498,12 +23498,12 @@
       "topic": "Logarithm",
       "type": "MCQ",
       "passage": "",
-      "question": "If p 3 = q 4 = r 5 = s 6 , then the value of log s (pqr) is equal to",
+      "question": "If \\(p^{3} = q^{4} = r^{5} = s^{6}\\), then the value of \\(\\log_{s}(pqr)\\) is equal to",
       "options": [
-        "A) \\(\\frac{24}{5}\\)\\\\)",
+        "A) \\(\\frac{24}{5}\\)",
         "B) 1",
-        "C) \\(\\frac{47}{10}\\)\\\\)",
-        "D) \\(\\frac{16}{5}\\)\\\\)"
+        "C) \\(\\frac{47}{10}\\)",
+        "D) \\(\\frac{16}{5}\\)"
       ],
       "answer": "C",
       "explanation": "",
@@ -23577,7 +23577,7 @@
       "topic": "Number Theory | Inequalities",
       "type": "MCQ",
       "passage": "",
-      "question": "The smallest integer n for which 4 n ＞ 17 19 holds, is closest to",
+      "question": "The smallest integer \\(n\\) for which \\(4^{n} > 17^{19}\\) holds, is closest to",
       "options": [
         "A) 33",
         "B) 39",
@@ -23598,7 +23598,7 @@
       "topic": "Polynomials | Inequalities",
       "type": "TITA",
       "passage": "",
-      "question": "The smallest integer n such that n 3 - 11n 2 + 32n - 28 ＞ 0 is",
+      "question": "The smallest integer \\(n\\) such that \\(n^{3} - 11n^{2} + 32n - 28 > 0\\) is",
       "options": [],
       "answer": "8",
       "explanation": "",
@@ -23772,7 +23772,7 @@
       "topic": "Inequalities",
       "type": "TITA",
       "passage": "",
-      "question": "If a and b are integers such that 2x 2 − ax + 2 ＞ 0 and x 2 − bx + 8 ≥ 0 for all real numbers x, then the largest possible value of 2a − 6b is",
+      "question": "If \\(a\\) and \\(b\\) are integers such that \\(2x^{2} - ax + 2 > 0\\) and \\(x^{2} - bx + 8 \\geq 0\\) for all real numbers \\(x\\), then the largest possible value of \\(2a - 6b\\) is",
       "options": [],
       "answer": "36",
       "explanation": "",
@@ -23811,8 +23811,8 @@
       "passage": "",
       "question": "A triangle ABC has area 32 sq units and its side BC, of length 8 units, lies on the line x = 4. Then the shortest possible distance between A and the point (0,0) is",
       "options": [
-        "A) 4\\(\\sqrt{2}\\) units",
-        "B) 2\\(\\sqrt{2}\\) units",
+        "A) \\(4\\sqrt{2}\\) units",
+        "B) \\(2\\sqrt{2}\\) units",
         "C) 4 units",
         "D) 8 units"
       ],
@@ -23883,7 +23883,7 @@
       "topic": "Progressions & Series",
       "type": "TITA",
       "passage": "",
-      "question": "The arithmetic mean of x, y and z is 80, and that of x, y, z, u and v is 75, where u = \\(\\frac{(x+y)}{2}\\)\\\\) and v = \\(\\frac{(y+z)}{2}\\)\\\\). If x ≥ z, then the minimum possible value of x is",
+      "question": "The arithmetic mean of \\(x\\), \\(y\\) and \\(z\\) is 80, and that of \\(x\\), \\(y\\), \\(z\\), \\(u\\) and \\(v\\) is 75, where \\(u = \\frac{x + y}{2}\\) and \\(v = \\frac{y + z}{2}\\). If \\(x \\geq z\\), then the minimum possible value of \\(x\\) is",
       "options": [],
       "answer": "105",
       "explanation": "",
@@ -23899,7 +23899,7 @@
       "topic": "Functions",
       "type": "TITA",
       "passage": "",
-      "question": "Let f(x)=max{5x, 52 - 2x 2 }, where x is any positive real number.Then the minimum possible value of f(x) is",
+      "question": "Let \\(f(x) = \\max\\{5x,\\, 52 - 2x^{2}\\}\\), where \\(x\\) is any positive real number. Then the minimum possible value of \\(f(x)\\) is",
       "options": [],
       "answer": "20",
       "explanation": "",
@@ -23936,7 +23936,7 @@
       "topic": "Set Theory",
       "type": "MCQ",
       "passage": "",
-      "question": "If A = {6 2n - 35n - 1: n = 1,2,3,...} and B = {35(n-1) : n = 1,2,3,...} then which of the following is true?",
+      "question": "If \\(A = \\{6^{2n} - 35n - 1 : n = 1, 2, 3, \\ldots\\}\\) and \\(B = \\{35(n - 1) : n = 1, 2, 3, \\ldots\\}\\) then which of the following is true?",
       "options": [
         "A) Neither every member of A is in B nor every member of B is in A",
         "B) Every member of A is in B and at least one member of B is not in A",
@@ -23978,10 +23978,10 @@
       "topic": "Logarithm",
       "type": "MCQ",
       "passage": "",
-      "question": "\\(\\frac{1}{log_{2}\\)100}\\\\) - \\(\\frac{1}{log_{4}\\)100}\\\\) + \\(\\frac{1}{log_{5}\\)100}\\\\) - \\(\\frac{1}{log_{10}\\)100}\\\\) + \\(\\frac{1}{log_{20}\\)100}\\\\) - \\(\\frac{1}{log_{25}\\)100}\\\\) + \\(\\frac{1}{log_{50}\\)100}\\\\) = ?",
+      "question": "\\(\\frac{1}{\\log_{2} 100} - \\frac{1}{\\log_{4} 100} + \\frac{1}{\\log_{5} 100} - \\frac{1}{\\log_{10} 100} + \\frac{1}{\\log_{20} 100} - \\frac{1}{\\log_{25} 100} + \\frac{1}{\\log_{50} 100} = ?\\)",
       "options": [
         "A) 0",
-        "B) \\(\\frac{1}{2}\\)\\\\)",
+        "B) \\(\\frac{1}{2}\\)",
         "C) -4",
         "D) 10"
       ],

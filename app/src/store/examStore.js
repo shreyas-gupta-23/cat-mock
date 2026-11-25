@@ -1,6 +1,8 @@
 import { create } from 'zustand';
 import bank from '../data/pyq-bank.json';
-import { sectionSeconds } from '../utils/percentile';
+import { estimateSectionPercentile, sectionSeconds } from '../utils/percentile';
+import { scoreQuestion, titaFigure } from '../utils/score';
+import { optionLetter, splitStem } from '../utils/stem';
 
 function sectionClock(year) {
   const seconds = sectionSeconds(year);
@@ -10,6 +12,63 @@ export const SECTIONS = ['VARC', 'DILR', 'Quant'];
 export const SECTION_LABELS = { VARC: 'VARC', DILR: 'DILR', Quant: 'Quantitative Ability' };
 export const PAPERS = bank.papers;
 export const ALL_QUESTIONS = bank.questions;
+
+function shownAnswer(question, given) {
+  if (given === null || given === undefined || String(given).trim() === '') return '';
+  if (question.type !== 'MCQ') return titaFigure(given) || String(given).trim();
+  const letter = String(given).trim().charAt(0).toUpperCase();
+  const opt = (question.options || []).find((item, i) => optionLetter(item, i) === letter);
+  if (!opt) return letter;
+  const text = String(opt).trim();
+  return text.toUpperCase().startsWith(letter) ? text : `${letter}) ${text}`;
+}
+
+function questionLine(question) {
+  const parts = String(splitStem(question).ask).split(/\n\s*\n/).map((s) => s.trim()).filter(Boolean);
+  const body = parts.length > 1 ? parts[parts.length - 1] : (parts[0] || '');
+  const flat = body.replace(/\s+/g, ' ').trim();
+  return flat.length > 220 ? `${flat.slice(0, 217)}…` : flat;
+}
+
+function sectionResult(section, questions, responses, year) {
+  const qs = questions[section] || [];
+  let attempted = 0;
+  let correct = 0;
+  let incorrect = 0;
+  let score = 0;
+  const misses = [];
+  qs.forEach((q, index) => {
+    const given = responses[q.id]?.answer;
+    const scored = scoreQuestion(q, given);
+    score += scored.delta;
+    if (!scored.has) return;
+    attempted += 1;
+    if (scored.correct) {
+      correct += 1;
+      return;
+    }
+    incorrect += 1;
+    misses.push({
+      n: index + 1,
+      type: q.type,
+      line: questionLine(q),
+      yours: shownAnswer(q, given),
+      key: shownAnswer(q, q.answer),
+    });
+  });
+  return {
+    section,
+    total: qs.length,
+    attempted,
+    correct,
+    incorrect,
+    blank: qs.length - attempted,
+    score,
+    maxScore: qs.length * 3,
+    percentile: estimateSectionPercentile(section, score, year),
+    misses,
+  };
+}
 
 function selectQuestions(config) {
   const paperId = config.paperId;
@@ -33,8 +92,48 @@ export function getQuestionStatus(response) {
   return 'not-answered';
 }
 
+const LIVE_KEY = 'cat_live_exam';
+
+function liveSnapshot(state) {
+  return {
+    examConfig: state.examConfig,
+    responses: state.responses,
+    currentSection: state.currentSection,
+    currentQuestionIndex: state.currentQuestionIndex,
+    sectionTimeLeft: state.sectionTimeLeft,
+    examStatus: state.examStatus,
+    currentInput: state.currentInput,
+    fontSizeLevel: state.fontSizeLevel,
+    sectionInstructionsShown: state.sectionInstructionsShown,
+    sectionResults: state.sectionResults,
+    sectionBreak: state.sectionBreak,
+    clockExpiry: state.clockExpiry,
+  };
+}
+
+function readLive() {
+  try {
+    const snap = JSON.parse(localStorage.getItem(LIVE_KEY) || 'null');
+    if (!snap?.examConfig) return null;
+    if (!['active', 'paused', 'section-break'].includes(snap.examStatus)) return null;
+    return {
+      ...snap,
+      questions: selectQuestions(snap.examConfig),
+      questionStartTime: snap.examStatus === 'active' ? Date.now() : null,
+      showSectionWarning: false,
+      pendingSection: null,
+      showSubmitConfirm: false,
+      fromHistory: false,
+    };
+  } catch {
+    return null;
+  }
+}
+
+const restored = readLive();
+
 const useExamStore = create((set, get) => ({
-  examConfig: { type: 'mock', year: null },
+  examConfig: restored?.examConfig || { type: 'mock', year: null },
   questions: { VARC: [], DILR: [], Quant: [] },
   responses: {},
   currentSection: 'VARC',
@@ -48,7 +147,11 @@ const useExamStore = create((set, get) => ({
   currentInput: '',
   fontSizeLevel: 1,
   sectionInstructionsShown: { VARC: false, DILR: false, Quant: false },
+  sectionResults: {},
+  sectionBreak: null,
+  clockExpiry: 0,
   fromHistory: false,
+  ...(restored || {}),
 
   setCurrentInput: (val) => set({ currentInput: val }),
 
@@ -84,6 +187,9 @@ const useExamStore = create((set, get) => ({
       currentInput: '',
       fontSizeLevel: 1,
       sectionInstructionsShown: { VARC: false, DILR: false, Quant: false },
+      sectionResults: {},
+      sectionBreak: null,
+      clockExpiry: 0,
       fromHistory: false,
     });
   },
@@ -137,6 +243,9 @@ const useExamStore = create((set, get) => ({
       currentInput: '',
       fontSizeLevel: 1,
       sectionInstructionsShown: { VARC: true, DILR: true, Quant: true },
+      sectionResults: {},
+      sectionBreak: null,
+      clockExpiry: 0,
       fromHistory: true,
     });
   },
@@ -240,55 +349,123 @@ const useExamStore = create((set, get) => ({
 
   cancelSectionSwitch: () => set({ showSectionWarning: false, pendingSection: null }),
 
-  tickTimer: () => {
-    const { sectionTimeLeft, currentSection, examStatus } = get();
+  pauseExam: () => {
+    const { examStatus, questionStartTime, responses } = get();
     if (examStatus !== 'active') return;
-    const newTimeLeft = { ...sectionTimeLeft };
-    if (newTimeLeft[currentSection] <= 0) {
-      const idx = SECTIONS.indexOf(currentSection);
-      if (idx < SECTIONS.length - 1) {
-        const nextSection = SECTIONS[idx + 1];
-        const { questions, responses } = get();
-        const sectionQs = questions[nextSection];
-        const newResponses = { ...responses };
-        if (sectionQs.length > 0 && !newResponses[sectionQs[0].id]?.visited) {
-          newResponses[sectionQs[0].id] = { ...newResponses[sectionQs[0].id], visited: true };
-        }
-        set({ sectionTimeLeft: newTimeLeft, currentSection: nextSection, currentQuestionIndex: 0, responses: newResponses, questionStartTime: Date.now(), currentInput: '' });
-      } else {
-        get().submitExam();
-      }
-      return;
-    }
-    newTimeLeft[currentSection] = newTimeLeft[currentSection] - 1;
-    set({ sectionTimeLeft: newTimeLeft });
-  },
-
-  switchSection: (section) => {
-    if (!SECTIONS.includes(section)) return;
-    const { currentSection, questions, responses, questionStartTime } = get();
-    if (section === currentSection) return;
     const currentQ = get().getCurrentQuestion();
-    const newResponses = { ...responses };
-    if (currentQ) {
-      const elapsed = Math.floor((Date.now() - (questionStartTime || Date.now())) / 1000);
-      newResponses[currentQ.id] = {
-        ...newResponses[currentQ.id],
-        timeSpent: (newResponses[currentQ.id]?.timeSpent || 0) + elapsed,
+    let nextResponses = responses;
+    if (currentQ && questionStartTime) {
+      const elapsed = Math.floor((Date.now() - questionStartTime) / 1000);
+      nextResponses = {
+        ...responses,
+        [currentQ.id]: {
+          ...responses[currentQ.id],
+          timeSpent: (responses[currentQ.id]?.timeSpent || 0) + elapsed,
+        },
       };
     }
-    const sectionQs = questions[section] || [];
-    if (sectionQs[0] && !newResponses[sectionQs[0].id]?.visited) {
-      newResponses[sectionQs[0].id] = { ...newResponses[sectionQs[0].id], visited: true };
+    set({
+      responses: nextResponses,
+      questionStartTime: null,
+      examStatus: 'paused',
+      showSubmitConfirm: false,
+    });
+  },
+
+  resumeExam: () => {
+    if (get().examStatus !== 'paused') return;
+    set({ examStatus: 'active', questionStartTime: Date.now() });
+  },
+
+  rescoreClosed: () => {
+    const state = get();
+    const next = { ...state.sectionResults };
+    let changed = false;
+    Object.keys(next).forEach((section) => {
+      const result = sectionResult(section, state.questions, state.responses, state.examConfig?.year);
+      const prev = next[section];
+      const same = prev
+        && prev.score === result.score
+        && prev.incorrect === result.incorrect
+        && (prev.misses || []).length === result.misses.length;
+      if (!same) {
+        next[section] = result;
+        changed = true;
+      }
+    });
+    if (changed) set({ sectionResults: next });
+  },
+
+  closeSection: ({ expired } = {}) => {
+    const state = get();
+    if (state.sectionBreak) return;
+    if (state.examStatus !== 'active' && state.examStatus !== 'paused') return;
+    const section = state.currentSection;
+    const currentQ = state.getCurrentQuestion();
+    let responses = state.responses;
+    if (currentQ && state.questionStartTime) {
+      const elapsed = Math.floor((Date.now() - state.questionStartTime) / 1000);
+      responses = {
+        ...responses,
+        [currentQ.id]: {
+          ...responses[currentQ.id],
+          timeSpent: (responses[currentQ.id]?.timeSpent || 0) + elapsed,
+        },
+      };
+    }
+    const result = sectionResult(section, state.questions, responses, state.examConfig?.year);
+    set({
+      responses,
+      questionStartTime: null,
+      currentInput: '',
+      sectionTimeLeft: { ...state.sectionTimeLeft, [section]: 0 },
+      sectionResults: { ...state.sectionResults, [section]: result },
+      sectionBreak: section,
+      examStatus: 'section-break',
+      showSubmitConfirm: false,
+      clockExpiry: expired ? state.clockExpiry + 1 : state.clockExpiry,
+    });
+  },
+
+  continueFromBreak: () => {
+    const { sectionBreak, questions, responses } = get();
+    if (!sectionBreak) return;
+    const idx = SECTIONS.indexOf(sectionBreak);
+    if (idx < 0 || idx >= SECTIONS.length - 1) {
+      set({ sectionBreak: null });
+      get().submitExam();
+      return;
+    }
+    const nextSection = SECTIONS[idx + 1];
+    const sectionQs = questions[nextSection] || [];
+    const nextResponses = { ...responses };
+    if (sectionQs[0] && !nextResponses[sectionQs[0].id]?.visited) {
+      nextResponses[sectionQs[0].id] = { ...nextResponses[sectionQs[0].id], visited: true };
     }
     set({
-      currentSection: section,
+      responses: nextResponses,
+      currentSection: nextSection,
       currentQuestionIndex: 0,
-      responses: newResponses,
+      sectionBreak: null,
+      examStatus: 'active',
       questionStartTime: Date.now(),
       currentInput: '',
     });
   },
+
+  tickTimer: () => {
+    const { sectionTimeLeft, currentSection, examStatus } = get();
+    if (examStatus !== 'active') return;
+    const left = sectionTimeLeft[currentSection] ?? 0;
+    if (left <= 1) {
+      set({ sectionTimeLeft: { ...sectionTimeLeft, [currentSection]: 0 } });
+      get().closeSection({ expired: true });
+      return;
+    }
+    set({ sectionTimeLeft: { ...sectionTimeLeft, [currentSection]: left - 1 } });
+  },
+
+  switchSection: () => {},
 
   nextQuestion: () => {
     const { questions, currentSection, currentQuestionIndex } = get();
@@ -350,8 +527,19 @@ const useExamStore = create((set, get) => ({
     currentInput: '',
     fontSizeLevel: 1,
     sectionInstructionsShown: { VARC: false, DILR: false, Quant: false },
+    sectionResults: {},
+    sectionBreak: null,
+    clockExpiry: 0,
     fromHistory: false,
   }),
 }));
+
+useExamStore.subscribe((state) => {
+  if (['active', 'paused', 'section-break'].includes(state.examStatus)) {
+    localStorage.setItem(LIVE_KEY, JSON.stringify(liveSnapshot(state)));
+    return;
+  }
+  localStorage.removeItem(LIVE_KEY);
+});
 
 export default useExamStore;

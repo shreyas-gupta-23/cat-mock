@@ -33,8 +33,11 @@ export default function ReviewPane({ questions }) {
   const sectionKey = inSection.map((q) => q.id).join('|');
   const matchesRef = useRef(matches);
   const inSectionRef = useRef(inSection);
+  const currentIdRef = useRef(currentId);
+  const gridRef = useRef(null);
   matchesRef.current = matches;
   inSectionRef.current = inSection;
+  currentIdRef.current = currentId;
 
   useEffect(() => {
     const pool = matchesRef.current.length ? matchesRef.current : inSectionRef.current;
@@ -46,18 +49,31 @@ export default function ReviewPane({ questions }) {
 
   useEffect(() => {
     const onKey = (e) => {
-      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement || e.target instanceof HTMLSelectElement) return;
-      if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
-      const pool = matches.some((item) => item.id === currentId) ? matches : inSection;
-      const i = pool.findIndex((item) => item.id === currentId);
-      const next = e.key === 'ArrowRight' ? pool[i + 1] : pool[i - 1];
-      if (!next) return;
+      if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return;
+      const tag = e.target?.tagName;
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || e.target?.isContentEditable) return;
+      const list = inSectionRef.current;
+      if (!list.length) return;
+      const raw = getComputedStyle(gridRef.current || document.body).gridTemplateColumns;
+      const cols = raw.split(' ').filter((part) => part && part !== '0px').length || 5;
+      const step = e.key === 'ArrowRight' ? 1
+        : e.key === 'ArrowLeft' ? -1
+        : e.key === 'ArrowDown' ? cols
+        : e.key === 'ArrowUp' ? -cols
+        : 0;
+      if (!step) return;
       e.preventDefault();
-      setCurrentId(next.id);
+      const i = list.findIndex((item) => item.id === currentIdRef.current);
+      const next = list[(i < 0 ? 0 : i) + step];
+      if (next) setCurrentId(next.id);
     };
-    window.addEventListener('keydown', onKey);
-    return () => window.removeEventListener('keydown', onKey);
-  }, [matches, inSection, currentId]);
+    window.addEventListener('keydown', onKey, true);
+    return () => window.removeEventListener('keydown', onKey, true);
+  }, []);
+
+  useEffect(() => {
+    gridRef.current?.querySelector('[aria-current="true"]')?.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+  }, [currentId]);
 
   const q = inSection.find((item) => item.id === currentId) || null;
   const stepList = q && matches.some((item) => item.id === q.id) ? matches : inSection;
@@ -180,7 +196,7 @@ export default function ReviewPane({ questions }) {
 
         <aside className="palette review-pal">
           <h2>{section === 'all' ? 'Paper' : section}</h2>
-          <div className="pal-grid">
+          <div className="pal-grid" ref={gridRef}>
             {inSection.map((item) => {
               const shown = filter === 'all' || matches.some((m) => m.id === item.id);
               let status = 'blank';

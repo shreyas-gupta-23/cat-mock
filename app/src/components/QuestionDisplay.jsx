@@ -1,6 +1,7 @@
 import katex from 'katex';
 import 'katex/dist/katex.min.css';
 import useExamStore from '../store/examStore';
+import { decodeEntities, presentText } from '../utils/stem';
 
 const TOKEN = /(\$\$[\s\S]+?\$\$|\\\[[\s\S]+?\\\]|\\\([\s\S]+?\\\)|\$(?:\\.|[^$\n])+?\$|\*\*[^*\n]+?\*\*|\*[A-Za-z][^*\n]*?\*|`[^`\n]+`)/g;
 
@@ -40,17 +41,23 @@ function inlinePieces(text, prefix) {
   return nodes;
 }
 
+const FIG = /(!\[[^\]]*\]\([^)]+\)|https?:\/\/[^\s<>"']+\.(?:png|jpe?g|gif|webp)(?:\?[^\s<>"']*)?)/gi;
+
 export function Rich({ text }) {
-  const bits = String(text || '').split(/(!\[[^\]]*\]\([^)]+\))/g);
+  const bits = decodeEntities(text).split(FIG);
   return bits.map((bit, i) => {
-    const img = bit.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
-    if (img) return <img key={i} className="stem-fig" alt={img[1]} src={img[2]} />;
+    if (!bit) return null;
+    const md = bit.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
+    if (md) return <img key={i} className="stem-fig" alt={md[1] || 'Figure'} src={md[2]} />;
+    if (/^https?:\/\/\S+\.(?:png|jpe?g|gif|webp)(?:\?\S*)?$/i.test(bit)) {
+      return <img key={i} className="stem-fig" alt="Figure" src={bit} />;
+    }
     return <span key={i}>{inlinePieces(bit, i)}</span>;
   });
 }
 
 export function Stem({ text, size }) {
-  const parts = String(text || '').split('```');
+  const parts = presentText(text).split('```');
   return parts.map((part, i) => {
     const body = part.replace(/^\n/, '').replace(/\n$/, '');
     if (!body.trim()) return null;

@@ -1,12 +1,23 @@
 /**
  * Score → percentile from published scaled-score tables, one curve per CAT year.
- * Sources: Cracku (2017, 2021, 2024, 2025), BYJU'S / Career Launcher (2018, 2019),
- * InsideIIM (2022, 2023). These are scaled scores after slot normalisation, not a
- * raw cutoff for one slot. A raw score on a single slot is only a stand-in.
+ * IIMs do not publish an official marks-to-percentile chart. These are the
+ * coaching compilations of scaled scores, and a raw slot score is read on that
+ * chart.
  *
- * Section tables for 2022–2025 are published. For 2017–2021 the section shape is
- * the 2022 section table, stretched so each section's 99 sits in the same ratio
- * to that year's overall 99 as it did in 2022.
+ * Sections:
+ * 2017–2019 DILR: InsideIIM (2017 and 2018 from public scaled scores, 2019 from
+ * their scorecard study). 2017 VARC: InsideIIM. 2017 QA 99: GP's published raw
+ * score of 78; lower QA marks for 2017 were not published, so the line under 78
+ * runs straight to 0.
+ * 2018 VARC and QA: Cracku's CAT 2018 score chart.
+ * 2019 VARC and QA: Getmyuni's post-result chart.
+ * 2020: Cracku ranges quoted by Careers360, using the middle of each range.
+ * 2021, 2022, 2024, 2025: iQuanta's September 2026 five-year chart.
+ * 2023: Cracku's section chart, as quoted by Careers360.
+ *
+ * Between two listed marks the percentile moves in a straight line. Above the
+ * top listed mark it stays at that percentile. Below the lowest listed mark it
+ * falls in a straight line to 0.
  */
 
 const OVERALL = {
@@ -21,71 +32,53 @@ const OVERALL = {
   2025: [[20, 55], [23, 60], [26, 65], [29.5, 70], [33, 75], [38, 80], [44.2, 85], [51.5, 90], [62.3, 95], [70, 97], [76, 98], [84.8, 99], [93, 99.5], [111.48, 99.9], [118.37, 99.95], [132.79, 99.99]],
 };
 
-const PAPER = {
-  2017: { overall: 300, VARC: 102, DILR: 96, Quant: 102 },
-  2018: { overall: 300, VARC: 102, DILR: 96, Quant: 102 },
-  2019: { overall: 300, VARC: 102, DILR: 96, Quant: 102 },
-  2020: { overall: 228, VARC: 78, DILR: 72, Quant: 78 },
-  2021: { overall: 198, VARC: 72, DILR: 60, Quant: 66 },
-  2022: { overall: 198, VARC: 72, DILR: 60, Quant: 66 },
-  2023: { overall: 198, VARC: 72, DILR: 60, Quant: 66 },
-  2024: { overall: 204, VARC: 72, DILR: 66, Quant: 66 },
-  2025: { overall: 204, VARC: 72, DILR: 66, Quant: 66 },
-};
-
-// 2022 QA 99 is the cited ~44. The rest of that column is the 2023 QA shape
-// moved so its 99 lands on 44.3. VARC and DILR are InsideIIM's 2022 cutoffs.
-const SECTION_2022 = {
-  VARC: [[17, 80], [21, 85], [24, 90], [28, 95], [40, 99]],
-  DILR: [[13, 80], [14, 85], [18, 90], [21, 95], [30, 99]],
-  Quant: [[16.2, 80], [23.9, 90], [29.6, 95], [44.3, 99], [49.7, 99.5], [61.4, 99.9]],
-};
-
 const SECTION = {
-  2022: SECTION_2022,
+  2017: {
+    VARC: [[55, 90], [65, 95], [70, 98], [75, 99]],
+    DILR: [[28, 90], [33, 95], [40, 98], [45, 99]],
+    Quant: [[78, 99]],
+  },
+  2018: {
+    VARC: [[45, 85], [55, 90], [64, 95], [72, 99]],
+    DILR: [[29, 90], [35, 95], [41, 98], [46, 99]],
+    Quant: [[26, 85], [30, 90], [35, 95], [55, 99]],
+  },
+  2019: {
+    VARC: [[38, 80], [43, 85], [47, 90], [57, 95], [64, 98], [70, 99]],
+    DILR: [[32, 90], [39, 95], [48, 98], [52, 99]],
+    Quant: [[24, 80], [28, 85], [34, 90], [43, 95], [52, 98], [67, 99]],
+  },
+  2020: {
+    VARC: [[25.5, 85], [30, 90], [33.5, 95], [42, 99]],
+    DILR: [[21.5, 85], [26, 90], [35, 99]],
+    Quant: [[27, 85], [33, 90], [37, 95], [43.5, 99]],
+  },
+  2021: {
+    VARC: [[28, 90], [34, 95], [40, 98], [45, 99], [49, 99.5], [56, 99.9]],
+    DILR: [[20, 90], [24, 95], [30, 98], [33, 99], [36, 99.5], [42, 99.9]],
+    Quant: [[18, 90], [23, 95], [28, 98], [34, 99], [41, 99.5], [49, 99.9]],
+  },
+  2022: {
+    VARC: [[24, 90], [29, 95], [35, 98], [41, 99], [45, 99.5], [52, 99.9]],
+    DILR: [[20, 90], [23, 95], [28, 98], [33, 99], [38, 99.5], [46, 99.9]],
+    Quant: [[17, 90], [22, 95], [27, 98], [30, 99], [35, 99.5], [43, 99.9]],
+  },
   2023: {
-    VARC: [[17.58, 80], [23.37, 90], [28.78, 95], [39.83, 99], [44, 99.5], [51.14, 99.9], [58.2, 99.99]],
-    DILR: [[11.67, 80], [15.63, 90], [18.92, 95], [27.29, 99], [30.58, 99.5], [36.58, 99.9], [42.66, 99.99]],
-    Quant: [[9.2, 80], [13.63, 90], [16.87, 95], [25.2, 99], [28.28, 99.5], [34.96, 99.9], [44.89, 99.99]],
+    VARC: [[17.58, 85], [22.37, 90], [28.78, 95], [39.83, 99], [44, 99.5], [51.14, 99.9], [58.2, 99.99]],
+    DILR: [[11.67, 85], [15.63, 90], [18.92, 95], [27.29, 99], [30.58, 99.5], [36.58, 99.9], [42.66, 99.99]],
+    Quant: [[9.2, 85], [13.63, 90], [16.87, 95], [25.2, 99], [28.28, 99.5], [34.96, 99.9], [44.89, 99.99]],
   },
   2024: {
-    VARC: [[15.6, 75], [18.2, 80], [20.42, 85], [24, 90], [30, 95], [33.54, 97], [40.3, 99], [44, 99.5], [55, 99.9]],
-    DILR: [[14.95, 75], [17, 80], [19.5, 85], [22.5, 90], [27, 95], [30.8, 97], [37.8, 99], [41.4, 99.5], [50.1, 99.9]],
-    Quant: [[9.92, 75], [11.6, 80], [13.7, 85], [17, 90], [22, 95], [25, 97], [33, 99], [36.5, 99.5], [45, 99.9]],
+    VARC: [[24, 90], [30, 95], [36, 98], [41, 99], [44, 99.5], [55, 99.9]],
+    DILR: [[22, 90], [27, 95], [34, 98], [38, 99], [41, 99.5], [50, 99.9]],
+    Quant: [[17, 90], [22, 95], [27, 98], [33, 99], [37, 99.5], [45, 99.9]],
   },
   2025: {
-    VARC: [[11, 60], [19, 80], [22, 85], [26, 90], [32.5, 95], [44, 99], [48, 99.5], [53, 99.9]],
-    DILR: [[8.5, 70], [11.5, 80], [14, 85], [16.7, 90], [21.5, 95], [29.8, 99], [33, 99.5], [38, 99.9]],
-    Quant: [[7.1, 70], [10, 80], [12, 85], [15, 90], [18.5, 95], [27.3, 99], [31.2, 99.5], [37, 99.9]],
+    VARC: [[26, 90], [33, 95], [39, 98], [44, 99], [48, 99.5], [53, 99.9]],
+    DILR: [[17, 90], [22, 95], [26, 98], [30, 99], [33, 99.5], [38, 99.9]],
+    Quant: [[15, 90], [19, 95], [25, 98], [27, 99], [31, 99.5], [37, 99.9]],
   },
 };
-
-function scoreAt(table, percentile) {
-  for (let i = 0; i < table.length; i++) {
-    if (table[i][1] === percentile) return table[i][0];
-  }
-  return null;
-}
-
-function stretchSection(year, section) {
-  const paper = PAPER[year];
-  const ref = PAPER[2022];
-  const factor = (paper[section] / ref[section])
-    * (scoreAt(OVERALL[year], 99) / paper.overall)
-    / (scoreAt(OVERALL[2022], 99) / ref.overall);
-  return SECTION_2022[section].map(([score, percentile]) => [
-    Math.round(score * factor * 10) / 10,
-    percentile,
-  ]);
-}
-
-for (const year of [2017, 2018, 2019, 2020, 2021]) {
-  SECTION[year] = {
-    VARC: stretchSection(year, 'VARC'),
-    DILR: stretchSection(year, 'DILR'),
-    Quant: stretchSection(year, 'Quant'),
-  };
-}
 
 export function bandYear(year) {
   const y = Number(year);
@@ -109,10 +102,8 @@ function lookup(table, score) {
   if (score >= last[0]) return Math.min(99.99, last[1]);
   if (score <= first[0]) {
     if (first[0] <= 0) return first[1];
-    const floor = 15;
     const t = Math.max(0, score) / first[0];
-    const value = floor + t * (first[1] - floor);
-    return Math.max(1, Math.min(first[1], value));
+    return Math.max(0, Math.min(first[1], t * first[1]));
   }
   for (let i = 1; i < table.length; i++) {
     const [s0, p0] = table[i - 1];
@@ -159,12 +150,8 @@ export const DISPLAY_BANDS = [99.5, 99, 95, 90, 80];
 
 export function percentileCaption(year) {
   const y = bandYear(year);
-  const stretched = y <= 2021;
-  const sectionNote = stretched
-    ? ' Section bands are the 2022 section table, stretched to this year\'s overall 99.'
-    : '';
   if (!year) {
-    return 'CAT 2025 scaled-score table, the pattern these mocks follow. Not an All-India rank.';
+    return 'CAT 2025 published scaled-score table, the pattern these mocks follow. Not an All-India rank.';
   }
-  return `CAT ${y} scaled-score table. A raw slot score stands in for the scaled score.${sectionNote}`;
+  return `CAT ${y} published scaled-score table. The raw slot score is read on that table. Between listed marks the percentile moves in a straight line.`;
 }

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import useExamStore, { PAPERS, ALL_QUESTIONS } from '../store/examStore';
 import useHistoryStore from '../store/historyStore';
@@ -25,6 +25,7 @@ function scoredAttempt(attempt) {
 export default function HomeScreen() {
   const navigate = useNavigate();
   const startExam = useExamStore(s => s.startExam);
+  const examStatus = useExamStore(s => s.examStatus);
   const openReview = useExamStore(s => s.openReview);
   const attempts = useHistoryStore(s => s.attempts);
   const deleteAttempt = useHistoryStore(s => s.deleteAttempt);
@@ -32,6 +33,12 @@ export default function HomeScreen() {
   const [selectedConfig, setSelectedConfig] = useState(null);
   const [showRules, setShowRules] = useState(false);
   const [showFullscreenPrompt, setShowFullscreenPrompt] = useState(false);
+
+  useEffect(() => {
+    if (examStatus === 'active' || examStatus === 'paused' || examStatus === 'section-break') {
+      navigate('/exam');
+    }
+  }, [examStatus, navigate]);
 
   const handleSelect = (config) => {
     setSelectedConfig(config);
@@ -146,7 +153,7 @@ export default function HomeScreen() {
             <h3>{selectedConfig.label}</h3>
             <p className="press-muted">Same rules as the paper.</p>
             <ul>
-              <li>VARC, DILR, Quant. {sectionMinutes(selectedConfig.year)} minutes each. You can switch; a clock runs only while that section is open.</li>
+              <li>VARC, then DILR, then Quant. {sectionMinutes(selectedConfig.year)} minutes each. A finished section stays closed, and its score is shown before the next one.</li>
               <li>MCQ: +3 correct, −1 wrong. TITA: +3 correct, 0 wrong.</li>
               <li>A marked question with an answer still counts.</li>
             </ul>
@@ -162,7 +169,7 @@ export default function HomeScreen() {
         <div className="press-overlay">
           <div className="press-modal">
             <h3>Fullscreen</h3>
-            <p>The paper runs in fullscreen. Leaving the window is recorded.</p>
+            <p>The paper can run in fullscreen. Leaving the window does not end it.</p>
             <div className="press-row">
               <button type="button" className="press-btn" onClick={() => { setShowFullscreenPrompt(false); setShowRules(true); }}>Back</button>
               <button type="button" className="press-btn solid" onClick={handleFullscreenStart}>Start</button>

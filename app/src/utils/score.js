@@ -21,6 +21,18 @@ function orderDigits(s) {
   return /^\d{2,}$/.test(t) ? t : null;
 }
 
+const UNIT_WORD = /^(rs|inr|crore|crores|lakh|lakhs|rupee|rupees|paise|km|kms|metre|meter|metres|meters|cm|mm|kg|percent|percentage|year|years|hour|hours|hr|hrs|min|mins|minute|minutes|sec|secs)$/i;
+
+/** "19" and "Rs. 19 crores" are the same figure. A sentence that merely contains a number is not. */
+export function titaFigure(text) {
+  const raw = String(text ?? '').trim();
+  const tokens = raw.match(/-?\d+(?:\.\d+)?/g) || [];
+  if (tokens.length !== 1) return null;
+  const words = raw.replace(tokens[0], ' ').replace(/[₹$.,%]/g, ' ').split(/\s+/).filter(Boolean);
+  if (!words.every((word) => UNIT_WORD.test(word))) return null;
+  return tokens[0];
+}
+
 /** "3", "sentence 3", or "3 — the odd sentence". */
 function oddOneToken(s) {
   const t = String(s).trim();
@@ -49,6 +61,9 @@ function titaMatch(given, key) {
     const prose = /[—–]|[A-Za-z]{3,}/;
     if (prose.test(given) || prose.test(key)) return true;
   }
+  const gf = titaFigure(given);
+  const kf = titaFigure(key);
+  if (gf && kf) return Math.abs(Number(gf) - Number(kf)) < 1e-6;
   return false;
 }
 
